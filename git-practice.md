@@ -21,5 +21,5 @@ Git's not as scary as it looks at first; you'll be experts in no time! Stick wit
 ### Regis
 
 ### Victoria
-
+Git can be intimitating. I'm going to post as often as I can to practice.
 
