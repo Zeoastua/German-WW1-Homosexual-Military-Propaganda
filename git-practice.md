@@ -19,6 +19,7 @@ Write a message in the space below your name, and push it so that your teammates
 Git's not as scary as it looks at first; you'll be experts in no time! Stick with it :)
 
 ### Regis
+Dear Lorde (yes, Lorde, may she Protect us with her Solar Power) I hope I'm doing this right. This was STRESSO to figure out lol.
 
 ### Victoria
 Git can be intimitating. I'm going to post as often as I can to practice.
