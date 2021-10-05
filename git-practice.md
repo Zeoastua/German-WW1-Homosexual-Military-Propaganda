@@ -14,7 +14,7 @@ Write a message in the space below your name, and push it so that your teammates
 ### Alexis
 
 ### Darian
-
+Hi! uhhh I don't have anything else to say.
 ### Marion
 Git's not as scary as it looks at first; you'll be experts in no time! Stick with it :)
 
