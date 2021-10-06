@@ -12,6 +12,7 @@ When in doubt, you can refer to <https://gist.github.com/hofmannsven/6814451> fo
 Write a message in the space below your name, and push it so that your teammates can receive it! Make sure to keep in touch with each other over Slack and let your team know when you've made changes so that they know to pull.
 
 ### Alexis
+Wow. That was quite the struggle, but we are here!
 
 ### Darian
 Hi! uhhh I don't have anything else to say.
