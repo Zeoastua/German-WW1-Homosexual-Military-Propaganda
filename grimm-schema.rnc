@@ -1,0 +1,10 @@
+# tale root element, containing metadata (required) and text/story (required)
+# metadata has year(required), author(required), translator(required), language(required)
+#       these will be open, for now. might change later to specific values
+# text/story contains paragraphs
+# paragraphs are mixed content: containing optional dialogue, actions, emotion/state-of-being, characters
+# dialogue element
+# actions element
+# emotion/state-of-being element
+# characters element
+# optional emotion/connotation attributes on some of these? what other attributes do we want?
