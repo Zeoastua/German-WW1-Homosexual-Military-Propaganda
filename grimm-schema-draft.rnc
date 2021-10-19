@@ -1,6 +1,7 @@
 start = tale
 tale = element tale {metadata, story}
-metadata = element metadata {year, author, translator, language}
+metadata = element metadata {title, year, author, translator, language}
+title = element title {text}
 year = element year {xsd:gYear}
 author = element author {text}
 translator = element translator {text}
