@@ -1,1 +1,2 @@
-# German-WW1-Homosexual-Military-Propaganda
+# Grimm-Fairy-Tales
+In our project we will be examining the difference between mothers and women archetypes between a 2002 english version versus an 1812 original german text. What will change based on language? What will change just based on time difference? Are there any other reasons for a change? We're looking to find out!
