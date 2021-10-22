@@ -1,21 +1,25 @@
 start = tale
 tale = element tale {metadata, story}
-metadata = element metadata {title, year, author, translator, language}
+metadata = element metadata {title, year, author, editor, translator, language, number}
 title = element title {text}
 year = element year {xsd:gYear}
 author = element author {text}
+editor = element editor {text}
 translator = element translator {text}
 language = element language {text}
+number = element number {text}
 story = element story {p+}
-p = element p {mixed {(character|dialogue|action|emotion|stateofbeing)*}}
-character = element character {class, text}
-class = attribute class {text}
-dialogue = element dialogue {speaker, text}
+p = element p {mixed {(character|dialogue|action|stateofbeing)*}}
+character = element character {child-status, marital-status, text}
+child-status = attribute child-status {"mother" | "stepmother" | "grandmother" | "godmother" | "adopted"}
+marital-status = attribute marital-status {"wife" | "widow" | "fiancee" | "divorcee"}
+dialogue = element dialogue {speaker, stateofbeing, text}
 speaker = attribute speaker {text}
-action = element action {type, text}
+action = element action {type, agent, receiver, text}
 type = attribute type {text}
-emotion = element emotion {text}
-stateofbeing = element stateofbeing {text}
+agent = attribute agent {text}
+receiver = attribute receiver {text}
+stateofbeing = attribute stateofbeing {text}
 
 # tale root element, containing metadata (required) and text/story (required)
 # metadata has title, (required) year(required), author(required), translator(required), language(required)
