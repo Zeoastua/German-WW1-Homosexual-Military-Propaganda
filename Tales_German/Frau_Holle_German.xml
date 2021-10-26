@@ -1,93 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../grimm-schema.rnc" type="application/relax-ng-compact-syntax"?>
 <tale>
-<p>Eine Wittwe hatte zwei To&#x0364;chter, davon<lb/> war die eine
-    &#x017F;cho&#x0364;n und fleißig, die andere ha&#x0364;ß-<lb/>
-    <pb n="107" facs="#f0141"/> lich und faul. Sie hatte aber die ha&#x0364;ßliche
-    und<lb/> faule viel lieber, und die andere mußte alle Ar-<lb/> beit thun und war
-    recht der A&#x017F;chenputtel im<lb/> Haus. Einmal war das Ma&#x0364;dchen
-    hingegan-<lb/> gen, Wa&#x017F;&#x017F;er zu holen, und wie es &#x017F;ich
-    bu&#x0364;ckte<lb/> den Eimer aus dem Brunnen zu ziehen, bu&#x0364;ckte<lb/> es
-    &#x017F;ich zu tief und fiel hinein. Und als es er-<lb/> wachte und wieder zu
-    &#x017F;ich &#x017F;elber kam, war es<lb/> auf einer &#x017F;cho&#x0364;nen
-    Wie&#x017F;e, da &#x017F;chien die Sonne<lb/> und waren viel tau&#x017F;end
-    Blumen. Auf der<lb/> Wie&#x017F;e gieng es fort und kam zu einem Back-<lb/>
-    ofen, der war voller Brot; das Brot aber rief:<lb/> &#x201E;ach! zieh mich
-    'raus, zieh mich 'raus, &#x017F;on&#x017F;t<lb/> verbrenn' ich, ich bin
-    &#x017F;chon la&#x0364;ng&#x017F;t ausgebacken!&#x201C;<lb/> da trat es fleißig
-    herzu und holte alles heraus.<lb/> Darnach ging es weiter und kam zu einem<lb/>
-    Baum, der hing voll Aepfel und rief ihm zu:<lb/> &#x201E;ach!
-    &#x017F;chu&#x0364;ttel mich! &#x017F;chu&#x0364;ttel mich! wir Aepfel<lb/>
-    &#x017F;ind allemiteinander reif!&#x201C; Da &#x017F;chu&#x0364;ttelt' es
-    den<lb/> Baum, daß die Aepfel fielen, als regenten &#x017F;ie,<lb/>
-    &#x017F;olang bis keiner mehr oben war, darnach ging<lb/> es wieder fort.
-    Endlich kam es zu einem klei-<lb/> nen Haus, daraus guckte eine alte Frau,
-    weil<lb/> &#x017F;ie aber &#x017F;o große Za&#x0364;hne hatte, ward ihm
-    Ang&#x017F;t<lb/> und es wollte fortlaufen. Die alte Frau aber<lb/> rief ihm
-    nach: &#x201E;fu&#x0364;rcht dich nicht, liebes Kind,<lb/> bleib bei mir, wenn
-    du alle Arbeit im Haus<lb/> ordentlich thun will&#x017F;t, &#x017F;o &#x017F;oll
-    dirs gut gehn:<lb/> nur mußt du recht darauf Acht geben daß du<lb/>
-    <pb n="108" facs="#f0142"/> mein Bett gut mach&#x017F;t, und es fleißig
-    auf&#x017F;chu&#x0364;t-<lb/> tel&#x017F;t, daß die Federn fliegen, dann
-    &#x017F;chneit es in<lb/> der Welt; <note place="foot" n="*)">Darum &#x017F;agt
-        man in He&#x017F;&#x017F;en, wenn es &#x017F;chneit:<lb/> die Frau Holle
-        macht ihr Bett.</note> ich bin die Frau Holle. Weil die<lb/> Alte &#x017F;o
-    gut &#x017F;prach, willigte das Ma&#x0364;dchen ein<lb/> und begab &#x017F;ich
-    in ihren Dien&#x017F;t. Es be&#x017F;orgte<lb/> auch alles nach ihrer
-    Zufriedenheit und &#x017F;chu&#x0364;t-<lb/> telte ihr das Bett immer gewaltig
-    auf, dafu&#x0364;r<lb/> hatte es auch ein gut Leben bei ihr, kein
-    bo&#x0364;&#x017F;es<lb/> Wort und alle Tage Ge&#x017F;ottenes und Gebrate-<lb/>
-    nes. Nun war es eine Zeitlang bei der Frau<lb/> Holle, da ward es traurig in
-    &#x017F;einem Herzen<lb/> und ob es hier gleich viel tau&#x017F;endmal
-    be&#x017F;&#x017F;er<lb/> war, als zu Haus, &#x017F;o hatte es doch ein
-    Ver-<lb/> langen dahin; endlich &#x017F;agte es zu ihr: &#x201E;ich habe<lb/>
-    den Jammer nach Haus kriegt, und wenn es<lb/> mir auch noch &#x017F;o gut hier
-    geht, &#x017F;o kann ich<lb/> doch nicht la&#x0364;nger bleiben.&#x201C; Die
-    Frau Holle<lb/> &#x017F;agte: &#x201E;du ha&#x017F;t Recht und weil du mir
-    &#x017F;o treu<lb/> gedient ha&#x017F;t, &#x017F;o will ich dich
-    &#x017F;elb&#x017F;t wieder hin-<lb/> aufbringen. &#x201E;Sie nahm es darauf bei
-    der<lb/> Hand und fu&#x0364;hrte es vor ein großes Thor. Das<lb/> ward aufgethan
-    und wie das Ma&#x0364;dchen darun-<lb/> ter &#x017F;tand, fiel ein gewaltiger
-    Goldregen, und<lb/> alles Gold blieb an ihm ha&#x0364;ngen, &#x017F;o daß
-    es<lb/> u&#x0364;ber und u&#x0364;ber davon bedeckt war.&#x201C; Das
-    &#x017F;oll&#x017F;t<lb/> du haben, weil du &#x017F;o fleißig gewe&#x017F;en bi&#x017F;t,&#x201C;<lb/>
-    <pb n="109" facs="#f0143"/> &#x017F;prach die Frau Holle. Darauf ward das
-    Thor<lb/> ver&#x017F;chlo&#x017F;&#x017F;en und es war oben auf der Welt,
-    da<lb/> ging es heim zu &#x017F;einer Mutter und weil es &#x017F;o<lb/> mit Gold
-    bedeckt ankam, ward es gut aufge-<lb/> nommen.</p>
-<lb/>
-<p>Als die Mutter ho&#x0364;rte, wie es zu dem Reich-<lb/> thum gekommen, wollte
-    &#x017F;ie der andern &#x017F;cho&#x0364;nen<lb/> und faulen Tochter gern
-    da&#x017F;&#x017F;elbe Glu&#x0364;ck ver&#x017F;chaf-<lb/> fen, und &#x017F;ie
-    mußte &#x017F;ich auch in den Brunnen<lb/> &#x017F;tu&#x0364;rzen. Sie erwachte,
-    wie die andere auf der<lb/> &#x017F;cho&#x0364;nen Wie&#x017F;e und ging auf
-    dem&#x017F;elben Pfad<lb/> weiter. Als &#x017F;ie zu dem Backofen gelangte,
-    &#x017F;chrie<lb/> das Brod wieder: &#x201E;ach! zieh mich 'raus, zieh<lb/> mich
-    'raus, &#x017F;on&#x017F;t verbrenn ich, ich bin &#x017F;chon<lb/>
-    la&#x0364;ng&#x017F;t ausgebacken!&#x201C; die Faule aber antworte-<lb/> te:
-    &#x201E;da ha&#x0364;tt' ich Lu&#x017F;t, mich &#x017F;chmutzig zu ma-<lb/>
-    chen!&#x201C; und ging fort. Bald kam &#x017F;ie zu dem<lb/> Apfelbaum, der
-    rief: &#x201E;ach! &#x017F;chu&#x0364;ttel mich! &#x017F;chu&#x0364;t-<lb/> tel
-    mich! wir Aepfel &#x017F;ind alle mit einander<lb/> reif&#x201C; &#x017F;ie
-    antwortete aber: &#x201E;du komm&#x017F;t mir<lb/> recht, es ko&#x0364;nnt mir
-    einer auf den Kopf fallen!&#x201C;<lb/> ging damit weiter. Als &#x017F;ie vor
-    der Frau Holle<lb/> Haus kam, fu&#x0364;rchtete &#x017F;ie &#x017F;ich nicht,
-    weil &#x017F;ie von<lb/> ihren großen Za&#x0364;hnen &#x017F;chon geho&#x0364;rt
-    hatte, und<lb/> verdingte &#x017F;ich gleich zu ihr. Am er&#x017F;ten Tag<lb/>
-    that &#x017F;ie &#x017F;ich Gewalt an und war fleißig und<lb/> folgte der Frau
-    Holle, wenn &#x017F;ie ihr etwas &#x017F;agte,<lb/> denn &#x017F;ie gedachte an
-    das viele Gold, daß &#x017F;ie ihr<lb/> &#x017F;chenken wu&#x0364;rde; am
-    zweiten Tag aber fing &#x017F;ie<lb/>
-    <pb n="110" facs="#f0144"/> &#x017F;chon an zu faullenzen, am dritten noch
-    mehr,<lb/> da wollte &#x017F;ie Morgens gar nicht auf&#x017F;tehen,
-    &#x017F;ie<lb/> machte auch der Frau, Holle das Bett &#x017F;chlecht<lb/> und
-    &#x017F;chu&#x0364;ttelte es nicht recht, daß die Federn<lb/> aufflogen. Das
-    ward die Frau Holle bald mu&#x0364;d<lb/> und &#x017F;agte der Faulen den
-    Dien&#x017F;t auf. Die<lb/> war es wohl zufrieden und meinte nun werde<lb/> der
-    Goldregen kommen, die Frau Holle fu&#x0364;hrte<lb/> &#x017F;ie auch hin zu dem
-    Thor als &#x017F;ie aber darunter<lb/> &#x017F;tand, ward &#x017F;tatt des Golds
-    ein großer Ke&#x017F;&#x017F;el<lb/> voll Pech ausge&#x017F;chu&#x0364;ttet.
-    &#x201E;Das i&#x017F;t zur Beloh-<lb/> nung deiner Dien&#x017F;te&#x201C;
-    &#x017F;agte die Frau Holle<lb/> und &#x017F;chloß das Thor zu. Da kam die
-    Faule<lb/> heim, ganz mit Pech bedeckt, und das hat ihr<lb/> Lebtag nicht wieder
-    abgehen wollen.</p>
+    <metadata>
+        <title>Frau Holle</title>
+        <year>1812</year>
+        <author>Jacob Grimm</author>
+        <author>Wilhelm Grimm</author>
+        <language>German</language>
+        <number>24</number>
+    </metadata>
+    <story>
+        <p>Eine <character child-status="mother" marital-status="widow">Wittwe</character> hatte
+            zwei Töchter, davon war die eine schön und fleißig, die andere häß- lich und faul. Sie
+            hatte aber die häßliche und faule viel lieber, und die andere mußte alle Ar- beit thun
+            und war recht der Aschenputtel im Haus. Einmal war das <character
+                child-status="childless" marital-status="unmarried">Mädchen</character> hingegan-
+            gen, Wasser zu holen, und wie es sich bückte den Eimer aus dem Brunnen zu ziehen, bückte
+            es sich zu tief und fiel hinein. Und als es er- wachte und wieder zu sich selber kam,
+            war es auf einer schönen Wiese, da schien die Sonne und waren viel tausend Blumen. Auf
+            der Wiese gieng es fort und kam zu einem Back- ofen, der war voller Brot; das Brot aber
+            rief: <dialogue speaker="Brot">„ach! zieh mich 'raus, zieh mich 'raus, sonst verbrenn'
+                ich, ich bin schon längst ausgebacken!“</dialogue> da trat es fleißig herzu und
+            holte alles heraus. Darnach ging es weiter und kam zu einem Baum, der hing voll Aepfel
+            und rief ihm zu: <dialogue speaker="Baum">„ach! schüttel mich! schüttel mich! wir Aepfel
+                sind allemiteinander reif!“</dialogue> Da schüttelt' es den Baum, daß die Aepfel
+            fielen, als regenten sie, solang bis keiner mehr oben war, darnach ging es wieder fort.
+            Endlich kam es zu einem klei- nen Haus, daraus guckte eine <character
+                child-status="childless" marital-status="unmarried">alte Frau</character>, weil sie
+            aber so große Zähne hatte, ward ihm Angst und es wollte fortlaufen. Die <character
+                child-status="childless" marital-status="unmarried">alte Frau</character> aber rief
+            ihm nach: <dialogue speaker="die alte Frau">„fürcht dich nicht, liebes Kind, bleib bei
+                mir, wenn du alle Arbeit im Haus ordentlich thun willst, so soll dirs gut gehn: nur
+                mußt du recht darauf Acht geben daß du mein Bett gut machst, und es fleißig
+                aufschüt- telst, daß die Federn fliegen, dann schneit es in der Welt; Darum sagt man
+                in Hessen, wenn es schneit: die <character child-status="childless"
+                    marital-status="unmarried">Frau Holle</character> macht ihr Bett. Ich bin die
+                    <character child-status="childless" marital-status="unmarried">Frau
+                    Holle.</character>“</dialogue> Weil die Alte so gut sprach, willigte das
+                <character child-status="childless" marital-status="unmarried">Mädchen</character>
+            ein und begab sich in ihren Dienst. Es besorgte auch alles nach ihrer Zufriedenheit und
+                <action agent="Mädchen">schüt- telte ihr das Bett immer gewaltig auf</action>, dafür
+            hatte es auch ein gut Leben bei ihr, kein böses Wort und alle Tage Gesottenes und
+            Gebrate- nes. Nun war es eine Zeitlang bei der <character child-status="childless"
+                marital-status="unmarried">Frau Holle</character>, da ward es traurig in seinem
+            Herzen und ob es hier gleich viel tausendmal besser war, als zu Haus, so hatte es doch
+            ein Ver- langen dahin; endlich sagte es zu ihr: <dialogue speaker="Mädchen">„ich habe
+                den Jammer nach Haus kriegt, und wenn es mir auch noch so gut hier geht, so kann ich
+                doch nicht länger bleiben.“</dialogue> Die <character child-status="childless"
+                marital-status="unmarried">Frau Holle</character> sagte: <dialogue
+                speaker="Frau Holle">„du hast Recht und weil du mir so treu gedient hast, so will
+                ich dich selbst wieder hin- aufbringen.“</dialogue> Sie nahm es darauf bei der Hand
+            und führte es vor ein großes Thor. Das ward aufgethan und wie das <character
+                child-status="childless" marital-status="unmarried">Mädchen</character> darun- ter
+            stand, fiel ein gewaltiger Goldregen, und alles Gold blieb an ihm hängen, so daß es über
+            und über davon bedeckt war. <dialogue speaker="Frau Holle">„Das sollst du haben, weil du
+                so fleißig gewesen bist,“</dialogue> sprach die <character child-status="childless"
+                marital-status="unmarried">Frau Holle</character>. Darauf ward das Thor verschlossen
+            und es war oben auf der Welt, da ging es heim zu seiner <character child-status="mother"
+                marital-status="widow">Mutter</character> und weil es so mit Gold bedeckt ankam,
+            ward es gut aufge- nommen.</p>
+
+        <p>Als die <character child-status="mother" marital-status="widow">Mutter</character> hörte,
+            wie es zu dem Reich- thum gekommen, wollte sie der andern schönen und faulen <character
+                child-status="childless" marital-status="unmarried">Tochter</character> gern
+            dasselbe Glück verschaf- fen, und sie mußte sich auch in den Brunnen stürzen. Sie
+            erwachte, wie die andere auf der schönen Wiese und ging auf demselben Pfad weiter. Als
+            sie zu dem Backofen gelangte, schrie das Brod wieder: <dialogue speaker="Brod">„ach!
+                zieh mich 'raus, zieh mich 'raus, sonst verbrenn ich, ich bin schon längst
+                ausgebacken!“</dialogue> die Faule aber antworte- te: <dialogue speaker="die Faule"
+                >„da hätt' ich Lust, mich schmutzig zu ma- chen!“</dialogue> und ging fort. Bald kam
+            sie zu dem Apfelbaum, der rief: <dialogue speaker="Aepfelbaum">„ach! schüttel mich!
+                schüt- tel mich! wir Aepfel sind alle mit einander reif“</dialogue> sie antwortete
+            aber: <dialogue speaker="die Faule">„du kommst mir recht, es könnt mir einer auf den
+                Kopf fallen!“</dialogue> ging damit weiter. Als sie vor der <character
+                child-status="childless" marital-status="unmarried">Frau Holle</character> Haus kam,
+            fürchtete sie sich nicht, weil sie von ihren großen Zähnen schon gehört hatte, und
+            verdingte sich gleich zu ihr. Am ersten Tag that sie sich Gewalt an und war fleißig und
+            folgte der <character child-status="childless" marital-status="unmarried">Frau
+                Holle</character>, wenn sie ihr etwas sagte, denn sie gedachte an das viele Gold,
+            daß sie ihr schenken würde; am zweiten Tag aber fing sie schon an zu faullenzen, am
+            dritten noch mehr, da wollte sie Morgens gar nicht aufstehen, sie <action agent="Töchter">machte auch der
+                <character child-status="childless" marital-status="unmarried">Frau
+                Holle</character> das Bett schlecht</action> und <action agent="Tochter">schüttelte es nicht recht</action>, daß die Federn
+            aufflogen. Das ward die <character child-status="childless" marital-status="unmarried"
+                >Frau Holle</character> bald müd und sagte der Faulen den Dienst auf. Die war es
+            wohl zufrieden und meinte nun werde der Goldregen kommen, die <character
+                child-status="childless" marital-status="unmarried">Frau Holle</character> führte
+            sie auch hin zu dem Thor als sie aber darunter stand, ward statt des Golds ein großer
+            Kessel voll Pech ausgeschüttet. <dialogue speaker="Frau Holle">„Das ist zur Beloh- nung
+                deiner Dienste“</dialogue> sagte die <character child-status="childless"
+                marital-status="unmarried">Frau Holle</character> und schloß das Thor zu. Da kam die
+            Faule heim, ganz mit Pech bedeckt, und das hat ihr Lebtag nicht wieder abgehen
+            wollen.</p>
+    </story>
 </tale>
