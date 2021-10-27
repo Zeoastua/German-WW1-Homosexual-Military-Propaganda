@@ -3,8 +3,6 @@ start = tale
 tale = element tale {metadata, story}
 
 # METADATA
-# you may want to make title and author repeatable (1 or more) which would use the repetion indicator +
-# you may want to make editor, and translator optional and repeatable (0 or more) which would use the repetition indicator *
 metadata = element metadata {title+, year, author+, editor*, translator*, language, number}
 title = element title {text}
 year = element year {xsd:gYear}
@@ -18,36 +16,27 @@ number = element number {xsd:integer}
 # MAIN SECTION OF TEXT
 story = element story {p+}
 # since stateofbeing is an attribute, you don't need it in the p content model below! you only need it on the element it describes
-p = element p {mixed {(character|dialogue|action)*}}
-# do you want your character tag to reflect that you're only tagging female characters? are you tagging other characters? 
-# you may want to ask your teammates opinions on this; I would recommend tagging all characters so you can keep track of
-# who is interacting with who and better identify patterns in the mother/woman's behavior but only using child-status
-# and marital-status attributes on the female characters, though you would need to make these attributes optional with 
-# repetition indicator ? if you choose to do this
-character = element character {child-status, marital-status, text}
-child-status = attribute child-status {"mother" | "stepmother" | "grandmother" | "godmother" | "adopted" | "childless"}?
-marital-status = attribute marital-status {"wife" | "widow" | "fiancee" | "divorcee" | "unmarried"}?
-dialogue = element dialogue {speaker, stateofbeing, text}
+p = element p {mixed {(character|dialogue|act)*}}
+
+character = element character {child-status, marital-status, reference, text}
+# character element is for female figures; all other figures in text are attributes: "speaker," or, "agent"
+child-status = attribute child-status {"mother" | "stepmother" | "grandmother" | "godmother" | "adopted" | "childless"}
+marital-status = attribute marital-status {"wife" | "widow" | "fiancee" | "divorcee" | "unmarried"}
+reference = attribute reference {text}
+# reference is a term used to keep a figure straight in your head
+
+dialogue = element dialogue {speaker, stateofbeing, mixed{character*, act*}}
 speaker = attribute speaker {text}
-stateofbeing = attribute stateofbeing {text}
-# do you still want to have attributes on action to note external and internal states of the character
-# doing the action? I know it was discussed at the meeting, although I don't recall what the consensus was.
-# it may be worth asking your teammates just in case!
-# I recommend making receiver optional with repetition indicator ? because not all actions have a receiver (for
-# example, "I dance"
-action = element action {type, agent, receiver?, text}
-type = attribute type {text}
+stateofbeing = attribute stateofbeing {"positve" | "negative" | "neutral"}
+# attribute stateofbeing refers to emotional states that are implied or explicitly stated with regard to dialogue
+
+act = element act {type, effect, agent, receiver?, io?, mixed{character*}}
+# mark acts which relate to or involve female figures
+# act should enclose the entire act phrase
+type = attribute type {"being" | "doing"}
+effect = attribute effect {"hostile" | "benevolent" | "ambiguous"}
+# attribute type refers to the effect acts have on agents/receivers
 agent = attribute agent {text}
 receiver = attribute receiver {text}
-
-
-# tale root element, containing metadata (required) and text/story (required)
-# metadata has title, (required) year(required), author(required), translator(required), language(required)
-#       these will be open, for now. might change later to specific values
-# text/story contains paragraphs
-# paragraphs are mixed content: containing optional dialogue, actions, emotion/state-of-being, characters
-# dialogue element
-# actions element
-# emotion/state-of-being element
-# characters element
-# optional emotion/connotation attributes on some of these? what other attributes do we want?
+io = attribute io {text}
+# io equal indirect object of the act 
