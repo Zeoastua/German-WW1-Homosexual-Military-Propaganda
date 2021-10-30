@@ -27,7 +27,7 @@ reference = attribute reference {text}
 
 dialogue = element dialogue {speaker, stateofbeing, mixed{character*, act*}}
 speaker = attribute speaker {text}
-stateofbeing = attribute stateofbeing {"positve" | "negative" | "neutral"}
+stateofbeing = attribute stateofbeing {"positive" | "negative" | "neutral"}
 # attribute stateofbeing refers to emotional states that are implied or explicitly stated with regard to dialogue
 
 act = element act {type, effect, agent, receiver?, io?, mixed{character*}}
@@ -35,7 +35,7 @@ act = element act {type, effect, agent, receiver?, io?, mixed{character*}}
 # act should enclose the entire act phrase
 type = attribute type {"being" | "doing"}
 effect = attribute effect {"hostile" | "benevolent" | "ambiguous"}
-# attribute type refers to the effect acts have on agents/receivers
+# attribute effect refers to the effect acts have on agents/receivers
 agent = attribute agent {text}
 receiver = attribute receiver {text}
 io = attribute io {text}
