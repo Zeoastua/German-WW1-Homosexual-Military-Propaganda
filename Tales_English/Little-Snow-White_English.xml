@@ -13,267 +13,404 @@
 
     <story>
         <p>Once upon a time in midwinter, when the snowflakes were falling like feathers from
-            heaven, a<character marital-status="wife">queen</character> sat sewing at her window,
-            which had a frame of black ebony wood. As she sewed she looked up at the snow and
-                <action type="negative" agent="self" receiver="self">pricked</action> her finger
-            with her needle. Three drops of blood fell into the snow. The red on the white looked so
-            beautiful that she thought to herself, <dialogue speaker="first_queen"
-                stateofbeing="wishful">"If only I had a child as white as snow, as red as blood,and
-                as black as the wood in this frame."</dialogue>Soon afterward she had a little
-            daughter who was as white as snow, as red as blood, and as black as ebony wood, and
-            therefore they called her <character>Little Snow-White</character>. And as soon as the
-            child was<action type="positive" agent="first_queen" receiver="snow_white"
-            >born</action>, the <character child-status="mother" marital-status="wife"
-                >queen</character>
-            <action type="negative" agent="self" receiver="self">died</action>.</p>
+                heaven,<act type="doing" agent="first_queen" effect="ambiguous">a<character
+                    marital-status="wife" child-status="childless" reference="first_queen"
+                    >queen</character> sat sewing at her window,</act>which had a frame of black
+            ebony wood.<act type="doing" agent="first_queen" effect="ambiguous">As she sewed she
+                looked up at the snow</act>and<act type="doing" agent="first_queen" receiver="self"
+                effect="ambiguous">pricked her finger with her needle.</act>Three drops of blood
+            fell into the snow. The red on the white looked so beautiful that<act type="being"
+                agent="first_queen" receiver="self" effect="ambiguous">she thought to
+                herself</act><dialogue speaker="first_queen" stateofbeing="neutral">"If only I had a
+                child as white as snow, as red as blood,and as black as the wood in this
+                frame."</dialogue>Soon afterward<act type="doing" agent="first_queen"
+                receiver="snow_white" effect="benevolent">she had a little daughter</act>who was as
+            white as snow, as red as blood, and as black as ebony wood, and therefore they called
+                her<character reference="snow_white" child-status="childless"
+                marital-status="unmarried">Little Snow-White.</character>And as soon as the child
+                was<act type="being" agent="first_queen" receiver="snow_white" effect="benevolent"
+                >born</act>, <act type="doing" agent="snow_white" receiver="first_queen"
+                effect="ambiguous">the queen died.</act></p>
 
-        <p>A year later the<character>king</character><action type="positive" agent="king"
-                receiver="second_queen">took</action>himself another<character
-                child-status="stepmother" marital-status="wife">wife</character>. She was a
-            beautiful woman, but she was proud and arrogant, and she could not stand it if anyone
-            might surpass her in beauty. She had a <character>magic mirror</character>. Every
-            morning she stood before it, looked at herself, and said: <dialogue
-                speaker="second_queen" stateofbeing="vain">Mirror, mirror, on the wall, Who in this
-                land is fairest of all?</dialogue>To this the <character>mirror</character>
-                answered:<dialogue speaker="mirror" stateofbeing="fawning">You, my queen, are
-                fairest of all.</dialogue>Then she was satisfied, for she knew that the mirror spoke
-            the truth.</p>
+        <p>A year later<act type="doing" agent="king" receiver="second_queen" effect="ambiguous">the
+                king took himself another<character marital-status="wife" child-status="stepmother"
+                    reference="second_queen">wife.</character></act>
+            <act type="being" agent="second_queen" receiver="self" effect="ambiguous"> She was a
+                beautiful woman,</act>but<act type="being" agent="second_queen" receiver="self"
+                effect="hostile">she was proud and arrogant,</act>and<act type="being"
+                agent="second_queen" receiver="self" effect="hostile">she could not stand it if
+                anyone might surpass her in beauty.</act>
+            <act type="doing" agent="second_queen" receiver="mirror" effect="ambiguous">She had
+                    a<character marital-status="unmarried" child-status="childless"
+                    reference="mirror">magic mirror.</character></act> Every morning<act
+                type="doing" agent="second_queen" receiver="self" effect="ambiguous">she stood
+                before it,looked at herself,</act>and said:<dialogue speaker="second_queen"
+                stateofbeing="negative">Mirror, mirror, on the wall, Who in this land is fairest of
+                all?</dialogue>To this the<character marital-status="unmarried"
+                child-status="childless" reference="mirror">mirror</character>answered:<dialogue
+                speaker="mirror" stateofbeing="positive">You, my<character marital-status="wife"
+                    child-status="stepmother" reference="second_queen">queen,</character>are fairest
+                of all.</dialogue>Then <act type="being" agent="second_queen" receiver="self"
+                effect="ambiguous">she was satisfied,</act>for<act type="doing" agent="second_queen"
+                receiver="self" effect="ambiguous">she knew that the mirror spoke the
+            truth.</act></p>
 
-        <p><character>Snow-White</character>grew up and became ever more beautiful. When she was
-            seven years old she was as beautiful as the light of day, even more beautiful than
-                the<character child-status="stepmother">queen</character>herself. One day when the
-            queen asked her mirror:<dialogue speaker="second_queen" stateofbeing="vain">Mirror,
-                mirror, on the wall, Who in this land is fairest of all?</dialogue>It
-                answered:<dialogue speaker="mirror" stateofbeing="informative">You, my queen, are
-                fair; it is true. But Snow-White is a thousand times fairer than you.</dialogue>The
-                queen<action type="negative" agent="second_queen" receiver="self">took
-                fright</action>and turned yellow and green with envy. From that hour on whenever
-                <action type="neutral" agent="second_queen" receiver="snow_white">she looked at
-                Snow-White</action>her heart turned over inside her body, so great was her hatred
-            for the girl. The<action type="negative" agent="second_queen" receiver="self">envy and
-                pride grew ever greater</action>, like a weed in her heart, until she had no peace
-            day and night.</p>
+        <p><character marital-status="unmarried" child-status="childless" reference="snow_white"
+                >Snow-White</character>grew up and became ever more beautiful.<act type="being"
+                agent="snow_white" receiver="self" effect="ambiguous">When she was seven years old
+                she was as beautiful as the light of day,</act> even more beautiful than
+                the<character marital-status="wife" child-status="stepmother"
+                reference="second_queen">queen</character>herself. One day when<act type="doing"
+                agent="second_queen" receiver="mirror" effect="hostile">the queen asked her
+                mirror:</act><dialogue speaker="second_queen" stateofbeing="neutral">Mirror, mirror,
+                on the wall, Who in this land is fairest of all?</dialogue>It answered:<dialogue
+                speaker="mirror" stateofbeing="neutral">You, my <character marital-status="wife"
+                    child-status="stepmother" reference="second_queen">queen,</character> are fair;
+                it is true. But <character marital-status="unmarried" child-status="childless"
+                    reference="snow_white">Snow-White</character> is a thousand times fairer than
+                you.</dialogue>The queen<act type="being" agent="second_queen" receiver="self"
+                effect="hostile">took fright</act>and turned yellow and green with envy. From that
+            hour on whenever <act type="doing" agent="second_queen" receiver="snow_white"
+                effect="hostile">she looked at Snow-White her heart turned over inside her
+                body,</act>so great was <act type="being" agent="second_queen" receiver="snow_white"
+                effect="hostile">her hatred for the girl.</act>The envy and pride grew ever greater,
+            like a weed in her heart, until<act type="being" agent="second_queen" receiver="self"
+                effect="hostile">she had no peace day and night.</act></p>
 
-        <p>Then she <action type="neutral" agent="second_queen" receiver="huntsman"
-                >summoned</action>a huntsman and said to him,<dialogue speaker="second_queen"
-                stateofbeing="murderous"> "Take Snow-White out into the woods. I never want to see
-                her again. Kill her, and as proof that she is dead bring her lungs and her liver
-                back to me."</dialogue> Thehuntsman<action type="negative" agent="huntsman"
-                receiver="snow_white">obeyed and took Snow-White into the woods.</action> He<action
-                type="negatvie" agent="huntsman" receiver="snow_white">took out his hunting knife
-                and was about to stab</action>it into her innocent heart<action type="negative"
-                agent="snow_white" receiver="self">when she began to cry,</action>saying,<dialogue
-                speaker="snow_white" stateofbeing="desperate">"Oh, dear huntsman, let me live. I
-                will run into the wild woods and never come back."</dialogue>Because she was so
-            beautiful the<character>huntsman</character><action type="positive" agent="huntsman"
-                receiver="snow_white">took pity</action>on her, and he said, <dialogue
-                speaker="huntsman" stateofbeing="helpful">"Run away, you poor child."</dialogue>He
-            thought, "The wild animals will soon devour you anyway," but still it was as if a stone
-            had fallen from his heart, for he would not have to kill her. Just then a young boar
-            came running by. He killed it, cut out its lungs and liver, and took them back to the
-            queen as proof of Snow-White's death. The cook had to boil them with salt, and the
-            wicked woman ate them, supposing that she had eaten Snow-White's lungs and liver.</p>
-<!-- I'm not sure what to mark up on the paragraph below -->
-        <p>The poor child was now all alone in the great forest, and she was so afraid that she just
-            looked at all the leaves on the trees and did not know what to do. Then she began to
-            run. She ran over sharp stones and through thorns, and wild animals jumped at her, but
-            they did her no harm. She ran as far as her feet could carry her, and just as evening
-            was about to fall she saw a little house and went inside in order to rest.Inside the
-            house everything was small, but so neat and clean that no one could say otherwise. There
-            was a little table with a white tablecloth and seven little plates, and each plate had a
-            spoon, and there were seven knives and forks and seven mugs as well. Against the wall
-            there were seven little beds, all standing in a row and covered with snow-white
-            sheets.Because she was so hungry and thirsty <character>Snow-White</character> ate a few
-            vegetables and a little bread from each little plate, and from each mug she drank a drop
-            of wine. Afterward, because she was so tired, she lay down on a bed, but none of them
-            felt right -- one was too long, the other too short -- until finally the seventh one was
-            just right. She remained lying in it, entrusted herself to God, and fell asleep.</p>
+        <p>Then<act type="doing" agent="second_queen" receiver="huntsman" effect="ambiguous">she
+                summoned a huntsman</act>and said to him,<dialogue speaker="second_queen"
+                stateofbeing="negative"><act type="doing" agent="second_queen" receiver="snow_white"
+                    effect="hostile">Take Snow-White out into the woods.</act>
+                <act type="doing" agent="second_queen" receiver="snow_white" effect="hostile">I
+                    never want to see her again.</act>
+                <act type="doing" agent="second_queen" receiver="receiver" effect="hostile">Kill
+                    her, and as proof that she is dead</act>
+                <act type="doing" agent="second_queen" receiver="snow_white" effect="hostile">bring
+                    her lungs and her liver back to me."</act></dialogue>
+            <act type="doing" agent="huntsman" receiver="snow_white" effect="hostile">The huntsman
+                obeyed and took Snow-White into the woods.</act><act type="doing"
+                receiver="snow_white" effect="hostile" agent="huntsman"/> He took out his hunting
+            knife and was about to stabit into her innocent heart<act type="doing"
+                agent="snow_white" receiver="self" effect="benevolent">when she began to
+                cry,</act>saying,<dialogue speaker="snow_white" stateofbeing="negative">"Oh, dear
+                huntsman, let me live. I will run into the wild woods and never come
+                back."</dialogue>Because she was so beautiful <act type="being" agent="huntsman"
+                receiver="snow_white" effect="benevolent">the huntsman took pity on her,</act> and
+            he said,<dialogue speaker="huntsman" stateofbeing="positive">"Run away, you poor
+                child."</dialogue>He thought, <dialogue speaker="huntsman" stateofbeing="negative"
+                >"The wild animals will soon devour you anyway,"</dialogue> but still it was as if a
+            stone had fallen from his heart, for he would not have to kill her. Just then a young
+            boar came running by. He killed it, cut out its lungs and liver, and <act type="doing"
+                agent="huntsman" receiver="second_queen" effect="hostile" io="boar_organs">took them
+                back to the queen as proof of Snow-White's death.</act> The cook had to boil them
+            with salt, and <act type="doing" agent="second_queen" receiver="snow_white"
+                effect="hostile" io="boar_organs">the wicked woman ate them, supposing that she had
+                eaten Snow-White's lungs and liver.</act></p>
 
-        <p>After dark the masters of the house returned home. They were<character>the seven
-                dwarfs</character> who picked and dug for ore in the mountains. They lit their seven
-            candles, and as soon as it was light in their house they saw that someone had been
-            there, for not everything was in the same order as they had left it. The first
-                one said,<dialogue speaker="first_dwarf" stateofbeing="confused">"Who
-                has been sitting in my chair?"</dialogue> The second
-                one,<dialogue speaker="second_dwarf" stateofbeing="confused">"Who has
-                been eating from my plate?"</dialogue> The third
-                one,<dialogue speaker="third_dwarf" stateofbeing="confused">"Who has
-                been eating my bread?"</dialogue>The fourth one,<dialogue
-                speaker="fourth_dwarf" stateofbeing="confused">"Who has been eating my
-                vegetables?"</dialogue>The fifth one,<dialogue
-                speaker="fifth_dwarf" stateofbeing="confused">"Who has been sticking with my
-                fork?"</dialogue>The sixth one,<dialogue speaker="sixth_dwarf"
-                stateofbeing="confused">"Who has been cutting with my knife?"</dialogue>
-                The seventh one,<dialogue speaker="seventh_dwarf"
-                stateofbeing="confused">"Who has been drinking from my mug?"</dialogue>Then
-                the first one saw a that there was a little imprint in his
-            bed, and said,<dialogue speaker="first_dwarf" stateofbeing="confused">"Who stepped on
-                my bed?"</dialogue>The others came running up and
-                shouted,<dialogue speaker="dwarves" stateofbeing="confused">"Someone has been lying
-                in mine as well."</dialogue>But the seventh one, looking at
-            his bed, found Snow-White lying there asleep. The seven dwarfs all
-            came running up, and they cried out with amazement. They fetched their seven candles and
-            shone the light on Snow-White.<dialogue speaker="dwarves"
-                stateofbeing="excited">"Oh good heaven! Oh good heaven!"</dialogue>they cried.
-                <dialogue speaker="dwarves" stateofbeing="happy">"This child is so
-                beautiful!"</dialogue>They were so happy, that they did not wake her up, but let her
-            continue to sleep there in the bed. The seventh dwarf had to sleep with his companions,
-            one hour with each one, and then the night was done.</p>
+        <p>The <character marital-status="unmarried" child-status="childless" reference="snow_white"
+                >poor child</character> was now all alone in the great forest, and <act type="being"
+                agent="snow_white" receiver="self" effect="hostile">she was so afraid that she just
+                looked at all the leaves on the trees and did not know what to do.</act>Then <act
+                type="doing" agent="snow_white" effect="ambiguous">she began to run.</act> She ran
+            over sharp stones and through thorns, and<act type="doing" agent="snow_white"
+                effect="benevolent">wild animals jumped at her, but they did her no harm.</act>
+            <act type="doing" agent="snow_white" effect="ambiguous">She ran as far as her feet could
+                carry her,</act> and just as evening was about to fall <act type="doing"
+                agent="snow_white" effect="benevolent">she saw a little house and went inside</act>
+            in order to rest. Inside the house everything was small, but so neat and clean that no
+            one could say otherwise. There was a little table with a white tablecloth and seven
+            little plates, and each plate had a spoon, and there were seven knives and forks and
+            seven mugs as well. Against the wall there were seven little beds, all standing in a row
+            and covered with snow-white sheets. Because <act type="being" agent="snow_white"
+                effect="ambiguous">she was so hungry and thirsty</act>
+            <act type="doing" agent="snow_white" effect="ambiguous">Snow-White ate a few vegetables
+                and a little bread from each little plate,</act> and <act type="doing"
+                agent="snow_white" effect="ambiguous">from each mug she drank a drop of wine.</act>
+            Afterward, because <act type="being" agent="snow_white" effect="ambiguous">she was so
+                tired,</act>
+            <act type="doing" agent="snow_white" effect="ambiguous">she lay down on a bed,</act> but
+            none of them felt right -- one was too long, the other too short -- until finally the
+            seventh one was just right. <act type="doing" agent="snow_white" effect="benevolent">She
+                remained lying in it, entrusted herself to God, and fell asleep.</act></p>
 
-        <p>The next morning Snow-White woke up, and when she saw the seven dwarfs she was
-            frightened. But they were friendly and asked,<dialogue speaker="dwarves" stateofbeing="helpful"> "What is your name?"</dialogue>
-            <dialogue speaker="snow_white" stateofbeing="afraid">"My name is Snow-White," </dialogue>she answered. 
-            <dialogue speaker="dwarves" stateofbeing="helpful">"How did you find your way to our house?"</dialogue>the dwarfs asked
-            further. Then she told them that<action type="negative" agent="second_queen" receiver="snow_white">her stepmother had tried to kill her,</action>that 
-            the huntsman<action type="positive" agent="huntsman" receiver="snow_white">had spared her life, </action>and that she had run the entire day, finally coming to their house.
-            The dwarfs said,<dialogue speaker="dwarves" stateofbeing="helpful"> "If you will keep house for us, and cook, make beds, wash, sew, and
-            knit, and keep everything clean and orderly, then you can stay with us, and you shall
-            have everything that you want." </dialogue>
-            <dialogue speaker="snow_white" stateofbeing="grateful">"Yes," said Snow-White, "with all my heart."</dialogue>So she kept
-            house for them. Every morning they went into the mountains looking for ore and gold, and
-            in the evening when they came back home their meal had to be ready. During the day the
-            girl was alone. The good dwarfs warned her, saying, <dialogue speaker="dwarves" stateofbeing="warning">"Be careful about your stepmother.
-            She will soon know that you are here. Do not let anyone in."</dialogue></p>
+        <p>After dark the masters of the house returned home. They were the seven dwarfs who picked
+            and dug for ore in the mountains. They lit their seven candles, and as soon as it was
+            light in their house they saw that someone had been there, for not everything was in the
+            same order as they had left it. The first one said,<dialogue speaker="first_dwarf"
+                stateofbeing="neutral">"Who has been sitting in my chair?"</dialogue> The second
+                one,<dialogue speaker="second_dwarf" stateofbeing="neutral">"Who has been eating
+                from my plate?"</dialogue>The third one,<dialogue speaker="third_dwarf"
+                stateofbeing="neutral">"Who has been eating my bread?"</dialogue>The fourth
+                one,<dialogue speaker="fourth_dwarf" stateofbeing="neutral">"Who has been eating my
+                vegetables?"</dialogue>The fifth one,<dialogue speaker="fifth_dwarf"
+                stateofbeing="neutral">"Who has been sticking with my fork?"</dialogue>The sixth
+                one,<dialogue speaker="sixth_dwarf" stateofbeing="neutral">"Who has been cutting
+                with my knife?"</dialogue>The seventh one,<dialogue speaker="seventh_dwarf"
+                stateofbeing="neutral">"Who has been drinking from my mug?"</dialogue>Then the first
+            one saw a that there was a little imprint in his bed, and said,<dialogue
+                speaker="first_dwarf" stateofbeing="neutral">"Who stepped on my bed?"</dialogue>The
+            others came running up and shouted,<dialogue speaker="dwarves" stateofbeing="neutral"
+                >"Someone has been lying in mine as well."</dialogue>But the seventh one, looking at
+            his bed, <act type="doing" agent="dwarf" receiver="snow_white" effect="benevolent">found
+                Snow-White lying there asleep.</act> The seven dwarfs all came running up, and they
+            cried out with amazement. They fetched their seven candles and shone the light on
+                <character marital-status="unmarried" child-status="childless"
+                reference="snow_white">Snow-White</character>.<dialogue speaker="dwarves"
+                stateofbeing="positive">"Oh good heaven! Oh good heaven!"</dialogue>they
+                cried.<dialogue speaker="dwarves" stateofbeing="positive">"This child is so
+                beautiful!"</dialogue>They were so happy, that <act type="doing" agent="dwarves"
+                receiver="snow_white" effect="benevolent">they did not wake her up,</act> but <act
+                type="doing" agent="dwarves" receiver="snow_white" effect="benevolent">let her
+                continue to sleep</act> there in the bed. The seventh dwarf had to sleep with his
+            companions, one hour with each one, and then the night was done.</p>
 
-        <p>Now the queen, believing that she had eaten Snow-White 's lungs and
-            liver, could only think that she was again the first and the most beautiful woman of
-            all. She stepped before her mirror and said:<dialogue speaker="second_queen" stateofbeing="vain">Mirror, mirror, on the wall, Who in this
-            land is fairest of all?</dialogue>It answered:<dialogue speaker="mirror" stateofbeing="informative">You, my queen, are fair; it is true. But
-                 Snow-White, beyond the mountains With the seven dwarfs, Is
-            still a thousand times fairer than you.</dialogue> 
-            This startled the queen, for she knew that the
-            mirror did not lie, and she realized that<action type="negative" agent="huntsman" receiver="second_queen">the huntsman had deceived her,</action> and that
-                Snow-White was still alive. Then she thought, and thought
-            again, how she could kill Snow-White, for as long as long as she
-            was not the most beautiful woman in the entire land her envy would give her no rest.</p>
+        <p>The next morning <act type="doing" agent="snow_white" effect="benevolent">Snow-White woke
+                up</act>, and when <act type="doing" agent="snow_white" receiver="dwarves"
+                effect="benevolent">she saw the seven dwarfs</act>
+            <act type="being" agent="snow_white" effect="hostile">she was frightened.</act> But they
+            were friendly and asked,<dialogue speaker="dwarves" stateofbeing="neutral"> "What is
+                your name?"</dialogue>
+            <dialogue speaker="snow_white" stateofbeing="neutral">"My name is Snow-White,"
+            </dialogue>she answered. <dialogue speaker="dwarves" stateofbeing="neutral">"How did you
+                find your way to our house?"</dialogue>the dwarfs asked further. Then <act
+                type="doing" agent="snow_white" receiver="dwarves" effect="ambiguous">she told
+                them</act> that <act type="doing" agent="second_queen" receiver="snow_white"
+                effect="hostile">her stepmother had tried to kill her,</act><act type="doing"
+                agent="huntsman" receiver="snow_white" effect="benevolent">that the huntsman had
+                spared her life, </act>and that <act type="doing" agent="snow_white"
+                effect="ambiguous">she had run the entire day, finally coming to their house.</act>
+            The dwarfs said,<dialogue speaker="dwarves" stateofbeing="positive"> "If you will keep
+                house for us, and cook, make beds, wash, sew, and knit, and keep everything clean
+                and orderly, then you can stay with us, and you shall have everything that you
+                want." </dialogue>
+            <dialogue speaker="snow_white" stateofbeing="positive">"Yes," said Snow-White, "with all
+                my heart."</dialogue>So <act type="doing" agent="snow_white" receiver="dwarves"
+                effect="benevolent">she kept house for them.</act> Every morning they went into the
+            mountains looking for ore and gold, and in the evening when they came back home their
+            meal had to be ready. During the day <act type="being" agent="snow_white"
+                receiver="self" effect="ambiguous">the girl was alone.</act> The good dwarfs warned
+            her, saying, <dialogue speaker="dwarves" stateofbeing="negative">"Be careful about your
+                    <character marital-status="wife" child-status="stepmother"
+                    reference="second_queen">stepmother.</character>
+                <act type="being" agent="second_queen" receiver="snow_white" effect="hostile">She
+                    will soon know that you are here.</act> Do not let anyone in."</dialogue></p>
 
-        <p>At last she thought of something. Coloring her face,<action type="negative" agent="second_queen">she disguised herself as an old
-            peddler woman,</action>so that no one would recognize her. In this disguise she went to the
-            house of the seven dwarfs. Knocking on the door she called out,<dialogue speaker="second_queen" stateofbeing="evil">"Beautiful wares for
-            sale, for sale!"</dialogue>Snow-White peered out the window and said,<dialogue speaker="snow_white" stateofbeing="happy">"Good
-            day, dear woman, what do you have for sale?"</dialogue><dialogue speaker="second_queen" stateofbeing="lying">"Good wares, beautiful wares," she
-            answered. "Bodice laces in all colors."</dialogue>And she took out one that was braided from
-            colorful silk.<dialogue speaker="second_queen" stateofbeing="evil">"Would you like this one?"</dialogue> <dialogue speaker="snow_white" stateofbeing="trusting">"I can let that 
-                honest woman in,"</dialogue> thought Snow-White, then unbolted the door and bought the pretty
-            bodice lace.<dialogue speaker="second_queen" stateofbeing="evil">"Child," said the old woman, "how you look! Come, let me lace you up
-            properly."</dialogue>The unsuspecting Snow-White stood before her and <action type="negative" agent="second_queen" receiver="snow_white">let
-                her do up the new lace, but the old woman pulled so quickly and so hard that
-                Snow-White could not breathe.</action> <dialogue speaker="second_queen" stateofbeing="evil">"You used to be the most
-                    beautiful one,"</dialogue> said the old woman, and hurried away.</p>
+        <p>Now the queen, believing that <act type="doing" agent="second_queen"
+                receiver="snow_white" effect="hostile" io="boar_organs">she had eaten Snow-White 's
+                lungs and liver,</act> could only think that <act type="being" agent="second_queen"
+                receiver="self" effect="ambiguous">she was again the first and the most beautiful
+                woman of all.</act> She stepped before her mirror and said:<dialogue
+                speaker="second_queen" stateofbeing="neutral">Mirror, mirror, on the wall, Who in
+                this land is fairest of all?</dialogue>It answered:<dialogue speaker="mirror"
+                stateofbeing="negative">You, my queen, are fair; it is true. But <character
+                    reference="snow_white" child-status="childless" marital-status="unmarried"
+                    >Snow-White,</character> beyond the mountains With the seven dwarfs, Is still a
+                thousand times fairer than you.</dialogue> This startled the queen, for she knew
+            that the mirror did not lie, and she realized that<act type="doing" agent="huntsman"
+                receiver="second_queen" effect="hostile">the huntsman had deceived her,</act> and
+            that Snow-White was still alive. Then she thought, and thought again, <act type="doing"
+                agent="second_queen" receiver="snow_white" effect="hostile">how she could kill
+                Snow-White,</act> for as long as long as she was not the most beautiful woman in the
+            entire land <act type="being" agent="second_queen" receiver="self" effect="hostile">her
+                envy would give her no rest.</act></p>
+
+        <p>At last she thought of something. Coloring her face,<act type="doing"
+                agent="second_queen" receiver="self" effect="hostile">she disguised herself as an
+                    <character marital-status="wife" child-status="stepmother"
+                    reference="second_queen">old peddler woman</character>,</act>so that no one
+            would recognize her. In this disguise she went to the house of the seven dwarfs.
+            Knocking on the door she called out,<dialogue speaker="second_queen"
+                stateofbeing="negative">"Beautiful wares for sale, for sale!"</dialogue>Snow-White
+            peered out the window and said,<dialogue speaker="snow_white" stateofbeing="positive"
+                >"Good day, dear woman, what do you have for sale?"</dialogue><dialogue
+                speaker="second_queen" stateofbeing="neutral">"Good wares, beautiful wares," she
+                answered. "Bodice laces in all colors."</dialogue>And she took out one that was
+            braided from colorful silk.<dialogue speaker="second_queen" stateofbeing="neutral"
+                >"Would you like this one?"</dialogue>
+            <dialogue speaker="snow_white" stateofbeing="positive">"I can let that honest woman in,"
+                thought Snow-White,</dialogue>then unbolted the door and <act type="doing"
+                agent="snow_white" receiver="second_queen" effect="hostile">bought the pretty bodice
+                lace.</act><dialogue speaker="second_queen" stateofbeing="negative">"Child," said
+                the old woman, "how you look! Come, let me lace you up properly."</dialogue>The
+            unsuspecting Snow-White stood before her and <act type="doing" agent="second_queen"
+                receiver="snow_white" effect="hostile">let her do up the new lace, but the old woman
+                pulled so quickly and so hard that Snow-White could not breathe.</act>
+            <dialogue speaker="second_queen" stateofbeing="negative">"You used to be the most
+                beautiful one," said the old woman,</dialogue>and hurried away.</p>
 
         <p>Not long afterward, in the evening time, the seven dwarfs came home. How terrified they
-            were when they saw their dear<action type="negative" agent="snow_white" receiver="self">Snow-White lying on the ground, not
-            moving at all, as though she were dead.</action> They lifted her up, and, <action type="postive" agent="dwarves" receiver="snow_white">seeing that she was too
-            tightly laced, they cut the lace in two.</action> Then she began to breathe a little, and little
-            by little <action type="positive" agent="snow_white" receiver="self">she came back to life.</action>When the dwarfs heard what had happened they 
-            said, <dialogue speaker="dwarves" stateofbeing="warning">"The
-            old peddler woman was no one else but the godless queen. Take care and let no one in
-            when we are not with you."</dialogue></p>
+            were when they saw their dear<act type="being" agent="snow_white" receiver="self"
+                effect="hostile">Snow-White lying on the ground, not moving at all, as though she
+                were dead.</act> They lifted her up, and, <act type="doing" agent="dwarves"
+                receiver="snow_white" effect="benevolent">seeing that she was too tightly laced,
+                they cut the lace in two.</act> Then she began to breathe a little, and little by
+            little <act type="doing" agent="snow_white" receiver="self" effect="benevolent">she came
+                back to life.</act>When the dwarfs heard what had happened they said, <dialogue
+                speaker="dwarves" stateofbeing="negative">"The <character marital-status="wife"
+                    child-status="stepmother" reference="second_queen">old peddler woman</character>
+                was no one else but the godless <character reference="second_queen"
+                    child-status="stepmother" marital-status="wife">queen.</character> Take care and
+                let no one in when we are not with you."</dialogue></p>
 
-        <p>When the wicked woman returned home she went to her mirror and asked: <dialogue speaker="second_queen" stateofbeing="vain">Mirror, mirror, on
-            the wall, Who in this land is fairest of all?</dialogue> The mirror answered once again: <dialogue speaker="mirror" stateofbeing="informative">You, my
-            queen, are fair; it is true. But Snow-White, beyond the mountains
-            With the seven dwarfs, Is still a thousand times fairer than you.</dialogue> When she heard that,
-            all her blood ran to her heart because she knew that Snow-White 
-            <action type="positive" agent="snow_white" receiver="self">had come back to life.</action> <dialogue speaker="second_queen" stateofbeing="angry">"This time," she said, 
-                "I shall think of something that will destroy you."</dialogue></p>
+        <p>When the wicked woman returned home she went to her mirror and asked: <dialogue
+                speaker="second_queen" stateofbeing="positive">Mirror, mirror, on the wall, Who in
+                this land is fairest of all?</dialogue> The mirror answered once again: <dialogue
+                speaker="mirror" stateofbeing="negative">You, my queen, are fair; it is true. But
+                Snow-White, beyond the mountains With the seven dwarfs, Is still a thousand times
+                fairer than you.</dialogue> When she heard that, all her blood ran to her heart
+            because she knew that<act type="doing" agent="snow_white" receiver="self"
+                effect="hostile"> Snow-White had come back to life.</act>
+            <dialogue speaker="second_queen" stateofbeing="negative">"This time," she said, "I shall
+                think of something that will destroy you."</dialogue></p>
 
-        <p><action type="negative" agent="second_queen" receiver="snow_white">Then with the art of witchcraft, which she understood, she made a poisoned comb.</action> Then she
-            disguised herself, <action type="negative" agent="second_queen" receiver="self">taking the form of a different old woman.</action> Thus she went across the
-            seven mountains to the seven dwarfs, knocked on the door, and called out, <dialogue speaker="second_queen" stateofbeing="evil">"Good wares
-            for sale, for sale!"</dialogue> Snow-White looked out and said, <dialogue speaker="snow_white" stateofbeing="irritated">"Go on your
-            way. I am not allowed to let anyone in."</dialogue> <dialogue speaker="second_queen" stateofbeing="evil">"You surely may take a look," said the old
-            woman, pulling out the poisoned comb and holding it up.</dialogue> The child liked it so much that
-            she <action type="negative" agent="second_queen" receiver="snow_white">let herself be deceived, and she opened the door.</action> After they had agreed on the
-            purchase, the old woman said, <dialogue speaker="second_queen" stateofbeing="evil">"Now let me comb your hair properly."</dialogue> 
-            She had barely <action type="negative" agent="second_queen" receiver="snow_white">stuck
-            the comb into Snow-White's hair when the poison took effect, and
-            the girl fell down unconscious.</action> <dialogue speaker="second_queen" stateofbeing="evil">"You specimen of beauty," said the wicked woman, "now
-            you are finished."</dialogue> And she walked away.</p>
+        <p><act type="doing" agent="second_queen" receiver="snow_white" effect="hostile">Then with
+                the art of witchcraft, which she understood, she made a poisoned comb.</act> Then
+            she disguised herself, <act type="doing" agent="second_queen" receiver="self"
+                effect="hostile">taking the form of a different <character marital-status="wife"
+                    child-status="stepmother" reference="second_queen">old woman.</character></act>
+            Thus she went across the seven mountains to the seven dwarfs, knocked on the door, and
+            called out, <dialogue speaker="second_queen" stateofbeing="neutral">"Good wares for
+                sale, for sale!"</dialogue> Snow-White looked out and said, <dialogue
+                speaker="snow_white" stateofbeing="negative">"Go on your way. I am not allowed to
+                let anyone in."</dialogue>
+            <dialogue speaker="second_queen" stateofbeing="negative">"You surely may take a
+                look,"</dialogue> said the old woman, pulling out the poisoned comb and holding it
+            up. The child liked it so much that she <act type="doing" agent="second_queen"
+                receiver="snow_white" effect="hostile">let herself be deceived, and she opened the
+                door.</act> After they had agreed on the purchase, the old woman said, <dialogue
+                speaker="second_queen" stateofbeing="negative">"Now let me comb your hair
+                properly."</dialogue> She had barely <act type="doing" agent="second_queen"
+                receiver="snow_white" effect="hostile">stuck the comb into Snow-White's hair when
+                the poison took effect, and the girl fell down unconscious.</act>
+            <dialogue speaker="second_queen" stateofbeing="negative">"You specimen of beauty," said
+                the wicked woman, "now you are finished."</dialogue> And she walked away.</p>
 
-        <p>Fortunately it was almost evening, and the seven dwarfs came home. When they saw
-                Snow-White <action type="negative" agent="second_queen" receiver="snow_white">lying on the ground as if she were dead,</action> they
-            immediately suspected her stepmother. They <action type="positive" agent="dwarves" receiver="snow_white">examined her and found the poisoned comb.</action>
-            They had scarcely pulled it out when Snow-White came to herself
-            again and told them what had happened. Once again they warned her to be on guard and not
-            to open the door for anyone.</p>
+        <p>Fortunately it was almost evening, and the seven dwarfs came home. When they saw <act
+                type="doing" agent="second_queen" effect="hostile" receiver="snow_white"><character
+                    marital-status="unmarried" child-status="childless" reference="snow_white"
+                    >Snow-White</character> lying on the ground as if she were dead,</act> they
+            immediately suspected her stepmother. They <act type="doing" agent="dwarves"
+                receiver="snow_white" effect="benevolent">examined her and found the poisoned
+                comb.</act> They had scarcely pulled it out when Snow-White came to herself again
+            and told them what had happened. Once again they warned her to be on guard and not to
+            open the door for anyone.</p>
 
-        <p>Back at home the queen stepped before her mirror and said: <dialogue speaker="second_queen" stateofbeing="vain">Mirror, mirror, on the wall,
-            Who in this land is fairest of all?</dialogue> The mirror answered: <dialogue speaker="mirror" stateofbeing="informative">You, my queen, are fair; it is
-            true. But Snow-White, beyond the mountains With the seven dwarfs,
-            Is still a thousand times fairer than you.</dialogue> When the queen heard the mirror saying this,
-            she shook and trembled with anger, <dialogue speaker="second_queen" stateofbeing="angry">"Snow-White shall die," she
-            shouted, "if it costs me my life!"</dialogue></p>
+        <p>Back at home the queen stepped before her mirror and said: <dialogue
+                speaker="second_queen" stateofbeing="positive">Mirror, mirror, on the wall, Who in
+                this land is fairest of all?</dialogue> The mirror answered: <dialogue
+                speaker="mirror" stateofbeing="negative">You, my queen, are fair; it is true. But
+                Snow-White, beyond the mountains With the seven dwarfs, Is still a thousand times
+                fairer than you.</dialogue> When the queen heard the mirror saying this, she shook
+            and trembled with anger, <dialogue speaker="second_queen" stateofbeing="negative"
+                >"Snow-White shall die," she shouted, "if it costs me my life!"</dialogue></p>
 
-        <p><action type="negative" agent="second_queen" receiver="snow_white">Then she went into her most secret room -- no one else was allowed inside -- and she made
-            a poisoned, poisoned apple.</action> From the outside it was beautiful, white with red cheeks,
-            and anyone who saw it would want it. But anyone who might eat a little piece of it would
-            died. Then, coloring her face, <action type="negative" agent="second_queen" receiver="self">she disguised herself as a peasant woman,</action> and thus went
-            across the seven mountains to the seven dwarfs. She knocked on the door.
-                Snow-White stuck her head out the window and said, <dialogue speaker="snow_white" stateofbeing="alone">"I am not
-            allowed to let anyone in. The dwarfs have forbidden me to do so."</dialogue> <dialogue speaker="second_queen" stateofbeing="evil">"That is all right
-            with me," answered the peasant woman. "I'll easily get rid of my apples. Here, I'll give
-            you one of them."</dialogue> <dialogue speaker="snow_white" stateofbeing="sad">"No," said Snow-White, "I cannot accept
-            anything."</dialogue> <dialogue speaker="second_queen" stateofbeing="evil">"Are you afraid of poison?" asked the old woman. "Look, I'll cut the apple in
-            two. You eat the red half, and I shall eat the white half."</dialogue> Now the apple had been so
-            artfully made that only the red half was poisoned. Snow-White
-            longed for the beautiful apple, and when she saw that the peasant woman was eating part
-            of it she could no longer resist, and she stuck her hand out and took the poisoned half.
-            She barely had a bite in her mouth when <action type="negative" agent="second_queen" receiver="snow_white">she fell to the ground dead.</action> 
-            The queen <action type="negative" agent="second_queen" receiver="snow_white">looked at
-            her with a gruesome stare, laughed loudly,</action> and said, <dialogue speaker="second_queen" stateofbeing="evil">"White as snow, red as blood, black
-            as ebony wood! This time the dwarfs cannot awaken you."</dialogue></p>
+        <p><act type="doing" agent="second_queen" receiver="snow_white" effect="hostile">Then she
+                went into her most secret room -- no one else was allowed inside -- and she made a
+                poisoned, poisoned apple.</act> From the outside it was beautiful, white with red
+            cheeks, and anyone who saw it would want it. But anyone who might eat a little piece of
+            it would died. Then, coloring her face, <act type="doing" agent="second_queen"
+                receiver="self" effect="hostile">she disguised herself as a <character
+                    marital-status="wife" child-status="stepmother" reference="second_queen">peasant
+                    woman</character>,</act> and thus went across the seven mountains to the seven
+            dwarfs. She knocked on the door. Snow-White stuck her head out the window and said,
+                <dialogue speaker="snow_white" stateofbeing="negative">"I am not allowed to let
+                anyone in. The dwarfs have forbidden me to do so."</dialogue>
+            <dialogue speaker="second_queen" stateofbeing="positive">"That is all right with me,"
+                answered the peasant woman. "I'll easily get rid of my apples. Here, I'll give you
+                one of them."</dialogue>
+            <dialogue speaker="snow_white" stateofbeing="negative">"No," said Snow-White, "I cannot
+                accept anything."</dialogue>
+            <dialogue speaker="second_queen" stateofbeing="negative">"Are you afraid of poison?"
+                asked the old woman. "Look, I'll cut the apple in two. You eat the red half, and I
+                shall eat the white half."</dialogue> Now the apple had been so artfully made that
+            only the red half was poisoned. Snow-White longed for the beautiful apple, and when she
+            saw that the peasant woman was eating part of it she could no longer resist, and she
+            stuck her hand out and took the poisoned half. She barely had a bite in her mouth when
+                <act type="doing" agent="second_queen" receiver="snow_white" effect="hostile">she
+                fell to the ground dead.</act> The queen <act type="doing" agent="second_queen"
+                receiver="snow_white" effect="hostile">looked at her with a gruesome stare, laughed
+                loudly,</act> and said, <dialogue speaker="second_queen" stateofbeing="negative"
+                >"White as snow, red as blood, black as ebony wood! This time the dwarfs cannot
+                awaken you."</dialogue></p>
 
-        <p>Back at home she asked her mirror: <dialogue speaker="second_queen" stateofbeing="vain">Mirror, mirror, on the wall, Who in this land is
-            fairest of all?</dialogue> It finally answered: <dialogue speaker="mirror" stateofbeing="informative">You, my queen, are fairest of all.</dialogue> Then her envious
-            heart was at rest, as well as an envious heart can be at rest.</p>
+        <p>Back at home she asked her mirror: <dialogue speaker="second_queen"
+                stateofbeing="positive">Mirror, mirror, on the wall, Who in this land is fairest of
+                all?</dialogue> It finally answered: <dialogue speaker="mirror"
+                stateofbeing="positive">You, my queen, are fairest of all.</dialogue> Then her
+            envious heart was at rest, as well as an envious heart can be at rest.</p>
 
-        <p>When the dwarfs came home that evening they found Snow-White lying
-            on the ground. She was not breathing at all. <action type="negative" agent="second_queen" receiver="snow_white">She was dead.
-            </action> <action type="neutral" agent="dwarves" receiver="snow_white">They lifted her up and looked
-            for something poisonous.</action> <action type="positive" agent="dwarves" receiver="snow_white">They undid her laces.</action> <action type="positive" agent="dwarves" receiver="snow_white">
-                They combed her hair.</action> <action type="positive" agent="dwarves" receiver="snow_white">They washed her
-            with water and wine.</action> But nothing helped. The dear child was dead, and she remained dead.
-            They <action type="neutral" agent="dwarves" receiver="snow_white">laid her on a bier,</action> and all seven sat next to her and <action type="negative" agent="dwarves" receiver="snow_white">
-                mourned for her and cried</action> for three days. They were going to bury her, but she still looked as fresh as a living
-            person, and still had her beautiful red cheeks. They said, <dialogue speaker="dwarves" stateofbeing="sad">"We cannot bury her in the
-            black earth,"</dialogue> and <action type="neutral" agent="dwarves" receiver="snow_white">they had a transparent glass coffin made,</action> so she could be seen from
-            all sides. They <action type="neutral" agent="dwarves" receiver="snow_white">laid her inside, and with golden letters wrote on it her name,</action> and that
-            she was a princess. Then they put the coffin outside on a mountain, and <action type="neutral" agent="dwarves" receiver="snow_white">one of them
-            always stayed with it and watched over her.</action> The animals too came and mourned for
-            Snow-white, first an owl, then a raven, and finally a dove.
-                Snow-White lay there in the coffin a long, long time, and <action type="positive" agent="snow_white" receiver="self">she
-            did not decay, but looked like she was asleep,</action> for she was still as white as snow and as
-            red as blood, and as black-haired as ebony wood.</p>
+        <p>When the dwarfs came home that evening they found Snow-White lying on the ground. She was
+            not breathing at all. <act type="being" agent="second_queen" receiver="snow_white"
+                effect="hostile">She was dead. </act>
+            <act type="doing" agent="dwarves" receiver="snow_white" effect="benevolent">They lifted
+                her up and looked for something poisonous.</act>
+            <act type="doing" agent="dwarves" receiver="snow_white" effect="benevolent">They undid
+                her laces.</act>
+            <act type="doing" agent="dwarves" receiver="snow_white" effect="benevolent"> They combed
+                her hair.</act>
+            <act type="doing" agent="dwarves" receiver="snow_white" effect="benevolent">They washed
+                her with water and wine.</act> But nothing helped. The dear child was dead, and she
+            remained dead. They <act type="doing" agent="dwarves" receiver="snow_white"
+                effect="benevolent">laid her on a bier,</act> and all seven sat next to her and <act
+                type="doing" agent="dwarves" receiver="snow_white" effect="benevolent"> mourned for
+                her and cried</act> for three days. They were going to bury her, but she still
+            looked as fresh as a living person, and still had her beautiful red cheeks. They said,
+                <dialogue speaker="dwarves" stateofbeing="negative">"We cannot bury her in the black
+                earth,"</dialogue> and <act type="doing" agent="dwarves" receiver="snow_white"
+                effect="benevolent">they had a transparent glass coffin made,</act> so she could be
+            seen from all sides. They <act type="doing" agent="dwarves" receiver="snow_white"
+                effect="benevolent">laid her inside, and with golden letters wrote on it her
+                name,</act> and that she was a princess. Then they put the coffin outside on a
+            mountain, and <act type="doing" agent="dwarves" receiver="snow_white"
+                effect="benevolent">one of them always stayed with it and watched over her.</act>
+            The animals too came and mourned for Snow-white, first an owl, then a raven, and finally
+            a dove. Snow-White lay there in the coffin a long, long time, and <act type="doing"
+                agent="snow_white" receiver="self" effect="benevolent">she did not decay, but looked
+                like she was asleep,</act> for she was still as white as snow and as red as blood,
+            and as black-haired as ebony wood.</p>
 
         <p>Now it came to pass that a prince entered these woods and happened onto the dwarfs'
             house, where he sought shelter for the night. He saw the coffin on the mountain with
-            beautiful Snow-White in it, and he read what was written on it
-            with golden letters. Then he said to the dwarfs, <dialogue speaker="prince" stateofbeing="obsessed">"Let me have the coffin. I will give
-            you anything you want for it."</dialogue> But the dwarfs answered,<dialogue speaker="dwarves" stateofbeing="sad">"We will not sell it for all the
-            gold in the world."</dialogue> Then he said, <dialogue speaker="prince" stateofbeing="desperate">"Then give it to me, for I cannot live without being
-            able to see Snow-White. I will honor her and respect her as my
-            most cherished one."</dialogue>As he thus spoke, the good dwarfs felt pity for him and gave him
-            the coffin. The prince had his servants carry it away on their shoulders. But then it
-            happened that one of them stumbled on some brush, and this <action type="positive" agent="servents" receiver="snow_white">dislodged from
-                Snow-White's throat the piece of poisoned apple</action> that she had
-            bitten off. Not long afterward <action type="positive" agent="snow_white" receiver="self">she opened her eyes, lifted the lid from her coffin, sat
-            up, and was alive again.</action> <dialogue speaker="snow_white" stateofbeing="confused">"Good heavens, where am I?"</dialogue> she cried out. The prince said
-            joyfully, <dialogue speaker="prince" stateofbeing="happy">"You are with me."</dialogue> He told her what had happened, and then said, <dialogue speaker="prince" stateofbeing="happy">
-                "I love you more than anything else in the world. Come with me to my father's castle. You shall
-            become my wife."</dialogue>Snow-White <action type="positive" agent="snow_white" receiver="self">loved him, and she went with him.</action>
-            Their wedding was planned with great splendor and majesty.</p>
+            beautiful Snow-White in it, and he read what was written on it with golden letters. Then
+            he said to the dwarfs, <dialogue speaker="prince" stateofbeing="positive">"Let me have
+                the coffin. I will give you anything you want for it."</dialogue> But the dwarfs
+                answered,<dialogue speaker="dwarves" stateofbeing="negative">"We will not sell it
+                for all the gold in the world."</dialogue> Then he said, <dialogue speaker="prince"
+                stateofbeing="positive">"Then give it to me, for I cannot live without being able to
+                see Snow-White. I will honor her and respect her as my most cherished
+                one."</dialogue>As he thus spoke, the good dwarfs felt pity for him and gave him the
+            coffin. The prince had his servants carry it away on their shoulders. But then it
+            happened that one of them stumbled on some brush, and this <act type="doing"
+                agent="servents" receiver="snow_white" effect="benevolent">dislodged from
+                Snow-White's throat the piece of poisoned apple</act> that she had bitten off. Not
+            long afterward <act type="doing" agent="snow_white" receiver="self" effect="benevolent"
+                >she opened her eyes, lifted the lid from her coffin, sat up, and was alive
+                again.</act>
+            <dialogue speaker="snow_white" stateofbeing="positive">"Good heavens, where am
+                I?"</dialogue> she cried out. The prince said joyfully, <dialogue speaker="prince"
+                stateofbeing="positive">"You are with me."</dialogue> He told her what had happened,
+            and then said, <dialogue speaker="prince" stateofbeing="positive"> "I love you more than
+                anything else in the world. Come with me to my father's castle. You shall become my
+                wife."</dialogue><act type="being" agent="snow_white" receiver="self"
+                effect="benevolent">Snow White loved him,</act> and she went with him. Their wedding
+            was planned with great splendor and majesty.</p>
 
-        <p>Snow-White's godless stepmother was also invited to the feast.
-            After putting on her beautiful clothes she stepped before her mirror and said: <dialogue speaker="second_queen" stateofbeing="vain">Mirror,
-            mirror, on the wall, Who in this land is fairest of all?</dialogue> The mirror answered: <dialogue speaker="mirror" stateofbeing="informative">You, my
-            queen, are fair; it is true. But the young queen is a thousand times fairer than you.</dialogue>
-            The wicked woman uttered a curse, and <action type="negative" agent="second_queen" receiver="self">she became so frightened, so frightened, that she
-            did not know what to do.</action> At first she did not want to go to the wedding, but she found
-            no peace. She had to go and see the young queen. When she arrived she recognized
-                Snow-White, and terrorized, she could only stand there
-            without moving. Then <action type="negative" agent="unknown" receiver="second_queen">they put a pair of iron shoes into burning coals.</action> They were brought
-            forth with tongs and placed before her. <action type="negative" agent="unknown" receiver="second_queen">She was forced to step into the red-hot shoes
-            and dance until she fell down dead.</action></p>
+        <p><character marital-status="wife" child-status="childless" reference="snow_white"
+                >Snow-White's</character>godless <character marital-status="wife"
+                child-status="stepmother" reference="second_queen">stepmother</character> was also
+            invited to the feast. After putting on her beautiful clothes she stepped before her
+            mirror and said: <dialogue speaker="second_queen" stateofbeing="positive">Mirror,
+                mirror, on the wall, Who in this land is fairest of all?</dialogue> The mirror
+            answered: <dialogue speaker="mirror" stateofbeing="negative">You, my queen, are fair; it
+                is true. But the young queen is a thousand times fairer than you.</dialogue> The
+            wicked woman uttered a curse, and <act type="being" agent="second_queen" receiver="self"
+                effect="hostile">she became so frightened, so frightened, that she did not know what
+                to do.</act> At first she did not want to go to the wedding, but she found no peace.
+            She had to go and see the young queen. When she arrived she recognized Snow-White, and
+            terrorized, she could only stand there without moving. Then <act type="doing"
+                agent="unknown" receiver="second_queen" effect="hostile">they put a pair of iron
+                shoes into burning coals.</act> They were brought forth with tongs and placed before
+            her. <act type="doing" agent="unknown" receiver="second_queen" effect="hostile">She was
+                forced to step into the red-hot shoes and dance until she fell down dead.</act></p>
     </story>
 </tale>
