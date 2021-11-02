@@ -42,89 +42,156 @@
                 her</act>, <dialogue speaker="husband" stateofbeing="neutral">"What ails you, dear
                 wife?"</dialogue></p>
         <p><dialogue speaker="wife" stateofbeing="negative">"Oh,"</dialogue><act type="doing"
-                effect="hostile" agent="wife">she answered,</act> "if I do not get some rapunzel
-            from the garden behind our house, I shall die."</p>
-        <p>The man, who loved her dearly, thought, "Before you let your wife die, you must get her
-            some of the rapunzel, whatever the cost."</p>
-        <p>So just as it was getting dark he climbed over the high wall into the sorceress's garden,
-            hastily dug up a handful of rapunzel, and took it to his wife. She immediately made a
-            salad from it, which she devoured eagerly. It tasted so very good to her that by the
-            next day her desire for more had grown threefold. If she were to have any peace, the man
-            would have to climb into the garden once again. Thus he set forth once again just as it
-            was getting dark. But no sooner than he had climbed over the wall than, to his horror,
-            he saw the sorceress standing there before him.</p>
-        <p>"How can you dare," she asked with an angry look, "to climb into my garden and like a
-            thief to steal my rapunzel? You will pay for this."</p>
-        <p>"Oh," he answered, "Let mercy overrule justice. I came to do this out of necessity. My
-            wife saw your rapunzel from our window, and such a longing came over her, that she would
-            die, if she did not get some to eat."</p>
-        <p>The sorceress's anger abated somewhat, and she said, "If things are as you say, I will
-            allow you to take as much rapunzel as you want. But under one condition: You must give
-            me the child that your wife will bring to the world. It will do well, and I will take
-            care of it like a mother."</p>
-        <p>In his fear the man agreed to everything.</p>
-        <p>When the woman gave birth, the sorceress appeared, named the little girl Rapunzel, and
-            took her away. Rapunzel became the most beautiful child under the sun. When she was
-            twelve years old, the sorceress locked her in a tower that stood in a forest and that
-            had neither a door nor a stairway, but only a tiny little window at the very top.</p>
-        <p>When the sorceress wanted to enter, she stood below and called out:</p>
-        <p>Rapunzel, Rapunzel, Let down your hair to me.</p>
-        <p>Rapunzel had splendid long hair, as fine as spun gold. When she heard the sorceress's
-            voice, she untied her braids, wound them around a window hook, let her hair fall twenty
-            yards to the ground, and the sorceress climbed up it.</p>
-        <p>A few years later it happened that a king's son was riding through the forest. As he
-            approached the tower he heard a song so beautiful that he stopped to listen. It was
-            Rapunzel, who was passing the time by singing with her sweet voice. The prince wanted to
-            climb up to her, and looked for a door in the tower, but none was to be found.</p>
-        <p>He rode home, but the song had so touched his heart that he returned to the forest every
-            day and listened to it. One time, as he was thus standing behind a tree, he saw the
-            sorceress approach, and heard her say:</p>
-        <p>Rapunzel, Rapunzel, Let down your hair.</p>
-        <p>Then Rapunzel let down her strands of hair, and the sorceress climbed up them to her.</p>
-        <p>"If that is the ladder into the tower, then sometime I will try my luck."</p>
+                effect="hostile" agent="wife">she answered,</act><dialogue speaker="wife"
+                stateofbeing="negative">"if I do not get some rapunzel from the garden behind our
+                house, I shall die."</dialogue>
+        </p>
+        <p><act type="doing" effect="ambiguous" agent="husband">The man, who loved her dearly,
+                thought,</act>
+            <dialogue speaker="husband" stateofbeing="negative">"Before you let your <character
+                    child-status="mother" marital-status="wife" reference="wife">wife</character>
+                die, you must get her some of the rapunzel, whatever the cost."</dialogue></p>
+        <p><act type="doing" effect="hostile" agent="husband">So just as it was getting dark he
+                climbed over the high wall into the <character child-status="childless"
+                    reference="evil woman" marital-status="unmarried">sorceress's</character>
+                garden, hastily dug up a handful of rapunzel, and took it to his <character
+                    marital-status="wife" reference="wife" child-status="mother"
+                >wife.</character></act>
+            <act type="doing" effect="ambiguous" agent="wife">She immediately made a salad from it,
+                which she devoured eagerly.</act>
+            <act type="doing" effect="ambiguous" agent="wife">It tasted so very good to her that by
+                the next day her desire for more had grown threefold.</act>
+            <act type="doing" effect="ambiguous" agent="wife">If she were to have any peace, the man
+                would have to climb into the garden once again.</act>
+            <act type="doing" effect="ambiguous" agent="husband">Thus he set forth once again just
+                as it was getting dark. But no sooner than he had climbed over the wall than, to his
+                horror, he saw the sorceress standing there before him.</act></p>
+        <p><dialogue speaker="evil woman" stateofbeing="negative">"How can you dare," <character
+                    child-status="childless" reference="evil woman" marital-status="unmarried"
+                    >she</character> asked with an angry look, "to climb into my garden and like a
+                thief to steal my rapunzel? You will pay for this."</dialogue></p>
+        <p><dialogue speaker="husband" stateofbeing="positive">"Oh," he answered, "Let mercy
+                overrule justice. I came to do this out of necessity. My <character
+                    marital-status="unmarried" reference="wife" child-status="mother"
+                    >wife</character> saw your rapunzel from our window, and such a longing came
+                over her, that she would die, if she did not get some to eat."</dialogue></p>
+        <p><act type="being" effect="ambiguous" agent="evil woman">The sorceress's anger abated
+                somewhat, and she said,</act>
+            <dialogue speaker="evil woman" stateofbeing="negative">If things are as you say, I will
+                allow you to take as much rapunzel as you want. But under one condition: You must
+                give me the <character child-status="childless" marital-status="unmarried"
+                    reference="Rapunzel">child</character> that your wife will bring to the world.
+                It will do well, and I will take care of it like a mother."</dialogue></p>
+        <p><act type="doing" effect="hostile" agent="husband">In his fear the man agreed to
+                everything.</act>
+        </p>
+        <p><act type="doing" effect="hostile" agent="wife" receiver="evil woman" io="Rapunzel">When
+                the woman gave birth, the sorceress appeared, named the little girl Rapunzel, and
+                took her away. Rapunzel became the most beautiful child under the sun.</act>
+            <act type="doing" effect="hostile" agent="evil woman" receiver="Rapunzel">When she was
+                twelve years old, the sorceress locked her in a tower that stood in a forest and
+                that had neither a door nor a stairway, but only a tiny little window at the very
+                top.</act></p>
+        <p><act type="doing" effect="ambiguous" agent="evil woman" io="Rapunzel">When the sorceress
+                wanted to enter, she stood below and called out:</act></p>
+        <p><dialogue speaker="evil woman" stateofbeing="neutral">Rapunzel, Rapunzel, Let down your
+                hair to me.</dialogue></p>
+        <p><act type="being" effect="benevolent" agent="Rapunzel">Rapunzel had splendid long hair,
+                as fine as spun gold.</act>
+            <act type="doing" effect="ambiguous" agent="Rapunzel" receiver="evil woman">When she
+                heard the sorceress's voice, she untied her braids, wound them around a window hook,
+                let her hair fall twenty yards to the ground, and the sorceress climbed up
+            it.</act></p>
+        <p><act type="doing" effect="ambiguous" agent="prince">A few years later it happened that a
+                king's son was riding through the forest.</act>
+            <act type="doing" effect="ambiguous" agent="prince">As he approached the tower he heard
+                a song so beautiful that he stopped to listen. It was Rapunzel, who was passing the
+                time by singing with her sweet voice.</act>
+            <act type="doing" effect="ambiguous" agent="prince">The prince wanted to climb up to
+                her, and looked for a door in the tower, but none was to be found.</act></p>
+        <p><act type="doing" effect="ambiguous" agent="prince">He rode home, but the song had so
+                touched his heart that he returned to the forest every day and listened to it.</act>
+            <act type="doing" effect="ambiguous" agent="prince">One time, as he was thus standing
+                behind a tree, he saw the sorceress approach, and heard her say:</act>
+        </p>
+        <p><dialogue speaker="evil woman" stateofbeing="neutral">Rapunzel, Rapunzel, Let down your
+                hair.</dialogue></p>
+        <p><act type="doing" effect="benevolent" agent="Rapunzel" receiver="evil woman">Then
+                Rapunzel let down her strands of hair, and the sorceress climbed up them to
+                her.</act></p>
+        <p><dialogue speaker="prince" stateofbeing="positive">"If that is the ladder into the tower,
+                then sometime I will try my luck."</dialogue></p>
         <p>And the next day, just as it was beginning to get dark, he went to the tower and called
             out:</p>
-        <p>Rapunzel, Rapunzel, Let down your hair.</p>
-        <p>The hair fell down, and the prince climbed up.</p>
-        <p>At first Rapunzel was terribly frightened when a man such as she had never seen before
-            came in to her. However, the prince began talking to her in a very friendly manner,
-            telling her that his heart had been so touched by her singing that he could have no
-            peace until he had seen her in person. Then Rapunzel lost her fear, and when he asked
-            her if she would take him as her husband, she thought, "He would rather have me than
-            would old Frau Gothel." She said yes and placed her hand into his.</p>
-        <p>She said, "I would go with you gladly, but I do not know how to get down. Every time that
-            you come, bring a strand of silk, from which I will weave a ladder. When it is finished
-            I will climb down, and you can take me away on your horse." They arranged that he would
-            come to her every evening, for the old woman came by day.</p>
-        <p>The sorceress did not notice what was happening until one day Rapunzel said to her, "Frau
-            Gothel, tell me why it is that you are more difficult to pull up than is the young
-            prince, who will be arriving any moment now?"</p>
-        <p>"You godless child," cried the sorceress. "What am I hearing from you? I thought I had
-            removed you from the whole world, but you have deceived me nonetheless."</p>
-        <p>In her anger she grabbed Rapunzel's beautiful hair, wrapped it a few times around her
-            left hand, grasped a pair of scissors with her right hand, and snip snap, cut it off.
-            And she was so unmerciful that she took Rapunzel into a wilderness where she suffered
-            greatly.</p>
-        <p>On the evening of the same day that she sent Rapunzel away, the sorceress tied the
-            cut-off hair to the hook at the top of the tower, and when the prince called out:</p>
-        <p>Rapunzel, Rapunzel, Let down your hair.</p>
-        <p>she let down the hair.</p>
-        <p>The prince climbed up, but above, instead of his beloved Rapunzel, he found the
-            sorceress, who peered at him with poisonous and evil looks.</p>
-        <p>"Aha!" she cried scornfully. "You have come for your Mistress Darling, but that beautiful
-            bird is no longer sitting in her nest, nor is she singing any more. The cat got her, and
-            will scratch your eyes out as well. You have lost Rapunzel. You will never see her
-            again."</p>
-        <p>The prince was overcome with grief, and in his despair he threw himself from the tower.
-            He escaped with his life, but the thorns into which he fell poked out his eyes. Blind,
-            he wandered about in the forest, eating nothing but grass and roots, and doing nothing
-            but weeping and wailing over the loss of his beloved wife. Thus he wandered about
-            miserably for some years, finally happening into the wilderness where Rapunzel lived
-            miserably with the twins that she had given birth to.</p>
-        <p>He heard a voice and thought it was familiar. He advanced toward it, and as he
-            approached, Rapunzel recognized him, and crying, threw her arms around his neck. Two of
-            her tears fell into his eyes, and they became clear once again, and he could see as well
-            as before. He led her into his kingdom, where he was received with joy, and for a long
-            time they lived happily and satisfied.</p>
+        <p><dialogue speaker="prince" stateofbeing="positive">Rapunzel, Rapunzel, Let down your
+                hair.</dialogue></p>
+        <p><act type="doing" effect="benevolent" agent="prince" io="Rapunzel">The hair fell down,
+                and the prince climbed up.</act></p>
+        <p><act type="being" effect="hostile" agent="Rapunzel">At first Rapunzel was terribly
+                frightened when a man such as she had never seen before came in to her.</act>
+            <act type="doing" effect="benevolent" agent="prince" receiver="Rapunzel">However, the
+                prince began talking to her in a very friendly manner, telling her that his heart
+                had been so touched by her singing that he could have no peace until he had seen her
+                in person. Then Rapunzel lost her fear, and when he asked her if she would take him
+                as her husband,</act>
+            <act type="doing" effect="ambiguous" agent="Rapunzel"><character
+                    child-status="childless" reference="Rapunzel" marital-status="unmarried"
+                    >she</character> thought,</act>
+            <dialogue speaker="Rapunzel" stateofbeing="neutral">He would rather have me than would
+                old Frau Gothel."</dialogue>
+            <act type="doing" receiver="prince" agent="Rapunzel" effect="benevolent">She said yes
+                and placed her hand into his.</act></p>
+        <p><act type="doing" agent="Rapunzel" effect="ambiguous">She said,</act>
+            <dialogue speaker="Rapunzel" stateofbeing="positive">I would go with you gladly, but I
+                do not know how to get down. Every time that you come, bring a strand of silk, from
+                which I will weave a ladder. When it is finished I will climb down, and you can take
+                me away on your horse."</dialogue>
+            <act type="doing" effect="benevolent" agent="prince and Rapunzel">They arranged that he
+                would come to her every evening, for the old woman came by day.</act></p>
+        <p><act type="being" effect="ambiguous" agent="evil woman">The sorceress did not notice what
+                was happening</act>
+            <act type="doing" effect="ambiguous" agent="Rapunzel" receiver="evil woman">until one
+                day Rapunzel said to her,</act>
+            <dialogue speaker="Rapunzel" stateofbeing="neutral">Frau Gothel, tell me why it is that
+                you are more difficult to pull up than is the young prince, who will be arriving any
+                moment now?"</dialogue></p>
+        <p><dialogue speaker="evil woman" stateofbeing="negative">"You godless child," cried the
+                sorceress. "What am I hearing from you? I thought I had removed you from the whole
+                world, but you have deceived me nonetheless."</dialogue></p>
+        <p><act type="doing" effect="hostile" agent="evil woman" receiver="Rapunzel">In her anger
+                she grabbed Rapunzel's beautiful hair, wrapped it a few times around her left hand,
+                grasped a pair of scissors with her right hand, and snip snap, cut it off. And she
+                was so unmerciful that she took Rapunzel into a wilderness where she suffered
+                greatly.</act></p>
+        <p><act type="doing" effect="hostile" agent="evil woman" receiver="Rapunzel">On the evening
+                of the same day that she sent Rapunzel away, the sorceress tied the cut-off hair to
+                the hook at the top of the tower,</act>
+            <act type="doing" effect="ambiguous" agent="prince">and when the prince called
+                out:</act></p>
+        <p><dialogue speaker="prince" stateofbeing="positive">Rapunzel, Rapunzel, Let down your
+                hair.</dialogue></p>
+        <p><act type="doing" effect="hostile" agent="evil woman">she let down the hair.</act></p>
+        <p><act type="doing" effect="hostile" agent="prince" io="evil woman">The prince climbed up,
+                but above, instead of his beloved Rapunzel, he found the sorceress, who peered at
+                him with poisonous and evil looks.</act></p>
+        <p><dialogue speaker="evil woman" stateofbeing="negative">"Aha!" she cried scornfully. "You
+                have come for your Mistress Darling, but that beautiful bird is no longer sitting in
+                her nest, nor is she singing any more. The cat got her, and will scratch your eyes
+                out as well. You have lost Rapunzel. You will never see her again."</dialogue></p>
+        <p><act type="doing" effect="hostile" agent="prince">The prince was overcome with grief, and
+                in his despair he threw himself from the tower. He escaped with his life, but the
+                thorns into which he fell poked out his eyes. Blind, he wandered about in the
+                forest, eating nothing but grass and roots, and doing nothing but weeping and
+                wailing over the loss of his beloved wife.</act>
+            <act type="doing" effect="hostile" agent="prince">Thus he wandered about miserably for
+                some years, finally happening into the wilderness where Rapunzel lived miserably
+                with the twins that she had given birth to.</act></p>
+        <p><act type="doing" effect="ambiguous" agent="prince">He heard a voice and thought it was
+                familiar.</act>
+            <act type="doing" effect="benevolent" agent="prince and Rapunzel">He advanced toward it,
+                and as he approached, Rapunzel recognized him, and crying, threw her arms around his
+                neck. Two of her tears fell into his eyes, and they became clear once again, and he
+                could see as well as before. He led her into his kingdom, where he was received with
+                joy, and for a long time they lived happily and satisfied.</act></p>
     </story>
 </tale>
