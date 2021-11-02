@@ -456,62 +456,122 @@
                 that he could not follow her.</act>
             <act type="doing" effect="ambiguous" agent="prince">The prince, however, had set a trap.
                 He had had the entire stairway smeared with pitch.</act>
-            <act type="doing" effect="ambiguous" agent="daughter">When she ran down the stairs, her
-                left slipper stuck in the pitch. The prince picked it up. It was small and dainty,
-                and of pure gold.</act></p>
-        <p>The next morning, he went with it to the man, and said to him, "No one shall be my wife
-            except for the one whose foot fits this golden shoe."</p>
-        <p>The two sisters were happy to hear this, for they had pretty feet. With her mother
-            standing by, the older one took the shoe into her bedroom to try it on. She could not
-            get her big toe into it, for the shoe was too small for her. Then her mother gave her a
-            knife and said, "Cut off your toe. When you are queen you will no longer have to go on
-            foot."</p>
-        <p>The girl cut off her toe, forced her foot into the shoe, swallowed the pain, and went out
-            to the prince. He took her on his horse as his bride and rode away with her. However,
-            they had to ride past the grave, and there, on the hazel tree, sat the two pigeons,
-            crying out:</p>
-        <p>Rook di goo, rook di goo! There's blood in the shoe. The shoe is too tight, This bride is
-            not right!</p>
-        <p>Then he looked at her foot and saw how the blood was running from it. He turned his horse
-            around and took the false bride home again, saying that she was not the right one, and
-            that the other sister should try on the shoe. She went into her bedroom, and got her
-            toes into the shoe all right, but her heel was too large.</p>
-        <p>Then her mother gave her a knife, and said, "Cut a piece off your heel. When you are
-            queen you will no longer have to go on foot."</p>
-        <p>The girl cut a piece off her heel, forced her foot into the shoe, swallowed the pain, and
-            went out to the prince. He took her on his horse as his bride and rode away with her.
-            When they passed the hazel tree, the two pigeons were sitting in it, and they cried
-            out:</p>
-        <p>Rook di goo, rook di goo! There's blood in the shoe. The shoe is too tight, This bride is
-            not right!</p>
-        <p>He looked down at her foot and saw how the blood was running out of her shoe, and how it
-            had stained her white stocking all red. Then he turned his horse around and took the
-            false bride home again.</p>
-        <p>"This is not the right one, either," he said. "Don't you have another daughter?"</p>
-        <p>"No," said the man. "There is only a deformed little Cinderella from my first wife, but
-            she cannot possibly be the bride."</p>
-        <p>The prince told him to send her to him, but the mother answered, "Oh, no, she is much too
-            dirty. She cannot be seen."</p>
-        <p>But the prince insisted on it, and they had to call Cinderella. She first washed her
-            hands and face clean, and then went and bowed down before the prince, who gave her the
-            golden shoe. She sat down on a stool, pulled her foot out of the heavy wooden shoe, and
-            put it into the slipper, and it fitted her perfectly.</p>
-        <p>When she stood up the prince looked into her face, and he recognized the beautiful girl
-            who had danced with him. He cried out, "She is my true bride."</p>
-        <p>The stepmother and the two sisters were horrified and turned pale with anger. The prince,
-            however, took Cinderella onto his horse and rode away with her. As they passed by the
-            hazel tree, the two white pigeons cried out:</p>
-        <p>Rook di goo, rook di goo! No blood's in the shoe. The shoe's not too tight, This bride is
-            right!</p>
-        <p>After they had cried this out, they both flew down and lit on Cinderella's shoulders, one
-            on the right, the other on the left, and remained sitting there.</p>
-        <p>When the wedding with the prince was to be held, the two false sisters came, wanting to
-            gain favor with Cinderella and to share her good fortune. When the bridal couple walked
-            into the church, the older sister walked on their right side and the younger on their
-            left side, and the pigeons pecked out one eye from each of them. Afterwards, as they
-            came out of the church, the older one was on the left side, and the younger one on the
-            right side, and then the pigeons pecked out the other eye from each of them. And thus,
-            for their wickedness and falsehood, they were punished with blindness as long as they
-            lived.</p>
+            <act type="doing" effect="ambiguous" agent="daughter">When <character
+                    child-status="childless" marital-status="unmarried" reference="daughter"
+                    >she</character> ran down the stairs, <character child-status="childless"
+                    marital-status="unmarried" reference="daughter">her</character> left slipper
+                stuck in the pitch. The prince picked it up. It was small and dainty, and of pure
+                gold.</act></p>
+        <p><act type="doing" effect="ambiguous" agent="prince" io="rich man">The next morning, he
+                went with it to the man,</act>
+            <act agent="prince" type="doing" effect="ambiguous" receiver="rich man">and said to
+                him,</act>
+            <dialogue speaker="prince" stateofbeing="positive">No one shall be my wife except for
+                the one whose foot fits this golden shoe."</dialogue></p>
+        <p><act type="being" effect="benevolent" agent="new sisters">The two sisters were happy to
+                hear this,</act> for they had pretty feet. With her mother standing by, <act
+                type="doing" effect="ambiguous" agent="new sisters">the older one took the shoe into
+                her bedroom to try it on.</act>
+            <act type="doing" effect="ambiguous" agent="a new sister">She could not get her big toe
+                into it,</act>
+            <act type="being" effect="ambiguous" agent="a new sister">for the shoe was too small for
+                her.</act>
+            <act type="doing" effect="hostile" agent="new wife">Then her mother gave her a knife and
+                said,</act>
+            <dialogue speaker="new wife" stateofbeing="negative">"Cut off your toe. When you are
+                queen you will no longer have to go on foot."</dialogue></p>
+        <p><act type="doing" effect="hostile" agent="a new sister">The girl cut off her toe</act>,
+                <act type="doing" effect="hostile" agent="a new sister">forced her foot into the
+                shoe,</act>
+            <act type="doing" effect="hostile" agent="a new sister">swallowed the pain,</act>
+            <act type="doing" effect="ambiguous" agent="a new sister">and went out to the
+                prince.</act>
+            <act type="doing" effect="benevolent" agent="prince" receiver="a new sister">He took her
+                on his horse as his bride and rode away with her</act>. <act type="doing"
+                effect="ambiguous" agent="prince and a new sister">However, they had to ride past
+                the grave, and there, on the hazel tree, sat the two pigeons, crying out:</act></p>
+        <p><dialogue speaker="pigeons" stateofbeing="negative">Rook di goo, rook di goo! There's
+                blood in the shoe. The shoe is too tight, This bride is not right!</dialogue></p>
+        <p><act type="doing" effect="hostile" agent="prince" receiver="a new sister">Then he looked
+                at her foot and saw how the blood was running from it.</act>
+            <act type="doing" effect="ambiguous" agent="prince">He turned his horse around and took
+                the false bride home again, saying that she was not the right one, and that the
+                other sister should try on the shoe.</act>
+            <act type="doing" effect="hostile" agent="a new sister">She went into her bedroom, and
+                got her toes into the shoe all right, but her heel was too large.</act></p>
+        <p><act type="doing" effect="hostile" agent="new wife">Then her mother gave her a knife, and
+                said,</act>
+            <dialogue speaker="new wife" stateofbeing="negative">"Cut a piece off your heel. When
+                you are queen you will no longer have to go on foot."</dialogue></p>
+        <p><act type="doing" effect="hostile" agent="a new sister">The girl cut a piece off her
+                heel,</act>
+            <act type="doing" effect="hostile" agent="a new sister">forced her foot into the
+                shoe,</act>
+            <act type="doing" effect="hostile" agent="a new sister">swallowed the pain,</act>
+            <act type="doing" effect="ambiguous" agent="a new sister" io="prince">and went out to
+                the prince.</act>
+            <act type="doing" effect="ambiguous" agent="prince" receiver="a new sister">He took her
+                on his horse as his bride and rode away with her.</act> When they passed the hazel
+            tree, the two pigeons were sitting in it, and they cried out:</p>
+        <p><dialogue speaker="pigeon" stateofbeing="negative">Rook di goo, rook di goo! There's
+                blood in the shoe. The shoe is too tight, This bride is not right!</dialogue></p>
+        <p><act type="doing" effect="ambiguous" agent="prince" io="a new sister">He looked down at
+                her foot and saw how the blood was running out of her shoe,</act> and how it had
+            stained <character child-status="childless" marital-status="unmarried"
+                reference="a new sister">her</character> white stocking all red. Then he turned his
+            horse around and took the false bride home again.</p>
+        <p>
+            <dialogue speaker="prince" stateofbeing="negative">This is not the right one, either,"
+                he said.</dialogue> "Don't you have another daughter?"</p>
+        <p><dialogue speaker="rich man" stateofbeing="negative"> "No," said the man. "There is only
+                a deformed little <character child-status="childless" marital-status="unmarried"
+                    reference="daughter">Cinderella</character> from my first wife, but she cannot
+                possibly be the bride." </dialogue></p>
+        <p><act type="doing" effect="ambiguous" agent="prince" receiver="rich man">The prince told
+                him to send her to him, but the <character reference="new wife"
+                    marital-status="unmarried" child-status="stepmother">mother</character>
+                answered,</act>
+            <dialogue speaker="new wife" stateofbeing="negative">"Oh, no, <character
+                    child-status="childless" marital-status="unmarried" reference="daughter"
+                    >she</character> is much too dirty. <character reference="daughter"
+                    marital-status="unmarried" child-status="childless">She</character> cannot be
+                seen."</dialogue></p>
+        <p><act type="doing" effect="ambiguous" agent="prince" receiver="they,all" io="Cinderella"
+                >But the prince insisted on it, and they had to call Cinderella.</act>
+            <act type="doing" effect="ambiguous" agent="daughter"><character
+                    child-status="childless" marital-status="unmarried" reference="daughter"
+                    >She</character> first washed her hands and face clean, and then went and bowed
+                down before the prince, who gave her the golden shoe.</act> She sat down on a stool,
+            pulled her foot out of the heavy wooden shoe, and put it into the slipper, and it fitted
+            her perfectly.</p>
+        <p><act type="doing" effect="benevolent" agent="daughter" io="prince">When she stood up the
+                prince looked into her face, and he recognized the beautiful girl who had danced
+                with him.</act> He cried out, <dialogue speaker="prince" stateofbeing="positive"
+                >"She is my true bride."</dialogue></p>
+        <p><act type="doing" effect="hostile" agent="new wife and new sisters">The stepmother and
+                the two sisters were horrified and turned pale with anger.</act>
+            <act type="doing" effect="benevolent" agent="prince" receiver="daughter">The prince,
+                however, took Cinderella onto his horse and rode away with her.</act> As they passed
+            by the hazel tree, the two white pigeons cried out:</p>
+        <p><dialogue speaker="pigeon" stateofbeing="positive">Rook di goo, rook di goo! No blood's
+                in the shoe. The shoe's not too tight, This bride is right!</dialogue></p>
+        <p><act type="doing" effect="benevolent" agent="pigeon" receiver="daughter">After they had
+                cried this out, they both flew down and lit on Cinderella's shoulders, one on the
+                right, the other on the left, and remained sitting there.</act></p>
+        <p><act type="doing" effect="benevolent" agent="new sisters">When the wedding with the
+                prince was to be held, the two false sisters came, wanting to gain favor with
+                Cinderella and to share her good fortune.</act>
+            <act type="doing" effect="benevolent" agent="prince and daughter">When the bridal couple
+                walked into the church,</act>
+            <act type="doing" effect="hostile" agent="new sisters">the older sister walked on their
+                right side and the younger on their left side, and the pigeons pecked out one eye
+                from each of them.</act>
+            <act type="doing" effect="hostile" agent="new sisters">Afterwards, as they came out of
+                the church, the older one was on the left side, and the younger one on the right
+                side, and then the pigeons pecked out the other eye from each of them.</act>
+            <act type="being" effect="hostile" agent="new sisters">And thus, for their wickedness
+                and falsehood,</act>
+            <act type="doing" effect="hostile" agent="new sisters">they were punished with blindness
+                as long as they lived.</act></p>
     </story>
 </tale>
