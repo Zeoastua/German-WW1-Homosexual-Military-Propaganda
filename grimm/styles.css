@@ -1,23 +1,24 @@
-
 body {
     display: block;
     margin: 8px;
-	font-family: Garamond, serif
+	font-family: Garamond, serif;
+	background-image: url(Forest.jpg);
 }
 
 header {
     display: block;
-	padding-top: 15px;
+	padding-top: 2px;
 }
 
 /* top of the page*/
 table {
-  border-collapse: collapse;
   width:100%;
+  text-align: center;
 }
 
 h1 {
 	font-size: 40px;
+	text-align: center;
 }
 
 .image {
@@ -30,7 +31,8 @@ h1 {
 /* navigation links */
 nav {
     overflow: hidden;
-    background-color: #b1b1b1;
+    background-color: #947b50;
+    margin-top: 3px;
 }
 
 nav a {
@@ -66,4 +68,5 @@ main {
     margin-right: auto;
     padding: 20px;
     width: 90%;
+    background-color: #947b50;
 }
