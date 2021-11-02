@@ -297,57 +297,123 @@
                 <dialogue stateofbeing="neutral" speaker="boy"><act type="doing" agent="marlene"
                     receiver="boy" effect="benevolent">Laid them beneath</act></dialogue> Now only
             five, the juniper tree, Now only one, Tweet, tweet, what a beautiful bird am I.</p>
-        <p>Then the last one stopped also, and heard the last words. "Bird," said he, "how
-            beautifully you sing. Let me hear that too. Sing it once more for me." "No," said the
-            bird, "I do not sing twice for nothing. Give me the millstone, and then I will sing it
-            again." "Yes," he said, "if it belonged only to me, you should have it." "Yes," said the
-            others, "if he sings again he can have it." Then the bird came down, and the twenty
+        <p>Then the last one stopped also, and heard the last words. <dialogue speaker="apprentice"
+                stateofbeing="positive">"Bird," said he, "how beautifully you sing. Let me hear that
+                too. Sing it once more for me."</dialogue>
+            <dialogue speaker="boy" stateofbeing="neutral">"No," said the bird, "I do not sing twice
+                for nothing. Give me the millstone, and then I will sing it again."</dialogue>
+            <dialogue speaker="apprentice" stateofbeing="positive">"Yes," he said, "if it belonged
+                only to me, you should have it."</dialogue>
+            <dialogue stateofbeing="positive" speaker="apprentices">"Yes," said the others, "if he
+                sings again he can have it."</dialogue> Then the bird came down, and the twenty
             millers took a beam and lifted the stone up. Yo-heave-ho! Yo-heave-ho! Yo-heave-ho! The
             bird stuck his neck through the hole and put the stone on as if it were a collar, then
-            flew to the tree again, and sang: My mother, she killed me, My father, he ate me, My
-            sister Marlene, Gathered all my bones, Tied them in a silken scarf, Laid them beneath
-            the juniper tree, Tweet, tweet, what a beautiful bird am I.</p>
+            flew to the tree again, and sang: <dialogue speaker="boy" stateofbeing="neutral"><act
+                    type="doing" agent="stepmother" receiver="boy" effect="hostile">My mother, she
+                    killed me,</act></dialogue> My father, he ate me,<dialogue
+                stateofbeing="neutral" speaker="boy">
+                <act type="being" agent="marlene" receiver="boy" effect="benevolent">My sister
+                    Marlene, Gathered all my bones, Tied them in a silken scarf, Laid them beneath
+                    the juniper tree,</act></dialogue> Tweet, tweet, what a beautiful bird am I.</p>
         <p>When he was finished singing, he spread his wings, and in his right claw he had the
             chain, and in his left one the shoes, and around his neck the millstone. He flew far
-            away to his father's house. In the room the father, the mother, and Marlene were sitting
-            at the table. The father said, "I feel so contented. I am so happy." "Not I," said the
-            mother, "I feel uneasy, just as if a bad storm were coming." But Marlene just sat and
-            cried and cried. Then the bird flew up, and as it seated itself on the roof, the father
-            said, "Oh, I feel so truly happy, and the sun is shining so beautifully outside. I feel
-            as if I were about to see some old acquaintance again." "Not I," said the woman, "I am
-            so afraid that my teeth are chattering, and I feel like I have fire in my veins." And
-            she tore open her bodice even more. Marlene sat in a corner crying. She held a
-            handkerchief before her eyes and cried until it was wet clear through.</p>
-        <p> Then the bird seated itself on the juniper tree, and sang: My mother, she killed me, The
-            mother stopped her ears and shut her eyes, not wanting to see or hear, but there was a
-            roaring in her ears like the fiercest storm, and her eyes burned and flashed like
-            lightning. My father, he ate me, "Oh, mother," said the man, "that is a beautiful bird.
-            He is singing so splendidly, and the sun is shining so warmly, and it smells like pure
-            cinnamon." My sister Marlene, Then Marlene laid her head on her knees and cried and
-            cried, but the man said, "I am going out. I must see the bird up close." "Oh, don't go,"
-            said the woman, "I feel as if the whole house were shaking and on fire." But the man
-            went out and looked at the bird. Gathered all my bones, Tied them in a silken scarf,
-            Laid them beneath the juniper tree, Tweet, tweet, what a beautiful bird am I.</p>
+            away to his father's house. In the room the father, <character child-status="mother"
+                marital-status="wife" reference="second_mother">the mother,</character> and
+                <character reference="marlene" marital-status="unmarried" child-status="childless"
+                >Marlene</character> were sitting at the table. The father said, <dialogue
+                speaker="father" stateofbeing="positive">"I feel so contented. I am so
+                happy."</dialogue>
+            <dialogue stateofbeing="negative" speaker="second_mother">"Not I," said <character
+                    child-status="mother" marital-status="wife" reference="stepmother">the
+                    mother,</character> "I feel uneasy, just as if a bad storm were
+                coming."</dialogue> But <act type="doing" agent="marlene" effect="hostile">Marlene
+                just sat and cried and cried.</act> Then the bird flew up, and as it seated itself
+            on the roof, the father said, <dialogue speaker="father" stateofbeing="positive">"Oh, I
+                feel so truly happy, and the sun is shining so beautifully outside. I feel as if I
+                were about to see some old acquaintance again."</dialogue>
+            <dialogue stateofbeing="negative" speaker="stepmother">"Not I," said <character
+                    reference="second_mother" marital-status="wife" child-status="mother">the
+                    woman,</character>"I am so afraid that my teeth are chattering, and I feel like
+                I have fire in my veins."</dialogue> And <act type="doing" agent="stepmother"
+                effect="hostile">she tore open her bodice even more.</act>
+            <act type="doing" agent="marlene" effect="hostile">Marlene sat in a corner crying.</act>
+            <act type="doing" agent="marlene" effect="hostile">She held a handkerchief before her
+                eyes and cried until it was wet clear through.</act></p>
+        <p> Then the bird seated itself on the juniper tree, and sang: <dialogue speaker="boy"
+                stateofbeing="neutral"><act type="doing" agent="stepmother" receiver="boy"
+                    effect="hostile">My mother, she killed me,</act></dialogue>
+            <act type="doing" agent="stepmother" effect="hostile"><character
+                    child-status="stepmother" marital-status="wife" reference="stepmother">The
+                    mother</character> stopped her ears and shut her eyes,</act> not wanting to see
+            or hear, but <act type="being" agent="stepmother" effect="hostile">there was a roaring
+                in her ears like the fiercest storm,</act> and her eyes burned and flashed like
+            lightning. My father, he ate me, <dialogue speaker="father" stateofbeing="positive">"Oh,
+                mother," said the man, "that is a beautiful bird. He is singing so splendidly, and
+                the sun is shining so warmly, and it smells like pure cinnamon."</dialogue>
+            <dialogue speaker="boy" stateofbeing="neutral"><character reference="marlene"
+                    marital-status="unmarried" child-status="childless">My sister
+                    Marlene,</character></dialogue> Then <act type="doing" agent="marlene"
+                effect="hostile">Marlene laid her head on her knees and cried and cried,</act> but
+            the man said, <dialogue speaker="father" stateofbeing="positive">"I am going out. I must
+                see the bird up close."</dialogue>
+            <dialogue speaker="stepmother" stateofbeing="negative">"Oh, don't go," said <character
+                    child-status="stepmother" marital-status="wife" reference="stepmother">the
+                    woman,</character> "I feel as if the whole house were shaking and on
+                fire."</dialogue> But the man went out and looked at the bird. <act type="doing"
+                agent="marlene" receiver="boy" effect="benevolent">Gathered all my bones, Tied them
+                in a silken scarf, Laid them beneath the juniper tree,</act> Tweet, tweet, what a
+            beautiful bird am I.</p>
 
         <p>With this the bird dropped the golden chain, and it fell right around the man's neck, so
-            exactly around it that it fit beautifully. Then the man went in and said, "Just look
-            what a beautiful bird that is, and what a beautiful golden chain he has given me, and
-            how nice it looks." But the woman was terrified. She fell down on the floor in the room,
-            and her cap fell off her head. Then the bird sang once more: My mother killed me. "I
-            wish I were a thousand fathoms beneath the earth, so I would not have to hear that!" My
-            father, he ate me, Then the woman fell down as if she were dead. My sister Marlene,
-            "Oh," said Marlene, "I too will go out and see if the bird will give me something." Then
-            she went out. Gathered all my bones, Tied them in a silken scarf, He threw the shoes
-            down to her. Laid them beneath the juniper tree, Tweet, tweet, what a beautiful bird am
-            I. Then she was contented and happy. She put on the new red shoes and danced and leaped
-            into the house. "Oh," she said, "I was so sad when I went out and now I am so contented.
-            That is a splendid bird, he has given me a pair of red shoes." "No," said the woman,
-            jumping to her feet and with her hair standing up like flames of fire, "I feel as if the
-            world were coming to an end. I too, will go out and see if it makes me feel better." And
-            as she went out the door, crash! the bird threw the millstone on her head, and it
-            crushed her to death. The father and Marlene heard it and went out. Smoke, flames, and
-            fire were rising from the place, and when that was over, the little brother was standing
-            there, and he took his father and Marlene by the hand, and all three were very happy,
-            and they went into the house, sat down at the table, and ate.</p>
+            exactly around it that it fit beautifully. Then the man went in and said, <dialogue
+                speaker="father" stateofbeing="positive">"Just look what a beautiful bird that is,
+                and what a beautiful golden chain he has given me, and how nice it
+                looks."</dialogue> But <act type="being" agent="stepmother" effect="hostile">the
+                woman was terrified.</act>
+            <act type="doing" agent="stepmother" effect="hostile">She fell down on the floor in the
+                room, and her cap fell off her head.</act> Then the bird sang once more: <dialogue
+                speaker="boy" stateofbeing="neutral"><act type="doing" agent="stepmother"
+                    receiver="boy" effect="hostile">My mother killed me.</act></dialogue>
+            <dialogue speaker="stepmother" stateofbeing="negative">"I wish I were a thousand fathoms
+                beneath the earth, so I would not have to hear that!"</dialogue> My father, he ate
+            me, Then <act type="doing" agent="stepmother" effect="hostile">the woman fell down as if
+                she were dead.</act>
+            <dialogue speaker="boy" stateofbeing="neutral">
+                <character reference="marlene" marital-status="unmarried" child-status="childless"
+                    >My sister Marlene,</character></dialogue>
+            <dialogue speaker="marlene" stateofbeing="positive">"Oh," said <character
+                    child-status="childless" marital-status="unmarried" reference="marlene"
+                    >Marlene,</character> "I too will go out and see if the bird will give me
+                something."</dialogue>
+            <act type="doing" agent="marlene" effect="ambiguous">Then she went out.</act>
+            <dialogue speaker="boy" stateofbeing="neutral"><act type="doing" agent="marlene"
+                    receiver="boy" effect="benevolent">Gathered all my bones, Tied them in a silken
+                    scarf,</act></dialogue>
+            <act type="doing" agent="boy" receiver="marlene" effect="benevolent">He threw the shoes
+                down to her.</act>
+            <dialogue speaker="boy" stateofbeing="neutral"><act type="doing" agent="marlene"
+                    receiver="boy" effect="benevolent">Laid them beneath the juniper
+                tree,</act></dialogue> Tweet, tweet, what a beautiful bird am I. Then <act
+                type="being" agent="marlene" effect="benevolent">she was contented and happy.</act>
+            <act type="doing" agent="marlene" effect="benevolent">She put on the new red shoes and
+                danced and leaped into the house.</act>
+            <dialogue speaker="marlene" stateofbeing="positive">"Oh," she said, "I was so sad when I
+                went out and now I am so contented. That is a splendid bird, he has given me a pair
+                of red shoes."</dialogue>
+            <dialogue speaker="stepmother" stateofbeing="negative">"No," said the woman, jumping to
+                her feet and with her hair standing up like flames of fire, "I feel as if the world
+                were coming to an end. I too, will go out and see if it makes me feel
+                better."</dialogue> And as <act type="doing" agent="stepmother" effect="ambiguous"
+                >she went out the door,</act>
+            <act type="doing" agent="boy" receiver="stepmother" effect="hostile">crash! the bird
+                threw the millstone on her head,</act> and it <act type="doing" agent="boy"
+                receiver="stepmother" effect="hostile">crushed her to death.</act> The father and
+                <character reference="marlene" marital-status="unmarried" child-status="childless"
+                >Marlene</character> heard it and went out. Smoke, flames, and fire were rising from
+            the place, and when that was over, <act type="doing" agent="boy" effect="benevolent">the
+                little brother was standing there,</act> and he took his father and <character
+                child-status="childless" marital-status="unmarried" reference="marlene"
+                >Marlene</character> by the hand, and all three were very happy, and they went into
+            the house, sat down at the table, and ate.</p>
     </story>
 </tale>
