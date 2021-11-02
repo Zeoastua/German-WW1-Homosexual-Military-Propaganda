@@ -13,229 +13,521 @@
     </metadata>
     <story>
         <p>Next to a great forest there lived a poor woodcutter with his <character
-                child-status="stepmother" marital-status="wife">wife</character> and his two
-            children. The boy's name was Hansel and the girl's name was Gretel. He had but little to
-            eat, and once, when a great famine came to the land, he could no longer provide even
-            their daily bread.</p>
+                child-status="stepmother" marital-status="wife" reference="evil-stepmother"
+                >wife</character> and his two children. The boy's name was Hansel and the girl's
+            name was Gretel. He had but little to eat, and once, when a great famine came to the
+            land, he could no longer provide even their daily bread.</p>
         <p>One evening as he was lying in bed worrying about his problems, <dialogue
-                speaker="husband, father" stateofbeing="worried"> he sighed and said to his wife,
-                "What is to become of us? How can we feed our children when we have nothing for
-                ourselves?"</dialogue></p>
-        <p><dialogue speaker="wife" stateofbeing="frustrated">"Man, do you know what?" answered the
-                woman. "Early tomorrow morning we will take the two children out into the thickest
-                part of the woods, make a fire for them, and give each of them a little piece of
-                bread, then leave them by themselves and go off to our work. They will not find
-                their way back home, and we will be rid of them."</dialogue></p>
-        <p><dialogue speaker="husband, father" stateofbeing="disgusted">"No, woman," said the man.
-                "I will not do that. How could I bring myself to abandon my own children alone in
-                the woods? Wild animals would soon come and tear them to pieces."</dialogue></p>
-        <p><dialogue speaker="wife" stateofbeing="determined">"Oh, you fool," she said, "then all
-                four of us will starve. All you can do is to plane the boards for our
-                coffins."</dialogue> And she gave him no peace until he agreed.</p>
-        <p><dialogue speaker="husband, father" stateofbeing="sad">"But I do feel sorry for the poor
-                children," said the man.</dialogue></p>
+                speaker="husband, father" stateofbeing="negative"> he sighed and said to his
+                    <character child-status="stepmother" marital-status="wife" reference="wife"
+                    >wife</character>, "What is to become of us? How can we feed our children when
+                we have nothing for ourselves?"</dialogue></p>
+        <p><dialogue speaker="wife" stateofbeing="negative">"Man, do you know what?" answered the
+                    <character child-status="stepmother" marital-status="wife" reference="wife"
+                    >woman</character>. "Early tomorrow morning we will take the two children out
+                into the thickest part of the woods, make a fire for them, and give each of them a
+                little piece of bread, then leave them by themselves and go off to our work. They
+                will not find their way back home, and we will be rid of them."</dialogue></p>
+        <p><dialogue speaker="husband,father" stateofbeing="negative">"No, woman," said the man. "I
+                will not do that. How could I bring myself to abandon my own children alone in the
+                woods? Wild animals would soon come and tear them to pieces."</dialogue></p>
+        <p><dialogue speaker="wife" stateofbeing="negative">"Oh, you fool," <character
+                    marital-status="wife" child-status="stepmother" reference="wife">she</character>
+                said, "then all four of us will starve. All you can do is to plane the boards for
+                our coffins."</dialogue>
+            <act type="doing" effect="hostile" agent="wife" receiver="husband" io="wife">And she
+                gave him no peace until he agreed.</act></p>
+        <p><dialogue speaker="husband, father" stateofbeing="negative">"But I do feel sorry for the
+                poor children," said the man.</dialogue></p>
         <p>
-            <action type="cannot sleep" agent="Hansel and Gretel">The two children had not been able
-                to fall asleep because of their hunger, and they heard what the stepmother had said
-                to the father.</action></p>
-        <p><dialogue speaker="Gretel" stateofbeing="frightened">Gretel cried bitter tears and said
-                to Hansel, "It is over with us!"</dialogue></p>
-        <p><dialogue speaker="Hansel" stateofbeing="determined">"Be quiet, Gretel," said Hansel,
-                "and don't worry. I know what to do."</dialogue></p>
-        <p><action type="snuck out" agent="Hansel">And as soon as the adults had fallen asleep, he
-                got up, pulled on his jacket, opened the lower door, and crept outside. The moon was
-                shining brightly, and the white pebbles in front of the house were glistening like
-                silver coins. Hansel bent over and filled his jacket pockets with them, as many as
-                would fit.</action></p>
-        <p><action type="snuck in" agent="Hansel">Then he went back into the house</action>
-            <dialogue speaker="Hansel" stateofbeing="determined"/>and said, "Don't worry, Gretel.
-            Sleep well. God will not forsake us." Then he went back to bed.</p>
-        <p><action type="woke up" agent="wife, stepmother">At daybreak, even before sunrise, the
-                woman came and woke the two children.</action>
-            <dialogue speaker="wife, spetmother" stateofbeing="demanding">Get up, you lazybones. We
-                are going into the woods to fetch wood."</dialogue>
-            <action type="gave" agent="wife, stepmother">Then she gave each one a little piece of
-                bread,</action>
-            <dialogue speaker="wife, stepmother" stateofbeing="demanding">saying, "Here is something
-                for midday. Don't eat it any sooner, for you'll not get any more."</dialogue></p>
-        <p><action type="hiding" agent="Gretel">Gretel put the bread under her apron</action>,
-            because Hansel's pockets were full of stones. <action type="walking together"
-                agent="all">Then all together they set forth into the woods. After they had walked a
-                little way</action>, Hansel began stopping again and again and looking back toward
-            the house.</p>
-        <p>The father said, "Hansel, why are you stopping and looking back? Pay attention now, and
-            don't forget your legs."</p>
-        <p>"Oh, father," said Hansel, "I am looking at my white cat that is sitting on the roof and
-            wants to say good-bye to me."</p>
-        <p> The woman said, "You fool, that isn't your cat. That's the morning sun shining on the
-            chimney."</p>
-        <p>However, Hansel had not been looking at his cat but instead had been dropping the shiny
-            pebbles from his pocket onto the path.</p>
-        <p>When they arrived in the middle of the woods, the father said, "You children gather some
-            wood, and I will make a fire so you won't freeze."</p>
-        <p>Hansel and Gretel gathered together some twigs, a pile as high as a small mountain</p>
-        <p>The twigs were set afire, and when the flames were burning well, the woman said, "Lie
-            down by the fire and rest. We will go into the woods to cut wood. When we are finished,
-            we will come back and get you."</p>
-        <p>Hansel and Gretel sat by the fire. When midday came each one ate his little piece of
-            bread. Because they could hear the blows of an ax, they thought that the father was
-            nearby. However, it was not an ax. It was a branch that he had tied to a dead tree and
-            that the wind was beating back and forth. After they had sat there a long time, their
-            eyes grew weary and closed, and they fell sound sleep.</p>
-        <p>When they finally awoke, it was dark at night. Gretel began to cry and said, "How will we
-            get out of woods?" Hansel comforted her, "Wait a little until the moon comes up, and
-            then we'll find the way."</p>
-        <p>After the full moon had come up, Hansel took his little sister by the hand. They followed
-            the pebbles that glistened there like newly minted coins, showing them the way. They
-            walked throughout the entire night, and as morning was breaking, they arrived at the
-            father's house.</p>
-        <p>They knocked on the door, and when the woman opened it and saw that it was Hansel and
-            Gretel, she said, "You wicked children, why did you sleep so long in the woods? We
-            thought that you did not want to come back."</p>
-        <p>But the father was overjoyed when he saw his children once more, for he had not wanted to
-            leave them alone.</p>
-        <p>Not long afterward there was once again great need everywhere, and one evening the
-            children heard the mother say to the father, "We have again eaten up everything. We have
-            only a half loaf of bread, and then the song will be over. We must get rid of the
-            children. We will take them deeper into the woods, so they will not find their way out.
-            Otherwise there will be no help for us."</p>
-        <p>The man was very disheartened, and he thought, "It would be better to share the last bit
-            with the children."</p>
-        <p>But the woman would not listen to him, scolded him, and criticized him. He who says A
-            must also say B, and because he had given in the first time, he had to do so the second
-            time as well.</p>
-        <p>The children were still awake and had overheard the conversation. When the adults were
-            asleep, Hansel got up again and wanted to gather pebbles as he had done before, but the
-            woman had locked the door, and Hansel could not get out. But he comforted his little
-            sister and said, "Don't cry, Gretel. Sleep well. God will help us."</p>
-        <p>Early the next morning the woman came and got the children from their beds. They received
-            their little pieces of bread, even less than the last time. On the way to the woods,
-            Hansel crumbled his piece in his pocket, then often stood still, and threw crumbs onto
-            the ground.</p>
-        <p>"Hansel, why are you always stopping and looking around?" said his father. "Keep walking
-            straight ahead."</p>
-        <p>"I can see my pigeon sitting on the roof. It wants to say good-bye to me."</p>
-        <p>"Fool," said the woman, "that isn't your pigeon. That's the morning sun shining on the
-            chimney."</p>
-        <p>But little by little Hansel dropped all the crumbs onto the path. The woman took them
-            deeper into the woods than they had ever been in their whole lifetime.</p>
-        <p>Once again a large fire was made, and the mother said, "Sit here, children. If you get
-            tired you can sleep a little. We are going into the woods to cut wood. We will come and
-            get you in the evening when we are finished."</p>
-        <p>When it was midday Gretel shared her bread with Hansel, who had scattered his piece along
-            the path. Then they fell asleep, and evening passed, but no one came to get the poor
-            children.</p>
-        <p>It was dark at night when they awoke, and Hansel comforted Gretel and said, "Wait, when
-            the moon comes up I will be able to see the crumbs of bread that I scattered, and they
-            will show us the way back home."</p>
-        <p>When the moon appeared they got up, but they could not find any crumbs, for the many
-            thousands of birds that fly about in the woods and in the fields had pecked them up.</p>
-        <p>Hansel said to Gretel, "We will find our way," but they did not find it.</p>
-        <p>They walked through the entire night and the next day from morning until evening, but
-            they did not find their way out of the woods. They were terribly hungry, for they had
-            eaten only a few small berries that were growing on the ground. And because they were so
-            tired that their legs would no longer carry them, they lay down under a tree and fell
-            asleep. It was already the third morning since they had left the father's house. They
-            started walking again, but managed only to go deeper and deeper into the woods. If help
-            did not come soon, they would perish. At midday they saw a little snow-white bird
-            sitting on a branch. It sang so beautifully that they stopped to listen. When it was
-            finished it stretched its wings and flew in front of them. They followed it until they
-            came to a little house. The bird sat on the roof, and when they came closer, they saw
-            that the little house was built entirely from bread with a roof made of cake, and the
-            windows were made of clear sugar.</p>
-        <p>"Let's help ourselves to a good meal," said Hansel. "I'll eat a piece of the roof, and
-            Gretel, you eat from the window. That will be sweet."</p>
-        <p>Hansel reached up and broke off a little of the roof to see how it tasted, while Gretel
-            stood next to the windowpanes and was nibbling at them. Then a gentle voice called out
-            from inside:</p>
-        <p>Nibble, nibble, little mouse, Who is nibbling at my house?</p>
-        <p>The children answered:</p>
-        <p>The wind, the wind, The heavenly child.</p>
-        <p>They continued to eat, without being distracted. Hansel, who very much like the taste of
-            the roof, tore down another large piece, and Gretel poked out an entire round
-            windowpane. Suddenly the door opened, and a woman, as old as the hills and leaning on a
-            crutch, came creeping out. Hansel and Gretel were so frightened that they dropped what
-            they were holding in their hands.</p>
-        <p>But the old woman shook her head and said, "Oh, you dear children, who brought you here?
-            Just come in and stay with me. No harm will come to you."</p>
-        <p>She took them by the hand and led them into her house. Then she served them a good meal:
-            milk and pancakes with sugar, apples, and nuts. Afterward she made two nice beds for
-            them, decked in white. Hansel and Gretel went to bed, thinking they were in heaven. But
-            the old woman had only pretended to be friendly. She was a wicked witch who was lying in
-            wait there for children. She had built her house of bread only in order to lure them to
-            her, and if she captured one, she would kill him, cook him, and eat him; and for her
-            that was a day to celebrate.</p>
+            <act type="doing" effect="hostile" agent="Hansel and Gretel">The two children had not
+                been able to fall asleep because of their hunger</act>, <act type="doing"
+                effect="ambiguous" agent="stepmother" receiver="children" io="father">and they heard
+                what the stepmother had said to the father.</act></p>
+        <p><act type="doing" effect="hostile" agent="Gretel" receiver="Hansel"><character
+                    child-status="childless" marital-status="unmarried" reference="girl"
+                    >Gretel</character> cried bitter tears and said to Hansel</act><dialogue
+                speaker="Gretel" stateofbeing="negative">, "It is over with us!"</dialogue></p>
+        <p><dialogue speaker="Hansel" stateofbeing="positive">"Be quiet, <character
+                    child-status="childless" marital-status="unmarried" reference="girl"
+                    >Gretel</character>," said Hansel, "and don't worry. I know what to
+                do."</dialogue></p>
+        <p><act type="doing" effect="ambiguous" agent="parents"/>And as soon as the adults had
+            fallen asleep,<act type="doing" effect="benevolent" agent="Hansel"> he got up,</act>
+            <act type="doing" effect="benevolent" agent="Hansel">pulled on his jacket,</act>
+            <act type="doing" effect="benevolent" agent="Hansel"> opened the lower door,</act>
+            <act type="doing" effect="benevolent" agent="Hansel">and crept outside.</act>
+            <act type="being" effect="ambiguous" agent="Moon">The moon was shining
+                brightly,</act><act type="being" effect="ambiguous" agent="pepples">and the white
+                pebbles in front of the house were glistening like silver coins.</act><act
+                type="doing" effect="ambiguous" agent="Hansel"/>
+            <act type="doing" effect="ambiguous" agent="Hansel">Hansel bent over and filled his
+                jacket pockets with them, as many as would fit</act></p>
+        <p><act type="doing" effect="ambiguous" agent="Hansel">Then he went back into the
+                house</act>
+            <dialogue speaker="Hansel" stateofbeing="positive"/>and said, "Don't worry, <character
+                marital-status="unmarried" child-status="childless" reference="girl"
+                >Gretel</character>. Sleep well. God will not forsake us." Then he went back to
+            bed.</p>
+        <p><act type="doing" effect="ambiguous" agent="wife, stepmother" receiver="children">At
+                daybreak, even before sunrise, the <character marital-status="wife"
+                    child-status="stepmother" reference="wife">woman</character> came and woke the
+                two children.</act>
+            <dialogue speaker="wife" stateofbeing="negative">Get up, you lazybones. We are going
+                into the woods to fetch wood."</dialogue>
+            <act type="doing" effect="ambiguous" agent="wife">Then she gave each one a little piece
+                of bread,</act>
+            <dialogue speaker="wife" stateofbeing="neutral">saying, "Here is something for midday.
+                Don't eat it any sooner, for you'll not get any more."</dialogue></p>
+        <p><act type="doing" effect="benevolent" agent="Gretel"><character reference="girl"
+                    child-status="childless" marital-status="unmarried">Gretel</character> put the
+                bread under her apron</act>, because <act type="doing" effect="ambiguous"
+                agent="Hansel"/>Hansel's pockets were full of stones. <act type="doing"
+                effect="ambiguous" agent="Hansel and Gretel">Then all together they set forth into
+                the woods.</act>
+            <act type="doing" effect="ambiguous" agent="Hansel and Gretel">After they had walked a
+                little way</act>,<act type="doing" effect="ambiguous" agent="Hansel"> Hansel began
+                stopping again and again and looking back toward the house.</act></p>
+        <p><dialogue speaker="husband" stateofbeing="negative">The father said, "Hansel, why are you
+                stopping and looking back? Pay attention now, and don't forget your
+                legs."</dialogue></p>
+        <p><dialogue speaker="Hansel" stateofbeing="neutral">"Oh, father," said Hansel, "I am
+                looking at my white cat that is sitting on the roof and wants to say good-bye to
+                me."</dialogue></p>
+        <p>
+            <dialogue speaker="wife" stateofbeing="negative">The <character
+                    child-status="stepmother" marital-status="wife" reference="wife"
+                    >woman</character> said, "You fool, that isn't your cat. That's the morning sun
+                shining on the chimney."</dialogue></p>
+        <p><act type="doing" effect="benevolent" agent="Hansel">However, Hansel had not been looking
+                at his cat but instead had been dropping the shiny pebbles from his pocket onto the
+                path.</act></p>
+        <p><act type="doing" effect="ambiguous" agent="all">When they arrived in the middle of the
+                woods</act>, <dialogue speaker="husband" stateofbeing="neutral">the father said,
+                "You children gather some wood, and I will make a fire so you won't
+                freeze."</dialogue></p>
+        <p><act type="doing" effect="ambiguous" agent="Hansel and Gretel">Hansel and <character
+                    child-status="childless" marital-status="unmarried" reference="girl"
+                    >Gretel</character> gathered together some twigs, a pile as high as a small
+                mountain</act></p>
+        <p><act type="doing" effect="ambiguous" agent="fire">The twigs were set afire, and when the
+                flames were burning well,</act>
+            <dialogue speaker="wife" stateofbeing="neutral">the <character child-status="stepmother"
+                    marital-status="wife" reference="wife">woman</character> said, "Lie down by the
+                fire and rest. We will go into the woods to cut wood. When we are finished, we will
+                come back and get you."</dialogue></p>
+        <p><act type="doing" effect="ambiguous" agent="Hansel and Gretel">Hansel and <character
+                    marital-status="unmarried" child-status="childless" reference="girl"
+                    >Gretel</character> sat by the fire.</act>
+            <act type="doing" effect="ambiguous" agent="Hansel and Gretel">When midday came each one
+                ate his little piece of bread.</act>
+            <act type="doing" effect="ambiguous" agent="Hansel and Gretel">Because they could hear
+                the blows of an ax, they thought that the father was nearby.</act> However, it was
+            not an ax. <act type="doing" effect="hostile" agent="branch">It was a branch that he had
+                tied to a dead tree and that the wind was beating back and forth.</act>
+            <act type="doing" effect="ambiguous" agent="Hansel and Gretel">After they had sat there
+                a long time,</act>
+            <act type="doing" effect="hostile" agent="Hansel and Gretel">their eyes grew weary and
+                closed, and they fell sound sleep.</act></p>
+        <p><act type="doing" effect="ambiguous" agent="Hansel and Gretel">When they finally
+                awoke</act>, it was dark at night. <act type="doing" effect="hostile" agent="Gretel"
+                    ><character child-status="childless" marital-status="unmarried" reference="girl"
+                    >Gretel</character> began to cry</act>
+            <dialogue speaker="Gretel" stateofbeing="negative">and said, "How will we get out of
+                woods?"</dialogue>
+            <act type="doing" effect="benevolent" agent="Hansel" receiver="Gretel">Hansel comforted
+                her</act>,<dialogue speaker="Hansel" stateofbeing="positive">"Wait a little until
+                the moon comes up, and then we'll find the way."</dialogue>
+        </p>
+        <p><act type="doing" effect="ambiguous" agent="moon">After the full moon had come up,</act>
+            <act type="doing" effect="benevolent" agent="Hansel" receiver="Gretel">Hansel took his
+                little <character child-status="childless" marital-status="unmarried"
+                    reference="girl">sister</character> by the hand.</act>
+            <act type="doing" effect="benevolent" agent="Hansel and Gretel">They followed the
+                pebbles that glistened there like newly minted coins, showing them the way.</act>
+            <act type="doing" effect="benevolent" agent="Hansel and Gretel">They walked throughout
+                the entire night, and as morning was breaking, they arrived at the father's
+                house.</act></p>
+        <p><act type="doing" effect="ambiguous" agent="Hansel and Gretel">They knocked on the
+                door,</act>
+            <act type="doing" effect="hostile" agent="wife" receiver="Hansel and Gretel">and when
+                the woman opened it and saw that it was Hansel and <character
+                    child-status="childless" marital-status="unmarried" reference="girl"
+                    >Gretel</character></act>, <dialogue speaker="wife" stateofbeing="negative"
+                    ><character child-status="stepmother" marital-status="wife" reference="wife"
+                    >she</character> said, "You wicked children, why did you sleep so long in the
+                woods? We thought that you did not want to come back."</dialogue></p>
+        <p><act type="being" effect="benevolent" agent="Husband">But the father was overjoyed when
+                he saw his children once more,</act>
+            <act type="doing" effect="ambiguous" agent="husabnd" receiver="Hansel and Gretel">for he
+                had not wanted to leave them alone.</act></p>
+        <p>Not long afterward there was once again great need everywhere, <act type="doing"
+                effect="hostile" agent="wife" receiver="husband" io="Hansel and Gretel">and one
+                evening the children heard the <character child-status="stepmother"
+                    marital-status="wife" reference="wife">mother</character> say to the
+                father</act>,<dialogue speaker="wife" stateofbeing="negative"> "We have again eaten
+                up everything. We have only a half loaf of bread, and then the song will be over. We
+                must get rid of the children. We will take them deeper into the woods, so they will
+                not find their way out. Otherwise there will be no help for us."</dialogue></p>
+        <p><act type="being" effect="hostile" agent="husband">The man was very
+                disheartened</act>,<dialogue speaker="husband" stateofbeing="positive">and he
+                thought, "It would be better to share the last bit with the children."</dialogue>
+        </p>
+        <p><act type="doing" effect="hostile" agent="wife" receiver="husband">But the woman would
+                not listen to him</act>, <act type="doing" effect="hostile" agent="wife"
+                receiver="husband">scolded him,</act>
+            <act type="doing" effect="hostile" agent="wife" receiver="husband">and criticized
+                him.</act>
+            <act type="doing" effect="hostile" agent="husband">He who says A must also say B,</act>
+            <act type="doing" effect="hostile" agent="husband" receiver="Hansel and Gretel">and
+                because he had given in the first time, he had to do so the second time as
+                well.</act></p>
+        <p><act type="doing" effect="ambiguous" agent="Hansel and Gretel">The children were still
+                awake and had overheard the conversation.</act>
+            <act type="doing" effect="ambiguous" agent="Hansel">When the adults were asleep, Hansel
+                got up again and wanted to gather pebbles as he had done before,</act>
+            <act type="doing" effect="hostile" agent="wife" receiver="Hansel">but the woman had
+                locked the door, and Hansel could not get out.</act>
+            <act type="doing" effect="benevolent" agent="Hansel">But he comforted his little
+                    <character reference="girl" child-status="childless" marital-status="unmarried"
+                    >sister</character></act>
+            <dialogue speaker="Hansel" stateofbeing="positive">and said, "Don't cry, <character
+                    child-status="childless" marital-status="unmarried" reference="girl"
+                    >Gretel</character>. Sleep well. God will help us."</dialogue></p>
+        <p>Early the next morning <act type="doing" effect="ambiguous" agent="woman"
+                receiver="Hansel and Gretel">the <character child-status="stepmother"
+                    marital-status="wife" reference="wife">woman</character> came and got the
+                children from their beds.</act>
+            <act type="doing" effect="hostile" agent="Hansel and Gretel" io="wife">They received
+                their little pieces of bread, even less than the last time.</act>
+            <act type="doing" effect="ambiguous" agent="Hansel">On the way to the woods, Hansel
+                crumbled his piece in his pocket, then often stood still, and threw crumbs onto the
+                ground.</act></p>
+        <p><dialogue speaker="husband" stateofbeing="negative">"Hansel, why are you always stopping
+                and looking around?" said his father. "Keep walking straight ahead."</dialogue></p>
+        <p><dialogue speaker="Hansel" stateofbeing="neutral">"I can see my pigeon sitting on the
+                roof. It wants to say good-bye to me."</dialogue></p>
+        <p><dialogue speaker="wife" stateofbeing="negative">"Fool," said the <character
+                    child-status="stepmother" marital-status="wife" reference="wife"
+                    >woman</character>, "that isn't your pigeon. That's the morning sun shining on
+                the chimney."</dialogue></p>
+        <p><act type="doing" effect="benevolent" agent="Hansel">But little by little Hansel dropped
+                all the crumbs onto the path.</act>
+            <act type="doing" effect="hostile" agent="wife" receiver="Hansel and Gretal">The
+                    <character child-status="stepmother" marital-status="wife" reference="wife"
+                    >woman</character> took them deeper into the woods than they had ever been in
+                their whole lifetime.</act></p>
+        <p><act type="doing" effect="ambiguous" agent="N/A">Once again a large fire was made</act>,
+                <dialogue speaker="wife" stateofbeing="negative">and the <character
+                    child-status="stepmother" marital-status="wife" reference="wife"
+                    >mother</character> said, "Sit here, children. If you get tired you can sleep a
+                little. We are going into the woods to cut wood. We will come and get you in the
+                evening when we are finished."</dialogue></p>
+        <p><act type="doing" effect="benevolent" agent="Gretel" receiver="Hansel">When it was midday
+                    <character child-status="childless" marital-status="unmarried" reference="girl"
+                    >Gretel</character> shared her bread with Hansel</act>, <act type="doing"
+                effect="benevolent" agent="Hansel">who had scattered his piece along the path.</act>
+            <act type="doing" effect="hostile" agent="Hansel and Gretel" io="husband and wife">Then
+                they fell asleep, and evening passed, but no one came to get the poor
+                children.</act></p>
+        <p><act type="doing" effect="hostile" agent="Hansel and Gretel">It was dark at night when
+                they awoke</act>, <act type="doing" effect="benevolent" agent="Hansel"
+                receiver="Gretel">and Hansel comforted <character marital-status="unmarried"
+                    child-status="childless" reference="girl">Gretel</character></act><dialogue
+                speaker="Hansel" stateofbeing="positive">and said, "Wait, when the moon comes up I
+                will be able to see the crumbs of bread that I scattered, and they will show us the
+                way back home."</dialogue>
+        </p>
+        <p><act type="doing" effect="ambiguous" agent="Hansel and Gretel">When the moon appeared
+                they got up</act>, <act type="doing" effect="hostile" agent="Hansel and Gretel">but
+                they could not find any crumbs,</act>
+            <act type="doing" effect="hostile" agent="birds" io="Hansel and Gretel">for the many
+                thousands of birds that fly about in the woods and in the fields had pecked them
+                up.</act></p>
+        <p><dialogue speaker="Hansel" stateofbeing="positive">Hansel said to <character
+                    child-status="childless" marital-status="unmarried" reference="girl"
+                    >Gretel</character>, "We will find our way,"</dialogue>
+            <act type="doing" effect="hostile" agent="Hansel and Gretel">but they did not find
+                it.</act></p>
+        <p><act type="doing" effect="hostile" agent="Hansel and Gretel">They walked through the
+                entire night and the next day from morning until evening, but they did not find
+                their way out of the woods.</act>
+            <act type="being" effect="hostile" agent="Hansel and Gretel">They were terribly
+                hungry,</act>
+            <act type="doing" effect="hostile" agent="Hansel and Gretel">for they had eaten only a
+                few small berries that were growing on the ground.</act>
+            <act type="being" effect="hostile" agent="Hansel and Gretel">And because they were so
+                tired that their legs would no longer carry them</act>, <act type="doing"
+                effect="hostile" agent="Hansel and gretel">they lay down under a tree and fell
+                asleep.</act> It was already the third morning since they had left the father's
+            house. <act type="doing" effect="hostile" agent="Hansel and Gretel">They started walking
+                again, but managed only to go deeper and deeper into the woods.</act>
+            <act type="being" effect="hostile" agent="Hansel and Gretel">If help did not come soon,
+                they would perish.</act>
+            <act type="doing" effect="ambiguous" agent="bird">At midday they saw a little snow-white
+                bird sitting on a branch. It sang so beautifully that they stopped to listen. When
+                it was finished it stretched its wings and flew in front of them. They followed it
+                until they came to a little house. The bird sat on the roof, and when they came
+                closer, they saw that the little house was built entirely from bread with a roof
+                made of cake, and the windows were made of clear sugar.</act></p>
+        <p><dialogue speaker="Hansel" stateofbeing="positive">"Let's help ourselves to a good meal,"
+                said Hansel. "I'll eat a piece of the roof, and <character reference="girl"
+                    child-status="childless" marital-status="unmarried">Gretel</character>, you eat
+                from the window. That will be sweet."</dialogue></p>
+        <p><act type="doing" effect="ambiguous" agent="Hansel">Hansel reached up and broke off a
+                little of the roof to see how it tasted,</act><act type="doing" effect="ambiguous"
+                agent="Gretel">while <character marital-status="unmarried" child-status="childless"
+                    reference="girl">Gretel</character> stood next to the windowpanes and was
+                nibbling at them.</act>
+            <act type="doing" effect="ambiguous" agent="evil woman">Then a gentle voice called out
+                from inside: </act></p>
+        <p><dialogue speaker="evil woman" stateofbeing="neutral">Nibble, nibble, little mouse, Who
+                is nibbling at my house?</dialogue></p>
+        <p><act type="doing" effect="ambiguous" agent="Hansel and Gretel">The children
+                answered:</act></p>
+        <p><dialogue speaker="Hansel and Gretel" stateofbeing="neutral">The wind, the wind, The
+                heavenly child.</dialogue></p>
+        <p><act type="doing" effect="ambiguous" agent="Hansel and Gretel">They continued to eat,
+                without being distracted.</act>
+            <act type="doing" effect="benevolent" agent="Hansel">Hansel, who very much like the
+                taste of the roof, tore down another large piece,</act>
+            <act type="doing" effect="benevolent" agent="Gretel">and <character reference="girl"
+                    child-status="childless" marital-status="unmarried">Gretel</character> poked out
+                an entire round windowpane.</act>
+            <act type="doing" effect="ambiguous" agent="evil woman">Suddenly the door opened, and a
+                    <character child-status="childless" marital-status="unmarried"
+                    reference="evil woman">woman</character>, as old as the hills and leaning on a
+                crutch, came creeping out.</act>
+            <act type="being" effect="hostile" agent="Hansel and Gretel">Hansel and <character
+                    child-status="childless" marital-status="unmarried" reference="girl"
+                    >Gretel</character> were so frightened</act>
+            <act type="doing" effect="hostile" agent="Hansel and Gretel"> that they dropped what
+                they were holding in their hands.</act></p>
+        <p><act type="doing" effect="ambiguous" agent="evil woman">But the <character
+                    child-status="childless" marital-status="unmarried" reference="evil woman">old
+                    woman</character> shook <character child-status="childless"
+                    marital-status="unmarried" reference="evil woman">her</character> head and
+                said</act>,<dialogue speaker="evil woman" stateofbeing="positive">"Oh, you dear
+                children, who brought you here? Just come in and stay with me. No harm will come to
+                you."</dialogue>
+        </p>
+        <p><act type="doing" effect="ambiguous" agent="evil woman" receiver="Hansel and Gretel">She
+                took them by the hand and led them into <character child-status="childless"
+                    marital-status="unmarried" reference="evil woman">her</character>
+                house.</act><act type="doing" effect="benevolent" agent="evil woman"
+                receiver="Hansel and Gretel">Then <character child-status="childless"
+                    marital-status="unmarried" reference="evil woman">she</character> served them a
+                good meal: milk and pancakes with sugar, apples, and nuts.</act>
+            <act type="doing" effect="benevolent" agent="evil woman" receiver="Hansel and Gretel"
+                >Afterward <character child-status="childless" marital-status="unmarried"
+                    reference="evil woman">she</character> made two nice beds for them, decked in
+                white.</act>
+            <act type="doing" effect="benevolent" agent="Hansel and Gretel">Hansel and <character
+                    child-status="childless" marital-status="unmarried" reference="girl"
+                    >Gretel</character> went to bed, thinking they were in heaven.</act>
+            <act type="doing" effect="hostile" agent="evil woman">But the <character
+                    child-status="childless" marital-status="unmarried" reference="evil woman">old
+                    woman</character> had only pretended to be friendly.</act>
+            <act type="being" effect="hostile" agent="evil woman"><character
+                    child-status="childless" marital-status="unmarried" reference="evil woman"
+                    >She</character> was a wicked witch</act>
+            <act type="doing" effect="hostile" agent="evil woman">who was lying in wait there for
+                children.</act>
+            <act type="doing" effect="hostile" agent="evil woman"><character
+                    child-status="childless" marital-status="unmarried" reference="evil woman"
+                    >She</character> had built <character child-status="childless"
+                    marital-status="unmarried" reference="evil woman">her</character> house of bread
+                only in order to lure them to <character child-status="childless"
+                    marital-status="unmarried" reference="evil woman">her</character>,</act>
+            <act type="doing" effect="hostile" agent="evil woman" receiver="Hansel and Gretel">and
+                if <character child-status="childless" marital-status="unmarried"
+                    reference="evil woman">she</character> captured one, <character
+                    child-status="childless" marital-status="unmarried" reference="evil woman"
+                    >she</character> would kill him, cook him, and eat him; and for her that was a
+                day to celebrate.</act></p>
         <p>Witches have red eyes and cannot see very far, but they have a sense of smell like
             animals, and know when humans are approaching.</p>
-        <p>When Hansel and Gretel came near to her, she laughed wickedly and spoke scornfully, "Now
-            I have them. They will not get away from me again."</p>
-        <p>Early the next morning, before they awoke, she got up, went to their beds, and looked at
-            the two of them lying there so peacefully, with their full red cheeks. "They will be a
-            good mouthful," she mumbled to herself. Then she grabbed Hansel with her withered hand
-            and carried him to a little stall, where she locked him behind a cage door. Cry as he
-            might, there was no help for him.</p>
-        <p>Then she shook Gretel and cried, "Get up, lazybones! Fetch water and cook something good
-            for your brother. He is locked outside in the stall and is to be fattened up. When he is
-            fat I am going to eat him."</p>
-        <p>Gretel began to cry, but it was all for nothing. She had to do what the witch demanded.
-            Now Hansel was given the best things to eat every day, but Gretel received nothing but
-            crayfish shells.</p>
-        <p>Every morning the old woman crept out to the stall and shouted, "Hansel, stick out your
-            finger, so I can feel if you are fat yet."</p>
-        <p>But Hansel stuck out a little bone, and the old woman, who had bad eyes and could not see
-            the bone, thought it was Hansel's finger, and she wondered why he didn't get fat.</p>
-        <p>When four weeks had passed and Hansel was still thin, impatience overcame her, and she
-            would wait no longer. "Hey, Gretel!" she shouted to the girl, "Hurry up and fetch some
-            water. Whether Hansel is fat or thin, tomorrow I am going to slaughter him and boil
-            him."</p>
-        <p>Oh, how the poor little sister sobbed as she was forced to carry the water, and how the
-            tears streamed down her cheeks! "Dear God, please help us," she cried. "If only the wild
-            animals had devoured us in the woods, then we would have died together."</p>
-        <p>"Save your slobbering," said the old woman. "It doesn't help you at all."</p>
-        <p>The next morning Gretel had to get up early, hang up the kettle with water, and make a
-            fire.</p>
-        <p>"First we are going to bake," said the old woman. "I have already made a fire in the oven
-            and kneaded the dough."</p>
-        <p>She pushed poor Gretel outside to the oven, from which fiery flames were leaping. "Climb
-            in," said the witch, "and see if it is hot enough to put the bread in yet." And when
-            Gretel was inside, she intended to close the oven, and bake her, and eat her as
-            well.</p>
-        <p>But Gretel saw what she had in mind, so she said, "I don't know how to do that. How can I
-            get inside?"</p>
-        <p>"Stupid goose," said the old woman. The opening is big enough. See, I myself could get
-            in." And she crawled up stuck her head into the oven.</p>
-        <p>Then Gretel gave her a shove, causing her to fall in. Then she closed the iron door and
-            secured it with a bar. The old woman began to howl frightfully. But Gretel ran away, and
-            the godless witch burned up miserably. Gretel ran straight to Hansel, unlocked his
-            stall, and cried, "Hansel, we are saved. The old witch is dead."</p>
-        <p>Then Hansel jumped out, like a bird from its cage when someone opens its door. How happy
-            they were! They threw their arms around each other's necks, jumped with joy, and kissed
-            one another. Because they now had nothing to fear, they went into the witch's house. In
-            every corner were chests of pearls and precious stones.</p>
-        <p>"These are better than pebbles," said Hansel, filling his pockets.</p>
-        <p>Gretel said, "I will take some home with me as well," and she filled her apron full.</p>
-        <p>"But now we must leave," said Hansel, "and get out of these witch-woods."</p>
-        <p>After walking a few hours they arrived at a large body of water. "We cannot get across,"
-            said Hansel. "I cannot see a walkway or a bridge."</p>
-        <p>"There are no boats here," answered Gretel, "but there is a white duck swimming. If I ask
-            it, it will help us across."</p>
-        <p>Then she called out:</p>
-        <p>Duckling, duckling, Here stand Gretel and Hansel. Neither a walkway nor a bridge, Take us
-            onto your white back.</p>
-        <p>The duckling came up to them, and Hansel climbed onto it, then asked his little sister to
-            sit down next to him.</p>
-        <p>"No," answered Gretel. "That would be too heavy for the duckling. It should take us
-            across one at a time."</p>
-        <p>That is what the good animal did, and when they were safely on the other side, and had
-            walked on a little while, the woods grew more and more familiar to them, and finally
-            they saw the father's house in the distance. They began to run, rushed inside, and threw
-            their arms around the father's neck.</p>
-        <p>The man had not had even one happy hour since he had left the children in the woods.
-            However, the woman had died. Gretel shook out her apron, scattering pearls and precious
-            stones around the room, and Hansel added to them by throwing one handful after the other
-            from his pockets.</p>
-        <p>Now all their cares were at an end, and they lived happily together.</p>
-        <p>My tale is done, A mouse has run.</p>
-        <p>And whoever catches it can make for himself from it a large, large fur cap.</p>
+        <p><act type="doing" effect="hostile" agent="evil woman" io="Hansel and Gretel">When Hansel
+                and Gretel came near to her, she laughed wickedly and spoke scornfully,</act>
+            <dialogue speaker="evil woman" stateofbeing="negative">"Now I have them. They will not
+                get away from me again."</dialogue></p>
+        <p><act type="doing" effect="ambiguous" agent="evil woman" receiver="Hansel and Gretel"
+                >Early the next morning, before they awoke, she got up, went to their beds, and
+                looked at the two of them lying there so peacefully, with their full red
+                cheeks.</act>
+            <dialogue speaker="evil woman" stateofbeing="negative">"They will be a good mouthful,"
+                    <character marital-status="unmarried" child-status="childless"
+                    reference="evil woman">she</character> mumbled to herself.</dialogue>
+            <act type="doing" effect="hostile" agent="evil woman" receiver="Hansel">Then <character
+                    child-status="childless" marital-status="unmarried" reference="evil woman"
+                    >she</character> grabbed Hansel with <character child-status="childless"
+                    marital-status="unmarried" reference="evil woman">her</character> withered hand
+                and carried him to a little stall, where <character child-status="childless"
+                    marital-status="unmarried" reference="evil woman">she</character> locked him
+                behind a cage door.</act>
+            <act type="doing" effect="hostile" agent="Hansel">Cry as he might, there was no help for
+                him.</act></p>
+        <p><act type="doing" effect="hostile" agent="evil woman" receiver="Gretel">Then <character
+                    child-status="childless" marital-status="unmarried" reference="evil woman"
+                    >she</character> shook <character reference="girl" child-status="childless"
+                    marital-status="unmarried">Gretel</character> and cried</act><dialogue
+                speaker="evil woman" stateofbeing="negative">, "Get up, lazybones! Fetch water and
+                cook something good for your brother. He is locked outside in the stall and is to be
+                fattened up. When he is fat I am going to eat him."</dialogue></p>
+        <p><act type="doing" effect="hostile" agent="Gretel"><character child-status="childless"
+                    marital-status="unmarried" reference="girl">Gretel</character> began to cry, but
+                it was all for nothing. <character child-status="childless"
+                    marital-status="unmarried" reference="girl">She</character> had to do what the
+                    <character child-status="childless" marital-status="unmarried"
+                    reference="evil woman">witch</character> demanded. Now Hansel was given the best
+                things to eat every day, but <character child-status="childless"
+                    marital-status="unmarried" reference="girl">Gretel</character> received nothing
+                but crayfish shells.</act></p>
+        <p><act type="doing" effect="hostile" agent="evil woman">>Every morning the <character
+                    child-status="childless" marital-status="unmarried" reference="evil woman">old
+                    woman</character> crept out to the stall and shouted</act>, <dialogue
+                speaker="evil woman" stateofbeing="negative">"Hansel, stick out your finger, so I
+                can feel if you are fat yet."</dialogue></p>
+        <p><act type="doing" effect="ambiguous" agent="Hansel">But Hansel stuck out a little bone,
+                and the <character child-status="childless" marital-status="unmarried"
+                    reference="evil woman">old woman</character>, who had bad eyes and could not see
+                the bone, thought it was Hansel's finger, and <character child-status="childless"
+                    marital-status="unmarried" reference="evil woman">she</character> wondered why
+                he didn't get fat.</act></p>
+        <p><act type="doing" effect="hostile" agent="evil woman" io="Hansel">When four weeks had
+                passed and Hansel was still thin, impatience overcame <character
+                    child-status="childless" marital-status="unmarried" reference="evil woman"
+                    >her</character>, and <character child-status="childless"
+                    marital-status="unmarried" reference="evil woman">she</character> would wait no
+                longer.</act>
+            <dialogue speaker="evil woman" stateofbeing="negative">"Hey, <character
+                    child-status="childless" marital-status="unmarried" reference="girl"
+                    >Gretel</character>!" <character child-status="childless"
+                    marital-status="unmarried" reference="evil woman">she</character> shouted to the
+                    <character child-status="childless" marital-status="unmarried" reference="girl"
+                    >girl</character>, "Hurry up and fetch some water. Whether Hansel is fat or
+                thin, tomorrow I am going to slaughter him and boil him."</dialogue></p>
+        <p><act type="doing" effect="hostile" agent="Gretel">Oh, how the poor little sister sobbed
+                as she was forced to carry the water, and how the tears streamed down her
+                cheeks!</act>
+            <dialogue speaker="Gretel" stateofbeing="positive">"Dear God, please help
+                us,"</dialogue><act type="doing" effect="hostile" agent="Gretel"><character
+                    child-status="childless" marital-status="unmarried" reference="girl"
+                    >she</character> cried.</act> "If only the wild animals had devoured us in the
+            woods, then we would have died together."</p>
+        <p><dialogue speaker="evil woman" stateofbeing="negative">"Save your slobbering,"</dialogue>
+            <act type="doing" effect="hostile" agent="evil woman">said the <character
+                    marital-status="unmarried" child-status="childless" reference="evil woman">old
+                    woman</character>.</act> "It doesn't help you at all."</p>
+        <p><act type="doing" effect="ambiguous" agent="Gretel">The next morning <character
+                    reference="girl" child-status="childless" marital-status="unmarried"
+                    >Gretel</character> had to get up early, hang up the kettle with water, and make
+                a fire.</act></p>
+        <p><dialogue speaker="evil woman" stateofbeing="neutral">"First we are going to bake," said
+                the <character child-status="childless" marital-status="unmarried"
+                    reference="evil woman">old woman</character>. "I have already made a fire in the
+                oven and kneaded the dough."</dialogue></p>
+        <p><act type="doing" effect="hostile" agent="evil woman" receiver="Gretel"><character
+                    marital-status="unmarried" child-status="childless" reference="evil woman"
+                    >She</character> pushed poor <character reference="girl"
+                    child-status="childless" marital-status="unmarried">Gretel</character> outside
+                to the oven, from which fiery flames were leaping.</act>
+            <dialogue speaker="evil woman" stateofbeing="negative">"Climb in," said the <character
+                    marital-status="unmarried" child-status="childless" reference="evil woman"
+                    >witch</character>, "and see if it is hot enough to put the bread in
+                yet."</dialogue>
+            <act type="doing" effect="hostile" agent="evil woman" receiver="Gretel">And when
+                    <character reference="girl" child-status="childless" marital-status="unmarried"
+                    >Gretel</character> was inside, <character marital-status="unmarried"
+                    child-status="childless" reference="evil woman">she</character> intended to
+                close the oven, and bake <character reference="girl" child-status="childless"
+                    marital-status="unmarried">her</character>, and eat <character reference="girl"
+                    child-status="childless" marital-status="unmarried">her</character> as
+                well.</act></p>
+        <p><act type="doing" effect="hostile" agent="Gretel">But Gretel saw what she had in mind, so
+                she said,</act><dialogue speaker="Gretel" stateofbeing="negative">"I don't know how
+                to do that. How can I get inside?"</dialogue>
+        </p>
+        <p><dialogue speaker="old woman" stateofbeing="negative">"Stupid goose," said the <character
+                    reference="evil woman" child-status="childless" marital-status="unmarried">old
+                    woman.</character>"The opening is big enough. See, I myself could get in."
+                </dialogue><act type="doing" effect="hostile" agent="evil woman">And she crawled up
+                stuck her head into the oven.</act></p>
+        <p><act type="doing" effect="hostile" agent="Gretel" receiver="evil woman">Then Gretel gave
+                her a shove, causing her to fall in. Then she closed the iron door and secured it
+                with a bar.</act>
+            <act type="doing" effect="hostile" agent="evil woman">The old woman began to howl
+                frightfully.</act>
+            <act type="doing" effect="hostile" agent="Gretel">But Gretel ran away, and the godless
+                witch burned up miserably. Gretel ran straight to Hansel, unlocked his stall, and
+                cried</act>, <dialogue speaker="Gretel" stateofbeing="positive">"Hansel, we are
+                saved. The <character child-status="childless" marital-status="unmarried"
+                    reference="evil woman">old witch</character> is dead."</dialogue></p>
+        <p><act type="doing" effect="benevolent" agent="Hansel">Then Hansel jumped out, like a bird
+                from its cage when someone opens its door.</act><act type="being"
+                effect="benevolent" agent="Hansel and Gretel">How happy they were!</act><act
+                type="doing" effect="benevolent" agent="Hansel and Gretel">They threw their arms
+                around each other's necks, jumped with joy, and kissed one another.</act>
+            <act type="doing" effect="ambiguous" agent="Hansel and Gretel">Because they now had
+                nothing to fear, they went into the <character child-status="childless"
+                    marital-status="unmarried" reference="evil woman">witch's</character> house. In
+                every corner were chests of pearls and precious stones.</act></p>
+        <p><dialogue speaker="Hansel" stateofbeing="positive">"These are better than pebbles," said
+                Hansel</dialogue>, <act type="doing" effect="ambiguous" agent="Hansel">filling his
+                pockets.</act></p>
+        <p><dialogue speaker="Gretel" stateofbeing="positive">Gretel said, "I will take some home
+                with me as well,"</dialogue>
+            <act type="doing" effect="ambiguous" agent="Gretel">and she filled her apron
+            full.</act></p>
+        <p><dialogue speaker="Hansel" stateofbeing="neutral">"But now we must leave," said Hansel,
+                "and get out of these witch-woods."</dialogue></p>
+        <p><act type="doing" effect="ambiguous" agent="Hansel and Gretel">After walking a few hours
+                they arrived at a large body of water.</act>
+            <dialogue speaker="Hansel" stateofbeing="negative"> "We cannot get across," said Hansel.
+                "I cannot see a walkway or a bridge."</dialogue></p>
+        <p><dialogue speaker="Gretel" stateofbeing="positive">"There are no boats here," answered
+                    <character child-status="childless" marital-status="unmarried" reference="girl"
+                    >Gretel</character>, "but there is a white duck swimming. If I ask it, it will
+                help us across."</dialogue></p>
+        <p><act type="doing" effect="ambiguous" agent="Gretel">Then she called out:</act></p>
+        <p><dialogue speaker="Hansel and Gretel" stateofbeing="positive">Duckling, duckling, Here
+                stand Gretel and Hansel. Neither a walkway nor a bridge, Take us onto your white
+                back.</dialogue></p>
+        <p><act type="doing" effect="benevolent" agent="duck" receiver="Hansel and Gretel">The
+                duckling came up to them, and Hansel climbed onto it, then asked his <character
+                    marital-status="unmarried" child-status="childless" reference="girl">little
+                    sister</character> to sit down next to him.</act></p>
+        <p><dialogue speaker="Gretel" stateofbeing="neutral">"No," answered <character
+                    reference="girl" child-status="childless" marital-status="unmarried"
+                    >Gretel</character>. "That would be too heavy for the duckling. It should take
+                us across one at a time."</dialogue></p>
+        <p><act type="doing" effect="benevolent" agent="duck" receiver="Hansel and Gretel">That is
+                what the good animal did, and when they were safely on the other side</act>, <act
+                type="doing" effect="benevolent" agent="Hansel and Gretel">and had walked on a
+                little while, the woods grew more and more familiar to them, and finally they saw
+                the father's house in the distance.</act>
+            <act type="doing" effect="benevolent" agent="Hansel and Gretel" receiver="husband">They
+                began to run, rushed inside, and threw their arms around the father's
+            neck.</act></p>
+        <p><act type="being" effect="benevolent" agent="man">The man had not had even one happy hour
+                since he had left the children in the woods.</act>
+            <act type="doing" effect="ambiguous" agent="wife">However, the <character
+                    child-status="stepmother" marital-status="wife" reference="wife"
+                    >woman</character> had died.</act>
+            <act type="doing" effect="ambiguous" agent="Gretel"><character
+                    marital-status="unmarried" child-status="childless" reference="girl"
+                    >Gretel</character> shook out her apron, scattering pearls and precious stones
+                around the room,</act>
+            <act type="doing" effect="ambiguous" agent="Hansel">and Hansel added to them by throwing
+                one handful after the other from his pockets.</act></p>
+        <p><act type="being" effect="benevolent" agent="Hansel, Gretel, and father">Now all their
+                cares were at an end</act>, <act type="doing" effect="benevolent"
+                agent="Hansel, Gretel, and father">and they lived happily together.</act></p>
+        <p><act type="being" effect="ambiguous" agent="author">My tale is done,</act><act
+                type="doing" effect="ambiguous" agent="mouse">A mouse has run.</act>
+        </p>
+        <p><act type="doing" effect="ambiguous" agent="whoever" io="mouse">And whoever catches it
+                can make for himself from it a large, large fur cap.</act>
+        </p>
     </story>
 </tale>

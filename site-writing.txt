@@ -1,0 +1,26 @@
+Home
+    Overview
+        Our project consists of a thorough analysis of the Grimm Fairy Tales in order to find connections between the "good" vs. the "evil" mother-figure. In order to do this,
+        we characterized and tagged all women mentioned, tagged all actions,and tagged all dialogue. Our main goals were to 1) What types of mother figures are represented and what defines them 
+        2) find differences between the "good" vs the "evil" mother-figure 3) Does the English version accurately translate the 1812 German text? 4) If there are differences, what are they?
+        Our analysis of the ten different German and the translated English Tales allowed us to answer some of these questions and to pose a few more.
+        
+    About Team Members
+        Marion Riley (TA)
+        Darian McGinnis
+        Victoria Costa
+        Regis Curtis
+        Alexis Moffa
+        
+        
+About
+    What is our project tackling? What are some of the social issues that this relates to? How does it relate to the Disney Fairy Tales? Who are the Grimm Brothers? What is their background?
+    
+Methodology 
+    Breaking down our wording for elements, attributes, and naming
+    Differences between good and evil
+Corpus
+    
+Analysis
+
+Conclusion
