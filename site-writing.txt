@@ -1,21 +1,41 @@
 Home
     Overview
         Our project consists of a thorough analysis of the Grimm Fairy Tales in order to find connections between the "good" vs. the "evil" mother-figure. In order to do this,
-        we characterized and tagged all women mentioned, tagged all actions,and tagged all dialogue. Our main goals were to 1) What types of mother figures are represented and what defines them 
-        2) find differences between the "good" vs the "evil" mother-figure 3) Does the English version accurately translate the 1812 German text? 4) If there are differences, what are they?
+        we characterized and tagged all women mentioned, tagged all actions,and tagged all dialogue. Our main goals were to 
+        1) What types of women figures are represented and what defines them 
+        2) find differences between the "good" vs the "evil" mother-figure 
+        3) Does the English version accurately translate the 1812 German text? 
+        4) If there are differences, what are they?
         Our analysis of the ten different German and the translated English Tales allowed us to answer some of these questions and to pose a few more.
         
-    About Team Members
-        Marion Riley (TA)
-        Darian McGinnis
-        Victoria Costa
-        Regis Curtis
-        Alexis Moffa
+    About the Developers
+        Marion Riley (TA) is a Linguistics and Religious Studies major. Her favorite thing about being a TA for this course is helping students problem solve their code and getting that
+        "aha!" moment when something works! Her favorite Grimms' Fairy Tale is "Snow White and Rose Red".
+       
+        Darian McGinnis is a Computer Science Major. She joined this class because she wanted to expand her computer science skills. Her favorite Grimms' Fairy Tale is "Little Red Cap" 
+        beause of it's wholesome ending.
+       
+        Regis Curtis is triple majoring in German, French, and West European Studies. He joined this class to "STEMify" his humanities education. His favorite Grimms' Fairy Tale is 
+        "Cinderella" because he loves the Disney dichotomy. 
+        
+        Victoria Costa is a non-traditional student majoring in English Literature and minoring in Film Studies. She took this class because she thought it might be a good elective for 
+        someone potientially studying Library Science in gard school. Her favorite Grimms' Fairy Tale is "Little Snow White", if only because the Disney version inspired a great Miles Davis record. 
+        
+        Alexis Moffa is an Architectural Studies major. She joined this class to expand her technological skills and learn applications of this in the real world. Her favorite Grimms' Fairy Tale
+        is "Hansel and Gretel", for it holds a special place in her heart as she once played Hansel in a play.
         
         
 About
+    The Grimm's Fairy Tales were published in 1812 contained 86 tales, which were to pay tribute to the German culture. The goal for these stories was not for them to become bedtime stories. 
+    During the early 1800s, the Napoleonic Wars inspired them to write and share these stores to display and preserve their heritage of their country. 
+    
+    The Grimm Brothers, Jacob (1785-1863) and Wilhem (1786-1859)Grimm were born into a fairly wealthy family, until their father died in 1796 their father died. After this, they were forced 
+    to pave their own path. The brothers attended the University of Marburg and were to study law and continue their civic duty, like their father, but their love for language and country
+    overtook their interests. 
+    
     What is our project tackling? What are some of the social issues that this relates to? How does it relate to the Disney Fairy Tales? Who are the Grimm Brothers? What is their background?
     
+    The Grimm Brothers, Jacob and Wilhem Grimm, pusblished over 200 fairy tales in the early to mid 19th Century. 
 Methodology 
     Breaking down our wording for elements, attributes, and naming
     Differences between good and evil
