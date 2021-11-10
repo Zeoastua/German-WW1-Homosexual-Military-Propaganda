@@ -40,9 +40,75 @@ About
     is the difference in time period. This leads us to answer questions, such as how are women portrayed differently, if they are? Our analysis of these tales have lead us to better understand how time and culture 
     is a factor in these versions of the Grimms' Fairy Tales. 
  
+    Sources
+    
+    https://sites.pitt.edu/~dash/grimm.html
+    https://www.nationalgeographic.co.uk/history-and-civilisation/2019/09/brothers-grimm-fairy-tales-were-never-meant-kids
+    
 Methodology 
     In order to analyze our text, we created a Relax NG schema to define the elements and attributes of our XML. These elements and attributes were created to have the ability to markup the Ashliman translations and 
-    the original German Tales. 
+    the original German Tales. Our focus is to tag the women in these tales. By doing this, we are able to achieve a more comprehensive understanding of how the women are characterized, such as "good" vs. "evil", in the simpliest terms.
+    
+    The Tales that we analyzed are as follows:
+            English:
+                Cinderella
+                Frau Holle
+                Hansel and Gretel
+                Little Red Cap
+                Little Snow White
+                Rapunzel
+                Sweetheart Roland
+                The Juniper Tree
+                The Six Swans
+                The Twelve Brothers
+               
+            German:
+                Cinderella
+                Frau Holle
+                Hansel and Gretel 
+                Little Red Cap
+                Rapunzel
+                Sneewittchen
+                Sweetheart ROland
+                The Six Swans 
+                The Twelve Brothers
+         
+    In order to come to any conclusions about the characterizations of women in these tales, we, first, needed to tag the metadata of each tale, including:
+        <metadata><metadata>
+        <title><title>
+        <year><year>
+        <author><author>
+        <editor><editor>
+        <translator><translator>
+        <language><language>
+        <number><number>
+
+    The story and the tale itself is tagged using story and paragraph tags. 
+    
+    A character tag was used to tag only women, but every time a woman is referenced in the text. This is done using an element called "<character><character>",
+    with the attributes:
+        @child-status -- in order to display if that character is a: "mother" | "stepmother" | "grandmother" | "godmother" | "adopted" | "childless"
+        @martial-staus -- in order to display if that character is a: "wife" | "widow" | "fiancee" | "divorcee" | "unmarried"
+        @reference -- in order to individually refer to a character with a specific but original name, for each developer to remember the character by.
+        
+    All dialogue is tagged with the element, "<dialogue><dialogue>" and includes:
+        @speaker -- to name who is active in this dialogue
+        @state-of-being -- in order to indicate the feeling behind the dialogue: "positive" | "negative" | "neutral"
+        *The elements "<character><character>" and "<act><act>" can be present within the dialogue.
+        
+    All acts are tagged to emphasis interactions by the women characters, to the women characters, or because of the women characters with the "<act><act>" element, including:
+        @type -- in order to determine what kind of action: "being or "doing"
+        @effect -- in order to describe how the interaction is perecived: "hostile" | "benevolent" | "ambiguous"
+        @agent -- to indicate who is displaying the act
+        *The attributes:
+            @io -- the indirect object of the act
+            @receiver -- the character who is being acted on
+   
+This markup allows the project's developers to collect data to indicate the quantity and what kinds of women are included in each of the tales.
+Since this data is collected, the comparison between the original German and the translated English tales is possible.
+Differences and similarities are displayed between each tale's characterization of women.
+
+    
 Corpus
     
 Analysis
