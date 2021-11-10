@@ -1,99 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-Little Red Cap
-Jacob and Wilhelm Grimm
-Once upon a time there was a sweet little girl. Everyone who saw her liked her, but most of all her grandmother, who did not know what to give the child next. Once she gave her a little cap made of red velvet. Because it suited her so well, and she wanted to wear it all the time, she came to be known as Little Red Cap.
 
-One day her mother said to her, "Come Little Red Cap. Here is a piece of cake and a bottle of wine. Take them to your grandmother. She is sick and weak, and they will do her well. Mind your manners and give her my greetings. Behave yourself on the way, and do not leave the path, or you might fall down and break the glass, and then there will be nothing for your grandmother. And when you enter her parlor, don't forget to say 'Good morning,' and don't peer into all the corners first."
+<?xml-model href="../grimm-schema.rnc" type="application/relax-ng-compact-syntax"?>
+<tale>
+    <metadata>
+        <title>Little Red Cap</title>
+        <year>1812</year>
+        <author>Jacob and Wilhelm Grimm</author>
+        <language>English</language>
+        <number>0</number>
+    </metadata>
+    <story>
+        <p>Once upon a time there was a <character child-status="childless" marital-status="unmarried" reference="little_red_cap">sweet little girl</character>. <act agent="everyone" effect="benevolent" receiver="litte_red_cap" type="being">Everyone who saw her liked her</act>, but most of all her <character child-status="grandmother" marital-status="unmarried" reference="grandmother">grandmother</character>, who did not know what to give the child next. Once <act type="doing" receiver="little_red_cap" effect="benevolent" agent="grandmother">she gave her a little cap made of red velvet</act>. Because it suited her so well, and she wanted to wear it all the time, she came to be known as <character reference="little_red_cap" marital-status="unmarried" child-status="childless">Little Red Cap</character>.</p>
 
-"I'll do everything just right," said Little Red Cap, shaking her mother's hand.
+        <p>One day <character child-status="mother" marital-status="unmarried" reference="mother"></character>her mother said to her, <dialogue speaker="mother" stateofbeing="neutral">"Come <character reference="little_red_cap" marital-status="unmarried" child-status="childless">Little Red Cap</character>. Here is a piece of cake and a bottle of wine. Take them to your grandmother. She is sick and weak, and they will do her well. Mind your manners and give her my greetings. Behave yourself on the way, and do not leave the path, or you might fall down and break the glass, and then there will be nothing for your <character reference="grandmother" marital-status="unmarried" child-status="grandmother">grandmother</character>. And when you enter her parlor, don't forget to say 'Good morning,' and don't peer into all the corners first."</dialogue></p>
 
-The grandmother lived out in the woods, a half hour from the village. When Little Red Cap entered the woods a wolf came up to her. She did not know what a wicked animal he was, and was not afraid of him.
+        <p><dialogue stateofbeing="positive" speaker="little_red_cap">"I'll do everything just right,"</dialogue> said <character reference="little_red_cap" marital-status="unmarried" child-status="childless">Little Red Cap</character>, <act agent="little_red_cap" effect="benevolent" receiver="mother" type="doing">shaking her mother's hand.</act></p>
 
-"Good day to you, Little Red Cap."
+        <p>The <character child-status="grandmother" marital-status="unmarried" reference="grandmother">grandmother</character> <act type="doing" effect="ambiguous" agent="grandmother">lived out in the woods</act>, a half hour from the village. When <act agent="little_red_cap" effect="ambiguous" type="doing"><character reference="little_red_cap" marital-status="unmarried" child-status="childless">Little Red Cap</character> entered the woods</act> <act type="doing" effect="ambiguous" agent="wolf">a wolf came up to her</act>. She did not know what a wicked animal he was, <act type="being" effect="ambiguous" agent="little_red_cap">and was not afraid of him</act>.</p>
 
-"Thank you, wolf."
+        <p><dialogue speaker="wolf" stateofbeing="neutral">"Good day to you, <character reference="little_red_cap" marital-status="unmarried" child-status="childless">Little Red Cap</character>."</dialogue></p>
 
-"Where are you going so early, Little Red Cap?"
+        <p><dialogue speaker="little_red_cap" stateofbeing="neutral">"Thank you, wolf."</dialogue></p>
 
-"To grandmother's."
+        <p><dialogue speaker="wolf" stateofbeing="neutral">"Where are you going so early, <character reference="little_red_cap" marital-status="unmarried" child-status="childless">Little Red Cap</character>?"</dialogue></p>
 
-"And what are you carrying under your apron?"
+        <p><dialogue speaker="little_red_cap" stateofbeing="neutral">"To <character child-status="grandmother" marital-status="unmarried" reference="grandmother">grandmother's</character>."</dialogue></p>
 
-"Grandmother is sick and weak, and I am taking her some cake and wine. We baked yesterday, and they should be good for her and give her strength."
+        <p><dialogue speaker="wolf" stateofbeing="neutral">"And what are you carrying under your apron?"</dialogue></p>
 
-"Little Red Cap, just where does your grandmother live?"
+        <p><dialogue speaker="little_red_cap" stateofbeing="neutral">"<act type="being" effect="ambiguous" agent="grandmother"><character child-status="grandmother" marital-status="unmarried" reference="grandmother">Grandmother</character> is sick and weak</act>, and <act agent="little_red_cap" effect="benevolent" type="doing" receiver="grandmother">I am taking her some cake and wine</act>. <act agent="mother and little_red_cap" type="doing" effect="benevolent">We baked yesterday</act>, and they should be good for her and give her strength."</dialogue></p>
 
-"Her house is good quarter hour from here in the woods, under the three large oak trees. There's a hedge of hazel bushes there. You must know the place," said Little Red Cap.
+        <p><dialogue stateofbeing="negative" speaker="wolf">"<character reference="little_red_cap" marital-status="unmarried" child-status="childless">Little Red Cap</character>, just where does your <character child-status="grandmother" marital-status="unmarried" reference="grandmother">grandmother</character> live?"</dialogue></p>
 
-The wolf thought to himself, "Now that sweet young thing is a tasty bite for me. She will taste even better than the old woman. You must be sly, and you can catch them both."
+        <p><dialogue speaker="little_red_cap" stateofbeing="neutral">"Her house is good quarter hour from here in the woods, under the three large oak trees. There's a hedge of hazel bushes there. You must know the place,"</dialogue> said <character reference="little_red_cap" marital-status="unmarried" child-status="childless">Little Red Cap</character>.</p>
 
-He walked along a little while with Little Red Cap, then he said, "Little Red Cap, just look at the beautiful flowers that are all around us. Why don't you go and take a look? And I don't believe you can hear how beautifully the birds are singing. You are walking along as though you were on your way to school. It is very beautiful in the woods."
+        <p>The wolf thought to himself, "Now that <character reference="little_red_cap" marital-status="unmarried" child-status="childless">sweet young thing</character> is a tasty bite for me. She will taste even better than <character child-status="grandmother" marital-status="unmarried" reference="grandmother">the old woman</character>. You must be sly, and you can catch them both."</p>
 
-Little Red Cap opened her eyes and when she saw the sunbeams dancing to and fro through the trees and how the ground was covered with beautiful flowers, she thought, "If a take a fresh bouquet to grandmother, she will be very pleased. Anyway, it is still early, and I'll be home on time." And she ran off the path into the woods looking for flowers. Each time she picked one she thought that she could see an even more beautiful one a little way off, and she ran after it, going further and further into the woods. But the wolf ran straight to the grandmother's house and knocked on the door.
+        <p>He <act agent="wolf" effect="ambiguous" type="doing" receiver="little_red_cap">walked along a little while with <character reference="little_red_cap" marital-status="unmarried" child-status="childless">Little Red Cap</character></act>, then he said, <dialogue speaker="wolf" stateofbeing="negative">"<character reference="little_red_cap" marital-status="unmarried" child-status="childless">Little Red Cap</character>, just look at the beautiful flowers that are all around us. Why don't you go and take a look? And I don't believe you can hear how beautifully the birds are singing. You are walking along as though you were on your way to school. It is very beautiful in the woods."</dialogue></p>
 
-"Who's there?"
+        <p><character reference="little_red_cap" marital-status="unmarried" child-status="childless">Little Red Cap</character> <act agent="little_red_cap" type="doing" effect="ambiguous">opened her eyes</act> and when <act agent="little_red_cap" type="doing" effect="benevolent">she saw the sunbeams dancing to and fro through the trees and how the ground was covered with beautiful flowers</act>, she thought, "If a take a fresh bouquet to <character child-status="grandmother" marital-status="unmarried" reference="grandmother">grandmother</character>, she will be very pleased. Anyway, it is still early, and I'll be home on time." And <act agent="little_red_cap" effect="benevolent" type="doing">she ran off the path into the woods looking for flowers</act>. Each time <act agent="little_red_cap" type="doing" effect="benevolent">she picked one</act> <act agent="little_red_cap" type="doing" effect="benevolent">she thought that she could see an even more beautiful one a little way off</act>, and <act agent="little_red_cap" type="doing" effect="benevolent">she ran after it, going further and further into the woods</act>. But the wolf ran straight to the <character child-status="grandmother" marital-status="unmarried" reference="grandmother">grandmother's</character> house and knocked on the door.</p>
 
-"Little Red Cap. I'm bringing you some cake and wine. Open the door."
+        <p><dialogue speaker="grandmother" stateofbeing="neutral">"Who's there?"</dialogue></p>
 
-"Just press the latch," called out the grandmother. "I'm too weak to get up."
+        <p><dialogue speaker="wolf" stateofbeing="negative">"<character reference="little_red_cap" marital-status="unmarried" child-status="childless">Little Red Cap</character>. I'm bringing you some cake and wine. Open the door."</dialogue></p>
 
-The wolf pressed the latch, and the door opened. He stepped inside, went straight to the grandmother's bed, and ate her up. Then he put on her clothes, put her cap on his head, got into her bed, and pulled the curtains shut.
+        <p><dialogue speaker="grandmother" stateofbeing="neutral">"Just press the latch,"</dialogue> called out the <character marital-status="unmarried" child-status="grandmother" reference="grandmother">grandmother</character>. <dialogue speaker="grandmother" stateofbeing="negative">"I'm too weak to get up."</dialogue></p>
 
-Little Red Cap had run after the flowers. After she had gathered so many that she could not carry any more, she remembered her grandmother, and then continued on her way to her house. She found, to her surprise, that the door was open. She walked into the parlor, and everything looked so strange that she thought, "Oh, my God, why am I so afraid? I usually like it at grandmother's."
+        <p>The wolf pressed the latch, and the door opened. He stepped inside, went straight to the grandmother's bed, and <act agent="wolf" receiver="grandmother" effect="hostile" type="doing">ate her up</act>. Then he put on her clothes, put her cap on his head, got into her bed, and pulled the curtains shut.</p>
 
-She called out, "Good morning!" but received no answer.
+        <p><character reference="little_red_cap" marital-status="unmarried" child-status="childless">Little Red Cap</character> <act type="doing" effect="benevolent" agent="little_red_cap">had run after the flowers</act>. After <act type="doing" effect="benevolent" agent="little_red_cap">she had gathered so many that she could not carry any more</act>, <act type="doing" effect="benevolent" agent="little_red_cap">she remembered her grandmother</act>, and then <act type="doing" effect="benevolent" agent="little_red_cap" receiver="grandmother">continued on her way to her house</act>. <act type="doing" effect="ambiguous" agent="little_red_cap">She found, to her surprise, that the door was open</act>. <act type="doing" effect="ambiguous" agent="little_red_cap">She walked into the parlor</act>, and everything looked so strange that she thought, <dialogue stateofbeing="negative" speaker="little_red_cap">"Oh, my God, why am I so afraid? I usually like it at <character marital-status="unmarried" reference="grandmother" child-status="grandmother">grandmother's</character>."</dialogue></p>
 
-Then she went to the bed and pulled back the curtains. Grandmother was lying there with her cap pulled down over her face and looking very strange.
+        <p>She called out, <dialogue speaker="little_red_cap" stateofbeing="positive">"Good morning!"</dialogue> but <act agent="little_red_cap" effect="ambiguous" type="doing">received no answer.</act></p>
 
-"Oh, grandmother, what big ears you have!"
+        <p>Then <act agent="little_red_cap" type="doing" effect="ambiguous">she went to the bed</act> and <act agent="little_red_cap" type="doing" effect="ambiguous">pulled back the curtains</act>. Grandmother was lying there with her cap pulled down over her face and looking very strange.</p>
 
-"All the better to hear you with."
+        <p><dialogue speaker="little_red_cap" stateofbeing="negative">"Oh, grandmother, what big ears you have!"</dialogue></p>
 
-"Oh, grandmother, what big eyes you have!"
+        <p><dialogue speaker="wolf" stateofbeing="positive">"All the better to hear you with."</dialogue></p>
 
-"All the better to see you with."
+        <p><dialogue speaker="little_red_cap" stateofbeing="negative">"Oh, grandmother, what big eyes you have!"</dialogue></p>
 
-"Oh, grandmother, what big hands you have!"
+        <p><dialogue speaker="wolf" stateofbeing="positive">"All the better to see you with."</dialogue></p>
 
-"All the better to grab you with!"
+        <p><dialogue speaker="little_red_cap" stateofbeing="negative">"Oh, grandmother, what big hands you have!"</dialogue></p>
 
-"Oh, grandmother, what a horribly big mouth you have!"
+        <p><dialogue speaker="wolf" stateofbeing="positive">"All the better to grab you with!"</dialogue></p>
 
-"All the better to eat you with!"
+        <p><dialogue speaker="little_red_cap" stateofbeing="negative">"Oh, grandmother, what a horribly big mouth you have!"</dialogue></p>
 
-The wolf had scarcely finished speaking when he jumped from the bed with a single leap and ate up poor Little Red Cap. As soon as the wolf had satisfied his desires, he climbed back into bed, fell asleep, and began to snore very loudly.
+        <p><dialogue speaker="wolf" stateofbeing="positive">"All the better to eat you with!"</dialogue></p>
 
-A huntsman was just passing by. He thought, "The old woman is snoring so loudly. You had better see if something is wrong with her."
+        <p>The wolf had scarcely finished speaking when he jumped from the bed with a single leap and <act agent="wolf" type="doing" effect="hostile" receiver="little_red_cap">ate up poor <character reference="little_red_cap" marital-status="unmarried" child-status="childless">Little Red Cap</character></act>. As soon as the wolf had satisfied his desires, he climbed back into bed, fell asleep, and began to snore very loudly.</p>
 
-He stepped into the parlor, and when he approached the bed, he saw the wolf lying there. "So here I find you, you old sinner," he said. "I have been hunting for you a long time."
+        <p>A huntsman was just passing by. He thought, <dialogue speaker="huntsman" stateofbeing="neutral">"The old woman is snoring so loudly. You had better see if something is wrong with her."</dialogue></p>
 
-He was about to aim his rifle when it occurred to him that the wolf might have eaten the grandmother, and that she still might be rescued. So instead of shooting, he took a pair of scissors and began to cut open the wolf's belly. After a few cuts he saw the red cap shining through., and after a few more cuts the girl jumped out, crying, "Oh, I was so frightened! It was so dark inside the wolf's body!"
+        <p>He stepped into the parlor, and when he approached the bed, he saw the wolf lying there. <dialogue speaker="huntsman" stateofbeing="negative">"So here I find you, you old sinner,"</dialogue> he said. <dialogue speaker="huntsman" stateofbeing="negative">"I have been hunting for you a long time."</dialogue></p>
 
-And then the grandmother came out as well, alive but hardly able to breathe. Then Little Red Cap fetched some large stones. She filled the wolf's body with them, and when he woke up and tried to run away, the stones were so heavy that he immediately fell down dead.
+        <p>He was about to aim his rifle when it occurred to him that the wolf might have eaten the <character marital-status="unmarried" reference="grandmother" child-status="grandmother">grandmother</character>, and that she still might be rescued. So instead of shooting, he took a pair of scissors and began to cut open the wolf's belly. After a few cuts he saw the red cap shining through., and after a few more cuts <character marital-status="unmarried" child-status="childless" reference="little_red_cap">the girl</character> <act agent="little_red_cap" effect="ambiguous" type="doing">jumped out</act>, crying, <dialogue speaker="little_red_cap" stateofbeing="negative">"Oh, I was so frightened! It was so dark inside the wolf's body!"</dialogue></p>
 
-The three of them were happy. The huntsman skinned the wolf and went home with the pelt. The grandmother ate the cake and drank the wine that Little Red Cap had brought. And Little Red Cap thought, "As long as I live, I will never leave the path and run off into the woods by myself if mother tells me not to."
+        <p>And then the <character marital-status="unmarried" reference="grandmother" child-status="grandmother">grandmother</character>came out as well, alive but hardly able to breathe. Then <character reference="little_red_cap" marital-status="unmarried" child-status="childless">Little Red Cap</character> fetched some large stones. She filled the wolf's body with them, and when he woke up and tried to run away, the stones were so heavy that he immediately fell down dead.</p>
 
-They also tell how Little Red Cap was taking some baked things to her grandmother another time, when another wolf spoke to her and wanted her to leave the path. But Little Red Cap took care and went straight to grandmother's. She told her that she had seen the wolf, and that he had wished her a good day, but had stared at her in a wicked manner. "If we hadn't been on a public road, he would have eaten me up," she said.
+        <p>The three of them were happy. The huntsman skinned the wolf and went home with the pelt. The <character marital-status="unmarried" reference="grandmother" child-status="grandmother">grandmother</character> <act agent="grandmother" type="doing" effect="benevolent">ate the cake and drank the wine</act> that <character reference="little_red_cap" marital-status="unmarried" child-status="childless">Little Red Cap</character> had brought. And <character reference="little_red_cap" marital-status="unmarried" child-status="childless">Little Red Cap</character> thought, <dialogue speaker="little_red_cap" stateofbeing="neutral">"As long as I live, I will never leave the path and run off into the woods by myself if mother tells me not to."</dialogue></p>
 
-"Come," said the grandmother. "Let's lock the door, so he can't get in."
+        <p>They also tell how <character reference="little_red_cap" marital-status="unmarried" child-status="childless">Little Red Cap</character> was <act agent="little_red_cap" effect="ambiguous" type="doing" receiver="grandmother">taking some baked things to her <character marital-status="unmarried" reference="grandmother" child-status="grandmother">grandmother</character> another time</act>, when <act agent="different_wolf" type="doing" effect="hostile" receiver="little_red_cap">another wolf spoke to her and wanted her to leave the path</act>. But <character reference="little_red_cap" marital-status="unmarried" child-status="childless">Little Red Cap</character> <act agent="little_red_cap" effect="ambiguous" type="doing">took care and went straight to grandmother's</act>. <act agent="little_red_cap" effect="ambiguous" type="doing" receiver="grandmother">She told her that she had seen the wolf, and that he had wished her a good day, but had stared at her in a wicked manner</act>. <dialogue speaker="little_red_cap" stateofbeing="negative">"If we hadn't been on a public road, he would have eaten me up,"</dialogue> she said.</p>
 
-Soon afterward the wolf knocked on the door and called out, "Open up, grandmother. It's Little Red Cap, and I'm bringing you some baked things."
+        <p><dialogue speaker="grandmother" stateofbeing="neutral">"Come,"</dialogue> said the <character marital-status="unmarried" reference="grandmother" child-status="grandmother">grandmother</character>. <dialogue>"Let's lock the door, so he can't get in."</dialogue></p>
 
-They remained silent, and did not open the door. Gray-Head crept around the house several times, and finally jumped onto the roof. He wanted to wait until Little Red Cap went home that evening, then follow her and eat her up in the darkness. But the grandmother saw what he was up to. There was a large stone trough in front of the house.
+        <p>Soon afterward the wolf knocked on the door and called out, <dialogue speaker="wolf" stateofbeing="negative">"Open up, <character marital-status="unmarried" reference="grandmother" child-status="grandmother">grandmother</character>. It's <character reference="little_red_cap" marital-status="unmarried" child-status="childless">Little Red Cap</character>, and I'm bringing you some baked things."</dialogue></p>
 
-"Fetch a bucket, Little Red Cap," she said to the child. "Yesterday I cooked some sausage. Carry the water that I boiled them with to the trough." Little Red Cap carried water until the large, large trough was clear full. The smell of sausage arose into the wolf's nose. He sniffed and looked down, stretching his neck so long that he could no longer hold himself, and he began to slide. He slid off the roof, fell into the trough, and drowned. And Little Red Cap returned home happily, and no one harmed her.
-
-Source: "Rotkäppchen," Kinder- und Hausmärchen, gesammelt durch die Brüder Grimm, vol. 1 (Göttingen: Verlag der Dieterichschen Buchhandlung, 1857), no. 26, pp. 140-44.
-Translated by D. L. Ashliman. © 2000-2002.
-The Grimms' source for the first variant (the main story) was Jeanette Hassenpflug (1791-1860). Marie Hassenpflug (1788-1856) provided them with the second variant (the concluding episode, introduced with the sentence "They also tell how Little Red Cap was taking some baked things to her grandmother another time...."
-This famous story was included in the first edition (1812) and all succeeding editions of Kinder- und Hausmärchen. The translation above is based on the Grimms' final edition (1857). They made only a few minor stylistic changes to the story in the course of its publication history.
-Click here for a translation of the Grimms' 1812 version of Little Red Cap.
-Note that most speakers of English know this story with the Grimms' contents, but with Charles Perrault's title, Little Red Riding Hood. In Perrault's version, a frighening cautionary tale, the naive heroine is killed by the wolf.
-Aarne-Thompson-Uther type 333.
-Links to related sites
-Little Red Riding Hood and Other Tales of Type 333. This site includes the version of Charles Perrault (1697), the Grimms' version of 1812, plus additional variants.
-The Wolf and the Seven Little Kids by the Grimm brothers. This tale includes an episode reminiscent of Little Red Cap's rescue from the wolf's belly.
-The Grimm Brothers' Home Page.
-The Grimm Brothers' Children's and Household Tales (Fairy Tales).
-Return to D. L. Ashliman's folktexts, a library of folktales, folklore, fairy tales, and mythology.
-Revised March 3, 2015.
+        <p>They remained silent, and did not open the door. Gray-Head crept around the house several times, and finally jumped onto the roof. He wanted to wait until <character reference="little_red_cap" marital-status="unmarried" child-status="childless">Little Red Cap</character> went home that evening, then follow her and eat her up in the darkness. But the <act agent="grandmother" effect="ambiguous" type="doing" receiver="wolf"><character marital-status="unmarried" reference="grandmother" child-status="grandmother">grandmother</character> saw what he was up to</act>. There was a large stone trough in front of the house.</p>
+        <p><dialogue speaker="grandmother" stateofbeing="neutral"></dialogue> "Fetch a bucket, <character reference="little_red_cap" marital-status="unmarried" child-status="childless">Little Red Cap</character>,"</dialogue> she said to <character reference="little_red_cap" child-status="childless" marital-status="unmarried">the child</character>. <dialogue stateofbeing="neutral" speaker="grandmother">"Yesterday I cooked some sausage. Carry the water that I boiled them with to the trough."</dialogue> <act agent="little_red_cap" type="doing" effect="ambiguous"><character reference="little_red_cap" marital-status="unmarried" child-status="childless">Little Red Cap</character> carried water until the large, large trough was clear full</act>. The smell of sausage arose into the wolf's nose. He sniffed and looked down, stretching his neck so long that he could no longer hold himself, and he began to slide. He slid off the roof, fell into the trough, and drowned. And <act agent="little_red_cap" effect="benevolent" type="doing"><character reference="little_red_cap" marital-status="unmarried" child-status="childless">Little Red Cap</character> returned home happily</act>, and no one harmed her.
+    </story>
+</tale>
