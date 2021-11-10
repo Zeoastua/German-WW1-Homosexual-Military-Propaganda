@@ -9,7 +9,7 @@
     <number>9</number>
 </metadata>
 <story>
-    <p>Once upon a time there were a king and a <character child-status="mother" marital-status="wife" reference="queen">queen</character>. They <act type="being" effect="benevolent" agent="queen">lived happily together</act> and <act type="doing" effect="ambiguous" agent="queen">had twelve children</act>, all boys. One day the king said to his <character marital-status="wife" child-status="mother" reference="queen">wife</character>, <dialogue>"If our thirteenth child, which you are soon going to bring into the world, is a girl, then the twelve others shall die, so that her wealth may be great, and so that she alone may inherit the kingdom."</dialogue></p>
+    <p>Once upon a time there were a king and a <character child-status="mother" marital-status="wife" reference="queen">queen</character>. They <act type="being" effect="benevolent" agent="queen">lived happily together</act> and <act type="doing" effect="ambiguous" agent="queen">had twelve children</act>, all boys. One day the king said to his <character marital-status="wife" child-status="mother" reference="queen">wife</character>, <dialogue speaker="king" stateofbeing="neutral">"If our thirteenth child, which you are soon going to bring into the world, is a girl, then the twelve others shall die, so that her wealth may be great, and so that she alone may inherit the kingdom."</dialogue></p>
 
     <p>Indeed, he had twelve coffins made. They were filled with wood shavings and each was fitted with a coffin pillow. He had them put in a locked room, and <act type="doing" agent="king" effect="ambiguous" receiver="queen">gave the key to the queen</act>, <act effect="hostile" agent="king" type="doing" receiver="queen">ordering her to tell no one about them</act>.</p>
 
@@ -27,13 +27,13 @@
 
     <p>After <act effect="benevolent" receiver="twelvebrothers" type="doing" agent="queen">she had blessed her children</act>, they went out into the woods. One after the other of them kept watch, sitting atop the highest oak tree and looking toward the tower. After eleven days had passed, and it was Benjamin's turn, he saw that a flag had been raised. It was not the white one, but instead the red blood-flag, decreeing that they all were to die.</p>
 
-    <p>When the boys heard this they became angry and cried out, <dialogue speaker="twelvebrothers">"Are we to suffer death for the sake of a girl! We swear that we will take revenge. Wherever we find a girl, her red blood shall flow."</dialogue></p>
+    <p>When the boys heard this they became angry and cried out, <dialogue speaker="twelvebrothers" stateofbeing="negative">"Are we to suffer death for the sake of a girl! We swear that we will take revenge. Wherever we find a girl, her red blood shall flow."</dialogue></p>
 
-<p>Then they went deeper into the woods, and in its middle, where it was darkest, they found a little bewitched house that was empty.</p>
+    <p>Then they went deeper into the woods, and in its middle, where it was darkest, they found a little bewitched house that was empty.</p>
 
-<p>They said, <dialogue speaker="twelvebrothersnotbenjamin" stateofbeing="neutral">"We will live here. You, Benjamin, you are the youngest and weakest. You shall stay at home and keep house. We others will go and get things to eat."</dialogue></p>
+    <p>They said, <dialogue speaker="twelvebrothersnotbenjamin" stateofbeing="neutral">"We will live here. You, Benjamin, you are the youngest and weakest. You shall stay at home and keep house. We others will go and get things to eat."</dialogue></p>
 
-<p>Thus they went into the woods and shot rabbits, wild deer, birds, and doves, and whatever they could eat. These they brought to Benjamin, and he had to prepare them to satisfy their hunger. They lived together in this little house for ten years, but the time passed quickly for them.</p>
+    <p>Thus they went into the woods and shot rabbits, wild deer, birds, and doves, and whatever they could eat. These they brought to Benjamin, and he had to prepare them to satisfy their hunger. They lived together in this little house for ten years, but the time passed quickly for them.</p>
 
     <p><character marital-status="unmarried" child-status="childless" reference="daughter">The little daughter</character> that <character marital-status="wife" reference="queen" child-status="mother">their mother, the queen</character>, had given birth to was now grown up. <character marital-status="unmarried" child-status="childless" reference="daughter">She had a good heart, a beautiful face, and a golden star on her forehead</character>.</p>
 
@@ -43,7 +43,7 @@
 
     <p><character marital-status="unmarried" child-status="childless" reference="daughter">The girl</character> said, <dialogue speaker="daughter" stateofbeing="neutral">"Where are my twelve brothers? I have never even heard of them."</dialogue></p>
 
-<p>She answered, <dialogue speaker="queen" stateofbeing="negative">"Only God knows where they are. They are wandering about in the world."</dialogue></p>
+    <p>She answered, <dialogue speaker="queen" stateofbeing="negative">"Only God knows where they are. They are wandering about in the world."</dialogue></p>
 
     <p>Then <act effect="ambiguous" type="doing" agent="queen" receiver="daughter">she took the girl</act>, <act effect="ambiguous" type="doing" agent="queen" receiver="daughter">unlocked the room for her</act>, and <act effect="ambiguous" type="doing" agent="queen" receiver="daughter">showed her the twelve coffins</act> with the wood shavings and the coffin pillows.</p>
 
@@ -65,23 +65,23 @@
 
     <p>Then he said, <dialogue speaker="benjamin" stateofbeing="negative">"Dear <character marital-status="unmarried" child-status="childless" reference="daughter">sister</character>, I must warn you that we have agreed that every girl whom we meet must die."</dialogue></p>
 
-<p>She said, <dialogue stateofbeing="positive" speaker="daughter"> "I will gladly die, if I can thus redeem my twelve brothers."</dialogue></p>
+    <p>She said, <dialogue stateofbeing="positive" speaker="daughter"> "I will gladly die, if I can thus redeem my twelve brothers."</dialogue></p>
 
-<p><dialogue speaker="benjamin" stateofbeing="neutral">"No,"</dialogue> he answered, <dialogue stateofbeing="positive" speaker="benjamin">"you shall not die. Sit under this tub until our eleven brothers come, and I will make it right with them."</dialogue></p>
+    <p><dialogue speaker="benjamin" stateofbeing="neutral">"No,"</dialogue> he answered, <dialogue stateofbeing="positive" speaker="benjamin">"you shall not die. Sit under this tub until our eleven brothers come, and I will make it right with them."</dialogue></p>
 
-<p>She did this, and when night fell they came home from the hunt. As they sat at the table eating, they asked, <dialogue speaker="twelvebrothersnotbenjamin">"What is new?"</dialogue></p>
+    <p>She did this, and when night fell they came home from the hunt. As they sat at the table eating, they asked, <dialogue speaker="twelvebrothersnotbenjamin" stateofbeing="neutral">"What is new?"</dialogue></p>
 
-<p>Benjamin said, <dialogue speaker="benjamin" stateofbeing="neutral">"Don't you know anything?"</dialogue></p>
+    <p>Benjamin said, <dialogue speaker="benjamin" stateofbeing="neutral">"Don't you know anything?"</dialogue></p>
 
-<p><dialogue speaker="twelvebrothersnotbenjamin">"No,"</dialogue> they answered.</p>
+    <p><dialogue speaker="twelvebrothersnotbenjamin" stateofbeing="neutral">"No,"</dialogue> they answered.</p>
 
-<p>He continued speaking, <dialogue speaker="benjamin" stateofbeing="neutral">"You have been in the woods while I stayed at home, but I know more than you do."</dialogue></p>
+    <p>He continued speaking, <dialogue speaker="benjamin" stateofbeing="neutral">"You have been in the woods while I stayed at home, but I know more than you do."</dialogue></p>
 
-<p><dialogue speaker="twelvebrothersnotbenjamin" stateofbeing="neutral">"Then tell us,"</dialogue> they shouted.</p>
+    <p><dialogue speaker="twelvebrothersnotbenjamin" stateofbeing="neutral">"Then tell us,"</dialogue> they shouted.</p>
 
-<p>He answered, <dialogue speaker="benjamin" stateofbeing="neutral">"If you will promise me that the next girl we meet shall not be killed."</dialogue></p>
+    <p>He answered, <dialogue speaker="benjamin" stateofbeing="neutral">"If you will promise me that the next girl we meet shall not be killed."</dialogue></p>
 
-<p><dialogue speaker="twelvebrothersnotbenjamin" stateofbeing="neutral">"Yes,"</dialogue> they all shouted. <dialogue speaker="twelvebrothersnotbenjamin" stateofbeing="neutral">"We will show her mercy. Just tell us."</dialogue></p>
+    <p><dialogue speaker="twelvebrothersnotbenjamin" stateofbeing="neutral">"Yes,"</dialogue> they all shouted. <dialogue speaker="twelvebrothersnotbenjamin" stateofbeing="neutral">"We will show her mercy. Just tell us."</dialogue></p>
 
     <p>Then he said, <dialogue speaker="benjamin" stateofbeing="neutral">"Our sister is here,"</dialogue> and lifted up the tub. <act agent="daughter" type="doing" effect="ambiguous">The princess came forth</act> in her royal clothing and with the golden star on her forehead, so beautiful, delicate, and fine.</p>
 

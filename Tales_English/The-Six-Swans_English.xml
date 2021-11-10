@@ -6,16 +6,16 @@
         <year>1812</year>
         <author>Jacob and Wilhelm Grimm</author>
         <language>English</language>
-        <number>0</number>
+        <number>49</number>
     </metadata>
     <story>
         <p>A king was once hunting in a great forest, and he chased his prey so eagerly that none of his men could follow him. As evening approached he stopped and looked around, and saw that he was lost. He looked for a way out of the woods, but he could not find one. Then he saw <character child-status="mother" marital-status="unmarried" reference="old_woman">an old woman</character> with a bobbing head who approached him. <act agent="old_woman" effect="ambiguous" type="being">She was a witch.</act></p>
 
         <p><dialogue speaker="king" stateofbeing="neutral">"My dear <character child-status="mother" marital-status="unmarried" reference="old_woman">woman</character>,"</dialogue> he said to her, <dialogue speaker="king" stateofbeing="neutral">"can you show me the way through the woods?"</dialogue></p>
 
-<p><dialogue speaker="old_woman" stateofbeing="neutral">"Oh, yes, your majesty,"</dialogue> she answered, <dialogue speaker="old_woman" stateofbeing="neutral">"I can indeed. However, there is one condition, and if you do not fulfill it, you will never get out of these woods, and will die here of hunger."</dialogue></p>
+        <p><dialogue speaker="old_woman" stateofbeing="neutral">"Oh, yes, your majesty,"</dialogue> she answered, <dialogue speaker="old_woman" stateofbeing="neutral">"I can indeed. However, there is one condition, and if you do not fulfill it, you will never get out of these woods, and will die here of hunger."</dialogue></p>
 
-<p><dialogue speaker="king" stateofbeing="neutral">"What sort of condition is it?"</dialogue> asked the king.</p>
+        <p><dialogue speaker="king" stateofbeing="neutral">"What sort of condition is it?"</dialogue> asked the king.</p>
 
         <p><dialogue speaker="old_woman" stateofbeing="neutral">"I have a <character marital-status="unmarried" child-status="childless" reference="queen">daughter</character>,"</dialogue> said the <character child-status="mother" marital-status="unmarried" reference="old_woman">old woman</character>, <dialogue speaker="old_woman" stateofbeing="neutral">who is as beautiful as anyone you could find in all the world, and who well deserves to become your wife. If you will make her your queen, I will show you the way out of the woods."</dialogue></p>
 
@@ -37,9 +37,9 @@
 
         <p>The next day the king went to visit his children, but he found no one there but <character child-status="childless" marital-status="unmarried" reference="kings_daughter">the girl</character>.</p>
 
-<p><dialogue speaker="king" stateofbeing="neutral">"Where are your brothers?"</dialogue> asked the king.</p>
+        <p><dialogue speaker="king" stateofbeing="neutral">"Where are your brothers?"</dialogue> asked the king.</p>
 
-<p><dialogue speaker="kings_daughter" stateofbeing="negative">"Oh, dear father,"</dialogue> she answered, <dialogue speaker="kings_daughter" stateofbeing="negative">"they have gone away and left me alone."</dialogue></p>
+        <p><dialogue speaker="kings_daughter" stateofbeing="negative">"Oh, dear father,"</dialogue> she answered, <dialogue speaker="kings_daughter" stateofbeing="negative">"they have gone away and left me alone."</dialogue></p>
 
         <p>Then <act agent="kings_daughter" effect="ambiguous" type="doing" receiver="king">she told him that from her window she had seen how her brothers had flown away over the woods as swans</act>. <act agent="kings_daughter" effect="ambiguous" type="doing" receiver="king">She showed him the feathers that they had dropped into the courtyard</act>, and which <act agent="kings_daughter" effect="ambiguous" type="doing" io="feathers">she had gathered up</act>.</p>
 
@@ -53,45 +53,45 @@
 
         <p>The sun was about to go down when <act agent="kings_daughter" effect="ambiguous" type="doing">she heard a rushing sound</act> and <act agent="kings_daughter" effect="ambiguous" type="doing" receiver="brothers">saw six swans fly in through the window</act>. Landing on the floor, they blew on one another, and blew all their feathers off. Then their swan-skins came off just like shirts. <act agent="kings_daughter" effect="ambiguous" type="doing"><character marital-status="unmarried" child-status="childless" reference="kings_daughter">The girl</character> looked at them and recognized her brothers</act>. <act agent="kings_daughter" effect="benevolent" type="being">She was happy</act> and <act agent="kings_daughter" effect="ambiguous" type="doing">crawled out from beneath the bed</act>. The brothers were no less happy to see their little sister, but their happiness did not last long.</p>
 
-<p><dialogue speaker="brothers" stateofbeing="negative">"You cannot stay here,"</dialogue> they said to her. <dialogue speaker="brothers" stateofbeing="negative">"This is a robbers' den. If they come home and find you, they will murder you."</dialogue></p>
+        <p><dialogue speaker="brothers" stateofbeing="negative">"You cannot stay here,"</dialogue> they said to her. <dialogue speaker="brothers" stateofbeing="negative">"This is a robbers' den. If they come home and find you, they will murder you."</dialogue></p>
 
-<p><dialogue speaker="kings_daughter" stateofbeing="negative">"Can't you protect me?"</dialogue> asked the <character marital-status="unmarried" reference="kings_daughter" child-status="childless">little sister</character>.</p>
+        <p><dialogue speaker="kings_daughter" stateofbeing="negative">"Can't you protect me?"</dialogue> asked the <character marital-status="unmarried" reference="kings_daughter" child-status="childless">little sister</character>.</p>
 
-<p><dialogue speaker="brothers" stateofbeing="negative">"No,"</dialogue> they answered. <dialogue speaker="brothers" stateofbeing="negative">"We can take off our swan-skins for only a quarter hour each evening. Only during that time do we have our human forms. After that we are again transformed into swans."</dialogue></p>
+        <p><dialogue speaker="brothers" stateofbeing="negative">"No,"</dialogue> they answered. <dialogue speaker="brothers" stateofbeing="negative">"We can take off our swan-skins for only a quarter hour each evening. Only during that time do we have our human forms. After that we are again transformed into swans."</dialogue></p>
 
-<p><act agent="kings_daughter" effect="ambiguous" type="doing">Crying</act>, the <character marital-status="unmarried" child-status="childless" reference="kings_daughter">little sister</character> said, <dialogue speaker="kings_daughter" stateofbeing="negative">"Can you not be redeemed?"</dialogue></p>
+        <p><act agent="kings_daughter" effect="ambiguous" type="doing">Crying</act>, the <character marital-status="unmarried" child-status="childless" reference="kings_daughter">little sister</character> said, <dialogue speaker="kings_daughter" stateofbeing="negative">"Can you not be redeemed?"</dialogue></p>
 
-<p><dialogue speaker="brothers" stateofbeing="negative">"Alas, no,"</dialogue> they answered. <dialogue speaker="brothers" stateofbeing="negative"> "The conditions are too difficult. You would not be allowed to speak or to laugh for six years, and in that time you would have to sew together six little shirts from asters for us. And if a single word were to come from your mouth, all your work would be lost."</dialogue></p>
+        <p><dialogue speaker="brothers" stateofbeing="negative">"Alas, no,"</dialogue> they answered. <dialogue speaker="brothers" stateofbeing="negative"> "The conditions are too difficult. You would not be allowed to speak or to laugh for six years, and in that time you would have to sew together six little shirts from asters for us. And if a single word were to come from your mouth, all your work would be lost."</dialogue></p>
 
-<p>After the brothers had said this, the quarter hour was over, and they flew out the window again as swans.</p>
+        <p>After the brothers had said this, the quarter hour was over, and they flew out the window again as swans.</p>
 
         <p>Nevertheless, <act agent="kings_daughter" effect="benevolent" type="doing"><character marital-status="unmarried" child-status="childless" reference="kings_daughter">the girl</character> firmly resolved to redeem her brothers</act>, even if it should cost her her life. <act agent="kings_daughter" effect="ambiguous" type="doing">She left the hunter's hut</act>, <act agent="kings_daughter" effect="ambiguous" type="doing">went to the middle of the woods</act>, <act agent="kings_daughter" effect="ambiguous" type="doing">seated herself in a tree</act>, and <act agent="kings_daughter" effect="ambiguous" type="doing">there spent the night</act>. The next morning <act agent="kings_daughter" effect="ambiguous" type="doing">she went out and gathered asters</act> and <act agent="kings_daughter" effect="ambiguous" type="doing">began to sew</act>. She could not speak with anyone, and <act agent="kings_daughter" effect="ambiguous" type="being">she had no desire to laugh</act>. <act agent="kings_daughter" effect="ambiguous" type="doing">She sat there, looking only at her work</act>.</p>
 
-<p>After she had already spent a long time there it happened that the king of the land was hunting in these woods. His huntsmen came to the tree where <character marital-status="unmarried" reference="kings_daughter" child-status="childless">the girl</character> was sitting.</p>
+        <p>After she had already spent a long time there it happened that the king of the land was hunting in these woods. His huntsmen came to the tree where <character marital-status="unmarried" reference="kings_daughter" child-status="childless">the girl</character> was sitting.</p>
 
         <p><act agent="huntsmen" effect="ambiguous" type="doing">They called to her</act>, saying, <dialogue speaker="huntsmen" stateofbeing="neutral">"Who are you?"</dialogue> But <act agent="kings_daughter" effect="ambiguous" type="doing">she did not answer</act>.</p>
 
-<p><dialogue speaker="huntsmen" stateofbeing="neutral">"Come down to us,"</dialogue> they said. <dialogue speaker="huntsmen" stateofbeing="neutral">"We will not harm you."</dialogue></p>
+        <p><dialogue speaker="huntsmen" stateofbeing="neutral">"Come down to us,"</dialogue> they said. <dialogue speaker="huntsmen" stateofbeing="neutral">"We will not harm you."</dialogue></p>
 
         <p><act agent="kings_daughter" effect="ambiguous" type="doing">She only shook her head</act>. When they pressed her further with questions, <act agent="kings_daughter" effect="ambiguous" type="doing">she threw her golden necklace down to them, thinking that this would satisfy them</act>. But they did not stop, so <act agent="kings_daughter" effect="ambiguous" type="doing">she then threw her belt down to them</act>, and when this did not help, <act agent="kings_daughter" effect="ambiguous" type="doing">her garters, and then -- one thing at a time -- everything that she had on and could do without, until finally she had nothing left but her shift</act>.</p>
 
-<p>The huntsmen, however, not letting themselves be dissuaded, climbed the tree, <act agent="huntsmen" type="doing" effect="ambiguous" receiver="kings_daughter">lifted the girl down</act>, and took her to the king.</p>
+        <p>The huntsmen, however, not letting themselves be dissuaded, climbed the tree, <act agent="huntsmen" type="doing" effect="ambiguous" receiver="kings_daughter">lifted the girl down</act>, and took her to the king.</p>
 
-<p>The king asked, <dialogue speaker="second_king" stateofbeing="neutral">"Who are you? What are you doing in that tree?"</dialogue></p>
+        <p>The king asked, <dialogue speaker="second_king" stateofbeing="neutral">"Who are you? What are you doing in that tree?"</dialogue></p>
 
         <p>But <act agent="kings_daughter" effect="ambiguous" type="doing">she did not answer</act>. <act type="doing" effect="ambiguous" agent="second_king" receiver="kings_daughter">He asked her in every language that he knew</act>, but <act agent="kings_daughter" effect="ambiguous" type="doing">she remained as speechless as a fish</act>. Because <act agent="kings_daughter" effect="ambiguous" type="doing">she was so beautiful</act>, the king's heart was touched, and <act type="doing" effect="benevolent" agent="second_king" receiver="kings_daughter">he fell deeply in love with her</act>. <act type="doing" effect="benevolent" agent="second_king" receiver="kings_daughter">He put his cloak around her</act>, <act type="doing" effect="benevolent" agent="second_king" receiver="kings_daughter">lifted her onto his horse in front of himself</act>, and <act type="doing" effect="benevolent" agent="second_king" receiver="kings_daughter">took her to his castle</act>. There <act type="doing" effect="benevolent" agent="second_king" receiver="kings_daughter">he had her dressed in rich garments</act>, and <act agent="kings_daughter" effect="benevolent" type="doing">she glistened in her beauty like bright daylight</act>, but no one could get a word from her.</p>
 
         <p>At the table <act type="doing" effect="benevolent" agent="second_king" receiver="kings_daughter">he seated her by his side</act>, and <act type="being" effect="benevolent" agent="second_king" receiver="kings_daughter">her modest manners and courtesy pleased him so much</act> that he said, <dialogue speaker="second_king" stateofbeing="positive">"My desire is to marry her, and no one else in the world."</dialogue></p>
 
-<p>A few days later they were married.</p>
+        <p>A few days later they were married.</p>
 
-<p>Now the king had a <act agent="wicked_mother" effect="hostile" type="being"><character child-status="mother" marital-status="wife" reference="wicked_mother">wicked mother</character> who was dissatisfied with this marriage</act> and <act agent="wicked_mother" effect="hostile" type="doing" receiver="kings_daughter">spoke ill of <character marital-status="wife" child-status="childless" reference="kings_daughter">the young queen</character></act>. <dialogue speaker="wicked_mother" stateofbeing="negative">"Who knows,"</dialogue> she said, <dialogue speaker="wicked_mother" stateofbeing="negative">"where <character marital-status="wife" child-status="childless" reference="kings_daughter">the girl</character> who cannot speak comes from? She is not worthy of a king."</dialogue></p>
+        <p>Now the king had a <act agent="wicked_mother" effect="hostile" type="being"><character child-status="mother" marital-status="wife" reference="wicked_mother">wicked mother</character> who was dissatisfied with this marriage</act> and <act agent="wicked_mother" effect="hostile" type="doing" receiver="kings_daughter">spoke ill of <character marital-status="wife" child-status="childless" reference="kings_daughter">the young queen</character></act>. <dialogue speaker="wicked_mother" stateofbeing="negative">"Who knows,"</dialogue> she said, <dialogue speaker="wicked_mother" stateofbeing="negative">"where <character marital-status="wife" child-status="childless" reference="kings_daughter">the girl</character> who cannot speak comes from? She is not worthy of a king."</dialogue></p>
 
         <p>A year later, after <act agent="kings_daughter" effect="benevolent" type="doing"><character marital-status="wife" child-status="mother" reference="kings_daughter">the queen</character> had brought her first child into the world</act>, <act agent="wicked_mother" effect="hostile" type="doing" receiver="kings_daughter"><character marital-status="wife" child-status="mother" reference="wicked_mother">the old woman</character> took it away from her</act> while <act agent="kings_daughter" type="doing" effect="ambiguous">she was asleep</act>, and <act agent="wicked_mother" effect="hostile" type="doing" receiver="kings_daughter">smeared her mouth with blood</act>. Then <act agent="wicked_mother" effect="hostile" type="doing" receiver="second_king">she went to the king</act> and <act agent="wicked_mother" effect="hostile" type="doing" receiver="kings_daughter">accused her of being a cannibal</act>. The king could not believe this, and <act agent="second_king" type="doing" effect="benevolent" receiver="kings_daughter">would not allow anyone to harm her</act>. <act agent="kings_daughter" effect="ambiguous" type="doing">She, however, sat the whole time sewing on the shirts</act>, and <act agent="kings_daughter" effect="ambiguous" type="being">caring for nothing else</act>.</p>
 
         <p>The next time, when <act agent="kings_daughter" effect="ambiguous" type="doing">she again gave birth to a beautiful boy</act>, <act agent="wicked_mother" type="doing" effect="hostile">the <character marital-status="wife" child-status="mother" reference="wicked_mother">deceitful mother-in-law did the same thing again</character></act>, but the king could not bring himself to believe her accusations.</p>
 
-<p>He said, <dialogue speaker="second_king" stateofbeing="positive">"She is too pious and good to do anything like that. If she were not speechless, and if she could defend herself, her innocence would come to light."</dialogue></p>
+        <p>He said, <dialogue speaker="second_king" stateofbeing="positive">"She is too pious and good to do anything like that. If she were not speechless, and if she could defend herself, her innocence would come to light."</dialogue></p>
 
         <p>But when <act agent="wicked_mother" type="doing" effect="hostile"><character marital-status="wife" child-status="mother" reference="wicked_mother">the old woman</character> stole away a newly born child for the third time</act>, and <act agent="wicked_mother" type="doing" effect="hostile" receiver="kings_daughter">accused the queen</act>, who <act agent="kings_daughter" type="doing" effect="ambiguous">did not defend herself with a single word</act>, <act agent="second_king" type="doing" effect="hostile" receiver="kings_daughter">the king had no choice but to bring her to justice</act>, and she was sentenced to die by fire.</p>
 
