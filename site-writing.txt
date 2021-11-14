@@ -40,11 +40,14 @@ About
     is the difference in time period. This leads us to answer questions, such as how are women portrayed differently, if they are? Our analysis of these tales have lead us to better understand how time and culture 
     is a factor in these versions of the Grimms' Fairy Tales. 
  
+ **************************************************************************************************************************
     Sources
     
     https://sites.pitt.edu/~dash/grimm.html
     https://www.nationalgeographic.co.uk/history-and-civilisation/2019/09/brothers-grimm-fairy-tales-were-never-meant-kids
-    
+ **************************************************************************************************************************
+ This text has been imported into the about.xhtml file. Further edits should be made in the HTML file going forward.    
+
 Methodology 
     In order to analyze our text, we created a Relax NG schema to define the elements and attributes of our XML. These elements and attributes were created to have the ability to markup the Ashliman translations and 
     the original German Tales. Our focus is to tag the women in these tales. By doing this, we are able to achieve a more comprehensive understanding of how the women are characterized, such as "good" vs. "evil", in the simpliest terms.
