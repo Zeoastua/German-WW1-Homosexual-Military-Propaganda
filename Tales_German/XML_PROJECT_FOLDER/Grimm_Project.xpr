@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <meta>
+        <filters directoryPatterns="" filePatterns="\QGrimm_Project.xpr\E" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options/>
+    </meta>
+    <projectTree name="Grimm_Project.xpr">
+        <folder path="."/>
+        <file name="../Frau_Holle_German.xml"/>
+        <file name="../Rapunzel_German.xml"/>
+        <file name="../The_Twelve_Brothers_German.xml"/>
+    </projectTree>
+</project>
