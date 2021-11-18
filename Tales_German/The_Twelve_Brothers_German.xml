@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../grimm-schema.rnc" type="application/relax-ng-compact-syntax"?>
 <tale>
     <metadata>
         <title>Die Zwölf Brüder</title>
@@ -8,98 +9,215 @@
         <language>German</language>
         <number>9</number>
     </metadata>
-    <p>Es war einmal ein König, der hatte zwölf Kinder, das waren lauter Buben, er wollte auch kein
-        Mädchen haben und sagte zur Köni- gin: „wenn das dreizehnte Kind, das du zur Welt bringst,
-        ein Mädchen ist, so laß ich die zwölf andern tödten, ists aber auch ein Bube, dann sollen
-        sie alle miteinander leben bleiben.“ — Die Königin gedachte es ihm auszureden. Der König
-        wollte aber nichts weiter hören: „wenns so ist, wie ich gesagt habe, so müssen sie ster-
-        ben, lieber hau' ich ihnen selber den Kopf ab, als daß ein Mädchen darunter wäre.<choice>
-            <sic/>
-            <corr>“</corr>
-        </choice></p>
+    <story>
+        <p>Es war einmal ein König, der hatte zwölf Kinder, das waren lauter Buben, er wollte auch
+            kein Mädchen haben und sagte zur Köni- gin: <dialogue speaker="king"
+                stateofbeing="negative">„wenn das dreizehnte Kind, das du zur Welt bringst, ein
+                Mädchen ist, so laß ich die zwölf andern tödten, ists aber auch ein Bube, dann
+                sollen sie alle miteinander leben bleiben.“</dialogue> — Die <character
+                child-status="mother" marital-status="wife" reference="queen">Königin</character>
+            gedachte es ihm auszureden. Der König wollte aber nichts weiter hören: <dialogue
+                speaker="king" stateofbeing="negative">„wenns so ist, wie ich gesagt habe, so müssen
+                sie ster- ben, lieber hau' ich ihnen selber den Kopf ab, als daß ein Mädchen
+                darunter wäre.“</dialogue></p>
 
-    <p>Da war die Königin traurig, denn sie hat- te ihre Söhne von Herzen lieb und wußte nicht, wie
-        sie zu retten waren. Endlich ging sie zu dem jüngsten, den sie vor allen lieb hatte, of-
-        fenbarte ihm, was der König beschlossen, und sagte: „allerliebstes Kind, geh du mit deinen
-        eilf Brüdern hinaus in den Wald, da bleibt und kommt nicht nach Haus, einer von euch aber
-        halte immer Wacht auf einem Baum und sehe nach dem Thurm hier, wenn ich ein Söhn- chen zur
-        Welt bringe, will ich obenauf eine weiße Fahne stecken, ists aber ein Töchterchen eine
-        rothe, und wenn ihr das seht, dann rettet euch, flieht in die weite Welt, und der liebe Gott
-        behüt euch. Alle Nacht will ich aufste- hen und für euch beten, wenns kalt ist im Win- ter,
-        daß ihr nicht friert und ein warmes Feuer vor euch brennt, und wenns heiß ist im Som- mer,
-        daß ihr in einem kühlen Walde ruht und schlaft.“</p>
+        <p>Da war die <character child-status="mother" marital-status="wife" reference="queen"
+                >Königin</character> traurig, denn <character child-status="mother"
+                marital-status="wife" reference="queen">sie</character> hat- te ihre Söhne von
+            Herzen lieb und wußte nicht, wie <character child-status="mother" marital-status="wife"
+                reference="queen">sie</character> zu retten waren. Endlich ging <character
+                child-status="mother" marital-status="wife" reference="queen">sie</character> zu dem
+            jüngsten, den <character child-status="mother" marital-status="wife" reference="queen"
+                >sie</character> vor allen lieb hatte, of- fenbarte ihm, was der König beschlossen,
+            und sagte: <dialogue speaker="queen" stateofbeing="neutral">„allerliebstes Kind, geh du
+                mit deinen eilf Brüdern hinaus in den Wald, da bleibt und kommt nicht nach Haus,
+                einer von euch aber halte immer Wacht auf einem Baum und sehe nach dem Thurm hier,
+                wenn ich ein Söhn- chen zur Welt bringe, will ich obenauf eine weiße Fahne stecken,
+                ists aber ein Töchterchen eine rothe, und wenn ihr das seht, dann rettet euch,
+                flieht in die weite Welt, und der liebe Gott behüt euch. Alle Nacht will ich aufste-
+                hen und für euch beten, wenns kalt ist im Win- ter, daß ihr nicht friert und ein
+                warmes Feuer vor euch brennt, und wenns heiß ist im Som- mer, daß ihr in einem
+                kühlen Walde ruht und schlaft.“</dialogue></p>
 
-    <p>So gesegnete sie die Kinder und sie gingen fort in den Wald. Oft guckten sie nach dem Thurm,
-        und einer mußte beständig auf einer hohen Eiche sitzen und Acht haben. Bald auch wurde eine
-        Fahne aufgesteckt, es war aber nicht die weiße, sondern die rothe Blutfahne, die ih- nen den
-        Untergang drohte. Wie die Buben sie erblickten, wurden sie alle zornig und riefen: „sollen
-        wir eines Mädchens willen das Leben verlieren!“ da schwuren sie zusammen, mitten in dem Wald
-        zu bleiben, und aufzupassen, wenn sich ein Mädchen sehen ließ, wollten sie es ohne Gnade
-        tödten.</p>
+        <p>So gesegnete sie die Kinder und sie gingen fort in den Wald. Oft guckten sie nach dem
+            Thurm, und einer mußte beständig auf einer hohen Eiche sitzen und Acht haben. Bald auch
+            wurde eine Fahne aufgesteckt, es war aber nicht die weiße, sondern die rothe Blutfahne,
+            die ih- nen den Untergang drohte. Wie die Buben sie erblickten, wurden sie alle zornig
+            und riefen: <dialogue speaker="brothers" stateofbeing="negative">„sollen wir eines
+                Mädchens willen das Leben verlieren!“</dialogue> da schwuren sie zusammen, mitten in
+            dem Wald zu bleiben, und aufzupassen, wenn sich ein Mädchen sehen ließ, wollten sie es
+            ohne Gnade tödten.</p>
 
-    <p>Darauf suchten sie eine Höhle, wo der Wald am dunkelsten war, wo sie wohnten. Alle Morgen
-        zogen elf hinaus auf die Jagd, einer mußte aber zu Haus bleiben, kochen, und den Haushalt
-        führen. Jedes Mädchen aber, das den eilfen begegnete, war ohne Barmherzigkeit verloren; das
-        dauerte viele Jahre.</p>
+        <p>Darauf suchten sie eine Höhle, wo der Wald am dunkelsten war, wo sie wohnten. Alle Morgen
+            zogen elf hinaus auf die Jagd, einer mußte aber zu Haus bleiben, kochen, und den
+            Haushalt führen. Jedes Mädchen aber, das den eilfen begegnete, war ohne Barmherzigkeit
+            verloren; das dauerte viele Jahre.</p>
 
-    <p>Das Schwesterchen zu Haus aber ward groß und blieb das einzige Kind. Einmal hat- te es große
-        Wäsche, darunter waren auch zwölf Mannshemden. „Für wen sind denn diese Hemder, fragte die
-        Prinzessin, meinem Vater sind sie doch viel zu klein,“ da erzählte ihr die Wäscherin, daß
-        sie zwölf Brüder gehabt hätte, die wären heimlich fortgegangen, kein Mensch wisse wohin,
-        weil sie der König habe wollen tödten lassen, und diesen zwölf Brüdern gehör- ten diese
-        zwölf Hemder. Das Schwesterchen verwunderte sich, daß ihm niemals von seinen zwölf Brüdern
-        etwas zu Ohren gekommen und wie es Nachmittags auf der Wiese saß und die Wäsche bleichte, da
-        fielen ihm die Worte der Wäscherin wieder ein, und es ward nachdenk- sam, und endlich stieg
-        es auf, nahm die zwölf Hemder und ging in den Wald hinein, wo sei- ne Brüder lebten.</p>
+        <p>Das <character child-status="childless" marital-status="unmarried" reference="daughter"
+                >Schwesterchen</character> zu Haus aber ward groß und blieb das einzige Kind. Einmal
+            hat- te <character child-status="childless" marital-status="unmarried"
+                reference="daughter">es</character> große Wäsche, darunter waren auch zwölf
+            Mannshemden. <dialogue speaker="daughter" stateofbeing="neutral">„Für wen sind denn
+                diese Hemder, fragte die <character child-status="childless"
+                    marital-status="unmarried" reference="daughter">Prinzessin</character>, meinem
+                Vater sind sie doch viel zu klein,“</dialogue> da erzählte <character
+                child-status="childless" marital-status="unmarried" reference="daughter"
+                >ihr</character> die Wäscherin, daß sie zwölf Brüder gehabt hätte, die wären
+            heimlich fortgegangen, kein Mensch wisse wohin, weil sie der König habe wollen tödten
+            lassen, und diesen zwölf Brüdern gehör- ten diese zwölf Hemder. Das <character
+                child-status="childless" marital-status="unmarried" reference="daughter"
+                >Schwesterchen</character> verwunderte sich, daß <character child-status="childless"
+                marital-status="unmarried" reference="daughter">ihm</character> niemals von seinen
+            zwölf Brüdern etwas zu Ohren gekommen und wie <character child-status="childless"
+                marital-status="unmarried" reference="daughter">es</character> Nachmittags auf der
+            Wiese saß und die Wäsche bleichte, da fielen <character child-status="childless"
+                marital-status="unmarried" reference="daughter">ihm</character> die Worte der
+            Wäscherin wieder ein, und <character child-status="childless" marital-status="unmarried"
+                reference="daughter">es</character> ward nachdenk- sam, und endlich stieg <character
+                child-status="childless" marital-status="unmarried" reference="daughter"
+                >es</character> auf, nahm die zwölf Hemder und ging in den Wald hinein, wo sei- ne
+            Brüder lebten.</p>
 
-    <p>Das Schwesterchen kam gerade zu der Höhle, wo sie ihre Wohnung hatten. Die eilf waren auf der
-        Jagd und nur ein ein- ziger daheim, der kochen mußte. Wie der das Mädchen erblickte, faßte
-        er es gleich, und holte sein Schwert: „knie nieder, dein ro- thes Blut muß den Augenblick
-        fließen.“ Das Mädchen aber bat ihn: „lieber Herr, laßt mich leben, ich will bei euch bleiben
-        und euch redlich dienen, ich will kochen und den Haushalt füh- ren.“ Es war gerade der
-        jüngste Bruder, den erbarmte die Schönheit des Mädchens und er schenkte ihr das Leben. Wie
-        die eilfe nach Haus kamen und sich verwunderten, ein Mädchen le- bendig in der Höhle zu
-        finden, sagte er zu ih- nen: „liebe Brüder, dies Mädchen ist in die Höhle gekommen, und wie
-        ich es niederhauen wollte, da bat es so sehr um sein Leben, es wollt uns treu dienen und den
-        Haushalt füh- ren, daß ichs ihm geschenkt habe.“ Die an- dern gedachten, daß ihnen das
-        vortheilhaft wä- re und daß sie nun alle zwölf auf die Jagd ausgehen könnten, und warens
-        zufrieden. Da zeigte es ihnen die zwölf Hemdlein und sagte, es wär' ihre Schwester; darüber
-        freuten sie sich alle, und waren froh, daß sie es nicht getödtet hatten.</p>
+        <p>Das <character child-status="childless" marital-status="unmarried" reference="daughter"
+                >Schwesterchen</character> kam gerade zu der Höhle, wo sie ihre Wohnung hatten. Die
+            eilf waren auf der Jagd und nur ein ein- ziger daheim, der kochen mußte. Wie der das
+                <character child-status="childless" marital-status="unmarried" reference="daughter"
+                >Mädchen</character> erblickte, <act type="being" effect="hostile" agent="brother"
+                receiver="daughter">faßte er <character child-status="childless"
+                    marital-status="unmarried" reference="daughter">es</character> gleich</act>, und
+                <act type="being" effect="hostile" agent="brother" receiver="daughter">holte sein
+                Schwert</act>: <dialogue speaker="brother" stateofbeing="negative">„knie nieder,
+                    <character child-status="childless" marital-status="unmarried"
+                    reference="daughter">dein</character> ro- thes Blut muß den Augenblick
+                fließen.“</dialogue> Das <character child-status="childless"
+                marital-status="unmarried" reference="daughter">Mädchen</character> aber bat ihn:
+                <dialogue speaker="daughter" stateofbeing="neutral">„lieber Herr, laßt mich leben,
+                ich will bei euch bleiben und euch redlich dienen, ich will kochen und den Haushalt
+                füh- ren.“</dialogue> Es war gerade der jüngste Bruder, den erbarmte die Schönheit
+            des <character child-status="childless" marital-status="unmarried" reference="daughter"
+                >Mädchens</character> und er <act type="doing" effect="benevolent" agent="brother"
+                receiver="daughter">schenkte <character child-status="childless"
+                    marital-status="unmarried" reference="daughter">ihr</character> das Leben</act>.
+            Wie die eilfe nach Haus kamen und sich verwunderten, ein <character
+                child-status="childless" marital-status="unmarried" reference="daughter"
+                >Mädchen</character> le- bendig in der Höhle zu finden, sagte er zu ih- nen:
+                <dialogue speaker="brother" stateofbeing="neutral">„liebe Brüder, dies <character
+                    child-status="childless" marital-status="unmarried" reference="daughter"
+                    >Mädchen</character> ist in die Höhle gekommen, und wie ich <character
+                    child-status="childless" marital-status="unmarried" reference="daughter"
+                    >es</character> niederhauen wollte, da bat <character child-status="childless"
+                    marital-status="unmarried" reference="daughter">es</character> so sehr um sein
+                Leben, <character child-status="childless" marital-status="unmarried"
+                    reference="daughter">es</character> wollt uns treu dienen und den Haushalt füh-
+                ren, daß ichs <character child-status="childless" marital-status="unmarried"
+                    reference="daughter">ihm</character> geschenkt habe.“</dialogue> Die an- dern
+            gedachten, daß ihnen das vortheilhaft wä- re und daß sie nun alle zwölf auf die Jagd
+            ausgehen könnten, und warens zufrieden. Da zeigte <character child-status="childless"
+                marital-status="unmarried" reference="daughter">es</character> ihnen die zwölf
+            Hemdlein und sagte, es wär' ihre Schwester; darüber freuten sie sich alle, und waren
+            froh, daß sie <character child-status="childless" marital-status="unmarried"
+                reference="daughter">es</character> nicht getödtet hatten.</p>
 
-    <p>Das Schwesterchen übernahm nun den Haushalt, und wenn die Brüder auf der Jagd waren, sammelte
-        es Holz und Kräuter, stellte zu am Feuer, deckte die Bettlein hübsch weiß und rein, und thät
-        alles unverdrossen und flei- ßig. Einmal geschah es, daß es fertig war mit aller Arbeit, da
-        ging es in den Wald spazieren. Es kam an einen Platz, wo zwölf schöne hohe, weiße Lilien
-        standen, und weil sie ihr so wohl gefielen, brach sie alle miteinander ab. Kaum aber war das
-        geschehen, so stand eine alte Frau vor ihr: „ach meine Tochter, sagte sie, warum hast du die
-        zwölf Studentenblumen nicht ste- hen lassen! das sind deine zwölf Brüder, die sind nun alle
-        in Raben verwandelt worden und sind verloren auf ewig.“ Das Schwesterchen fing an zu weinen,
-        „ach!“ sagte es, „giebts denn kein Mittel sie zu erlösen?“ „Nein, es ist kein Mittel auf der
-        Welt, als ein einziges, das ist so schwer, das du sie nicht damit befreien wirst: du mußt
-        zwölf ganzer Jahr stumm seyn, sprichst du ein einziges Wort, und es fehlt nur eine Stunde
-        daran, so ist alles umsonst und deine Brüder sind in dem Augenblick todt.“</p>
+        <p>Das <character child-status="childless" marital-status="unmarried" reference="daughter"
+                >Schwesterchen</character> übernahm nun den Haushalt, und wenn die Brüder auf der
+            Jagd waren, sammelte <character child-status="childless" marital-status="unmarried"
+                reference="daughter">es</character> Holz und Kräuter, stellte zu am Feuer, deckte
+            die Bettlein hübsch weiß und rein, und thät alles unverdrossen und flei- ßig. Einmal
+            geschah <character child-status="childless" marital-status="unmarried"
+                reference="daughter">es</character>, daß <character child-status="childless"
+                marital-status="unmarried" reference="daughter">es</character> fertig war mit aller
+            Arbeit, da ging <character child-status="childless" marital-status="unmarried"
+                reference="daughter">es</character> in den Wald spazieren. <character
+                child-status="childless" marital-status="unmarried" reference="daughter"
+                >Es</character> kam an einen Platz, wo zwölf schöne hohe, weiße Lilien standen, und
+            weil sie <character child-status="childless" marital-status="unmarried"
+                reference="daughter">ihr</character> so wohl gefielen, <act type="being"
+                effect="ambiguous" agent="daughter">brach <character child-status="childless"
+                    marital-status="unmarried" reference="daughter">sie</character> alle miteinander
+                ab</act>. Kaum aber war das geschehen, so stand eine alte <character
+                child-status="childless" marital-status="unmarried" reference="old woman"
+                >Frau</character> vor ihr: <dialogue speaker="old woman" stateofbeing="negative"
+                >„ach meine <character child-status="childless" marital-status="unmarried"
+                    reference="daughter">Tochter</character>, sagte <character
+                    child-status="childless" marital-status="unmarried" reference="old woman"
+                    >sie</character>, warum hast <character child-status="childless"
+                    marital-status="unmarried" reference="daughter">du</character> die zwölf
+                Studentenblumen nicht ste- hen lassen! das sind deine zwölf Brüder, die sind nun
+                alle in Raben verwandelt worden und sind verloren auf ewig.“</dialogue> Das
+                <character child-status="childless" marital-status="unmarried" reference="daughter"
+                >Schwesterchen</character> fing an zu weinen, <dialogue speaker="daughter"
+                stateofbeing="negative">„ach!“</dialogue> sagte <character child-status="childless"
+                marital-status="unmarried" reference="daughter">es</character>, <dialogue
+                speaker="daughter" stateofbeing="negative">„giebts denn kein Mittel sie zu
+                erlösen?“</dialogue>
+            <dialogue speaker="old woman" stateofbeing="neutral">„Nein, es ist kein Mittel auf der
+                Welt, als ein einziges, das ist so schwer, das <character child-status="childless"
+                    marital-status="unmarried" reference="daughter">du</character> sie nicht damit
+                befreien wirst: <character child-status="childless" marital-status="unmarried"
+                    reference="daughter">du</character> mußt zwölf ganzer Jahr stumm seyn, sprichst
+                    <character child-status="childless" marital-status="unmarried"
+                    reference="daughter">du</character> ein einziges Wort, und es fehlt nur eine
+                Stunde daran, so ist alles umsonst und deine Brüder sind in dem Augenblick
+                todt.“</dialogue></p>
 
-    <p>Das Schwesterchen setzte sich da auf einen hohen Baum im Wald und spann und wollte zwölf
-        Jahre stumm sitzen, um seine Brüder zu erlösen. Es geschah aber, daß der König auf einer
-        Jagd durch den Wald ritt, und als er an dem Baum vorbei kam, stand sein Hund still und
-        bellte. Der König hielt nun, sah hin- auf und war ganz verwundert über die Schön- heit der
-        Prinzessin. Er rief ihr zu, ob sie sei- ne Gemahlin werden wollte. Sie schwieg aber still
-        und nickte nur ein wenig mit dem Kopf. Da stieg der König selber hinauf und hob sie
-        herunter, setzte sie vor sich auf sein Pferd und brachte sie heim in sein Schloß, wo die
-        Hochzeit prächtig gehalten ward. Die Prin- zessin sprach aber niemals ein Wort und der König
-        glaubte sie sey stumm. Doch hätten sie vergnügt mit einander gelebt, wenn nicht die Mutter
-        des Königs gewesen wäre, die fing an die Königin bei ihrem Sohn zu verläum- den: „es ist ein
-        gemeines Bettelmädchen, das du aus der Fremde mitgebracht hast, die hin- ter deinem Rücken
-        die schändlichsten Dinge treibt.“ Weil die Königin nun sich nicht ver- theidigen konnte,
-        ließ sich der König verführen, und glaubte ihr endlich und verurtheilte sie zum Tod. Da ward
-        ein großes Feuer angemacht im Hof, darin sollte sie verbrannt werden. Schon stand sie in den
-        Flammen und die spiel- ten an ihrem Kleide; da war eben die letzte Minute von den zwölf
-        Jahren verflossen, man hörte in der Luft ein Geräusch, und es kamen zwölf Raben hergeflogen
-        und ließen sich nieder. Wie sie die Erde berührten, waren es zwölf schöne Prinzen, die
-        rissen das Feuer von ein- ander und führten ihre Schwester heraus. Da sprach sie ihr erstes
-        Wort wieder und sagte dem König alles, wie es zugegangen und sie die zwölf Brüder habe
-        erlösen müssen; und sie waren alle vergnügt, daß es so wohl gewor- den war.</p>
+        <p>Das <character child-status="childless" marital-status="unmarried" reference="daughter"
+                >Schwesterchen</character> setzte sich da auf einen hohen Baum im Wald und spann und
+            wollte zwölf Jahre stumm sitzen, um seine Brüder zu erlösen. <character
+                child-status="childless" marital-status="unmarried" reference="daughter"
+                >Es</character> geschah aber, daß der König auf einer Jagd durch den Wald ritt, und
+            als er an dem Baum vorbei kam, stand sein Hund still und bellte. Der König hielt nun,
+            sah hin- auf und war ganz verwundert über die Schön- heit der <character
+                child-status="childless" marital-status="unmarried" reference="daughter"
+                >Prinzessin</character>. Er rief <character child-status="childless"
+                marital-status="unmarried" reference="daughter">ihr</character> zu, ob <character
+                child-status="childless" marital-status="unmarried" reference="daughter"
+                >sie</character> sei- ne Gemahlin werden wollte. <character child-status="childless"
+                marital-status="unmarried" reference="daughter">Sie</character> schwieg aber still
+            und nickte nur ein wenig mit <character child-status="childless"
+                marital-status="unmarried" reference="daughter">dem</character> Kopf. Da stieg der
+            König selber hinauf und <act type="doing" effect="benevolent" agent="king"
+                receiver="daughter">hob <character child-status="childless"
+                    marital-status="unmarried" reference="daughter">sie</character> herunter</act>,
+                <act type="doing" effect="benevolent" agent="king" receiver="daughter">setzte
+                    <character child-status="childless" marital-status="unmarried"
+                    reference="daughter">sie</character> vor sich auf sein Pferd</act> und <act
+                type="doing" effect="benevolent" agent="king" receiver="daughter">brachte <character
+                    child-status="childless" marital-status="unmarried" reference="daughter"
+                    >sie</character> heim in sein Schloß</act>, wo die Hochzeit prächtig gehalten
+            ward. Die <character child-status="childless" marital-status="unmarried"
+                reference="daughter">Prin- zessin</character> sprach aber niemals ein Wort und der
+            König glaubte sie sey stumm. Doch hätten sie vergnügt mit einander gelebt, wenn nicht
+            die <character child-status="mother" marital-status="unmarried" reference="king mother"
+                >Mutter des Königs</character> gewesen wäre, die fing an die <character
+                child-status="childless" marital-status="unmarried" reference="daughter"
+                >Königin</character> bei ihrem Sohn zu verläum- den: <dialogue speaker="king mother"
+                stateofbeing="negative">„es ist ein gemeines <character child-status="childless"
+                    marital-status="wife" reference="daughter">Bettelmädchen</character>, das du aus
+                der Fremde mitgebracht hast, die hin- ter deinem Rücken die schändlichsten Dinge
+                treibt.“</dialogue> Weil die <character child-status="childless"
+                marital-status="wife" reference="daughter">Königin</character> nun sich nicht ver-
+            theidigen konnte, ließ sich der König verführen, und glaubte <character
+                child-status="mother" marital-status="unmarried" reference="king mother"
+                >ihr</character> endlich und verurtheilte <character child-status="childless"
+                marital-status="wife" reference="daughter">sie</character> zum Tod. Da ward ein
+            großes Feuer angemacht im Hof, darin sollte <character child-status="childless"
+                marital-status="wife" reference="daughter">sie</character> verbrannt werden. Schon
+            stand <character child-status="childless" marital-status="wife" reference="daughter"
+                >sie</character> in den Flammen und die spiel- ten an ihrem Kleide; da war eben die
+            letzte Minute von den zwölf Jahren verflossen, man hörte in der Luft ein Geräusch, und
+            es kamen zwölf Raben hergeflogen und ließen sich nieder. Wie sie die Erde berührten,
+            waren es zwölf schöne Prinzen, die rissen das Feuer von ein- ander und <act type="doing"
+                effect="benevolent" agent="brothers">führten ihre <character
+                    child-status="childless" marital-status="wife" reference="daughter"
+                    >Schwester</character> heraus</act>. Da sprach <character
+                child-status="childless" marital-status="unmarried" reference="daughter"
+                >sie</character> ihr erstes Wort wieder und sagte dem König alles, wie es zugegangen
+            und sie die zwölf Brüder habe erlösen müssen; und sie waren alle vergnügt, daß es so
+            wohl gewor- den war.</p>
 
-    <p>Was sollten sie mit der bösen Stiefmutter anfangen; sie ward in ein Faß gesteckt von sie-
-        dendem Oehl und von giftigen Schlangen an- gefüllt, und starb da eines bösen Todes.</p>
+        <p>Was sollten sie mit der bösen <character child-status="mother" marital-status="unmarried"
+                reference="king mother">Stiefmutter</character> anfangen; sie <act type="doing" effect="hostile" agent="unspecified" receiver="king mother">ward in ein Faß
+            gesteckt von sie- dendem Oehl und von giftigen Schlangen an- gefüllt</act>, und starb da eines
+            bösen Todes.</p>
+    </story>
 </tale>

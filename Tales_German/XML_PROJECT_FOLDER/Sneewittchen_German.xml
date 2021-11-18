@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tale>
+    <metadata>
+        <title>Sneewittchen</title>
+        <year>1821</year>
+        <author>Jacob Grimm</author>
+        <author>Wilhem Grimm</author>
+        <language>German</language>
+        <number>53</number>
+    </metadata>
+    <story>
     <p>Es war einmal mitten im Winter, und die Schneeflocken fielen wie Federn vom Himmel, da saß
         eine schöne Königin an einem Fenster, das hatte einen Rahmen von schwarzem Eben- holz, und
         nähte. Und wie sie so nähte und nach dem Schnee aufblickte, stach sie sich mit der Nadel in
@@ -176,4 +185,5 @@
         sie ankam, sah sie, daß es Sneewitt- chen war; da waren eiserne Pantoffeln im Feuer glühend
         gemacht, die mußte sie anziehen und darin tanzen, und ihre Füße wurden jämmer- lich
         verbrannt, und sie durfte nicht aufhören bis sie sich zu todt getanzt hatte.</p>
+    </story>
 </tale>

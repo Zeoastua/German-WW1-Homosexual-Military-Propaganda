@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../grimm-schema.rnc" type="application/relax-ng-compact-syntax"?>
 <tale>
-
+    <metadata>
+        <title>Hansel und Gretel</title>
+        <year>1821</year>
+        <author>Jacob Grimm</author>
+        <author>Wilhem Grimm</author>
+        <language>German</language>
+        <number>15</number>
+    </metadata>
+    <story>
     <p>Vor einem großen Walde wohnte ein ar- mer Holzhacker, der hatte nichts zu beißen und zu
         brechen, und kaum das tägliche Brod für seine Frau und seine zwei Kinder, Hänsel und Gretel.
         Einmal konnte er auch das nicht mehr schaffen, und wußte sich nicht zu helfen in seiner
@@ -38,10 +47,7 @@
         ich will ein Feuer anmachen, daß wir nicht frieren.“ Hänsel und Gretel trugen Reisig
         zusammen, einen kleinen Berg hoch. Da steckten sie es an, und wie die Flamme recht groß
         brannte, sagte die Mutter: „nun legt euch ans Feuer und schlaft, wir wollen in dem Wald das
-        Holz fällen, wartet, bis wir wieder kommen, und euch abholen.<choice>
-            <sic/>
-            <corr>“</corr>
-        </choice></p>
+        Holz fällen, wartet, bis wir wieder kommen, und euch abholen.“</p>
 
     <p>Hänsel und Gretel saßen an dem Feuer, bis Mittag, da aß jedes sein Stücklein Brod, und dann
         wieder bis an den Abend; aber Va- ter und Mutter blieben aus, und niemand woll- te kommen
@@ -146,4 +152,5 @@
         Perlen, davon füllten sie ihre Taschen, gingen fort und fanden den Weg nach Haus. Der Vater
         freute sich als er sie wieder sah, er hatte keinen vergnügten Tag gehabt, seit seine Kinder
         fort waren, und ward nun ein reicher Mann. Die Mutter aber war gestorben.</p>
+    </story>
 </tale>

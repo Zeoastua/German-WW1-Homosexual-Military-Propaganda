@@ -10,88 +10,188 @@
         <number>24</number>
     </metadata>
     <story>
-        <p>Eine <character child-status="mother" marital-status="widow">Wittwe</character> hatte
-            zwei Töchter, davon war die eine schön und fleißig, die andere häß- lich und faul. Sie
-            hatte aber die häßliche und faule viel lieber, und die andere mußte alle Ar- beit thun
-            und war recht der Aschenputtel im Haus. Einmal war das <character
-                child-status="childless" marital-status="unmarried">Mädchen</character> hingegan-
-            gen, Wasser zu holen, und wie es sich bückte den Eimer aus dem Brunnen zu ziehen, bückte
-            es sich zu tief und fiel hinein. Und als es er- wachte und wieder zu sich selber kam,
-            war es auf einer schönen Wiese, da schien die Sonne und waren viel tausend Blumen. Auf
-            der Wiese gieng es fort und kam zu einem Back- ofen, der war voller Brot; das Brot aber
-            rief: <dialogue speaker="Brot">„ach! zieh mich 'raus, zieh mich 'raus, sonst verbrenn'
-                ich, ich bin schon längst ausgebacken!“</dialogue> da trat es fleißig herzu und
-            holte alles heraus. Darnach ging es weiter und kam zu einem Baum, der hing voll Aepfel
-            und rief ihm zu: <dialogue speaker="Baum">„ach! schüttel mich! schüttel mich! wir Aepfel
-                sind allemiteinander reif!“</dialogue> Da schüttelt' es den Baum, daß die Aepfel
-            fielen, als regenten sie, solang bis keiner mehr oben war, darnach ging es wieder fort.
-            Endlich kam es zu einem klei- nen Haus, daraus guckte eine <character
-                child-status="childless" marital-status="unmarried">alte Frau</character>, weil sie
-            aber so große Zähne hatte, ward ihm Angst und es wollte fortlaufen. Die <character
-                child-status="childless" marital-status="unmarried">alte Frau</character> aber rief
-            ihm nach: <dialogue speaker="die alte Frau">„fürcht dich nicht, liebes Kind, bleib bei
-                mir, wenn du alle Arbeit im Haus ordentlich thun willst, so soll dirs gut gehn: nur
-                mußt du recht darauf Acht geben daß du mein Bett gut machst, und es fleißig
-                aufschüt- telst, daß die Federn fliegen, dann schneit es in der Welt; Darum sagt man
-                in Hessen, wenn es schneit: die <character child-status="childless"
-                    marital-status="unmarried">Frau Holle</character> macht ihr Bett. Ich bin die
-                    <character child-status="childless" marital-status="unmarried">Frau
-                    Holle.</character>“</dialogue> Weil die Alte so gut sprach, willigte das
-                <character child-status="childless" marital-status="unmarried">Mädchen</character>
-            ein und begab sich in ihren Dienst. Es besorgte auch alles nach ihrer Zufriedenheit und
-                <action agent="Mädchen">schüt- telte ihr das Bett immer gewaltig auf</action>, dafür
-            hatte es auch ein gut Leben bei ihr, kein böses Wort und alle Tage Gesottenes und
-            Gebrate- nes. Nun war es eine Zeitlang bei der <character child-status="childless"
-                marital-status="unmarried">Frau Holle</character>, da ward es traurig in seinem
-            Herzen und ob es hier gleich viel tausendmal besser war, als zu Haus, so hatte es doch
-            ein Ver- langen dahin; endlich sagte es zu ihr: <dialogue speaker="Mädchen">„ich habe
-                den Jammer nach Haus kriegt, und wenn es mir auch noch so gut hier geht, so kann ich
-                doch nicht länger bleiben.“</dialogue> Die <character child-status="childless"
-                marital-status="unmarried">Frau Holle</character> sagte: <dialogue
-                speaker="Frau Holle">„du hast Recht und weil du mir so treu gedient hast, so will
-                ich dich selbst wieder hin- aufbringen.“</dialogue> Sie nahm es darauf bei der Hand
-            und führte es vor ein großes Thor. Das ward aufgethan und wie das <character
-                child-status="childless" marital-status="unmarried">Mädchen</character> darun- ter
-            stand, fiel ein gewaltiger Goldregen, und alles Gold blieb an ihm hängen, so daß es über
-            und über davon bedeckt war. <dialogue speaker="Frau Holle">„Das sollst du haben, weil du
-                so fleißig gewesen bist,“</dialogue> sprach die <character child-status="childless"
-                marital-status="unmarried">Frau Holle</character>. Darauf ward das Thor verschlossen
-            und es war oben auf der Welt, da ging es heim zu seiner <character child-status="mother"
-                marital-status="widow">Mutter</character> und weil es so mit Gold bedeckt ankam,
-            ward es gut aufge- nommen.</p>
+        <p>Eine <character child-status="mother" marital-status="widow" reference="mother"
+                >Wittwe</character> hatte zwei Töchter, davon war die eine schön und fleißig, die
+            andere häß- lich und faul. <character child-status="mother" marital-status="widow"
+                reference="mother">Sie</character> hatte aber die häßliche und faule viel lieber,
+            und die andere mußte alle Ar- beit thun und war recht der Aschenputtel im Haus. Einmal
+            war das <character child-status="childless" marital-status="unmarried"
+                reference="beautifuk">Mädchen</character> hingegan- gen, Wasser zu holen, und wie
+                <character child-status="childless" marital-status="unmarried" reference="beautiful"
+                >es</character> sich bückte den Eimer aus dem Brunnen zu ziehen, bückte <character
+                child-status="childless" marital-status="unmarried" reference="beautiful"
+                >es</character> sich zu tief und fiel hinein. Und als <character
+                child-status="childless" marital-status="unmarried" reference="beautiful"
+                >es</character> er- wachte und wieder zu sich selber kam, war <character
+                child-status="childless" marital-status="unmarried" reference="beautiful"
+                >es</character> auf einer schönen Wiese, da schien die Sonne und waren viel tausend
+            Blumen. Auf der Wiese gieng <character child-status="childless"
+                marital-status="unmarried" reference="beautiful">es</character> fort und kam zu
+            einem Back- ofen, der war voller Brot; das Brot aber rief: <dialogue speaker="bread"
+                stateofbeing="neutral">„ach! zieh mich 'raus, zieh mich 'raus, sonst verbrenn' ich,
+                ich bin schon längst ausgebacken!“</dialogue> da trat <character
+                child-status="childless" marital-status="unmarried" reference="beautiful"
+                >es</character> fleißig herzu und holte alles heraus. Darnach ging <character
+                child-status="childless" marital-status="unmarried" reference="beautiful"
+                >es</character> weiter und kam zu einem Baum, der hing voll Aepfel und rief ihm zu:
+                <dialogue speaker="tree" stateofbeing="negative">„ach! schüttel mich! schüttel mich!
+                wir Aepfel sind allemiteinander reif!“</dialogue> Da schüttelt' <character
+                child-status="childless" marital-status="unmarried" reference="beautiful"
+                >es</character> den Baum, daß die Aepfel fielen, als regenten sie, solang bis keiner
+            mehr oben war, darnach ging <character child-status="childless"
+                marital-status="unmarried" reference="beautiful">es</character> wieder fort. Endlich
+            kam <character child-status="childless" marital-status="unmarried" reference="beautiful"
+                >es</character> zu einem klei- nen Haus, daraus guckte eine <character
+                child-status="childless" marital-status="unmarried" reference="Holle">alte
+                Frau</character>, weil <character child-status="childless"
+                marital-status="unmarried" reference="Holle">sie</character> aber so große Zähne
+            hatte, ward <character child-status="childless" marital-status="unmarried"
+                reference="beautiful">ihm</character> Angst und <character child-status="childless"
+                marital-status="unmarried" reference="beautiful">es</character> wollte fortlaufen.
+            Die <character child-status="childless" marital-status="unmarried" reference="Holle"
+                >alte Frau</character> aber rief ihm nach: <dialogue speaker="die alte Frau"
+                stateofbeing="positive">„fürcht dich nicht, liebes <character
+                    child-status="childless" marital-status="unmarried" reference="beautiful"
+                    >Kind</character>, bleib bei <character child-status="childless"
+                    marital-status="unmarried" reference="Holle">mir</character>, wenn <character
+                    child-status="childless" marital-status="unmarried" reference="beautiful"
+                    >du</character> alle Arbeit im Haus ordentlich thun willst, so soll dirs gut
+                gehn: nur mußt <character child-status="childless" marital-status="unmarried"
+                    reference="beautiful">du</character> recht darauf Acht geben daß <character
+                    child-status="childless" marital-status="unmarried" reference="beautiful"
+                    >du</character> mein Bett gut machst, und es fleißig aufschüt- telst, daß die
+                Federn fliegen, dann schneit es in der Welt; Darum sagt man in Hessen, wenn es
+                schneit: die <character child-status="childless" marital-status="unmarried"
+                    reference="Holle">Frau Holle</character> macht ihr Bett. Ich bin die <character
+                    child-status="childless" marital-status="unmarried" reference="Holle">Frau
+                    Holle.</character>“</dialogue> Weil die <character child-status="childless"
+                marital-status="unmarried" reference="Holle">Alte</character> so gut sprach,
+            willigte das <character child-status="childless" marital-status="unmarried"
+                reference="beautiful">Mädchen</character> ein und begab sich in ihren Dienst.
+                <character child-status="childless" marital-status="unmarried" reference="beautiful"
+                >Es</character> besorgte auch alles nach ihrer Zufriedenheit und <act type="doing"
+                effect="benevolent" agent="beautiful">schüt- telte ihr das Bett immer gewaltig
+                auf</act>, dafür hatte <character child-status="childless"
+                marital-status="unmarried" reference="beautiful">es</character> auch ein gut Leben
+            bei <character child-status="childless" marital-status="unmarried" reference="Holle"
+                >ihr</character>, kein böses Wort und alle Tage Gesottenes und Gebrate- nes. Nun war
+                <character child-status="childless" marital-status="unmarried" reference="beautiful"
+                >es</character> eine Zeitlang bei der <character child-status="childless"
+                marital-status="unmarried" reference="Holle">Frau Holle</character>, da ward
+                <character child-status="childless" marital-status="unmarried" reference="beautiful"
+                >es</character> traurig in seinem Herzen und ob <character child-status="childless"
+                marital-status="unmarried" reference="beautiful">es</character> hier gleich viel
+            tausendmal besser war, als zu Haus, so hatte <character child-status="childless"
+                marital-status="unmarried" reference="beautiful">es</character> doch ein Ver- langen
+            dahin; endlich sagte <character child-status="childless" marital-status="unmarried"
+                reference="beautiful">es</character> zu ihr: <dialogue speaker="beautiful"
+                stateofbeing="negative">„ich habe den Jammer nach Haus kriegt, und wenn es mir auch
+                noch so gut hier geht, so kann ich doch nicht länger bleiben.“</dialogue> Die
+                <character child-status="childless" marital-status="unmarried" reference="Holle"
+                >Frau Holle</character> sagte: <dialogue speaker="Frau Holle"
+                stateofbeing="positive">„<character child-status="childless"
+                    marital-status="unmarried" reference="beautiful">du</character> hast Recht und
+                weil <character child-status="childless" marital-status="unmarried"
+                    reference="beautiful">du</character> mir so treu gedient hast, so will ich
+                    <character child-status="childless" marital-status="unmarried"
+                    reference="beautiful">dich</character> selbst wieder hin-
+                aufbringen.“</dialogue> Sie <act type="doing" effect="benevolent" agent="Holle"
+                receiver="beautiful">nahm <character child-status="childless"
+                    marital-status="unmarried" reference="beautiful">es</character> darauf bei der
+                Hand</act> und <act type="doing" effect="benevolent" agent="Holle"
+                receiver="beautiful">führte <character child-status="childless"
+                    marital-status="unmarried" reference="beautiful">es</character> vor ein großes
+                Thor.</act> Das ward aufgethan und wie das <character child-status="childless"
+                marital-status="unmarried" reference="beautiful">Mädchen</character> darun- ter
+            stand, fiel ein gewaltiger Goldregen, und alles Gold blieb an <character
+                child-status="childless" marital-status="unmarried" reference="beautiful"
+                >ihm</character> hängen, so daß es über und über davon bedeckt war. <dialogue
+                speaker="Frau Holle" stateofbeing="positive">„Das sollst <character
+                    child-status="childless" marital-status="unmarried" reference="beautiful"
+                    >du</character> haben, weil <character child-status="childless"
+                    marital-status="unmarried" reference="beautiful">du</character> so fleißig
+                gewesen bist,“</dialogue> sprach die <character child-status="childless"
+                marital-status="unmarried" reference="Holle">Frau Holle</character>. Darauf ward das
+            Thor verschlossen und <character child-status="childless" marital-status="unmarried"
+                reference="beautiful">es</character> war oben auf der Welt, da ging <character
+                child-status="childless" marital-status="unmarried" reference="beautiful"
+                >es</character> heim zu seiner <character child-status="mother"
+                marital-status="widow" reference="mother">Mutter</character> und weil <character
+                child-status="childless" marital-status="unmarried" reference="beautiful"
+                >es</character> so mit Gold bedeckt ankam, ward <character child-status="childless"
+                marital-status="unmarried" reference="beautiful">es</character> gut aufge-
+            nommen.</p>
 
-        <p>Als die <character child-status="mother" marital-status="widow">Mutter</character> hörte,
-            wie es zu dem Reich- thum gekommen, wollte sie der andern schönen und faulen <character
-                child-status="childless" marital-status="unmarried">Tochter</character> gern
-            dasselbe Glück verschaf- fen, und sie mußte sich auch in den Brunnen stürzen. Sie
-            erwachte, wie die andere auf der schönen Wiese und ging auf demselben Pfad weiter. Als
-            sie zu dem Backofen gelangte, schrie das Brod wieder: <dialogue speaker="Brod">„ach!
-                zieh mich 'raus, zieh mich 'raus, sonst verbrenn ich, ich bin schon längst
-                ausgebacken!“</dialogue> die Faule aber antworte- te: <dialogue speaker="die Faule"
-                >„da hätt' ich Lust, mich schmutzig zu ma- chen!“</dialogue> und ging fort. Bald kam
-            sie zu dem Apfelbaum, der rief: <dialogue speaker="Aepfelbaum">„ach! schüttel mich!
-                schüt- tel mich! wir Aepfel sind alle mit einander reif“</dialogue> sie antwortete
-            aber: <dialogue speaker="die Faule">„du kommst mir recht, es könnt mir einer auf den
-                Kopf fallen!“</dialogue> ging damit weiter. Als sie vor der <character
-                child-status="childless" marital-status="unmarried">Frau Holle</character> Haus kam,
-            fürchtete sie sich nicht, weil sie von ihren großen Zähnen schon gehört hatte, und
-            verdingte sich gleich zu ihr. Am ersten Tag that sie sich Gewalt an und war fleißig und
-            folgte der <character child-status="childless" marital-status="unmarried">Frau
-                Holle</character>, wenn sie ihr etwas sagte, denn sie gedachte an das viele Gold,
-            daß sie ihr schenken würde; am zweiten Tag aber fing sie schon an zu faullenzen, am
-            dritten noch mehr, da wollte sie Morgens gar nicht aufstehen, sie <action
-                agent="Töchter">machte auch der <character child-status="childless"
-                    marital-status="unmarried">Frau Holle</character> das Bett schlecht</action> und
-                <action agent="Tochter">schüttelte es nicht recht</action>, daß die Federn
+        <p>Als die <character child-status="mother" marital-status="widow" reference="mother"
+                >Mutter</character> hörte, wie <character child-status="childless"
+                marital-status="unmarried" reference="beautiful">es</character> zu dem Reich- thum
+            gekommen, wollte <character child-status="childless" marital-status="unmarried"
+                reference="mother">sie</character> der andern schönen und faulen <character
+                child-status="childless" marital-status="unmarried" reference="ugly"
+                >Tochter</character> gern dasselbe Glück verschaf- fen, und <character
+                child-status="childless" marital-status="unmarried" reference="ugly">sie</character>
+            mußte sich auch in den Brunnen stürzen. <character child-status="childless"
+                marital-status="unmarried" reference="ugly">Sie</character> erwachte, wie die andere
+            auf der schönen Wiese und ging auf demselben Pfad weiter. Als <character
+                child-status="childless" marital-status="unmarried" reference="ugly">sie</character>
+            zu dem Backofen gelangte, schrie das Brod wieder: <dialogue speaker="bread"
+                stateofbeing="neutral">„ach! zieh mich 'raus, zieh mich 'raus, sonst verbrenn ich,
+                ich bin schon längst ausgebacken!“</dialogue> die <character
+                child-status="childless" marital-status="unmarried" reference="ugly"
+                >Faule</character> aber antworte- te: <dialogue speaker="ugly"
+                stateofbeing="negative">„da hätt' ich Lust, mich schmutzig zu ma- chen!“</dialogue>
+            und ging fort. Bald kam <character child-status="childless" marital-status="unmarried"
+                reference="ugly">sie</character> zu dem Apfelbaum, der rief: <dialogue
+                speaker="tree" stateofbeing="neutral">„ach! schüttel mich! schüt- tel mich! wir
+                Aepfel sind alle mit einander reif“</dialogue>
+            <character child-status="childless" marital-status="unmarried" reference="ugly"
+                >sie</character> antwortete aber: <dialogue speaker="die Faule"
+                stateofbeing="negative">„du kommst mir recht, es könnt mir einer auf den Kopf
+                fallen!“</dialogue> ging damit weiter. Als <character child-status="childless"
+                marital-status="unmarried" reference="ugly">sie</character> vor der <character
+                child-status="childless" marital-status="unmarried" reference="Holle">Frau
+                Holle</character> Haus kam, fürchtete <character child-status="childless"
+                marital-status="unmarried" reference="ugly">sie</character> sich nicht, weil
+                <character child-status="childless" marital-status="unmarried" reference="ugly"
+                >sie</character> von <character child-status="childless" marital-status="unmarried"
+                reference="Holle">ihren</character> großen Zähnen schon gehört hatte, und verdingte
+            sich gleich zu <character child-status="childless" marital-status="unmarried"
+                reference="ugly">ihr</character>. Am ersten Tag that <character
+                child-status="childless" marital-status="unmarried" reference="ugly">sie</character>
+            sich Gewalt an und war fleißig und folgte der <character child-status="childless"
+                marital-status="unmarried" reference="Holle">Frau Holle</character>, wenn <character
+                child-status="childless" marital-status="unmarried" reference="ugly">sie</character>
+            <character child-status="childless" marital-status="unmarried" reference="Holle"
+                >ihr</character> etwas sagte, denn sie gedachte an das viele Gold, daß <character
+                child-status="childless" marital-status="unmarried" reference="uglt">sie</character>
+            <character child-status="childless" marital-status="unmarried" reference="Holle"
+                >ihr</character> schenken würde; am zweiten Tag aber fing <character
+                child-status="childless" marital-status="unmarried" reference="ugly">sie</character>
+            schon an zu faullenzen, am dritten noch mehr, da wollte <character
+                child-status="childless" marital-status="unmarried" reference="ugly">sie</character>
+            Morgens gar nicht aufstehen, <character child-status="childless"
+                marital-status="unmarried" reference="ugly">sie</character>
+            <act type="doing" effect="ambiguous" agent="ugly">machte auch der <character
+                    child-status="childless" marital-status="unmarried" reference="Holle">Frau
+                    Holle</character> das Bett schlecht</act> und <act type="doing"
+                effect="ambiguous" agent="ugly">schüttelte es nicht recht</act>, daß die Federn
             aufflogen. Das ward die <character child-status="childless" marital-status="unmarried"
-                >Frau Holle</character> bald müd und sagte der Faulen den Dienst auf. Die war es
-            wohl zufrieden und meinte nun werde der Goldregen kommen, die <character
-                child-status="childless" marital-status="unmarried">Frau Holle</character> führte
-            sie auch hin zu dem Thor als sie aber darunter stand, ward statt des Golds ein großer
-            Kessel voll Pech ausgeschüttet. <dialogue speaker="Frau Holle">„Das ist zur Beloh- nung
-                deiner Dienste“</dialogue> sagte die <character child-status="childless"
-                marital-status="unmarried">Frau Holle</character> und schloß das Thor zu. Da kam die
-            Faule heim, ganz mit Pech bedeckt, und das hat ihr Lebtag nicht wieder abgehen
-            wollen.</p>
+                reference="Holle">Frau Holle</character> bald müd und sagte der <character
+                child-status="childless" marital-status="unmarried" reference="ugly"
+                >Faulen</character> den Dienst auf. <character child-status="childless"
+                marital-status="unmarried" reference="Holle">Die</character> war es wohl zufrieden
+            und meinte nun werde der Goldregen kommen, die <character child-status="childless"
+                marital-status="unmarried" reference="Holle">Frau Holle</character> führte
+                <character child-status="childless" marital-status="unmarried" reference="ugly"
+                >sie</character> auch hin zu dem Thor als <character child-status="childless"
+                marital-status="unmarried" reference="ugly">sie</character> aber darunter stand,
+            ward statt des Golds ein großer Kessel voll Pech ausgeschüttet. <dialogue
+                speaker="Holle" stateofbeing="negative">„Das ist zur Beloh- nung deiner
+                Dienste“</dialogue> sagte die <character child-status="childless"
+                marital-status="unmarried" reference="Holle">Frau Holle</character> und schloß das
+            Thor zu. Da kam die <character child-status="childless" marital-status="unmarried"
+                reference="ugly">Faule</character> heim, ganz mit Pech bedeckt, und das hat
+                <character child-status="childless" marital-status="unmarried" reference="ugly"
+                >ihr</character> Lebtag nicht wieder abgehen wollen.</p>
     </story>
 </tale>
