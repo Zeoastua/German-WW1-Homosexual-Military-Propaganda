@@ -1,133 +1,218 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<head>49.
-    <hi rendition="#g">Die sechs Schwäne</hi>.</head>
+<?xml-model href="../../grimm-schema.rnc" type="application/relax-ng-compact-syntax"?>
+<tale>
+    <metadata>
+        <title>Die sechs Schwäne</title>
+        <year>1821</year>
+        <author>Jacob Grimm</author>
+        <author>Wilhem Grimm</author>
+        <language>German</language>
+        <number>49</number>
+    </metadata>
+    <story>
+        <p>Ein König jagte in einem großen Wald, verirrte sich und konnte keinen Ausgang finden, da
+            kam er endlich zu einer <character child-status="mother" marital-status="unmarried"
+                reference="witch">Hexe</character>, <character child-status="mother"
+                marital-status="unmarried" reference="witch">die</character> bat er, <character
+                child-status="mother" marital-status="unmarried" reference="witch">sie</character>
+            mögte ihn wieder heraus leiten. Die <character child-status="mother"
+                marital-status="unmarried" reference="witch">Hexe</character> aber antwortete, das
+            geschähe nimmermehr, er müsse darin bleiben und sein Leben verlieren, und nur das eine
+            könne ihn erretten, daß er ihre <character child-status="childless"
+                marital-status="unmarried" reference="witch-daughter">Tochter</character> heirathe.
+            Dem König war sein Leben lieb, und in der Angst sagte er ja; die <character
+                child-status="mother" marital-status="unmarried" reference="witch">Hexe</character>
+            brachte ihm das <character child-status="childless" marital-status="unmarried"
+                reference="witch-daughter">Mädchen</character>, <character child-status="childless"
+                marital-status="unmarried" reference="witch-daughter">es</character> war jung und
+            schön, er konnte <character child-status="childless" marital-status="unmarried"
+                reference="witch-daughter">es</character> aber nicht ohne Grau- sen und ohne eine
+            heimliche Furcht ansehen; doch wollte er, was er versprochen hatte, hal- ten. Die
+                <character child-status="mother" marital-status="unmarried" reference="witch"
+                >Alte</character> führte dann beide auf den rech- ten Weg, und daheim ward die
+                <character child-status="childless" marital-status="unmarried"
+                reference="witch-daughter">Hexentochter</character> seine Gemahlin. Der König aber
+            hatte noch sieben Kinder von seiner ersten <character child-status="mother"
+                marital-status="unmarried" reference="first-wife">Frau</character>, sechs Buben und
+            ein <character child-status="childless" marital-status="unmarried"
+                reference="king-daughter">Mädchen</character>, und weil er fürch- tete, es könne
+            ihnen von der <character child-status="stepmother" marital-status="unmarried"
+                reference="witch-daughter">Stiefmutter</character> ein Leids angethan werden,
+            brachte er sie in ein Schloß, das er mitten in einem Walde stehen hatte. Es stand so
+            verborgen, daß niemand den Weg dahin wußte, und er selber hätte ihn nicht gefunden, wenn
+            ihm nicht eine weise Frau einen Knauel von Garn gegeben, wenn er den vor sich warf,
+            wickelte er sich auf und zeigte ihm den Weg. Weil aber der König seine Kin- der gar lieb
+            hatte, ging er oft hinaus, da ward die <character child-status="stepmother"
+                marital-status="unmarried" reference="witch-daughter">Königin</character> neugierig,
+            und wollte wissen, was der König so viel allein in dem Wald zu thun habe; <character
+                child-status="stepmother" marital-status="unmarried" reference="witch-daughter"
+                >sie</character> forschte die Diener aus, und diese ver- riethen ihr das ganze
+            Geheimniß. Das erste war nun, daß <character child-status="stepmother"
+                marital-status="unmarried" reference="witch-daughter">sie</character> sich mit List
+            den Knauel ver- schaffte, dann nahm <character child-status="stepmother"
+                marital-status="unmarried" reference="witch-daughter">sie</character> sieben kleine
+            Hemdchen, und ging hinaus in den Wald. Der Knauel zeigte <character
+                child-status="stepmother" marital-status="unmarried" reference="witch-daughter"
+                >ihr</character> den Weg, und als die sechs kleinen Prinzen <character
+                child-status="stepmother" marital-status="unmarried" reference="witch-daughter"
+                >sie</character> von weitem kommen sahen, freuten sie sich, meinten ihr Vater käm
+            und liefen her- aus auf <character child-status="stepmother" marital-status="unmarried"
+                reference="witch-daughter">sie</character> zu. Da <act type="doing" effect="hostile"
+                agent="witch-daughter" receiver="stepchildren">warf <character
+                    child-status="stepmother" marital-status="unmarried" reference="witch-daughter"
+                    >sie</character> über jeden ein Hemdchen</act>, und kaum hatte es ihren Leib be-
+            rührt, da waren sie in Schwäne verwandelt, hoben sich auf in die Luft und flogen davon.
+                <character child-status="stepmother" marital-status="unmarried"
+                reference="witch-daughter">Sie</character> meinte nun <character
+                child-status="stepmother" marital-status="unmarried" reference="witch-daughter"
+                >sie</character> hätte alle Stiefkinder weg- geschafft, und ging wieder heim, und so
+            war das <character child-status="childless" marital-status="unmarried"
+                reference="king-daughter">Mädchen</character>, <character child-status="childless"
+                marital-status="unmarried" reference="king-daughter">das</character> in seiner
+            Kammer geblieben war, errettet. Am andern Tag kam der König in das Waldschloß, da
+            erzählte <character child-status="childless" marital-status="unmarried"
+                reference="king-daughter">es</character> ihm, was ge- schehen war, und zeigte ihm
+            noch die Schwa- nenfedern, die von ihren sechs Brüdern auf den Hof gefallen waren. Der
+            König erschrack, gedachte aber nimmermehr, daß die <character child-status="childless"
+                marital-status="unmarried" reference="witch-daughter">Königin</character> die böse
+            That vollbracht, und weil er besorgte, die <character child-status="childless"
+                marital-status="unmarried" reference="king-daughter">Prinzessin</character> möge ihm
+            auch geraubt werden, wollte er sie mit sich nach Haus nehmen. <character
+                child-status="childless" marital-status="unmarried" reference="king-daughter"
+                >Sie</character> fürchtete sich aber vor ihrer <character child-status="stepmother"
+                marital-status="unmarried" reference="witch-daughter">Stiefmutter</character> und
+            bat ihn, er mögte <character child-status="childless" marital-status="unmarried"
+                reference="king-daughter">sie</character> nur noch die Nacht in dem Schloß lassen;
+            in der Nacht aber entfloh <character child-status="childless" marital-status="unmarried"
+                reference="king-daughter">sie</character>, und gerade zu in den Wald hinein.</p>
 
-<p>Ein König jagte in einem großen Wald, verirrte sich und
-    konnte keinen Ausgang finden, da kam er endlich zu einer Hexe, die bat
-    er, sie mögte ihn wieder heraus leiten. Die Hexe aber
-    antwortete, das geschähe nimmermehr, er
-    müsse darin bleiben und sein Leben verlieren,
-    und nur das eine könne ihn erretten, daß er ihre Tochter heirathe.
-    Dem König war sein Leben lieb, und in der Angst
-    sagte er ja; die Hexe brachte ihm das Mädchen, es war
-    jung und schön, er konnte es aber nicht ohne Grau-
-    sen und ohne eine heimliche Furcht ansehen; doch wollte er,
-    was er versprochen hatte, hal- ten. Die Alte führte dann
-    beide auf den rech- ten Weg, und daheim ward die Hexentochter
-    seine Gemahlin. Der König aber hatte noch sieben
-    Kinder von seiner ersten Frau, sechs Buben und ein
-    Mädchen, und weil er fürch- tete, es könne ihnen
-    von der Stiefmutter ein Leids angethan werden, brachte er sie in
-    ein Schloß, das er mitten in einem Walde stehen hatte. Es
-    stand so verborgen, daß niemand den Weg dahin wußte, und er
-    selber hätte ihn nicht gefunden, wenn ihm nicht eine
-    weise Frau einen Knauel von Garn gegeben, wenn er den
-    vor sich warf, wickelte er sich auf
-    und zeigte ihm den Weg. Weil aber der König seine Kin-
-    der gar lieb hatte, ging er oft hinaus, da ward die Königin
-    neugierig, und wollte wissen, was der König so
-    viel allein in dem Wald zu thun habe; sie forschte die Diener
-    aus, und diese ver- riethen ihr das ganze Geheimniß. Das
-    erste war nun, daß sie sich mit List den Knauel
-    ver- schaffte, dann nahm sie sieben kleine
-    Hemdchen, und ging hinaus in den Wald. Der Knauel zeigte ihr den Weg,
-    und als die sechs kleinen Prinzen sie von weitem kommen
-    sahen, freuten sie sich, meinten ihr Vater käm
-    und liefen her- aus auf sie zu. Da warf sie über
-    jeden ein Hemdchen, und kaum hatte es ihren Leib be- rührt, da
-    waren sie in Schwäne verwandelt, hoben sich auf in
-    die Luft und flogen davon Sie meinte nun sie hätte alle
-    Stiefkinder weg- geschafft, und ging wieder heim, und so
-    war das Mädchen, das in seiner Kammer geblieben war,
-    errettet. Am andern Tag kam der König in das Waldschloß, da
-    erzählte es ihm, was ge- schehen war, und zeigte ihm noch
-    die Schwa- nenfedern, die von ihren sechs Brüdern auf
-    den Hof gefallen waren. Der König erschrack, gedachte aber
-    nimmermehr, daß die Königin die böse That
-    vollbracht, und weil er besorgte, die Prinzessin
-    möge ihm auch geraubt werden, wollte er sie mit sich
-    nach Haus nehmen. Sie
-    fürchtete sich aber vor ihrer
-    Stiefmutter und bat ihn, er mögte sie nur noch die Nacht
-    in dem Schloß lassen; in der Nacht aber entfloh
-    sie, und gerade zu in den Wald hinein.</p>
+        <p>Als <character child-status="childless" marital-status="unmarried"
+                reference="king-daughter">sie</character> auch den ganzen Tag bis zum Abend
+            fortgegangen war, kam <character child-status="childless" marital-status="unmarried"
+                reference="king-daughter">sie</character> zu einer Wild- hütte. <character
+                child-status="childless" marital-status="unmarried" reference="king-daughter"
+                >Sie</character> stieg hinauf und fand eine Stube mit sechs kleinen Betten; weil
+                <character child-status="childless" marital-status="unmarried"
+                reference="king-daughter">sie</character> nun müde war, legte <character
+                child-status="childless" marital-status="unmarried" reference="king-daughter"
+                >sie</character> sich unter eins und wollte da die Nacht zubringen. Bei
+            Sonnenuntergang aber kamen sechs Schwäne durch das Fenster herein- geflogen, setzten
+            sich auf den Boden und bliesen einander an, und bliesen sich alle Federn ab, wie ein
+            Tuch sich abstreift, und da waren es ihre sechs Brüder. <character
+                child-status="childless" marital-status="unmarried" reference="king-daughter"
+                >Sie</character> kroch unter dem Bett hervor, und die Brüder waren beides erfreut
+            und betrübt, <character child-status="childless" marital-status="unmarried"
+                reference="king-daughter">sie</character> zu sehen: <dialogue speaker="brothers"
+                stateofbeing="negative">„du kannst hier nicht bleiben, sagten sie, das ist eine
+                Räuberherberg, wenn die Räuber von ihrem Zuge heimkom- men, dann wohnen sie hier.
+                Alle Abend kön- nen wir uns aber eine Viertelstunde lang die Schwanenhaut gänzlich
+                abblasen, und auf so lange unsere menschliche Gestalt haben, hernach aber ist es
+                wieder vorbei. Wenn <character child-status="childless" marital-status="unmarried"
+                    reference="king-daughter">du</character> uns erlösen willst, mußt <character
+                    child-status="childless" marital-status="unmarried" reference="king-daughter"
+                    >du</character> in sechs Jahren sechs Hemd- lein aus Sternblumen zusammennähen,
+                wäh- rend der Zeit aber darfst <character child-status="childless"
+                    marital-status="unmarried" reference="king-daughter">du</character> nicht
+                sprechen und nicht lachen, sonst ist alle Arbeit verloren.“</dialogue> Und als die
+            Brüder das gesprochen hatten, war die Viertelstunde herum, und sie waren wieder in
+            Schwäne verwandelt.</p>
 
-<p>Als sie auch den ganzen Tag bis zum Abend fortgegangen war, kam
-    sie zu einer Wild- hütte. Sie stieg hinauf und fand
-    eine Stube mit sechs kleinen Betten; weil sie nun
-    müde war, legte sie sich unter eins und wollte da
-    die Nacht zubringen. Bei Sonnenuntergang aber kamen sechs
-    Schwäne durch das Fenster herein- geflogen, setzten
-    sich auf den Boden und bliesen einander an, und
-    bliesen sich alle Federn ab, wie ein Tuch sich
-    abstreift, und da waren es ihre sechs Brüder. Sie
-    kroch unter dem Bett hervor, und die Brüder waren beides
-    erfreut und betrübt, sie zu sehen: „du
-    kannst hier nicht bleiben, sagten sie, das ist
-    eine Räuberherberg, wenn die Räuber von ihrem Zuge
-    heimkom- men, dann wohnen sie hier. Alle Abend kön- nen
-    wir uns aber eine Viertelstunde lang die Schwanenhaut
-    gänzlich abblasen, und auf so lange unsere
-    menschliche Gestalt haben, hernach aber ist es wieder
-    vorbei. Wenn du uns erlösen willst, mußt du in
-    sechs Jahren sechs Hemd- lein aus Sternblumen
-    zusammennähen, wäh- rend der Zeit aber darfst
-    du nicht sprechen und nicht lachen, sonst ist
-    alle Arbeit verloren.“ Und als die Brüder das
-    gesprochen hatten, war
-    die Viertelstunde herum, und sie waren
-    wieder in Schwäne verwandelt.</p>
-
-<p>Am andern Morgen aber sammelte sich das Mädchen
-    Sternblumen, setzte sich dann auf einen hohen Baum und fing
-    an zu nähen: es redete auch kein Wort und lachte nicht,
-    sondern sahe nur auf seine Arbeit. Auf eine Zeit jagte
-    der König, dem das Land gehörte in dem Wald, und
-    seine Jäger kamen zu dem Baum, auf welchem es saß.
-    Sie riefen ihm zu, es sollte herabsteigen, weil es ihnen nun
-    nicht antwor- ten durfte, wollte es sie mit Geschenken
-    befrie- digen, und warf ihnen seine goldene Halskette herab.
-    Sie riefen aber noch immer, da warf es seinen Gürtel, als
-    auch dies nichts half sei- ne Strumpfbänder endlich, alles,
-    was es ent- behren konnte, herunter, so daß es nichts mehr als
-    sein Hemdlein anbehielt. Den Jägern war aber das alles nicht
-    genug, sie stiegen auf den Baum, hoben es herab und brachten
-    es mir Gewalt zum König. Der König war verwun- dert
-    über seine Schönheit, wickelte es in seinen
-    Mantel, setzte es vor sich aufs Pferd, und führte es
-    nach Haus, und ob es gleich stumm war, liebte er es doch von Herzen,
-    und es ward seine Gemahlin. Des Königs Mutter aber war
-    böse darüber, sprach schlecht von ihr:
-    niemand wisse, woher die Dirne gekommen, und sie
-    sey des Königs unwerth. Als sie nun
-    den ersten Prinzen zur Welt brachte, nahm
-    die Schwiegermutter ihn weg, bestrich ihr den Mund mit Blut und
-    gab dann bei dem König vor, die Königin habe ihr eigen Kind
-    gefressen, und sey eine Zauberin. Der König
-    aber, aus großer Liebe, wollte es nicht glauben; darnach als
-    sie den zweiten Prinzen gebar, übte die gottlose
-    Schwiegermutter denselben Betrug, und klagte sie wieder beim
-    König an, und weil sie nicht reden durfte, sondern
-    immer stumm saß und an den sechs Hemdern arbeitete,
-    so konnte sie nichts mehr erretten, und sie ward
-    zum Feuer verdammt. Der Tag kam heran, wo das Urtheil sollte
-    vollzogen werden, es war gerade der letzte Tag von den sechs Jahren,
-    und sie war mit den sechs Hemdern fertig geworden, nur
-    an einem fehlte der linke Ermel. Wie sie nun zum Scheiterhaufen
-    geführt wurde, nahm sie die sechs Hemder mit
-    sich, und wie sie oben stand und eben das Feuer
-    sollte angesteckt wer- den, sah sie
-    sechs Schwäne durch die Luft da- her ziehen, und
-    über ihr sich herabsenken. Da warf sie die
-    Hemdlein hinauf, die fielen über die Schwäne hin, und kaum
-    waren sie davon berührt, so fiel ihre Schwanenhaut
-    ab, und die sechs Brüder standen leibhaftig vor ihr,
-    nur dem sechsten fehlte der linke Arm, und er hatte
-    dafür einen Schwanenflügel auf dem Rücken. Da war
-    ihr auch die Sprache wiedergegeben,
-    und sie erzählte, wie die
-    Schwiegermutter sie so boshaft verläumdet,
-    dafür ward diese auf den Scheiterhaufen gebracht und
-    verbrannt, sie aber lebte lange mit dem König und ihren
-    sechs Brüdern in Freuden.</p>
-    
+        <p>Am andern Morgen aber sammelte sich das <character child-status="childless"
+                marital-status="unmarried" reference="king-daughter">Mädchen</character>
+            Sternblumen, setzte sich dann auf einen hohen Baum und fing an zu nähen: <character
+                child-status="childless" marital-status="unmarried" reference="king-daughter"
+                >es</character> redete auch kein Wort und lachte nicht, sondern sahe nur auf seine
+            Arbeit. Auf eine Zeit jagte der König, dem das Land gehörte in dem Wald, und seine Jäger
+            kamen zu dem Baum, auf welchem <character child-status="childless"
+                marital-status="unmarried" reference="king-daughter">es</character> saß. Sie riefen
+            ihm zu, <character child-status="childless" marital-status="unmarried"
+                reference="king-daughter">es</character> sollte herabsteigen, weil <character
+                child-status="childless" marital-status="unmarried" reference="king-daughter"
+                >es</character> ihnen nun nicht antwor- ten durfte, wollte <character
+                child-status="childless" marital-status="unmarried" reference="king-daughter"
+                >es</character> sie mit Geschenken befrie- digen, und warf ihnen seine goldene
+            Halskette herab. Sie riefen aber noch immer, da warf <character child-status="childless"
+                marital-status="unmarried" reference="king-daughter">es</character> seinen Gürtel,
+            als auch dies nichts half sei- ne Strumpfbänder endlich, alles, was <character
+                child-status="childless" marital-status="unmarried" reference="king-daughter"
+                >es</character> ent- behren konnte, herunter, so daß <character
+                child-status="childless" marital-status="unmarried" reference="king-daughter"
+                >es</character> nichts mehr als sein Hemdlein anbehielt. Den Jägern war aber das
+            alles nicht genug, sie stiegen auf den Baum, hoben <character child-status="childless"
+                marital-status="unmarried" reference="king-daughter">es</character> herab und
+            brachten <character child-status="childless" marital-status="unmarried"
+                reference="king-daughter">es</character> mir Gewalt zum König. Der König war verwun-
+            dert über seine Schönheit, wickelte <character child-status="childless"
+                marital-status="unmarried" reference="king-daughter">es</character> in seinen
+            Mantel, setzte <character child-status="childless" marital-status="unmarried"
+                reference="king-daughter">es</character> vor sich aufs Pferd, und führte <character
+                child-status="childless" marital-status="unmarried" reference="king-daughter"
+                >es</character> nach Haus, und ob <character child-status="childless"
+                marital-status="unmarried" reference="king-daughter">es</character> gleich stumm
+            war, liebte er <character child-status="childless" marital-status="unmarried"
+                reference="king-daughter">es</character> doch von Herzen, und <character
+                child-status="childless" marital-status="unmarried" reference="king-daughter"
+                >es</character> ward seine Gemahlin. Des Königs <character child-status="mother"
+                marital-status="unmarried" reference="king-mother">Mutter</character> aber war böse
+            darüber, sprach schlecht von ihr: niemand wisse, woher die <character
+                child-status="childless" marital-status="unmarried" reference="king-daughter"
+                >Dirne</character> gekommen, und <character child-status="childless"
+                marital-status="unmarried" reference="king-daughter">sie</character> sey des Königs
+            unwerth. Als <character child-status="mother" marital-status="unmarried"
+                reference="king-daughter">sie</character> nun den ersten Prinzen zur Welt brachte,
+            nahm die <character child-status="mother" marital-status="unmarried"
+                reference="king-mother">Schwiegermutter</character> ihn weg, <act type="doing"
+                effect="hostile" agent="king-mother" receiver="king-daughter">bestrich ihr den Mund
+                mit Blut</act> und gab dann bei dem König vor, die <character child-status="mother"
+                marital-status="unmarried" reference="king-daughter">Königin</character> habe ihr
+            eigen Kind gefressen, und sey eine <character child-status="mother"
+                marital-status="unmarried" reference="king-daughter">Zauberin</character>. Der König
+            aber, aus großer Liebe, wollte es nicht glauben; darnach als <character
+                child-status="mother" marital-status="unmarried" reference="king-daughter"
+                >sie</character> den zweiten Prinzen gebar, übte die gottlose <character
+                child-status="mother" marital-status="unmarried" reference="king-mother"
+                >Schwiegermutter</character> denselben Betrug, und <act type="doing"
+                effect="hostile" agent="king-mother" io="king-daughter">klagte <character
+                    child-status="mother" marital-status="unmarried" reference="king-daughter"
+                    >sie</character> wieder beim König an</act>, und weil <character
+                child-status="mother" marital-status="unmarried" reference="king-daughter"
+                >sie</character> nicht reden durfte, sondern immer stumm saß und an den sechs
+            Hemdern arbeitete, so konnte <character child-status="mother" marital-status="unmarried"
+                reference="king-daughter">sie</character> nichts mehr erretten, und <act
+                type="doing" effect="hostile" agent="uknown" receiver="king-daughter"><character
+                    child-status="mother" marital-status="unmarried" reference="king-daughter"
+                    >sie</character> ward zum Feuer verdammt</act>. Der Tag kam heran, wo das
+            Urtheil sollte vollzogen werden, es war gerade der letzte Tag von den sechs Jahren, und
+                <character child-status="mother" marital-status="unmarried"
+                reference="king-daughter">sie</character> war mit den sechs Hemdern fertig geworden,
+            nur an einem fehlte der linke Ermel. Wie <character child-status="mother"
+                marital-status="unmarried" reference="king-daughter">sie</character> nun zum
+            Scheiterhaufen geführt wurde, nahm sie die sechs Hemder mit sich, und wie <character
+                child-status="mother" marital-status="unmarried" reference="king-daughter"
+                >sie</character> oben stand und eben das Feuer sollte angesteckt wer- den, sah
+                <character child-status="mother" marital-status="unmarried"
+                reference="king-daughter">sie</character> sechs Schwäne durch die Luft da- her
+            ziehen, und über <character child-status="mother" marital-status="unmarried"
+                reference="king-daughter">ihr</character> sich herabsenken. Da <act type="doing"
+                effect="benevolent" agent="king-daughter" io="swans">warf <character
+                    child-status="mother" marital-status="unmarried" reference="king-daughter"
+                    >sie</character> die Hemdlein hinauf</act>, die fielen über die Schwäne hin, und
+            kaum waren sie davon berührt, so fiel ihre Schwanenhaut ab, und die sechs Brüder standen
+            leibhaftig vor ihr, nur dem sechsten fehlte der linke Arm, und er hatte dafür einen
+            Schwanenflügel auf dem Rücken. Da war <character child-status="mother"
+                marital-status="unmarried" reference="king-daughter">ihr</character> auch die
+            Sprache wiedergegeben, und <character child-status="mother" marital-status="unmarried"
+                reference="king-daughter">sie</character> erzählte, wie die <character
+                child-status="mother" marital-status="unmarried" reference="king-mother"
+                >Schwiegermutter</character>
+            <character child-status="mother" marital-status="unmarried" reference="king-daughter"
+                >sie</character> so boshaft verläumdet, dafür ward <act type="doing"
+                effect="hostile" agent="unspecified" receiver="king-mother"><character
+                    child-status="mother" marital-status="unmarried" reference="king-mother"
+                    >diese</character> auf den Scheiterhaufen gebracht und verbrannt</act>, <act
+                type="being" effect="benevolent" agent="king-daughter"><character
+                    child-status="mother" marital-status="unmarried" reference="king-daughter"
+                    >sie</character> aber lebte lange mit dem König und ihren sechs Brüdern in
+                Freuden.</act></p>
+    </story>
+</tale>
