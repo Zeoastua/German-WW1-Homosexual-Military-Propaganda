@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../grimm-schema-combined.rnc" type="application/relax-ng-compact-syntax"?>
+<tales>
+    <tale>
+        <metadata>
+            <title>Rapunzel</title>
+            <year>1812</year>
+            <author>Jacob and Wilhelm Grimm</author>
+            <editor>Göttingen: Verlag der Dieterichschen Buchhandlung</editor>
+            <translator>D. L. Ashliman</translator>
+            <language>English</language>
+            <number>12</number>
+        </metadata>
+        <story>
+            <p><act type="doing" effect="ambiguous" agent="man and woman">Once upon a time there was
+                    a man and a <character child-status="mother" marital-status="wife"
+                        reference="wife">woman</character> who had long, but to no avail, wished for
+                    a child.</act>
+                <act type="doing" effect="benevolent" agent="wife">Finally the <character
+                        reference="wife" marital-status="wife" child-status="mother"
+                        >woman</character> came to believe that the good Lord would fulfill
+                        <character child-status="mother" marital-status="wife" reference="wife"
+                        >her</character> wish.</act>
+                <act type="doing" effect="ambiguous" agent="man and woman">Through the small rear
+                    window of these people's house they could see into a splendid garden that was
+                    filled with the most beautiful flowers and herbs.</act>
+                <act type="being" effect="ambiguous" agent="garden">The garden was surrounded by a
+                    high wall,</act>
+                <act type="doing" effect="ambiguous" agent="all">and no one dared enter,</act><act
+                    type="being" effect="hostile" agent="sorceress"> because it belonged to a
+                    sorceress who possessed great power and was feared by everyone.</act></p>
+            <p><act type="doing" effect="ambiguous" agent="wife">One day the woman was standing at
+                    this window,</act>
+                <act type="doing" effect="ambiguous" agent="wife">and she saw a bed planted with the
+                    most beautiful rapunzel.</act>
+                <act type="doing" effect="ambiguous" agent="wife">It looked so fresh and green that
+                    she longed for some.</act>
+                <act type="doing" effect="ambiguous" agent="wife">It was her greatest desire to eat
+                    some of the rapunzel.</act>
+                <act type="doing" effect="ambiguous" agent="wife">This desire increased with every
+                    day,</act>
+                <act type="doing" effect="ambiguous" agent="wife"/><act type="being"
+                    effect="hostile" agent="wife">and not knowing how to get any, she became
+                    miserably ill.</act></p>
+            <p><act type="being" effect="hostile" agent="husband">Her husband was frightened, and
+                    asked her</act>, <dialogue speaker="husband" stateofbeing="neutral">"What ails
+                    you, dear wife?"</dialogue></p>
+            <p><dialogue speaker="wife" stateofbeing="negative">"Oh,"</dialogue><act type="doing"
+                    effect="hostile" agent="wife">she answered,</act><dialogue speaker="wife"
+                    stateofbeing="negative">"if I do not get some rapunzel from the garden behind
+                    our house, I shall die."</dialogue>
+            </p>
+            <p><act type="doing" effect="ambiguous" agent="husband">The man, who loved her dearly,
+                    thought,</act>
+                <dialogue speaker="husband" stateofbeing="negative">"Before you let your <character
+                        child-status="mother" marital-status="wife" reference="wife"
+                        >wife</character> die, you must get her some of the rapunzel, whatever the
+                    cost."</dialogue></p>
+            <p><act type="doing" effect="hostile" agent="husband">So just as it was getting dark he
+                    climbed over the high wall into the <character child-status="childless"
+                        reference="evil woman" marital-status="unmarried">sorceress's</character>
+                    garden, hastily dug up a handful of rapunzel, and took it to his <character
+                        marital-status="wife" reference="wife" child-status="mother"
+                        >wife.</character></act>
+                <act type="doing" effect="ambiguous" agent="wife">She immediately made a salad from
+                    it, which she devoured eagerly.</act>
+                <act type="doing" effect="ambiguous" agent="wife">It tasted so very good to her that
+                    by the next day her desire for more had grown threefold.</act>
+                <act type="doing" effect="ambiguous" agent="wife">If she were to have any peace, the
+                    man would have to climb into the garden once again.</act>
+                <act type="doing" effect="ambiguous" agent="husband">Thus he set forth once again
+                    just as it was getting dark. But no sooner than he had climbed over the wall
+                    than, to his horror, he saw the sorceress standing there before him.</act></p>
+            <p><dialogue speaker="evil woman" stateofbeing="negative">"How can you dare," <character
+                        child-status="childless" reference="evil woman" marital-status="unmarried"
+                        >she</character> asked with an angry look, "to climb into my garden and like
+                    a thief to steal my rapunzel? You will pay for this."</dialogue></p>
+            <p><dialogue speaker="husband" stateofbeing="positive">"Oh," he answered, "Let mercy
+                    overrule justice. I came to do this out of necessity. My <character
+                        marital-status="unmarried" reference="wife" child-status="mother"
+                        >wife</character> saw your rapunzel from our window, and such a longing came
+                    over her, that she would die, if she did not get some to eat."</dialogue></p>
+            <p><act type="being" effect="ambiguous" agent="evil woman">The sorceress's anger abated
+                    somewhat, and she said,</act>
+                <dialogue speaker="evil woman" stateofbeing="negative">If things are as you say, I
+                    will allow you to take as much rapunzel as you want. But under one condition:
+                    You must give me the <character child-status="childless"
+                        marital-status="unmarried" reference="Rapunzel">child</character> that your
+                    wife will bring to the world. It will do well, and I will take care of it like a
+                    mother."</dialogue></p>
+            <p><act type="doing" effect="hostile" agent="husband">In his fear the man agreed to
+                    everything.</act>
+            </p>
+            <p><act type="doing" effect="hostile" agent="wife" receiver="evil woman" io="Rapunzel"
+                    >When the woman gave birth, the sorceress appeared, named the little girl
+                    Rapunzel, and took her away. Rapunzel became the most beautiful child under the
+                    sun.</act>
+                <act type="doing" effect="hostile" agent="evil woman" receiver="Rapunzel">When she
+                    was twelve years old, the sorceress locked her in a tower that stood in a forest
+                    and that had neither a door nor a stairway, but only a tiny little window at the
+                    very top.</act></p>
+            <p><act type="doing" effect="ambiguous" agent="evil woman" io="Rapunzel">When the
+                    sorceress wanted to enter, she stood below and called out:</act></p>
+            <p><dialogue speaker="evil woman" stateofbeing="neutral">Rapunzel, Rapunzel, Let down
+                    your hair to me.</dialogue></p>
+            <p><act type="being" effect="benevolent" agent="Rapunzel">Rapunzel had splendid long
+                    hair, as fine as spun gold.</act>
+                <act type="doing" effect="ambiguous" agent="Rapunzel" receiver="evil woman">When she
+                    heard the sorceress's voice, she untied her braids, wound them around a window
+                    hook, let her hair fall twenty yards to the ground, and the sorceress climbed up
+                    it.</act></p>
+            <p><act type="doing" effect="ambiguous" agent="prince">A few years later it happened
+                    that a king's son was riding through the forest.</act>
+                <act type="doing" effect="ambiguous" agent="prince">As he approached the tower he
+                    heard a song so beautiful that he stopped to listen. It was Rapunzel, who was
+                    passing the time by singing with her sweet voice.</act>
+                <act type="doing" effect="ambiguous" agent="prince">The prince wanted to climb up to
+                    her, and looked for a door in the tower, but none was to be found.</act></p>
+            <p><act type="doing" effect="ambiguous" agent="prince">He rode home, but the song had so
+                    touched his heart that he returned to the forest every day and listened to
+                    it.</act>
+                <act type="doing" effect="ambiguous" agent="prince">One time, as he was thus
+                    standing behind a tree, he saw the sorceress approach, and heard her say:</act>
+            </p>
+            <p><dialogue speaker="evil woman" stateofbeing="neutral">Rapunzel, Rapunzel, Let down
+                    your hair.</dialogue></p>
+            <p><act type="doing" effect="benevolent" agent="Rapunzel" receiver="evil woman">Then
+                    Rapunzel let down her strands of hair, and the sorceress climbed up them to
+                    her.</act></p>
+            <p><dialogue speaker="prince" stateofbeing="positive">"If that is the ladder into the
+                    tower, then sometime I will try my luck."</dialogue></p>
+            <p>And the next day, just as it was beginning to get dark, he went to the tower and
+                called out:</p>
+            <p><dialogue speaker="prince" stateofbeing="positive">Rapunzel, Rapunzel, Let down your
+                    hair.</dialogue></p>
+            <p><act type="doing" effect="benevolent" agent="prince" io="Rapunzel">The hair fell
+                    down, and the prince climbed up.</act></p>
+            <p><act type="being" effect="hostile" agent="Rapunzel">At first Rapunzel was terribly
+                    frightened when a man such as she had never seen before came in to her.</act>
+                <act type="doing" effect="benevolent" agent="prince" receiver="Rapunzel">However,
+                    the prince began talking to her in a very friendly manner, telling her that his
+                    heart had been so touched by her singing that he could have no peace until he
+                    had seen her in person. Then Rapunzel lost her fear, and when he asked her if
+                    she would take him as her husband,</act>
+                <act type="doing" effect="ambiguous" agent="Rapunzel"><character
+                        child-status="childless" reference="Rapunzel" marital-status="unmarried"
+                        >she</character> thought,</act>
+                <dialogue speaker="Rapunzel" stateofbeing="neutral">He would rather have me than
+                    would old Frau Gothel."</dialogue>
+                <act type="doing" receiver="prince" agent="Rapunzel" effect="benevolent">She said
+                    yes and placed her hand into his.</act></p>
+            <p><act type="doing" agent="Rapunzel" effect="ambiguous">She said,</act>
+                <dialogue speaker="Rapunzel" stateofbeing="positive">I would go with you gladly, but
+                    I do not know how to get down. Every time that you come, bring a strand of silk,
+                    from which I will weave a ladder. When it is finished I will climb down, and you
+                    can take me away on your horse."</dialogue>
+                <act type="doing" effect="benevolent" agent="prince and Rapunzel">They arranged that
+                    he would come to her every evening, for the old woman came by day.</act></p>
+            <p><act type="being" effect="ambiguous" agent="evil woman">The sorceress did not notice
+                    what was happening</act>
+                <act type="doing" effect="ambiguous" agent="Rapunzel" receiver="evil woman">until
+                    one day Rapunzel said to her,</act>
+                <dialogue speaker="Rapunzel" stateofbeing="neutral">Frau Gothel, tell me why it is
+                    that you are more difficult to pull up than is the young prince, who will be
+                    arriving any moment now?"</dialogue></p>
+            <p><dialogue speaker="evil woman" stateofbeing="negative">"You godless child," cried the
+                    sorceress. "What am I hearing from you? I thought I had removed you from the
+                    whole world, but you have deceived me nonetheless."</dialogue></p>
+            <p><act type="doing" effect="hostile" agent="evil woman" receiver="Rapunzel">In her
+                    anger she grabbed Rapunzel's beautiful hair, wrapped it a few times around her
+                    left hand, grasped a pair of scissors with her right hand, and snip snap, cut it
+                    off. And she was so unmerciful that she took Rapunzel into a wilderness where
+                    she suffered greatly.</act></p>
+            <p><act type="doing" effect="hostile" agent="evil woman" receiver="Rapunzel">On the
+                    evening of the same day that she sent Rapunzel away, the sorceress tied the
+                    cut-off hair to the hook at the top of the tower,</act>
+                <act type="doing" effect="ambiguous" agent="prince">and when the prince called
+                    out:</act></p>
+            <p><dialogue speaker="prince" stateofbeing="positive">Rapunzel, Rapunzel, Let down your
+                    hair.</dialogue></p>
+            <p><act type="doing" effect="hostile" agent="evil woman">she let down the
+                hair.</act></p>
+            <p><act type="doing" effect="hostile" agent="prince" io="evil woman">The prince climbed
+                    up, but above, instead of his beloved Rapunzel, he found the sorceress, who
+                    peered at him with poisonous and evil looks.</act></p>
+            <p><dialogue speaker="evil woman" stateofbeing="negative">"Aha!" she cried scornfully.
+                    "You have come for your Mistress Darling, but that beautiful bird is no longer
+                    sitting in her nest, nor is she singing any more. The cat got her, and will
+                    scratch your eyes out as well. You have lost Rapunzel. You will never see her
+                    again."</dialogue></p>
+            <p><act type="doing" effect="hostile" agent="prince">The prince was overcome with grief,
+                    and in his despair he threw himself from the tower. He escaped with his life,
+                    but the thorns into which he fell poked out his eyes. Blind, he wandered about
+                    in the forest, eating nothing but grass and roots, and doing nothing but weeping
+                    and wailing over the loss of his beloved wife.</act>
+                <act type="doing" effect="hostile" agent="prince">Thus he wandered about miserably
+                    for some years, finally happening into the wilderness where Rapunzel lived
+                    miserably with the twins that she had given birth to.</act></p>
+            <p><act type="doing" effect="ambiguous" agent="prince">He heard a voice and thought it
+                    was familiar.</act>
+                <act type="doing" effect="benevolent" agent="prince and Rapunzel">He advanced toward
+                    it, and as he approached, Rapunzel recognized him, and crying, threw her arms
+                    around his neck. Two of her tears fell into his eyes, and they became clear once
+                    again, and he could see as well as before. He led her into his kingdom, where he
+                    was received with joy, and for a long time they lived happily and
+                    satisfied.</act></p>
+        </story>
+    </tale>
+    <tale>
+        <metadata>
+            <title>Rapunzel</title>
+            <year>1812</year>
+            <author>Jacob Grimm</author>
+            <author>Wilhelm Grimm</author>
+            <language>German</language>
+            <number>12</number>
+        </metadata>
+        <story>
+            <p>Es war einmal ein Mann und eine <character child-status="childless"
+                    marital-status="wife" reference="wife">Frau</character>, die hatten sich schon
+                lange ein Kind gewünscht und nie eins bekommen, endlich aber ward die <character
+                    child-status="childless" marital-status="wife" reference="wife">Frau</character>
+                guter Hoffnung. Diese Leute hatten in ihrem Hinterhaus ein kleines Fenster, daraus
+                konnten sie in den Garten einer Fee sehen, der voll von Blumen und Kräutern stand,
+                allerlei Art, keiner aber durfte es wagen, in den Gar- ten hineinzugehen. Eines
+                Tages stand die <character child-status="childless" marital-status="wife"
+                    reference="wife">Frau</character> an diesem Fenster und sah hinab, da erblickte
+                    <character child-status="childless" marital-status="wife" reference="wife"
+                    >sie</character> wunderschöne Rapunzeln auf einem Beet und wurde so lüstern
+                darnach, und wußte doch, daß <character child-status="childless"
+                    marital-status="wife" reference="wife">sie</character> keine davon bekommen
+                konnte, daß <character child-status="childless" marital-status="wife"
+                    reference="wife">sie</character> ganz abfiel und elend wurde. Ihr Mann erschrack
+                endlich und fragte nach der Ursache; <dialogue speaker="wife"
+                    stateofbeing="negative">„ach wenn ich keine von den Rapunzeln aus dem Garten
+                    hinter unserm Haus zu essen kriege, so muß ich sterben.“</dialogue> Der Mann,
+                welcher sie gar lieb hatte, dachte, es mag kosten was es will, so willst du ihr doch
+                welche schaffen, stieg eines Abends über die hohe Mauer und <act type="being"
+                    effect="ambiguous" agent="husband">stach in aller Eile eine Hand voll Rapunzeln
+                    aus</act>, die er seiner <character child-status="childless"
+                    marital-status="wife" reference="wife">Frau</character> brachte. Die <character
+                    child-status="childless" marital-status="wife" reference="wife">Frau</character>
+                machte sich sogleich Salat daraus, und aß <character child-status="childless"
+                    marital-status="wife" reference="wife">sie</character> in vollem Heißhunger auf.
+                    <character child-status="childless" marital-status="wife" reference="wife"
+                    >Sie</character> hat- ten ihr aber so gut, so gut geschmeckt, daß <character
+                    child-status="childless" marital-status="wife" reference="wife">sie</character>
+                den andern Tag noch dreimal soviel Lust bekam. Der Mann sah wohl, daß keine Ruh
+                wäre, also stieg er noch einmal in den Garten, allein er erschrack gewaltig, als die
+                Fee darin stand und ihn heftig schalt, daß er es wage in ihren Gar- ten zu kommen
+                und daraus zu stehlen. Er ent- schuldigte sich, so gut er konnte, mit der Schwan-
+                gerschaft seiner <character child-status="childless" marital-status="wife"
+                    reference="wife">Frau</character>, und wie gefährlich es sey, ihr dann etwas
+                abzuschlagen, endlich sprach die Fee: <dialogue speaker="fairy"
+                    stateofbeing="neutral">„ich will mich zufrieden geben und dir selbst gestatten
+                    Rapunzeln mitzunehmen, so viel du willst, wofern du mir das Kind geben wirst,
+                    womit deine <character child-status="childless" marital-status="wife"
+                        reference="wife">Frau</character> jetzo geht.“</dialogue> In der Angst sagte
+                der Mann alles zu, und als die <character child-status="childless"
+                    marital-status="wife" reference="wife">Frau</character> in Wochen kam, erschien
+                die Fee sogleich, nannte das kleine <character child-status="childless"
+                    marital-status="unmarried" reference="rapunzel">Mädchen Rapunzel</character> und
+                nahm <character child-status="childless" marital-status="unmarried"
+                    reference="rapunzel">es</character> mit sich fort. </p>
+
+            <p>Dieses <character child-status="childless" marital-status="unmarried"
+                    reference="rapunzel">Rapunzel</character> wurde das schönste Kind unter der
+                Sonne, wie es aber zwölf Jahr alt war, so schloß <character child-status="childless"
+                    marital-status="unmarried" reference="rapunzel">es</character> die Fee in einen
+                hohen hohen Thurm, der hatte weder Thür noch Treppe, nur bloß ganz oben war ein
+                kleines Fensterchen. Wenn nun die Fee hinein wollte, so stand sie unten und rief: </p>
+
+            <p><dialogue speaker="fairy" stateofbeing="neutral">„<character child-status="childless"
+                        marital-status="unmarried" reference="rapunzel">Rapunzel</character>,
+                        <character child-status="childless" marital-status="unmarried"
+                        reference="rapunzel">Rapunzel</character>! laß mir dein Haar
+                    herunter.“</dialogue></p>
+
+            <p><character child-status="childless" marital-status="unmarried" reference="rapunzel"
+                    >Rapunzel</character> hatte aber prächtige Haare, fein wie gesponnen Gold, und
+                wenn die Fee so rief, so <act type="doing" effect="ambiguous" agent="rapunzel">band
+                        <character child-status="childless" marital-status="unmarried"
+                        reference="rapunzel">sie</character> sie los</act>, <act type="doing"
+                    effect="ambiguous" agent="rapunzel">wickelte <character child-status="childless"
+                        marital-status="unmarried" reference="rapunzel">sie</character> oben um
+                    einen Fen- sterhaken</act> und dann <act type="doing" effect="ambiguous"
+                    agent="rapunzel">fielen die Haare zwanzig Ellen tief hinunter</act> und die Fee
+                    <act type="doing" effect="ambiguous" agent="fairy" io="rapunzel">stieg daran
+                    hinauf.</act></p>
+
+            <p>Eines Tages kam nun ein junger Königs- sohn durch den Wald, wo der Thurm stand, sah
+                das schöne <character child-status="childless" marital-status="unmarried"
+                    reference="rapunzel">Rapunzel</character> oben am Fenster ste- hen und hörte
+                    <character child-status="childless" marital-status="unmarried"
+                    reference="rapunzel">sie</character> mit so süßer Stimme singen, daß er sich
+                ganz in <character child-status="childless" marital-status="unmarried"
+                    reference="rapunzel">sie</character> verliebte. Da aber keine Thüre im Thurm war
+                und keine Leiter so hoch reichen konnte, so gerieth er in Verzweiflung, doch ging er
+                alle Tage in den Wald hin, bis er einstmals die Fee kommen sah, die sprach: </p>
+
+            <p><dialogue speaker="fairy" stateofbeing="neutral">„<character child-status="childless"
+                        marital-status="unmarried" reference="rapunzel">Rapunzel</character>,
+                        <character child-status="childless" marital-status="unmarried"
+                        reference="rapunzel">Rapunzel</character>! laß dein Haar
+                    herunter.“</dialogue></p>
+
+            <p>Darauf sah er wohl, auf welcher Leiter man in den Thurm kommen konnte. Er hatte sich
+                aber die Worte wohl gemerkt, die man sprechen muß- te, und des andern Tages, als es
+                dunkel war, ging er an den Thurm und sprach hinauf: </p>
+
+            <p><dialogue speaker="prince" stateofbeing="neutral">„<character
+                        child-status="childless" marital-status="unmarried" reference="rapunzel"
+                        >Rapunzel</character>, <character child-status="childless"
+                        marital-status="unmarried" reference="rapunzel">Rapunzel</character>, laß
+                    dein Haar herunter!“</dialogue></p>
+
+            <p>da <act type="doing" effect="ambiguous" agent="rapunzel">ließ <character
+                        child-status="childless" marital-status="unmarried" reference="rapunzel"
+                        >sie</character> die Haare los</act>, und wie sie unten waren, <act
+                    type="doing" effect="ambiguous" agent="prince">machte er sich daran fest</act>
+                und <act type="doing" effect="ambiguous" agent="rapunzel" io="prince">wurde hin-
+                    aufgezogen</act>. </p>
+
+            <p><character child-status="childless" marital-status="unmarried" reference="rapunzel"
+                    >Rapunzel</character> erschrack nun anfangs, bald aber gefiel <character
+                    child-status="childless" marital-status="unmarried" reference="rapunzel"
+                    >ihr</character> der junge König so gut, daß <character child-status="childless"
+                    marital-status="unmarried" reference="rapunzel">sie</character> mit ihm
+                verabredete, er solle alle Tage kommen und hinaufgezogen werden. So lebten
+                    <character child-status="childless" marital-status="unmarried"
+                    reference="rapunzel">sie</character> lustig und in Freuden eine geraume Zeit,
+                und die Fee kam nicht dahinter, bis eines Tages das <character
+                    child-status="childless" marital-status="unmarried" reference="rapunzel"
+                    >Rapunzel</character> anfing und zu <character child-status="childless"
+                    marital-status="unmarried" reference="rapunzel">ihr</character> sagte: <dialogue
+                    speaker="rapunzel" stateofbeing="neutral">„sag' sie mir doch <character
+                        child-status="adopted" marital-status="unmarried" reference="fairy">Frau
+                        Gothel</character>, meine Kleiderchen werden mir so eng und wollen nicht
+                    mehr passen.“</dialogue> Ach du gottlo- ses <character child-status="childless"
+                    marital-status="unmarried" reference="rapunzel">Kind</character>, sprach die
+                Fee, was muß ich von dir hören, und sie merkte gleich, wie sie betrogen wäre, und
+                war ganz aufgebracht. Da <act type="doing" effect="ambiguous" agent="fairy"
+                    io="rapunzel">nahm sie die schönen Haare <character child-status="childless"
+                        marital-status="unmarried" reference="rapunzel">Rapunzels</character></act>,
+                    <act type="doing" effect="hostile" agent="fairy" receiver="rapunzel">schlug sie
+                    ein paar Mal um ihre linke Hand</act>, griff eine Scheere mit der rechten und
+                    <act type="doing" effect="hostile" agent="fairy" receiver="rapunzel">ritsch,
+                    ritsch, waren sie abge- schnitten</act>. Darauf verwieß sie <character
+                    child-status="childless" marital-status="unmarried" reference="rapunzel"
+                    >Rapunzel</character> in eine Wüstenei, wo es <character
+                    child-status="childless" marital-status="unmarried" reference="rapunzel"
+                    >ihr</character> sehr kümmerlich erging und <character child-status="mother"
+                    marital-status="unmarried" reference="rapunzel">sie</character> nach Verlauf
+                einiger Zeit Zwillinge, <act type="doing" effect="ambiguous" agent="rapunzel">einen
+                    Knaben und ein Mädchen gebar.</act></p>
+
+            <p>Denselben Tag aber, wo sie <character child-status="mother"
+                    marital-status="unmarried" reference="rapunzel">Rapunzel</character> ver- stoßen
+                hatte, machte die Fee Abends die abge- schnittenen Haare oben am Haken fest, und als
+                der Königssohn kam; </p>
+
+            <p><dialogue speaker="prince" stateofbeing="neutral">„<character child-status="mother"
+                        marital-status="unmarried" reference="rapunzel">Rapunzel</character>,
+                        <character child-status="mother" marital-status="unmarried"
+                        reference="rapunzel">Rapunzel</character>, laß dein Haar
+                    herunter!“</dialogue></p>
+
+            <p>so ließ sie zwar die Haare nieder, allein wie erstaunte der Prinz, als er statt
+                seines gelieb- ten <character child-status="mother" marital-status="unmarried"
+                    reference="rapunzel">Rapunzels</character> die Fee oben fand. <dialogue
+                    speaker="fairy" stateofbeing="negative">„Weißt du was, sprach die erzürnte Fee,
+                        <character child-status="mother" marital-status="unmarried"
+                        reference="rapunzel">Rapunzel</character> ist für dich Bösewicht auf immer
+                    verloren!“</dialogue></p>
+
+            <p>Da wurde der Königssohn ganz verzwei- felnd, und stürzte sich gleich den Thurm hinab,
+                das Leben brachte er davon, aber die beiden Augen hatte er sich ausgefallen, traurig
+                irrte er im Wald herum, aß nichts als Gras und Wurzeln, und that nichts als weinen.
+                Einige Jahre nachher geräth er in jene Wüstenei, wo <character child-status="mother"
+                    marital-status="unmarried" reference="rapunzel">Rapunzel</character> kümmerlich
+                mit ihren Kindern lebte, ihre Stimme däuchte ihm so bekannt, in dem- selben
+                Augenblick erkannte <character child-status="mother" marital-status="unmarried"
+                    reference="rapunzel">sie</character> ihn auch und <act type="doing"
+                    effect="ambiguous" agent="rapunzel" receiver="prince">fällt ihm um den
+                    Hals</act>. Zwei von ihren Thrä- nen fallen in seine Augen, da werden sie wie-
+                der klar, und er kann damit sehen, wie sonst. </p>
+        </story>
+    </tale>
+</tales>

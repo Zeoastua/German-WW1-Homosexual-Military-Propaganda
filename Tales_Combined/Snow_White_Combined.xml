@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../grimm-schema-combined.rnc" type="application/relax-ng-compact-syntax"?>
+<tales>
+    <tale>
+        <metadata>
+            <title>Little Snow-White</title>
+            <year>1857</year>
+            <author>Jacob and Wilhelm Grimm</author>
+            <translator>D.L. Ashliman</translator>
+            <language>English</language>
+            <number>53</number>
+        </metadata>
+
+
+        <story>
+            <p>Once upon a time in midwinter, when the snowflakes were falling like feathers from
+                    heaven,<act type="doing" agent="first_queen" effect="ambiguous">a<character
+                        marital-status="wife" child-status="childless" reference="first_queen"
+                        >queen</character> sat sewing at her window,</act>which had a frame of black
+                ebony wood.<act type="doing" agent="first_queen" effect="ambiguous">As she sewed she
+                    looked up at the snow</act>and<act type="doing" agent="first_queen"
+                    receiver="self" effect="ambiguous">pricked her finger with her
+                needle.</act>Three drops of blood fell into the snow. The red on the white looked so
+                beautiful that<act type="being" agent="first_queen" receiver="self"
+                    effect="ambiguous">she thought to herself</act><dialogue speaker="first_queen"
+                    stateofbeing="neutral">"If only I had a child as white as snow, as red as
+                    blood,and as black as the wood in this frame."</dialogue>Soon afterward<act
+                    type="doing" agent="first_queen" receiver="snow_white" effect="benevolent">she
+                    had a little daughter</act>who was as white as snow, as red as blood, and as
+                black as ebony wood, and therefore they called her<character reference="snow_white"
+                    child-status="childless" marital-status="unmarried">Little
+                    Snow-White.</character>And as soon as the child was<act type="being"
+                    agent="first_queen" receiver="snow_white" effect="benevolent">born</act>, <act
+                    type="doing" agent="snow_white" receiver="first_queen" effect="ambiguous">the
+                    queen died.</act></p>
+
+            <p>A year later<act type="doing" agent="king" receiver="second_queen" effect="ambiguous"
+                    >the king took himself another<character marital-status="wife"
+                        child-status="stepmother" reference="second_queen">wife.</character></act>
+                <act type="being" agent="second_queen" receiver="self" effect="ambiguous"> She was a
+                    beautiful woman,</act>but<act type="being" agent="second_queen" receiver="self"
+                    effect="hostile">she was proud and arrogant,</act>and<act type="being"
+                    agent="second_queen" receiver="self" effect="hostile">she could not stand it if
+                    anyone might surpass her in beauty.</act>
+                <act type="doing" agent="second_queen" receiver="mirror" effect="ambiguous">She had
+                        a<character marital-status="unmarried" child-status="childless"
+                        reference="mirror">magic mirror.</character></act> Every morning<act
+                    type="doing" agent="second_queen" receiver="self" effect="ambiguous">she stood
+                    before it,looked at herself,</act>and said:<dialogue speaker="second_queen"
+                    stateofbeing="negative">Mirror, mirror, on the wall, Who in this land is fairest
+                    of all?</dialogue>To this the<character marital-status="unmarried"
+                    child-status="childless" reference="mirror">mirror</character>answered:<dialogue
+                    speaker="mirror" stateofbeing="positive">You, my<character marital-status="wife"
+                        child-status="stepmother" reference="second_queen">queen,</character>are
+                    fairest of all.</dialogue>Then <act type="being" agent="second_queen"
+                    receiver="self" effect="ambiguous">she was satisfied,</act>for<act type="doing"
+                    agent="second_queen" receiver="self" effect="ambiguous">she knew that the mirror
+                    spoke the truth.</act></p>
+
+            <p><character marital-status="unmarried" child-status="childless" reference="snow_white"
+                    >Snow-White</character>grew up and became ever more beautiful.<act type="being"
+                    agent="snow_white" receiver="self" effect="ambiguous">When she was seven years
+                    old she was as beautiful as the light of day,</act> even more beautiful than
+                    the<character marital-status="wife" child-status="stepmother"
+                    reference="second_queen">queen</character>herself. One day when<act type="doing"
+                    agent="second_queen" receiver="mirror" effect="hostile">the queen asked her
+                    mirror:</act><dialogue speaker="second_queen" stateofbeing="neutral">Mirror,
+                    mirror, on the wall, Who in this land is fairest of all?</dialogue>It
+                    answered:<dialogue speaker="mirror" stateofbeing="neutral">You, my <character
+                        marital-status="wife" child-status="stepmother" reference="second_queen"
+                        >queen,</character> are fair; it is true. But <character
+                        marital-status="unmarried" child-status="childless" reference="snow_white"
+                        >Snow-White</character> is a thousand times fairer than you.</dialogue>The
+                    queen<act type="being" agent="second_queen" receiver="self" effect="hostile"
+                    >took fright</act>and turned yellow and green with envy. From that hour on
+                whenever <act type="doing" agent="second_queen" receiver="snow_white"
+                    effect="hostile">she looked at Snow-White her heart turned over inside her
+                    body,</act>so great was <act type="being" agent="second_queen"
+                    receiver="snow_white" effect="hostile">her hatred for the girl.</act>The envy
+                and pride grew ever greater, like a weed in her heart, until<act type="being"
+                    agent="second_queen" receiver="self" effect="hostile">she had no peace day and
+                    night.</act></p>
+
+            <p>Then<act type="doing" agent="second_queen" receiver="huntsman" effect="ambiguous">she
+                    summoned a huntsman</act>and said to him,<dialogue speaker="second_queen"
+                    stateofbeing="negative"><act type="doing" agent="second_queen"
+                        receiver="snow_white" effect="hostile">Take Snow-White out into the
+                        woods.</act>
+                    <act type="doing" agent="second_queen" receiver="snow_white" effect="hostile">I
+                        never want to see her again.</act>
+                    <act type="doing" agent="second_queen" receiver="receiver" effect="hostile">Kill
+                        her, and as proof that she is dead</act>
+                    <act type="doing" agent="second_queen" receiver="snow_white" effect="hostile"
+                        >bring her lungs and her liver back to me."</act></dialogue>
+                <act type="doing" agent="huntsman" receiver="snow_white" effect="hostile">The
+                    huntsman obeyed and took Snow-White into the woods.</act><act type="doing"
+                    receiver="snow_white" effect="hostile" agent="huntsman"/> He took out his
+                hunting knife and was about to stabit into her innocent heart<act type="doing"
+                    agent="snow_white" receiver="self" effect="benevolent">when she began to
+                    cry,</act>saying,<dialogue speaker="snow_white" stateofbeing="negative">"Oh,
+                    dear huntsman, let me live. I will run into the wild woods and never come
+                    back."</dialogue>Because she was so beautiful <act type="being" agent="huntsman"
+                    receiver="snow_white" effect="benevolent">the huntsman took pity on her,</act>
+                and he said,<dialogue speaker="huntsman" stateofbeing="positive">"Run away, you poor
+                    child."</dialogue>He thought, <dialogue speaker="huntsman"
+                    stateofbeing="negative">"The wild animals will soon devour you
+                    anyway,"</dialogue> but still it was as if a stone had fallen from his heart,
+                for he would not have to kill her. Just then a young boar came running by. He killed
+                it, cut out its lungs and liver, and <act type="doing" agent="huntsman"
+                    receiver="second_queen" effect="hostile" io="boar_organs">took them back to the
+                    queen as proof of Snow-White's death.</act> The cook had to boil them with salt,
+                and <act type="doing" agent="second_queen" receiver="snow_white" effect="hostile"
+                    io="boar_organs">the wicked woman ate them, supposing that she had eaten
+                    Snow-White's lungs and liver.</act></p>
+
+            <p>The <character marital-status="unmarried" child-status="childless"
+                    reference="snow_white">poor child</character> was now all alone in the great
+                forest, and <act type="being" agent="snow_white" receiver="self" effect="hostile"
+                    >she was so afraid that she just looked at all the leaves on the trees and did
+                    not know what to do.</act>Then <act type="doing" agent="snow_white"
+                    effect="ambiguous">she began to run.</act> She ran over sharp stones and through
+                thorns, and<act type="doing" agent="snow_white" effect="benevolent">wild animals
+                    jumped at her, but they did her no harm.</act>
+                <act type="doing" agent="snow_white" effect="ambiguous">She ran as far as her feet
+                    could carry her,</act> and just as evening was about to fall <act type="doing"
+                    agent="snow_white" effect="benevolent">she saw a little house and went
+                    inside</act> in order to rest. Inside the house everything was small, but so
+                neat and clean that no one could say otherwise. There was a little table with a
+                white tablecloth and seven little plates, and each plate had a spoon, and there were
+                seven knives and forks and seven mugs as well. Against the wall there were seven
+                little beds, all standing in a row and covered with snow-white sheets. Because <act
+                    type="being" agent="snow_white" effect="ambiguous">she was so hungry and
+                    thirsty</act>
+                <act type="doing" agent="snow_white" effect="ambiguous">Snow-White ate a few
+                    vegetables and a little bread from each little plate,</act> and <act
+                    type="doing" agent="snow_white" effect="ambiguous">from each mug she drank a
+                    drop of wine.</act> Afterward, because <act type="being" agent="snow_white"
+                    effect="ambiguous">she was so tired,</act>
+                <act type="doing" agent="snow_white" effect="ambiguous">she lay down on a bed,</act>
+                but none of them felt right -- one was too long, the other too short -- until
+                finally the seventh one was just right. <act type="doing" agent="snow_white"
+                    effect="benevolent">She remained lying in it, entrusted herself to God, and fell
+                    asleep.</act></p>
+
+            <p>After dark the masters of the house returned home. They were the seven dwarfs who
+                picked and dug for ore in the mountains. They lit their seven candles, and as soon
+                as it was light in their house they saw that someone had been there, for not
+                everything was in the same order as they had left it. The first one said,<dialogue
+                    speaker="first_dwarf" stateofbeing="neutral">"Who has been sitting in my
+                    chair?"</dialogue> The second one,<dialogue speaker="second_dwarf"
+                    stateofbeing="neutral">"Who has been eating from my plate?"</dialogue>The third
+                    one,<dialogue speaker="third_dwarf" stateofbeing="neutral">"Who has been eating
+                    my bread?"</dialogue>The fourth one,<dialogue speaker="fourth_dwarf"
+                    stateofbeing="neutral">"Who has been eating my vegetables?"</dialogue>The fifth
+                    one,<dialogue speaker="fifth_dwarf" stateofbeing="neutral">"Who has been
+                    sticking with my fork?"</dialogue>The sixth one,<dialogue speaker="sixth_dwarf"
+                    stateofbeing="neutral">"Who has been cutting with my knife?"</dialogue>The
+                seventh one,<dialogue speaker="seventh_dwarf" stateofbeing="neutral">"Who has been
+                    drinking from my mug?"</dialogue>Then the first one saw a that there was a
+                little imprint in his bed, and said,<dialogue speaker="first_dwarf"
+                    stateofbeing="neutral">"Who stepped on my bed?"</dialogue>The others came
+                running up and shouted,<dialogue speaker="dwarves" stateofbeing="neutral">"Someone
+                    has been lying in mine as well."</dialogue>But the seventh one, looking at his
+                bed, <act type="doing" agent="dwarf" receiver="snow_white" effect="benevolent">found
+                    Snow-White lying there asleep.</act> The seven dwarfs all came running up, and
+                they cried out with amazement. They fetched their seven candles and shone the light
+                on <character marital-status="unmarried" child-status="childless"
+                    reference="snow_white">Snow-White</character>.<dialogue speaker="dwarves"
+                    stateofbeing="positive">"Oh good heaven! Oh good heaven!"</dialogue>they
+                    cried.<dialogue speaker="dwarves" stateofbeing="positive">"This child is so
+                    beautiful!"</dialogue>They were so happy, that <act type="doing" agent="dwarves"
+                    receiver="snow_white" effect="benevolent">they did not wake her up,</act> but
+                    <act type="doing" agent="dwarves" receiver="snow_white" effect="benevolent">let
+                    her continue to sleep</act> there in the bed. The seventh dwarf had to sleep
+                with his companions, one hour with each one, and then the night was done.</p>
+
+            <p>The next morning <act type="doing" agent="snow_white" effect="benevolent">Snow-White
+                    woke up</act>, and when <act type="doing" agent="snow_white" receiver="dwarves"
+                    effect="benevolent">she saw the seven dwarfs</act>
+                <act type="being" agent="snow_white" effect="hostile">she was frightened.</act> But
+                they were friendly and asked,<dialogue speaker="dwarves" stateofbeing="neutral">
+                    "What is your name?"</dialogue>
+                <dialogue speaker="snow_white" stateofbeing="neutral">"My name is Snow-White,"
+                </dialogue>she answered. <dialogue speaker="dwarves" stateofbeing="neutral">"How did
+                    you find your way to our house?"</dialogue>the dwarfs asked further. Then <act
+                    type="doing" agent="snow_white" receiver="dwarves" effect="ambiguous">she told
+                    them</act> that <act type="doing" agent="second_queen" receiver="snow_white"
+                    effect="hostile">her stepmother had tried to kill her,</act><act type="doing"
+                    agent="huntsman" receiver="snow_white" effect="benevolent">that the huntsman had
+                    spared her life, </act>and that <act type="doing" agent="snow_white"
+                    effect="ambiguous">she had run the entire day, finally coming to their
+                    house.</act> The dwarfs said,<dialogue speaker="dwarves" stateofbeing="positive"
+                    > "If you will keep house for us, and cook, make beds, wash, sew, and knit, and
+                    keep everything clean and orderly, then you can stay with us, and you shall have
+                    everything that you want." </dialogue>
+                <dialogue speaker="snow_white" stateofbeing="positive">"Yes," said Snow-White, "with
+                    all my heart."</dialogue>So <act type="doing" agent="snow_white"
+                    receiver="dwarves" effect="benevolent">she kept house for them.</act> Every
+                morning they went into the mountains looking for ore and gold, and in the evening
+                when they came back home their meal had to be ready. During the day <act
+                    type="being" agent="snow_white" receiver="self" effect="ambiguous">the girl was
+                    alone.</act> The good dwarfs warned her, saying, <dialogue speaker="dwarves"
+                    stateofbeing="negative">"Be careful about your <character marital-status="wife"
+                        child-status="stepmother" reference="second_queen">stepmother.</character>
+                    <act type="being" agent="second_queen" receiver="snow_white" effect="hostile"
+                        >She will soon know that you are here.</act> Do not let anyone
+                    in."</dialogue></p>
+
+            <p>Now the queen, believing that <act type="doing" agent="second_queen"
+                    receiver="snow_white" effect="hostile" io="boar_organs">she had eaten Snow-White
+                    's lungs and liver,</act> could only think that <act type="being"
+                    agent="second_queen" receiver="self" effect="ambiguous">she was again the first
+                    and the most beautiful woman of all.</act> She stepped before her mirror and
+                    said:<dialogue speaker="second_queen" stateofbeing="neutral">Mirror, mirror, on
+                    the wall, Who in this land is fairest of all?</dialogue>It answered:<dialogue
+                    speaker="mirror" stateofbeing="negative">You, my queen, are fair; it is true.
+                    But <character reference="snow_white" child-status="childless"
+                        marital-status="unmarried">Snow-White,</character> beyond the mountains With
+                    the seven dwarfs, Is still a thousand times fairer than you.</dialogue> This
+                startled the queen, for she knew that the mirror did not lie, and she realized
+                    that<act type="doing" agent="huntsman" receiver="second_queen" effect="hostile"
+                    >the huntsman had deceived her,</act> and that Snow-White was still alive. Then
+                she thought, and thought again, <act type="doing" agent="second_queen"
+                    receiver="snow_white" effect="hostile">how she could kill Snow-White,</act> for
+                as long as long as she was not the most beautiful woman in the entire land <act
+                    type="being" agent="second_queen" receiver="self" effect="hostile">her envy
+                    would give her no rest.</act></p>
+
+            <p>At last she thought of something. Coloring her face,<act type="doing"
+                    agent="second_queen" receiver="self" effect="hostile">she disguised herself as
+                    an <character marital-status="wife" child-status="stepmother"
+                        reference="second_queen">old peddler woman</character>,</act>so that no one
+                would recognize her. In this disguise she went to the house of the seven dwarfs.
+                Knocking on the door she called out,<dialogue speaker="second_queen"
+                    stateofbeing="negative">"Beautiful wares for sale, for
+                sale!"</dialogue>Snow-White peered out the window and said,<dialogue
+                    speaker="snow_white" stateofbeing="positive">"Good day, dear woman, what do you
+                    have for sale?"</dialogue><dialogue speaker="second_queen"
+                    stateofbeing="neutral">"Good wares, beautiful wares," she answered. "Bodice
+                    laces in all colors."</dialogue>And she took out one that was braided from
+                colorful silk.<dialogue speaker="second_queen" stateofbeing="neutral">"Would you
+                    like this one?"</dialogue>
+                <dialogue speaker="snow_white" stateofbeing="positive">"I can let that honest woman
+                    in," thought Snow-White,</dialogue>then unbolted the door and <act type="doing"
+                    agent="snow_white" receiver="second_queen" effect="hostile">bought the pretty
+                    bodice lace.</act><dialogue speaker="second_queen" stateofbeing="negative"
+                    >"Child," said the old woman, "how you look! Come, let me lace you up
+                    properly."</dialogue>The unsuspecting Snow-White stood before her and <act
+                    type="doing" agent="second_queen" receiver="snow_white" effect="hostile">let her
+                    do up the new lace, but the old woman pulled so quickly and so hard that
+                    Snow-White could not breathe.</act>
+                <dialogue speaker="second_queen" stateofbeing="negative">"You used to be the most
+                    beautiful one," said the old woman,</dialogue>and hurried away.</p>
+
+            <p>Not long afterward, in the evening time, the seven dwarfs came home. How terrified
+                they were when they saw their dear<act type="being" agent="snow_white"
+                    receiver="self" effect="hostile">Snow-White lying on the ground, not moving at
+                    all, as though she were dead.</act> They lifted her up, and, <act type="doing"
+                    agent="dwarves" receiver="snow_white" effect="benevolent">seeing that she was
+                    too tightly laced, they cut the lace in two.</act> Then she began to breathe a
+                little, and little by little <act type="doing" agent="snow_white" receiver="self"
+                    effect="benevolent">she came back to life.</act>When the dwarfs heard what had
+                happened they said, <dialogue speaker="dwarves" stateofbeing="negative">"The
+                        <character marital-status="wife" child-status="stepmother"
+                        reference="second_queen">old peddler woman</character> was no one else but
+                    the godless <character reference="second_queen" child-status="stepmother"
+                        marital-status="wife">queen.</character> Take care and let no one in when we
+                    are not with you."</dialogue></p>
+
+            <p>When the wicked woman returned home she went to her mirror and asked: <dialogue
+                    speaker="second_queen" stateofbeing="positive">Mirror, mirror, on the wall, Who
+                    in this land is fairest of all?</dialogue> The mirror answered once again:
+                    <dialogue speaker="mirror" stateofbeing="negative">You, my queen, are fair; it
+                    is true. But Snow-White, beyond the mountains With the seven dwarfs, Is still a
+                    thousand times fairer than you.</dialogue> When she heard that, all her blood
+                ran to her heart because she knew that<act type="doing" agent="snow_white"
+                    receiver="self" effect="hostile"> Snow-White had come back to life.</act>
+                <dialogue speaker="second_queen" stateofbeing="negative">"This time," she said, "I
+                    shall think of something that will destroy you."</dialogue></p>
+
+            <p><act type="doing" agent="second_queen" receiver="snow_white" effect="hostile">Then
+                    with the art of witchcraft, which she understood, she made a poisoned
+                    comb.</act> Then she disguised herself, <act type="doing" agent="second_queen"
+                    receiver="self" effect="hostile">taking the form of a different <character
+                        marital-status="wife" child-status="stepmother" reference="second_queen">old
+                        woman.</character></act> Thus she went across the seven mountains to the
+                seven dwarfs, knocked on the door, and called out, <dialogue speaker="second_queen"
+                    stateofbeing="neutral">"Good wares for sale, for sale!"</dialogue> Snow-White
+                looked out and said, <dialogue speaker="snow_white" stateofbeing="negative">"Go on
+                    your way. I am not allowed to let anyone in."</dialogue>
+                <dialogue speaker="second_queen" stateofbeing="negative">"You surely may take a
+                    look,"</dialogue> said the old woman, pulling out the poisoned comb and holding
+                it up. The child liked it so much that she <act type="doing" agent="second_queen"
+                    receiver="snow_white" effect="hostile">let herself be deceived, and she opened
+                    the door.</act> After they had agreed on the purchase, the old woman said,
+                    <dialogue speaker="second_queen" stateofbeing="negative">"Now let me comb your
+                    hair properly."</dialogue> She had barely <act type="doing" agent="second_queen"
+                    receiver="snow_white" effect="hostile">stuck the comb into Snow-White's hair
+                    when the poison took effect, and the girl fell down unconscious.</act>
+                <dialogue speaker="second_queen" stateofbeing="negative">"You specimen of beauty,"
+                    said the wicked woman, "now you are finished."</dialogue> And she walked
+                away.</p>
+
+            <p>Fortunately it was almost evening, and the seven dwarfs came home. When they saw <act
+                    type="doing" agent="second_queen" effect="hostile" receiver="snow_white"
+                        ><character marital-status="unmarried" child-status="childless"
+                        reference="snow_white">Snow-White</character> lying on the ground as if she
+                    were dead,</act> they immediately suspected her stepmother. They <act
+                    type="doing" agent="dwarves" receiver="snow_white" effect="benevolent">examined
+                    her and found the poisoned comb.</act> They had scarcely pulled it out when
+                Snow-White came to herself again and told them what had happened. Once again they
+                warned her to be on guard and not to open the door for anyone.</p>
+
+            <p>Back at home the queen stepped before her mirror and said: <dialogue
+                    speaker="second_queen" stateofbeing="positive">Mirror, mirror, on the wall, Who
+                    in this land is fairest of all?</dialogue> The mirror answered: <dialogue
+                    speaker="mirror" stateofbeing="negative">You, my queen, are fair; it is true.
+                    But Snow-White, beyond the mountains With the seven dwarfs, Is still a thousand
+                    times fairer than you.</dialogue> When the queen heard the mirror saying this,
+                she shook and trembled with anger, <dialogue speaker="second_queen"
+                    stateofbeing="negative">"Snow-White shall die," she shouted, "if it costs me my
+                    life!"</dialogue></p>
+
+            <p><act type="doing" agent="second_queen" receiver="snow_white" effect="hostile">Then
+                    she went into her most secret room -- no one else was allowed inside -- and she
+                    made a poisoned, poisoned apple.</act> From the outside it was beautiful, white
+                with red cheeks, and anyone who saw it would want it. But anyone who might eat a
+                little piece of it would died. Then, coloring her face, <act type="doing"
+                    agent="second_queen" receiver="self" effect="hostile">she disguised herself as a
+                        <character marital-status="wife" child-status="stepmother"
+                        reference="second_queen">peasant woman</character>,</act> and thus went
+                across the seven mountains to the seven dwarfs. She knocked on the door. Snow-White
+                stuck her head out the window and said, <dialogue speaker="snow_white"
+                    stateofbeing="negative">"I am not allowed to let anyone in. The dwarfs have
+                    forbidden me to do so."</dialogue>
+                <dialogue speaker="second_queen" stateofbeing="positive">"That is all right with
+                    me," answered the peasant woman. "I'll easily get rid of my apples. Here, I'll
+                    give you one of them."</dialogue>
+                <dialogue speaker="snow_white" stateofbeing="negative">"No," said Snow-White, "I
+                    cannot accept anything."</dialogue>
+                <dialogue speaker="second_queen" stateofbeing="negative">"Are you afraid of poison?"
+                    asked the old woman. "Look, I'll cut the apple in two. You eat the red half, and
+                    I shall eat the white half."</dialogue> Now the apple had been so artfully made
+                that only the red half was poisoned. Snow-White longed for the beautiful apple, and
+                when she saw that the peasant woman was eating part of it she could no longer
+                resist, and she stuck her hand out and took the poisoned half. She barely had a bite
+                in her mouth when <act type="doing" agent="second_queen" receiver="snow_white"
+                    effect="hostile">she fell to the ground dead.</act> The queen <act type="doing"
+                    agent="second_queen" receiver="snow_white" effect="hostile">looked at her with a
+                    gruesome stare, laughed loudly,</act> and said, <dialogue speaker="second_queen"
+                    stateofbeing="negative">"White as snow, red as blood, black as ebony wood! This
+                    time the dwarfs cannot awaken you."</dialogue></p>
+
+            <p>Back at home she asked her mirror: <dialogue speaker="second_queen"
+                    stateofbeing="positive">Mirror, mirror, on the wall, Who in this land is fairest
+                    of all?</dialogue> It finally answered: <dialogue speaker="mirror"
+                    stateofbeing="positive">You, my queen, are fairest of all.</dialogue> Then her
+                envious heart was at rest, as well as an envious heart can be at rest.</p>
+
+            <p>When the dwarfs came home that evening they found Snow-White lying on the ground. She
+                was not breathing at all. <act type="being" agent="second_queen"
+                    receiver="snow_white" effect="hostile">She was dead. </act>
+                <act type="doing" agent="dwarves" receiver="snow_white" effect="benevolent">They
+                    lifted her up and looked for something poisonous.</act>
+                <act type="doing" agent="dwarves" receiver="snow_white" effect="benevolent">They
+                    undid her laces.</act>
+                <act type="doing" agent="dwarves" receiver="snow_white" effect="benevolent"> They
+                    combed her hair.</act>
+                <act type="doing" agent="dwarves" receiver="snow_white" effect="benevolent">They
+                    washed her with water and wine.</act> But nothing helped. The dear child was
+                dead, and she remained dead. They <act type="doing" agent="dwarves"
+                    receiver="snow_white" effect="benevolent">laid her on a bier,</act> and all
+                seven sat next to her and <act type="doing" agent="dwarves" receiver="snow_white"
+                    effect="benevolent"> mourned for her and cried</act> for three days. They were
+                going to bury her, but she still looked as fresh as a living person, and still had
+                her beautiful red cheeks. They said, <dialogue speaker="dwarves"
+                    stateofbeing="negative">"We cannot bury her in the black earth,"</dialogue> and
+                    <act type="doing" agent="dwarves" receiver="snow_white" effect="benevolent">they
+                    had a transparent glass coffin made,</act> so she could be seen from all sides.
+                They <act type="doing" agent="dwarves" receiver="snow_white" effect="benevolent"
+                    >laid her inside, and with golden letters wrote on it her name,</act> and that
+                she was a princess. Then they put the coffin outside on a mountain, and <act
+                    type="doing" agent="dwarves" receiver="snow_white" effect="benevolent">one of
+                    them always stayed with it and watched over her.</act> The animals too came and
+                mourned for Snow-white, first an owl, then a raven, and finally a dove. Snow-White
+                lay there in the coffin a long, long time, and <act type="doing" agent="snow_white"
+                    receiver="self" effect="benevolent">she did not decay, but looked like she was
+                    asleep,</act> for she was still as white as snow and as red as blood, and as
+                black-haired as ebony wood.</p>
+
+            <p>Now it came to pass that a prince entered these woods and happened onto the dwarfs'
+                house, where he sought shelter for the night. He saw the coffin on the mountain with
+                beautiful Snow-White in it, and he read what was written on it with golden letters.
+                Then he said to the dwarfs, <dialogue speaker="prince" stateofbeing="positive">"Let
+                    me have the coffin. I will give you anything you want for it."</dialogue> But
+                the dwarfs answered,<dialogue speaker="dwarves" stateofbeing="negative">"We will not
+                    sell it for all the gold in the world."</dialogue> Then he said, <dialogue
+                    speaker="prince" stateofbeing="positive">"Then give it to me, for I cannot live
+                    without being able to see Snow-White. I will honor her and respect her as my
+                    most cherished one."</dialogue>As he thus spoke, the good dwarfs felt pity for
+                him and gave him the coffin. The prince had his servants carry it away on their
+                shoulders. But then it happened that one of them stumbled on some brush, and this
+                    <act type="doing" agent="servents" receiver="snow_white" effect="benevolent"
+                    >dislodged from Snow-White's throat the piece of poisoned apple</act> that she
+                had bitten off. Not long afterward <act type="doing" agent="snow_white"
+                    receiver="self" effect="benevolent">she opened her eyes, lifted the lid from her
+                    coffin, sat up, and was alive again.</act>
+                <dialogue speaker="snow_white" stateofbeing="positive">"Good heavens, where am
+                    I?"</dialogue> she cried out. The prince said joyfully, <dialogue
+                    speaker="prince" stateofbeing="positive">"You are with me."</dialogue> He told
+                her what had happened, and then said, <dialogue speaker="prince"
+                    stateofbeing="positive"> "I love you more than anything else in the world. Come
+                    with me to my father's castle. You shall become my wife."</dialogue><act
+                    type="being" agent="snow_white" receiver="self" effect="benevolent">Snow White
+                    loved him,</act> and she went with him. Their wedding was planned with great
+                splendor and majesty.</p>
+
+            <p><character marital-status="wife" child-status="childless" reference="snow_white"
+                    >Snow-White's</character>godless <character marital-status="wife"
+                    child-status="stepmother" reference="second_queen">stepmother</character> was
+                also invited to the feast. After putting on her beautiful clothes she stepped before
+                her mirror and said: <dialogue speaker="second_queen" stateofbeing="positive"
+                    >Mirror, mirror, on the wall, Who in this land is fairest of all?</dialogue> The
+                mirror answered: <dialogue speaker="mirror" stateofbeing="negative">You, my queen,
+                    are fair; it is true. But the young queen is a thousand times fairer than
+                    you.</dialogue> The wicked woman uttered a curse, and <act type="being"
+                    agent="second_queen" receiver="self" effect="hostile">she became so frightened,
+                    so frightened, that she did not know what to do.</act> At first she did not want
+                to go to the wedding, but she found no peace. She had to go and see the young queen.
+                When she arrived she recognized Snow-White, and terrorized, she could only stand
+                there without moving. Then <act type="doing" agent="unknown" receiver="second_queen"
+                    effect="hostile">they put a pair of iron shoes into burning coals.</act> They
+                were brought forth with tongs and placed before her. <act type="doing"
+                    agent="unknown" receiver="second_queen" effect="hostile">She was forced to step
+                    into the red-hot shoes and dance until she fell down dead.</act></p>
+        </story>
+    </tale>
+    <tale>
+        <metadata>
+            <title>Sneewittchen</title>
+            <year>1821</year>
+            <author>Jacob Grimm</author>
+            <author>Wilhem Grimm</author>
+            <language>German</language>
+            <number>53</number>
+        </metadata>
+        <story>
+            <p>Es war einmal mitten im Winter, und die Schneeflocken fielen wie Federn vom Himmel,
+                da saß eine schöne <character child-status="mother" marital-status="unmarried"
+                    reference="queen">Königin</character> an einem Fenster, das hatte einen Rahmen
+                von schwarzem Eben- holz, und nähte. Und wie <character child-status="mother"
+                    marital-status="unmarried" reference="queen">sie</character> so nähte und nach
+                dem Schnee aufblickte, stach <character child-status="mother"
+                    marital-status="unmarried" reference="queen">sie</character> sich mit der Nadel
+                in den Finger, und es fielen drei Tropfen Blut in den Schnee. Und weil das Rothe in
+                dem Weißen so schön aussah, so dach- te <character child-status="mother"
+                    marital-status="unmarried" reference="queen">sie</character>: hätt ich doch ein
+                Kind so weiß wie Schnee, so roth wie Blut und so schwarz wie dieser Rahmen. Und bald
+                darauf bekam sie ein <character child-status="childless" marital-status="unmarried"
+                    reference="snow">Töchterlein</character>, so weiß wie der Schnee, so roth wie
+                das Blut, und so schwarz wie Eben- holz, und darum ward es das <character
+                    child-status="childless" marital-status="unmarried" reference="snow"
+                    >Sneewittchen</character> ge- nannt.</p>
+
+            <p>Die <character child-status="mother" marital-status="unmarried" reference="queen"
+                    >Königin</character> war die schönste im ganzen Land, und gar stolz auf ihre
+                Schönheit. <character child-status="mother" marital-status="unmarried"
+                    reference="queen">Sie</character> hatte auch einen Spiegel, vor den trat
+                    <character child-status="mother" marital-status="unmarried" reference="queen"
+                    >sie</character> alle Morgen und fragte: <dialogue speaker="queen"
+                    stateofbeing="neutral">„Spieglein, Spieglein an der Wand: wer ist die schönste
+                    Frau in dem ganzen Land?“</dialogue> da sprach das Spieglein allzeit: <dialogue
+                    speaker="mirror" stateofbeing="positive">„Ihr, <character child-status="mother"
+                        marital-status="unmarried" reference="queen">Frau Königin</character>, seyd
+                    die schönste Frau im Land.“</dialogue> heran, und als <character
+                    child-status="childless" marital-status="unmarried" reference="snow"
+                    >es</character> sieben Jahr alt war, war <character child-status="childless"
+                    marital-status="unmarried" reference="snow">es</character> so schön, daß
+                    <character child-status="childless" marital-status="unmarried" reference="snow"
+                    >es</character> selbst die <character child-status="mother"
+                    marital-status="unmarried" reference="queen">Königin</character> an Schön- heit
+                übertraf, und als diese ihren Spiegel fragte: <dialogue speaker="queen"
+                    stateofbeing="neutral">„Spieglein, Spieglein an der Wand: wer ist die schönste
+                    Frau in dem ganzen Land?“</dialogue> sagte der Spiegel: <dialogue
+                    speaker="mirror" stateofbeing="neutral">„<character child-status="mother"
+                        marital-status="unmarried" reference="queen">Frau Königin</character>, Ihr
+                    seyd die schönste hier, aber <character child-status="childless"
+                        marital-status="unmarried" reference="snow">Snewittchen</character> ist noch
+                    tausendmal schöner als <character child-status="mother"
+                        marital-status="unmarried" reference="queen">Ihr</character>!“</dialogue>
+                Wie die <character child-status="mother" marital-status="unmarried"
+                    reference="queen">Königin</character> den Spiegel so sprechen hör- te, ward
+                    <character child-status="mother" marital-status="unmarried" reference="queen"
+                    >sie</character> blaß vor Neid, und von Stund an <act type="being"
+                    effect="hostile" agent="queen" io="snow">haßte <character child-status="mother"
+                        marital-status="unmarried" reference="queen">sie</character> das <character
+                        child-status="childless" marital-status="unmarried" reference="snow"
+                        >Sneewittchen</character></act>, und wenn <character child-status="mother"
+                    marital-status="unmarried" reference="queen">sie</character> es ansah, und
+                gedacht, daß durch seine Schuld <character child-status="mother"
+                    marital-status="unmarried" reference="queen">sie</character> nicht mehr die
+                schönste auf der Welt sey, kehrte sich <character child-status="mother"
+                    marital-status="unmarried" reference="queen">ihr</character> das Herz herum. Da
+                ließ <character child-status="mother" marital-status="unmarried" reference="queen"
+                    >ihr</character> der Neid keine Ruhe, und <character child-status="mother"
+                    marital-status="unmarried" reference="queen">sie</character> rief einen Jäger
+                und sagte zu ihm: <dialogue speaker="queen" stateofbeing="negative">„führ das
+                        <character child-status="childless" marital-status="unmarried"
+                        reference="snow">Sneewittchen</character> hinaus in den Wald an einen weiten
+                    abgelege- nen Ort, da stichs todt, und zum Wahrzeichen bring mir seine Lunge und
+                    seine Leber mit, die will ich mit Salz kochen und essen.“</dialogue> Der Jä- ger
+                nahm das <character child-status="childless" marital-status="unmarried"
+                    reference="snow">Sneewittchen</character> und führte <character
+                    child-status="childless" marital-status="unmarried" reference="snow"
+                    >es</character> hin- aus, wie er aber den Hirschfänger gezogen hat- te und eben
+                zustechen wollte, da fing <character child-status="childless"
+                    marital-status="unmarried" reference="snow">es</character> an zu weinen, und bat
+                so sehr, er mögt <character child-status="childless" marital-status="unmarried"
+                    reference="snow">ihm</character> sein Le- ben lassen, <character
+                    child-status="childless" marital-status="unmarried" reference="snow"
+                    >es</character> wollt nimmermehr zurückkom- men, sondern in dem Wald fortlaufen.
+                Den Jäger erbarmte <character child-status="childless" marital-status="unmarried"
+                    reference="snow">es</character>, weil <character child-status="childless"
+                    marital-status="unmarried" reference="snow">es</character> so schön war und
+                gedachte: die wilden Thiere werden <character child-status="childless"
+                    marital-status="unmarried" reference="snow">es</character> doch bald gefressen
+                haben, ich bin froh, daß ich <character child-status="childless"
+                    marital-status="unmarried" reference="snow">es</character> nicht zu tödten
+                brauche, und weil gerade ein junger Frischling gelaufen kam, stach er den nieder,
+                nahm Lunge und Leber heraus und bracht sie als Wahrzeichen der <character
+                    child-status="mother" marital-status="unmarried" reference="queen"
+                    >Königin</character> mit, die kochte sie mit Salz und aß sie auf, und meinte sie
+                hätte Sneewittchens Lunge und Le- ber gegessen.</p>
+
+            <p><character child-status="childless" marital-status="unmarried" reference="snow"
+                    >Sneewittchen</character> aber war in dem großen Wald mutterseelig allein, so
+                daß <character child-status="childless" marital-status="unmarried" reference="snow"
+                    >ihm</character> recht Angst ward und fing an zu laufen und zu lau- fen über die
+                spitzen Steine, und durch die Dor- nen den ganzen Tag: endlich, als die Sonne
+                untergehen wollte, kam <character child-status="childless"
+                    marital-status="unmarried" reference="snow">es</character> zu einem kleinen
+                Häuschen. Das Häuschen gehörte sieben Zwer- gen, die waren aber nicht zu Haus,
+                sondern in das Bergwerk gegangen. <character child-status="childless"
+                    marital-status="unmarried" reference="snow">Sneewittchen</character> ging hinein
+                und fand alles klein, aber niedlich und reinlich: da stand ein Tischlein mit sieben
+                kleinen Tellern, dabei sieben Löfflein, sieben Messerlein und Gäblein, sieben
+                Becherlein, und an der Wand standen sieben Bettlein neben ein- ander ander frisch
+                gedeckt. <character child-status="childless" marital-status="unmarried"
+                    reference="snow">Sneewittchen</character> war hungrig und durstig, aß von jedem
+                Tellerlein ein wenig Gemüs und Brod, trank aus jedem Gläschen einen Tropfen Wein,
+                und weil <character child-status="childless" marital-status="unmarried"
+                    reference="snow">es</character> so müd war, wollte <character
+                    child-status="childless" marital-status="unmarried" reference="snow"
+                    >es</character> sich schlafen legen. Da probirte <character
+                    child-status="childless" marital-status="unmarried" reference="snow"
+                    >es</character> die sieben Bettlein nach einander, keins war <character
+                    child-status="childless" marital-status="unmarried" reference="snow"
+                    >ihm</character> aber recht, bis auf das siebente, in das legte <character
+                    child-status="childless" marital-status="unmarried" reference="snow"
+                    >es</character> sich und schlief ein.</p>
+
+            <p>Wie es Nacht war, kamen die sieben Zwer- ge von ihrer Arbeit heim, und steckten ihre
+                sie- ben Lichtlein an, da sahen sie, daß jemand in ihrem Haus gewesen war. Der erste
+                sprach: <dialogue speaker="dwarf" stateofbeing="neutral">„wer hat auf meinem
+                    Stühlchen gesessen?“</dialogue> Der zweite: <dialogue speaker="dwarf"
+                    stateofbeing="neutral">„wer hat von meinem Tellerchen gegessen?“</dialogue> Der
+                dritte: <dialogue speaker="dwarf" stateofbeing="neutral">„wer hat von meinem
+                    Brödchen genommen?“</dialogue> Der vierte: <dialogue speaker="dwarf"
+                    stateofbeing="neutral">„wer hat von meinem Gemüschen gegessen?“</dialogue> Der
+                fünf- te: <dialogue speaker="dwarf" stateofbeing="neutral">„wer hat mit meinem
+                    Gäbelchen gestochen?“</dialogue> Der sechste: <dialogue speaker="dwarf"
+                    stateofbeing="neutral">„wer hat mit meinem Messerchen geschnitten?“</dialogue>
+                Der siebente: <dialogue speaker="dwarf" stateofbeing="neutral">„wer hat aus meinem
+                    Becherlein getrunken?“</dialogue> Darnach sah der erste sich um und sagte:
+                    <dialogue speaker="dwarf" stateofbeing="neutral">„wer hat in mein Bettchen
+                    getreten?“</dialogue> Der zweite: <dialogue speaker="dwarf"
+                    stateofbeing="neutral">„ei, in mei- nem hat auch jemand gelegen?“</dialogue> und
+                so alle weiter bis zum siebenten, wie der nach seinem Bettchen sah, da fand er das
+                    <character child-status="childless" marital-status="unmarried" reference="snow"
+                    >Sneewittchen</character> darin liegen und schlafen. Da kamen die Zwer- ge alle
+                gelaufen, und schrieen vor Verwunde- rung, und holten ihre sieben Lichtlein herbei,
+                und betrachteten das <character child-status="childless" marital-status="unmarried"
+                    reference="snow">Sneewittchen</character>, <dialogue speaker="dwarves"
+                    stateofbeing="positive">„ei du mein Gott! ei du mein Gott! riefen sie, was ist
+                    das schön!“</dialogue> Sie hatten große Freude an <character
+                    child-status="childless" marital-status="unmarried" reference="snow"
+                    >ihm</character>, <act type="doing" effect="benevolent" agent="dwarves"
+                    io="snow">weckten <character child-status="childless" marital-status="unmarried"
+                        reference="snow">es</character> auch nicht auf</act>, und <act type="doing"
+                    effect="benevolent" agent="dwarves" io="snow">ließen <character
+                        child-status="childless" marital-status="unmarried" reference="snow"
+                        >es</character> in dem Bettlein liegen</act>; der siebente Zwerg aber
+                schlief bei seinen Gesellen, bei jedem eine Stun- de, da war die Nacht herum. Als
+                nun <character child-status="childless" marital-status="unmarried" reference="snow"
+                    >Snee- wittchen</character> aufwachte, fragten sie <character
+                    child-status="childless" marital-status="unmarried" reference="snow"
+                    >es</character>, wer <character child-status="childless"
+                    marital-status="unmarried" reference="snow">es</character> sey und wie
+                    <character child-status="childless" marital-status="unmarried" reference="snow"
+                    >es</character> in ihr Haus gekommen wäre, da erzählte <character
+                    child-status="childless" marital-status="unmarried" reference="snow"
+                    >es</character> ihnen, wie <act type="doing" effect="hostile" agent="queen"
+                    >seine <character child-status="mother" marital-status="unmarried"
+                        reference="queen">Mutter</character>
+                    <character child-status="childless" marital-status="unmarried" reference="snow"
+                        >es</character> habe wollen umbringen</act>, der <act type="doing"
+                    effect="benevolent" agent="hunter" io="snow">Jäger <character
+                        child-status="childless" marital-status="unmarried" reference="snow"
+                        >ihm</character> aber das Le- ben geschenkt</act>, und wie <character
+                    child-status="childless" marital-status="unmarried" reference="snow"
+                    >es</character> den ganzen Tag ge- laufen, und endlich zu ihrem Häuslein gekom-
+                men sey. Da hatten die Zwerge Mitleiden und sagten: <dialogue speaker="dwarves"
+                    stateofbeing="neutral">„wenn <character child-status="childless"
+                        marital-status="unmarried" reference="snow">du</character> unsern Haushalt
+                    versehen, und kochen, nähen, betten, waschen und stricken willst, auch alles
+                    ordentlich und reinlich halten, sollst <character child-status="childless"
+                        marital-status="unmarried" reference="snow">du</character> bei uns bleiben
+                    und soll <character child-status="childless" marital-status="unmarried"
+                        reference="snow">dir</character> an nichts fehlen; Abends kommen wir nach
+                    Haus, da muß das Essen fertig seyn, am Tage aber sind wir im Bergwerk und graben
+                    Gold, da bist <character child-status="childless" marital-status="unmarried"
+                        reference="snow">du</character> allein; hüt <character
+                        child-status="childless" marital-status="unmarried" reference="snow"
+                        >dich</character> nur vor der <character child-status="mother"
+                        marital-status="unmarried" reference="queen">Königin</character> und laß
+                    niemand herein.“</dialogue></p>
+
+            <p>Die <character child-status="mother" marital-status="unmarried" reference="queen"
+                    >Königin</character> aber glaubte, <character child-status="mother"
+                    marital-status="unmarried" reference="queen">sie</character> sey wieder die
+                allerschönste im Land, trat Morgens vor den Spiegel und fragte: <dialogue
+                    speaker="queen" stateofbeing="neutral">„Spieglein, Spieglein an der Wand: wer
+                    ist die schönste Frau in dem ganzen Land?“</dialogue> da antwortete der Spiegel
+                aber wieder:</p>
+
+            <p><dialogue speaker="mirror" stateofbeing="neutral">„<character child-status="mother"
+                        marital-status="unmarried" reference="queen">Frau Königin</character>,
+                        <character child-status="mother" marital-status="unmarried"
+                        reference="queen">Ihr</character> seyd die schönste hier: aber <character
+                        child-status="childless" marital-status="unmarried" reference="snow"
+                        >Sneewittchen</character>, über den sieben Bergen ist noch tausendmal
+                    schöner als <character child-status="mother" marital-status="unmarried"
+                        reference="queen">Ihr</character>!“</dialogue> wie die <character
+                    child-status="mother" marital-status="unmarried" reference="queen"
+                    >Königin</character> das hörte erschrack <character child-status="mother"
+                    marital-status="unmarried" reference="queen">sie</character> und sah wohl, daß
+                sie betrogen worden und der Jäger <character child-status="childless"
+                    marital-status="unmarried" reference="snow">Sneewittchen</character> nicht
+                getödtet hatte. Weil aber niemand, als die sieben Zwerglein in den sieben Bergen
+                war, da wußte <character child-status="mother" marital-status="unmarried"
+                    reference="queen">sie</character> gleich, daß <character
+                    child-status="childless" marital-status="unmarried" reference="snow"
+                    >es</character> sich zu diesen gerettet hatte, und nun sann <character
+                    child-status="mother" marital-status="unmarried" reference="queen"
+                    >sie</character> von neuem nach, wie <character child-status="mother"
+                    marital-status="unmarried" reference="queen">sie</character>
+                <character child-status="childless" marital-status="unmarried" reference="snow"
+                    >es</character> umbringen könnte, denn so lang der Spiegel nicht sagte,
+                    <character child-status="mother" marital-status="unmarried" reference="queen"
+                    >sie</character> wär die schönste Frau im ganzen Land, hatte <character
+                    child-status="mother" marital-status="unmarried" reference="queen"
+                    >sie</character> keine Ruh. Da war <character child-status="mother"
+                    marital-status="unmarried" reference="queen">ihr</character> alles nicht sicher
+                und ge- wiß genug, und <character child-status="mother" marital-status="unmarried"
+                    reference="queen">sie</character> verkleidete sich selber in ei- ne alte
+                    <character child-status="mother" marital-status="unmarried" reference="queen"
+                    >Krämerin</character>, färbte ihr Gesicht, daß <character child-status="mother"
+                    marital-status="unmarried" reference="queen">sie</character> auch kein Mensch
+                erkannte, und ging hinaus vor das Zwergenhaus. <character child-status="mother"
+                    marital-status="unmarried" reference="queen">Sie</character> klopfte an die Thür
+                und rief: <dialogue speaker="queen" stateofbeing="neutral">„macht auf, macht auf,
+                    ich bin die alte <character child-status="mother" marital-status="unmarried"
+                        reference="queen">Krämerin</character>, die gute Waare feil hat.“</dialogue>
+                <character child-status="childless" marital-status="unmarried" reference="snow"
+                    >Sneewittchen</character> guckte aus dem Fenster: <dialogue speaker="snow"
+                    stateofbeing="neutral">„was habt <character child-status="mother"
+                        marital-status="unmarried" reference="queen">ihr</character>
+                    denn?“</dialogue>
+                <dialogue speaker="queen" stateofbeing="neutral">„Schnürriemen, liebes <character
+                        child-status="childless" marital-status="unmarried" reference="snow"
+                        >Kind</character>,</dialogue> sagte die <character child-status="mother"
+                    marital-status="unmarried" reference="queen">Alte</character>, und holte einen
+                hervor, der war von gelber, rother und blauer Seide geflochten: <dialogue
+                    speaker="queen" stateofbeing="neutral">„willst <character
+                        child-status="childless" marital-status="unmarried" reference="snow"
+                        >du</character> den haben?“</dialogue>
+                <dialogue speaker="snow" stateofbeing="positive">Ei ja</dialogue>, sprach <character
+                    child-status="childless" marital-status="unmarried" reference="snow"
+                    >Sneewittchen</character>, und dachte die gute alte <character
+                    child-status="mother" marital-status="unmarried" reference="queen"
+                    >Frau</character> kann ich wohl hereinlassen, die meints redlich; riegelte also
+                die Thüre auf und handel- te sich den Schnürriemen. <dialogue speaker="queen"
+                    stateofbeing="positive">„Aber wie bist <character child-status="childless"
+                        marital-status="unmarried" reference="snow">du</character> so schlampisch
+                    geschnürt, sagte die <character child-status="mother" marital-status="unmarried"
+                        reference="queen">Alte</character>, komm ich will <character
+                        child-status="childless" marital-status="unmarried" reference="snow"
+                        >dich</character> einmal besser schnüren.“</dialogue>
+                <character child-status="childless" marital-status="unmarried" reference="snow"
+                    >Sneewitt- chen</character> stellte sich vor <character child-status="mother"
+                    marital-status="unmarried" reference="queen">sie</character>, da nahm <character
+                    child-status="mother" marital-status="unmarried" reference="queen"
+                    >sie</character> den Schnür- riemen und <act type="doing" effect="hostile"
+                    agent="queen" receiver="snow">schnürte und schnürte <character
+                        child-status="childless" marital-status="unmarried" reference="snow"
+                        >es</character> so fest, daß <character child-status="childless"
+                        marital-status="unmarried" reference="snow">ihm</character> der Athem
+                    verging</act>, und <act type="doing" effect="hostile" agent="snow"><character
+                        child-status="childless" marital-status="unmarried" reference="snow"
+                        >es</character> für todt hinfiel</act>. Darnach war <character
+                    child-status="mother" marital-status="unmarried" reference="queen"
+                    >sie</character> zufrieden und ging fort.</p>
+
+            <p>Bald darauf ward es Nacht, da kamen die sieben Zwerge nach Haus, die erschracken
+                recht, als sie ihr liebes <character child-status="childless"
+                    marital-status="unmarried" reference="snow">Sneewittchen</character> auf der
+                Erde liegen fanden, als wär <character child-status="childless"
+                    marital-status="unmarried" reference="snow">es</character> todt. Sie ho- ben es
+                in die Höhe, da sahen sie, daß <character child-status="childless"
+                    marital-status="unmarried" reference="snow">es</character> so fest geschnürt
+                war, <act type="doing" effect="benevolent" agent="dwarves" io="snow">schnitten den
+                    Schnürriemen entzwei</act>, da athmete <character child-status="childless"
+                    marital-status="unmarried" reference="snow">es</character> erst, und dann ward
+                es wieder lebendig. <dialogue speaker="dwarves" stateofbeing="negative">„Das ist
+                    niemand gewesen, als die <character child-status="mother"
+                        marital-status="unmarried" reference="queen">Königin</character>, sprachen
+                    sie, die hat <character child-status="childless" marital-status="unmarried"
+                        reference="snow">dir</character> das Leben nehmen wollen, hüte <character
+                        child-status="childless" marital-status="unmarried" reference="snow"
+                        >dich</character> und laß keinen Menschen mehr herein.</dialogue></p>
+
+            <p>Die <character child-status="mother" marital-status="unmarried" reference="queen"
+                    >Königin</character> aber fragte ihren Spiegel: <dialogue speaker="queen"
+                    stateofbeing="neutral">„Spieglein, Spieglein an der Wand: wer ist die schönste
+                    Frau in dem ganzen Land?“</dialogue> der Spiegel antwortete: <dialogue
+                    speaker="mirror" stateofbeing="neutral">„<character child-status="mother"
+                        marital-status="unmarried" reference="queen">Frau Königin</character>,
+                        <character child-status="mother" marital-status="unmarried"
+                        reference="queen">Ihr</character> seyd die schönste hier, aber <character
+                        child-status="childless" marital-status="unmarried" reference="snow"
+                        >Sneewittchen</character> bei den sieben Zwergelchen ist tausendmal schöner
+                    als <character child-status="mother" marital-status="unmarried"
+                        reference="queen">Ihr</character>.“</dialogue>
+                <character child-status="mother" marital-status="unmarried" reference="queen"
+                    >Sie</character> erschrack, daß das Blut <character child-status="mother"
+                    marital-status="unmarried" reference="queen">ihr</character> all zum Her- zen
+                lief, da <character child-status="mother" marital-status="unmarried"
+                    reference="queen">sie</character> sah, daß <character child-status="childless"
+                    marital-status="unmarried" reference="snow">Sneewittchen</character> wieder
+                lebendig geworden war. Darnach sann <character child-status="mother"
+                    marital-status="unmarried" reference="queen">sie</character> den ganzen Tag und
+                die Nacht, wie <character child-status="childless" marital-status="unmarried"
+                    reference="queen">sie</character>
+                <character child-status="childless" marital-status="unmarried" reference="snow"
+                    >es</character> doch noch fangen wollte, und machte einen giftigen Kamm,
+                verkleidete sich in eine ganz andere Ge- stalt, und ging wieder hinaus. <character
+                    child-status="mother" marital-status="unmarried" reference="queen"
+                    >Sie</character> klopfte an die Thür, <character child-status="childless"
+                    marital-status="unmarried" reference="snow">Sneewittchen</character> aber rief:
+                    <dialogue speaker="snow" stateofbeing="negative">„ich darf niemand
+                    hereinlassen;“</dialogue> da zog <character child-status="mother"
+                    marital-status="unmarried" reference="queen">sie</character> den Kamm hervor,
+                und als <character child-status="childless" marital-status="unmarried"
+                    reference="snow">Sneewittchen</character> den blinken sah und es auch jemand
+                ganz fremdes war, so machte <character child-status="childless"
+                    marital-status="unmarried" reference="snow">es</character> doch auf, und kaufte
+                ihr den Kamm ab. <dialogue speaker="queen" stateofbeing="neutral">„Komm ich will
+                        <character child-status="childless" marital-status="unmarried"
+                        reference="snow">dich</character> auch kämmen,“</dialogue> sagte die
+                    <character child-status="mother" marital-status="unmarried" reference="queen"
+                    >Kräme- rin</character>, <act type="doing" effect="hostile" agent="queen"
+                    receiver="snow">kaum aber stack der Kamm dem <character child-status="childless"
+                        marital-status="unmarried" reference="snow">Snee- wittchen</character> in
+                    den Haaren</act>, da <act type="doing" effect="hostile" agent="snow">fiel
+                        <character child-status="childless" marital-status="unmarried"
+                        reference="snow">es</character> nieder und war todt</act>. <dialogue
+                    speaker="witch" stateofbeing="neutral">„Nun wirst <character
+                        child-status="childless" marital-status="unmarried" reference="snow"
+                        >du</character> liegen bleiben,“</dialogue> sagte die <character
+                    child-status="mother" marital-status="unmarried" reference="queen"
+                    >Königin</character>, und ihr Herz war <character child-status="mother"
+                    marital-status="unmarried" reference="queen">ihr</character> leicht geworden,
+                und <character child-status="mother" marital-status="unmarried" reference="queen"
+                    >sie</character> ging heim. Die Zwerge aber kamen zu rechter Zeit, sahen was
+                geschehen, und <act type="doing" effect="benevolent" agent="dwarves" receiver="snow"
+                    >zogen den giftigen Kamm aus den Haa- ren</act>, da schlug <character
+                    child-status="childless" marital-status="unmarried" reference="snow"
+                    >Sneewittchen</character> die Augen auf, und war wieder lebendig, und versprach
+                den Zwergen, <character child-status="childless" marital-status="unmarried"
+                    reference="snow">es</character> wollte gewiß niemand mehr ein- lassen.</p>
+
+            <p>Die <character child-status="mother" marital-status="unmarried" reference="queen"
+                    >Königin</character> aber stellte sich vor ihren Spiegel: <dialogue
+                    speaker="queen" stateofbeing="neutral">„Spieglein, Spieglein an der Wand: wer
+                    ist die schönste Frau in dem ganzen Land!“</dialogue> der Spiegel antwortete:
+                    „<character child-status="mother" marital-status="unmarried" reference="queen"
+                    >Frau Königin</character>, <character child-status="mother"
+                    marital-status="unmarried" reference="queen">Ihr</character> seyd die schönste
+                hier, aber <character child-status="childless" marital-status="unmarried"
+                    reference="snow">Sneewittchen</character> bei den sieben Zwergelchen ist
+                tausendmal schöner als <character child-status="childless"
+                    marital-status="unmarried" reference="snow">Ihr</character>!“ Wie das die
+                    <character child-status="mother" marital-status="unmarried" reference="queen"
+                    >Königin</character> wieder hörte, zitterte und bebte <character
+                    child-status="mother" marital-status="unmarried" reference="queen"
+                    >sie</character> vor Zorn: <dialogue speaker="queen" stateofbeing="negative">„so
+                    soll das <character child-status="childless" marital-status="unmarried"
+                        reference="snow">Sneewittchen</character> noch sterben, und wenn <character
+                        child-status="mother" marital-status="unmarried" reference="snow"
+                        >es</character> mein Leben kostet!“</dialogue> Dann ging <character
+                    child-status="mother" marital-status="unmarried" reference="queen"
+                    >sie</character> in ihre heimlichste Stube, und niemand durfte vor <character
+                    child-status="mother" marital-status="unmarried" reference="queen"
+                    >sie</character> kommen, und da mach- te <character child-status="mother"
+                    marital-status="unmarried" reference="queen">sie</character> einen giftigen,
+                giftigen Apfel, äußerlich war er schön und rothbäckig, und jeder der ihn sah, bekam
+                Lust dazu. Darauf verkleidete <character child-status="mother"
+                    marital-status="unmarried" reference="queen">sie</character> sich als <character
+                    child-status="mother" marital-status="unmarried" reference="queen"
+                    >Bauersfrau</character>, ging vor das Zwerghaus und klopfte an. <character
+                    child-status="childless" marital-status="unmarried" reference="snow"
+                    >Sneewittchen</character> guckte und sag- te: <dialogue speaker="snow"
+                    stateofbeing="negative">„ich darf keinen Menschen einlassen, die Zwerge haben
+                    mirs bei Leibe verboten.“</dialogue>
+                <dialogue speaker="queen" stateofbeing="neutral">„Nun, wenn <character
+                        child-status="childless" marital-status="unmarried" reference="snow"
+                        >Ihr</character> nicht wollt, sagte die <character child-status="mother"
+                        marital-status="unmarried" reference="queen">Bäuerin</character>, kann ich
+                    euch nicht zwingen, meine Aepfel will ich schon los werden, da, einen will ich
+                    euch zur Probe schenken.“</dialogue>
+                <dialogue speaker="snow" stateofbeing="negative">„Nein, ich darf auch nichts
+                    geschenkt nehmen, die Zwerge wollens nicht haben.“</dialogue>
+                <dialogue speaker="queen" stateofbeing="positive">„<character
+                        child-status="childless" marital-status="unmarried" reference="snow"
+                        >Ihr</character> mögt Euch wohl fürch- ten, da will ich den Apfel entzwei
+                    schneiden und die Hälfte essen, da den schönen rothen Backen sollt <character
+                        child-status="childless" marital-status="unmarried" reference="snow"
+                        >Ihr</character> haben;“</dialogue> der Apfel war aber so künstlich gemacht,
+                daß nur die rothe Hälfte vergiftet war. Da sah <character child-status="childless"
+                    marital-status="unmarried" reference="snow">Sneewittchen</character>, daß die
+                    <character child-status="mother" marital-status="unmarried" reference="queen"
+                    >Bäuerin</character> selber davon aß, und sein Gelüsten darnach ward immer
+                größer, da ließ es sich end- lich die andere Hälfte durchs Fenster reichen, und biß
+                hinein, <act type="doing" effect="hostile" agent="snow">kaum aber hatte <character
+                        child-status="childless" marital-status="unmarried" reference="snow"
+                        >es</character> einen Bis- sen im Mund, so fiel <character
+                        child-status="childless" marital-status="unmarried" reference="snow"
+                        >es</character> todt zur Erde</act>.</p>
+
+            <p>Die <character child-status="mother" marital-status="unmarried" reference="queen"
+                    >Königin</character> aber freute sich, ging nach Haus und fragte den Spiegel:
+                    <dialogue speaker="queen" stateofbeing="neutral">„Spieglein, Spieglein an der
+                    Wand: wer ist die schönste Frau in dem ganzen Land?“</dialogue> da antworte er:
+                    <dialogue speaker="mirror" stateofbeing="neutral">„<character
+                        child-status="mother" marital-status="unmarried" reference="queen"
+                        >Ihr</character>, <character child-status="mother"
+                        marital-status="unmarried" reference="queen">Frau Königin</character>, seyd
+                    die schönste Frau im Land!“</dialogue>
+                <dialogue speaker="queen" stateofbeing="positive">„Nun hab ich Ruhe“</dialogue>
+                sprach <character child-status="mother" marital-status="unmarried" reference="queen"
+                    >sie</character>, da ich wieder die schönste im Lande bin, und <character
+                    child-status="childless" marital-status="unmarried" reference="snow"
+                    >Sneewittchen</character> wird diesmal wohl todt bleiben.“</p>
+
+            <p>Die Zwerglein kamen Abends aus den Berg- werken nach Haus, da lag das liebe
+                    <character child-status="childless" marital-status="unmarried" reference="snow"
+                    >Sneewitt- chen</character> auf dem Boden und war todt. Sie schnür- ten
+                    <character child-status="childless" marital-status="unmarried" reference="snow"
+                    >es</character> auf und sahen, ob sie nichts giftiges in seinen Haaren fänden,
+                    <character child-status="childless" marital-status="unmarried" reference="snow"
+                    >es</character> half aber alles nichts, sie konnten <character
+                    child-status="childless" marital-status="unmarried" reference="snow"
+                    >es</character> nicht wieder lebendig machen. Sie legten <character
+                    child-status="childless" marital-status="unmarried" reference="snow"
+                    >es</character> auf eine Bahre, setzten sich alle sieben daran, weinten und
+                weinten drei Tage lang, dann wollten sie <character child-status="childless"
+                    marital-status="unmarried" reference="snow">es</character> begraben, da sahen
+                sie aber daß <character child-status="childless" marital-status="unmarried"
+                    reference="snow">es</character> noch frisch und gar nicht wie ein Todter aussah,
+                und daß <character child-status="childless" marital-status="unmarried"
+                    reference="snow">es</character> auch seine schönen rothen Backen noch hatte. Da
+                ließen sie einen Sarg von Glas machen, legten <character child-status="childless"
+                    marital-status="unmarried" reference="snow">es</character> hinein, daß man
+                    <character child-status="childless" marital-status="unmarried" reference="snow"
+                    >es</character> recht sehen konnte, schrieben auch mit golde- nen Buchstaben
+                seinen Namen darauf und sei- ne Abstammung, und einer blieb jeden Tag zu Haus und
+                bewachte <character child-status="childless" marital-status="unmarried"
+                    reference="snow">es</character>.</p>
+
+            <p>So lag <character child-status="childless" marital-status="unmarried"
+                    reference="snow">Sneewittchen</character> lange, lange Zeit in dem Sarg und
+                verweste nicht, war noch so weiß als Schnee, und so roth als Blut, und wenns die
+                Aeuglein hätte können aufthun, wä- ren sie so schwarz gewesen wie Ebenholz, denn
+                    <character child-status="childless" marital-status="unmarried" reference="snow"
+                    >es</character> lag da, als wenn <character child-status="childless"
+                    marital-status="unmarried" reference="snow">es</character> schlief. Einmal kam
+                ein junger Prinz zu dem Zwergenhaus und wollte darin übernachten, und wie er in die
+                Stube kam und <character child-status="childless" marital-status="unmarried"
+                    reference="snow">Sneewittchen</character> in dem Glas- sarg liegen sah, auf das
+                die sieben Lichtlein so recht ihren Schein warfen, konnt er sich nicht satt an
+                seiner Schönheit sehen, und las die goldene Inschrift und sah, daß <character
+                    child-status="childless" marital-status="unmarried" reference="snow"
+                    >es</character> eine <character child-status="childless"
+                    marital-status="unmarried" reference="snow">Königs- tochter</character> war. Da
+                bat er die Zwerglein, sie soll- ten ihm den Sarg mit dem todten <character
+                    child-status="childless" marital-status="unmarried" reference="snow">Sneewitt-
+                    chen</character> verkaufen, die wollten aber um alles Gold nicht; da bat er sie,
+                sie mögten <character child-status="childless" marital-status="unmarried"
+                    reference="snow">es</character> ihm schen- ken, er könne nicht leben ohne
+                    <character child-status="childless" marital-status="unmarried" reference="snow"
+                    >es</character> zu sehen, und er wolle <character child-status="childless"
+                    marital-status="unmarried" reference="snow">es</character> so hoch halten und
+                ehren, wie sein Liebstes auf der Welt. Da waren die Zwerg- lein mitleidig und gaben
+                    <character child-status="childless" marital-status="unmarried" reference="snow"
+                    >ihm</character> den Sarg, der Prinz aber ließ <character
+                    child-status="childless" marital-status="unmarried" reference="snow"
+                    >ihn</character> in sein Schloß tragen, und ließ ihn in seine Stube setzen, er
+                selber saß den ganzen Tag dabei, und konnte die Augen nicht abwenden; und wenn er
+                aus mußte gehen und konnte <character child-status="childless"
+                    marital-status="unmarried" reference="snow">Sneewittchen</character> nicht
+                sehen, ward er traurig, und er konnte auch keinen Bissen essen, wenn der Sarg nicht
+                neben ihm stand. Die Diener aber, die beständig den Sarg herum- tragen mußten, waren
+                bös darüber, und einer machte einmal den Sarg auf, hob <character
+                    child-status="childless" marital-status="unmarried" reference="snow">Sneewitt-
+                    chen</character> in die Höh und sagte: <dialogue speaker="prince"
+                    stateofbeing="negative">um so eines tod- ten <character child-status="childless"
+                        marital-status="unmarried" reference="snow">Mädchens</character> willen,
+                    werden wir den ganzen Tag geplagt,“</dialogue> und gab ihm mit der Hand ei- nen
+                Stumpf in den Rücken. Da <act type="doing" effect="benevolent" agent="snow">fuhr ihm
+                    der garstige Apfelgrütz, den <character child-status="childless"
+                        marital-status="unmarried" reference="snow">es</character> abgebissen hatte,
+                    aus dem Hals</act>, und da war <character child-status="childless"
+                    marital-status="unmarried" reference="snow">Sneewittchen</character> wie- der
+                lebendig. Da ging <character child-status="childless" marital-status="unmarried"
+                    reference="snow">es</character> hin zu dem Prin- zen, der wußte gar nicht, was
+                er vor Freuden thun sollte, als sein liebes <character child-status="childless"
+                    marital-status="unmarried" reference="snow">Sneewittchen</character> le- bendig
+                war, und sie setzten sich zusammen an die Tafel und aßen in Freuden.</p>
+
+            <p>Auf den andern Tag ward die Hochzeit bestellt, und <character
+                    child-status="childless" marital-status="unmarried" reference="snow"
+                    >Sneewittchen</character>s gottlose <character child-status="mother"
+                    marital-status="unmarried" reference="queen">Mutter</character>, auch
+                eingeladen. Wie <character child-status="mother" marital-status="unmarried"
+                    reference="queen">sie</character> nun am Morgen vor dem Spiegel trat und sprach:
+                    <dialogue speaker="queen" stateofbeing="neutral">„Spieglein, Spieglein an der
+                    Wand: wer ist die schönste Frau in dem ganzen Land!“</dialogue> da antwortete
+                er: <dialogue speaker="mirror" stateofbeing="neutral">„<character
+                        child-status="mother" marital-status="unmarried" reference="queen">Frau
+                        Königin</character>, <character child-status="mother"
+                        marital-status="unmarried" reference="queen">Ihr</character> seyd die
+                    schönste hier, aber die junge <character child-status="childless"
+                        marital-status="wife" reference="snow">Königin</character> ist tausendmal
+                    schöner als <character child-status="mother" marital-status="unmarried"
+                        reference="queen">Ihr</character>!“</dialogue> Als <character
+                    child-status="mother" marital-status="unmarried" reference="queen"
+                    >sie</character> das hörte, erschrack <character child-status="mother"
+                    marital-status="unmarried" reference="queen">sie</character>, und es war
+                    <character child-status="mother" marital-status="unmarried" reference="queen"
+                    >ihr</character> so Angst, so Angst, daß <character child-status="mother"
+                    marital-status="unmarried" reference="queen">sie</character> es nicht sagen
+                konnte. Doch trieb <character child-status="mother" marital-status="unmarried"
+                    reference="queen">sie</character> der Neid, daß <character child-status="mother"
+                    marital-status="unmarried" reference="queen">sie</character> auf der Hochzeit
+                die junge <character child-status="childless" marital-status="wife" reference="snow"
+                    >Königin</character> sehen wollte, und wie <character child-status="mother"
+                    marital-status="unmarried" reference="queen">sie</character> ankam, sah
+                    <character child-status="mother" marital-status="unmarried" reference="queen"
+                    >sie</character>, daß es <character child-status="childless"
+                    marital-status="wife" reference="snow">Sneewitt- chen</character> war; da waren
+                eiserne Pantoffeln im Feuer glühend gemacht, <act type="doing" effect="ambiguous"
+                    agent="queen">die mußte <character child-status="mother"
+                        marital-status="unmarried" reference="queen">sie</character> anziehen und
+                    darin tanzen</act>, und <act type="doing" effect="hostile" agent="queen">ihre
+                    Füße wurden jämmer- lich verbrannt</act>, und <act type="doing" effect="hostile"
+                    agent="queen"><character child-status="mother" marital-status="unmarried"
+                        reference="queen">sie</character> durfte nicht aufhören bis <character
+                        child-status="mother" marital-status="unmarried" reference="queen"
+                        >sie</character> sich zu todt getanzt hatte</act>.</p>
+        </story>
+    </tale>
+</tales>

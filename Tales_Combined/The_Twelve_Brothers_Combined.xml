@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../grimm-schema-combined.rnc" type="application/relax-ng-compact-syntax"?>
+<tales>
+    <tale>
+        <metadata>
+            <title>The Twelve Brothers</title>
+            <year>1812</year>
+            <author>Jacob and Wilhelm Grimm</author>
+            <language>English</language>
+            <number>9</number>
+        </metadata>
+        <story>
+            <p>Once upon a time there were a king and a <character child-status="mother"
+                    marital-status="wife" reference="queen">queen</character>. They <act
+                    type="being" effect="benevolent" agent="queen">lived happily together</act> and
+                    <act type="doing" effect="ambiguous" agent="queen">had twelve children</act>,
+                all boys. One day the king said to his <character marital-status="wife"
+                    child-status="mother" reference="queen">wife</character>, <dialogue
+                    speaker="king" stateofbeing="neutral">"If our thirteenth child, which you are
+                    soon going to bring into the world, is a girl, then the twelve others shall die,
+                    so that her wealth may be great, and so that she alone may inherit the
+                    kingdom."</dialogue></p>
+
+            <p>Indeed, he had twelve coffins made. They were filled with wood shavings and each was
+                fitted with a coffin pillow. He had them put in a locked room, and <act type="doing"
+                    agent="king" effect="ambiguous" receiver="queen">gave the key to the
+                queen</act>, <act effect="hostile" agent="king" type="doing" receiver="queen"
+                    >ordering her to tell no one about them</act>.</p>
+
+            <p><act agent="queen" type="doing" effect="ambiguous">The <character
+                        child-status="mother" marital-status="wife" reference="queen"
+                        >mother</character> sat and mourned</act> the entire day, until the youngest
+                son -- who was always with her, and who was named Benjamin after the Bible -- said
+                to her, <dialogue speaker="benjamin" stateofbeing="negative">"Dear <character
+                        child-status="mother" marital-status="wife" reference="queen"
+                        >mother</character>, why are you so sad?"</dialogue></p>
+
+            <p><dialogue stateofbeing="negative" speaker="queen">"Dearest child,"</dialogue> she
+                answered, <dialogue speaker="queen" stateofbeing="negative">"I cannot tell
+                    you."</dialogue></p>
+
+            <p>However, <act effect="ambiguous" receiver="queen" type="doing" agent="benjamin">he
+                    would not leave her in peace</act>, until <act agent="queen" type="doing"
+                    effect="ambiguous">she unlocked the room</act> and <act agent="queen"
+                    type="doing" effect="ambiguous">showed him the coffins</act>, already filled
+                with wood shavings.</p>
+
+            <p>Then she said, <dialogue stateofbeing="negative" speaker="queen">"My dearest
+                    Benjamin, your father had these coffins made for you and your eleven brothers.
+                    If I bring a girl into the world, you are all to be killed and buried in
+                    them."</dialogue></p>
+
+            <p>As <act effect="ambiguous" type="doing" agent="queen">she spoke and cried</act>, <act
+                    agent="benjamin" type="doing" effect="benevolent" receiver="queen">her son
+                    comforted her</act>, saying, <dialogue speaker="benjamin"
+                    stateofbeing="negative">"Don't cry, dear mother. We will take care of ourselves
+                    and run away."</dialogue></p>
+
+            <p>Then she said, <dialogue stateofbeing="negative" speaker="queen">Go out into the
+                    woods with your eleven brothers. One of you should climb the highest tree that
+                    you can find. Keep watch there and look toward the castle tower. If I give birth
+                    to a little son, I will raise a white flag. If I give birth to a little
+                    daughter, I will raise a red flag, and then you should escape as fast as you
+                    can, and may God protect you. I will get up every night and pray for you, in the
+                    winter that you may warm yourselves near a fire, and in the summer that you may
+                    not suffer from the heat."</dialogue></p>
+
+            <p>After <act effect="benevolent" receiver="twelvebrothers" type="doing" agent="queen"
+                    >she had blessed her children</act>, they went out into the woods. One after the
+                other of them kept watch, sitting atop the highest oak tree and looking toward the
+                tower. After eleven days had passed, and it was Benjamin's turn, he saw that a flag
+                had been raised. It was not the white one, but instead the red blood-flag, decreeing
+                that they all were to die.</p>
+
+            <p>When the boys heard this they became angry and cried out, <dialogue
+                    speaker="twelvebrothers" stateofbeing="negative">"Are we to suffer death for the
+                    sake of a girl! We swear that we will take revenge. Wherever we find a girl, her
+                    red blood shall flow."</dialogue></p>
+
+            <p>Then they went deeper into the woods, and in its middle, where it was darkest, they
+                found a little bewitched house that was empty.</p>
+
+            <p>They said, <dialogue speaker="twelvebrothersnotbenjamin" stateofbeing="neutral">"We
+                    will live here. You, Benjamin, you are the youngest and weakest. You shall stay
+                    at home and keep house. We others will go and get things to eat."</dialogue></p>
+
+            <p>Thus they went into the woods and shot rabbits, wild deer, birds, and doves, and
+                whatever they could eat. These they brought to Benjamin, and he had to prepare them
+                to satisfy their hunger. They lived together in this little house for ten years, but
+                the time passed quickly for them.</p>
+
+            <p><character marital-status="unmarried" child-status="childless" reference="daughter"
+                    >The little daughter</character> that <character marital-status="wife"
+                    reference="queen" child-status="mother">their mother, the queen</character>, had
+                given birth to was now grown up. <character marital-status="unmarried"
+                    child-status="childless" reference="daughter">She had a good heart, a beautiful
+                    face, and a golden star on her forehead</character>.</p>
+
+            <p>Once on a large washday <act agent="daughter" type="doing" effect="ambiguous">she saw
+                    twelve men's shirts in the laundry</act> and asked her <character
+                    child-status="mother" marital-status="wife" reference="queen"
+                >mother</character>, <dialogue speaker="daughter" stateofbeing="neutral">"Whose are
+                    these twelve shirts? They are much too small for father."</dialogue></p>
+
+            <p><character child-status="mother" marital-status="wife" reference="queen">The
+                    queen</character> answered with a heavy heart, <dialogue stateofbeing="negative"
+                    speaker="queen">"Dear child, they belong to your twelve
+                brothers."</dialogue></p>
+
+            <p><character marital-status="unmarried" child-status="childless" reference="daughter"
+                    >The girl</character> said, <dialogue speaker="daughter" stateofbeing="neutral"
+                    >"Where are my twelve brothers? I have never even heard of them."</dialogue></p>
+
+            <p>She answered, <dialogue speaker="queen" stateofbeing="negative">"Only God knows where
+                    they are. They are wandering about in the world."</dialogue></p>
+
+            <p>Then <act effect="ambiguous" type="doing" agent="queen" receiver="daughter">she took
+                    the girl</act>, <act effect="ambiguous" type="doing" agent="queen"
+                    receiver="daughter">unlocked the room for her</act>, and <act effect="ambiguous"
+                    type="doing" agent="queen" receiver="daughter">showed her the twelve
+                    coffins</act> with the wood shavings and the coffin pillows.</p>
+
+            <p><dialogue stateofbeing="negative" speaker="mother">"These coffins,"</dialogue> she
+                said, <dialogue speaker="mother" stateofbeing="negative">"were intended for your
+                    brothers, but they secretly ran away before you were born,"</dialogue> and <act
+                    effect="ambiguous" type="doing" agent="queen" receiver="daughter">she told her
+                    how everything had happened</act>.</p>
+
+            <p>Then <character marital-status="unmarried" child-status="childless"
+                    reference="daughter">the girl</character> said, <dialogue
+                    stateofbeing="positive" speaker="daughter">"Dear <character
+                        marital-status="wife" reference="queen" child-status="mother"
+                        >mother</character>, don't cry. I will go and look for my
+                    brothers."</dialogue></p>
+
+            <p>Then <act agent="daughter" type="doing" effect="ambiguous">she took the twelve
+                    shirts</act> and <act agent="daughter" type="doing" effect="ambiguous">went
+                    forth into the great woods</act>. <act agent="daughter" type="doing"
+                    effect="ambiguous">She walked the entire day</act>, in the evening <act
+                    agent="daughter" type="doing" effect="ambiguous">coming to the bewitched little
+                    house</act>.</p>
+
+            <p><act agent="daughter" type="doing" effect="ambiguous">She went inside</act> and <act
+                    agent="daughter" type="doing" effect="ambiguous">found a young lad</act>, who
+                asked, <dialogue speaker="benjamin" stateofbeing="neutral">"Where do you come from,
+                    and where are you going?"</dialogue></p>
+
+            <p><act agent="benjamin" effect="benevolent" type="being" receiver="daughter">He was
+                    astounded that she was so beautiful</act>, that <act agent="daughter"
+                    type="doing" effect="ambiguous">she was wearing royal clothing</act>, and that
+                    <act agent="daughter" type="doing" effect="ambiguous">she had a star on her
+                    forehead</act>.</p>
+
+            <p><dialogue speaker="daughter" stateofbeing="positive">"I am <character
+                        marital-status="unmarried" child-status="childless" reference="daughter">a
+                        princess</character> and <act agent="daughter" type="doing"
+                        effect="ambiguous">am looking for my twelve brothers</act>. I will walk on
+                    as long as the sky is blue, until I find them."</dialogue>
+                <act agent="daughter" type="doing" effect="ambiguous" receiver="benjamin">She also
+                    showed him the twelve shirts that belonged to them</act>.</p>
+
+            <p><act agent="benjamin" effect="benevolent" type="being" receiver="daughter">Benjamin
+                    saw that it was his sister</act>, and said, <dialogue speaker="benjamin"
+                    stateofbeing="positive">"I am Benjamin, your youngest brother."</dialogue></p>
+
+            <p><act agent="daughter" type="doing" effect="benevolent">She began to cry for
+                joy</act>, and Benjamin did so as well. <act agent="daughter" type="doing"
+                    effect="benevolent" receiver="benjamin">They kissed and embraced one another
+                    with great love</act>.</p>
+
+            <p>Then he said, <dialogue speaker="benjamin" stateofbeing="negative">"Dear <character
+                        marital-status="unmarried" child-status="childless" reference="daughter"
+                        >sister</character>, I must warn you that we have agreed that every girl
+                    whom we meet must die."</dialogue></p>
+
+            <p>She said, <dialogue stateofbeing="positive" speaker="daughter"> "I will gladly die,
+                    if I can thus redeem my twelve brothers."</dialogue></p>
+
+            <p><dialogue speaker="benjamin" stateofbeing="neutral">"No,"</dialogue> he answered,
+                    <dialogue stateofbeing="positive" speaker="benjamin">"you shall not die. Sit
+                    under this tub until our eleven brothers come, and I will make it right with
+                    them."</dialogue></p>
+
+            <p>She did this, and when night fell they came home from the hunt. As they sat at the
+                table eating, they asked, <dialogue speaker="twelvebrothersnotbenjamin"
+                    stateofbeing="neutral">"What is new?"</dialogue></p>
+
+            <p>Benjamin said, <dialogue speaker="benjamin" stateofbeing="neutral">"Don't you know
+                    anything?"</dialogue></p>
+
+            <p><dialogue speaker="twelvebrothersnotbenjamin" stateofbeing="neutral">"No,"</dialogue>
+                they answered.</p>
+
+            <p>He continued speaking, <dialogue speaker="benjamin" stateofbeing="neutral">"You have
+                    been in the woods while I stayed at home, but I know more than you
+                    do."</dialogue></p>
+
+            <p><dialogue speaker="twelvebrothersnotbenjamin" stateofbeing="neutral">"Then tell
+                    us,"</dialogue> they shouted.</p>
+
+            <p>He answered, <dialogue speaker="benjamin" stateofbeing="neutral">"If you will promise
+                    me that the next girl we meet shall not be killed."</dialogue></p>
+
+            <p><dialogue speaker="twelvebrothersnotbenjamin" stateofbeing="neutral"
+                    >"Yes,"</dialogue> they all shouted. <dialogue
+                    speaker="twelvebrothersnotbenjamin" stateofbeing="neutral">"We will show her
+                    mercy. Just tell us."</dialogue></p>
+
+            <p>Then he said, <dialogue speaker="benjamin" stateofbeing="neutral">"Our sister is
+                    here,"</dialogue> and lifted up the tub. <act agent="daughter" type="doing"
+                    effect="ambiguous">The princess came forth</act> in her royal clothing and with
+                the golden star on her forehead, so beautiful, delicate, and fine.</p>
+
+            <p><act agent="twelvebrothersnotbenjamin" effect="benevolent" receiver="daughter"
+                    type="doing">They all rejoiced, falling around her neck and kissing her</act>,
+                and <act agent="twelvebrothersnotbenjamin" type="being" effect="benevolent"
+                    receiver="daughter">they loved her with all their hearts</act>.</p>
+
+            <p><act agent="daughter" type="doing" effect="ambiguous">Now she stayed at home with
+                    Benjamin</act> and <act agent="daughter" type="doing" effect="ambiguous"
+                    receiver="benjamin">helped him with the work</act>. The eleven went into the
+                woods and captured wild game, deer, birds, and doves, so they would have something
+                to eat. Their <act agent="daughter" effect="ambiguous" type="doing" io="wildgame"
+                        ><character marital-status="unmarried" reference="daughter"
+                        child-status="childless">sister</character> and Benjamin prepared it
+                    all</act>. <act agent="daughter" effect="ambiguous" type="doing">They gathered
+                    wood</act> for cooking, herbs for the stew, and <act agent="daughter"
+                    effect="ambiguous" type="doing">put the pot onto the fire</act> so a meal was
+                always ready when the eleven came home. <act agent="daughter" effect="ambiguous"
+                    type="doing">She also kept the house in order</act>, and <act agent="daughter"
+                    effect="ambiguous" type="doing">made up the beds white and clean</act>. The
+                brothers were always satisfied, and they lived happily with her.</p>
+
+            <p>One time the two of them <act type="doing" effect="ambiguous" agent="daughter">had
+                    prepared a good meal at home</act>, and so <act agent="daughter" type="doing"
+                    effect="ambiguous">they sat together</act> and <act agent="daughter"
+                    type="doing" effect="ambiguous">ate and drank</act> and <act agent="daughter"
+                    type="being" effect="ambiguous">were ever so happy</act>. Now there was a little
+                garden next to the bewitched house, and in it there were twelve lilies, the kind
+                that are called "students." Wanting to bring some pleasure to her brothers, <act
+                    agent="daughter" effect="ambiguous" type="doing">she picked the twelve
+                    flowers</act>, intending to give one to each of them when they were eating. But
+                in the same instant that she picked the flowers, the twelve brothers were
+                transformed into twelve ravens, and they flew away above the woods. The house and
+                the garden disappeared as well.</p>
+
+            <p>Now the <character marital-status="unmarried" child-status="childless"
+                    reference="daughter">poor girl</character> was alone in the wild woods. Looking
+                around, <act agent="daughter" effect="ambiguous" type="doing" receiver="old_woman"
+                    >she saw an <character marital-status="unmarried" reference="old_woman"
+                        child-status="childless">old women</character> standing next to
+                her</act>.</p>
+
+            <p>The <character marital-status="unmarried" reference="old_woman"
+                    child-status="childless">old woman</character> said, <dialogue
+                    speaker="old_woman" stateofbeing="negative">"<character
+                        marital-status="unmarried" child-status="childless" reference="daughter">My
+                        child</character>, what have you done?" Why did you not leave the twelve
+                    white flowers standing? Those were your brothers, and now they have been
+                    transformed into ravens forever."</dialogue></p>
+
+            <p><character marital-status="unmarried" child-status="childless" reference="daughter"
+                    >The girl</character> said, <act agent="daughter" type="doing"
+                    effect="ambiguous">crying</act>, <dialogue speaker="daughter"
+                    stateofbeing="negative">"Is there no way to redeem them?"</dialogue></p>
+
+            <p><dialogue speaker="old_woman" stateofbeing="neutral">"No,"</dialogue> said the
+                    <character marital-status="unmarried" reference="old_woman"
+                    child-status="childless">old woman</character>, <dialogue speaker="old_woman"
+                    stateofbeing="negative">"There is only one way in the world, and it is so
+                    difficult that you will never redeem them. You must remain silent for seven
+                    whole years, neither speaking nor laughing. If you speak a single word, even if
+                    all but one hour of the seven years has passed, then it will all be for nothing,
+                    and your brothers will be killed by that one word."</dialogue></p>
+
+            <p>Then <character marital-status="unmarried" child-status="childless"
+                    reference="daughter">the girl</character> said in her heart, <dialogue
+                    speaker="daughter" stateofbeing="positive">"I know for sure that I will redeem
+                    my brothers."</dialogue></p>
+
+            <p><act agent="daughter" type="doing" effect="ambiguous">She went and found a tall
+                    tree</act> and <act agent="daughter" type="doing" effect="ambiguous"
+                    io="tall_tree">climbed to its top</act>, where <act agent="daughter"
+                    type="doing" effect="ambiguous">she sat and span</act>, without speaking and
+                without laughing.</p>
+
+            <p>Now it came to pass that a king was hunting in these woods. He had a large greyhound
+                that ran to the tree where <act agent="daughter" type="doing" effect="ambiguous"
+                        ><character marital-status="unmarried" child-status="childless"
+                        reference="daughter">the girl</character> was sitting</act>. It jumped
+                about, yelping and barking up the tree. The king came, <act agent="other_king"
+                    effect="benevolent" type="doing" receiver="daughter">saw the beautiful
+                    princess</act> with the golden star on her forehead, and <act agent="other_king"
+                    effect="benevolent" type="doing" receiver="daughter">was so enchanted by her
+                    beauty</act> that <act agent="other_king" effect="benevolent" type="doing"
+                    receiver="daughter">he shouted up to her, asking her to become his wife</act>.
+                    <act agent="daughter" effect="ambiguous" type="doing">She gave him no
+                    answer</act>, but <act agent="daughter" effect="ambiguous" type="doing">nodded
+                    with her head</act>. Then he himself climbed the tree, <act agent="other_king"
+                    effect="benevolent" type="doing" receiver="daughter">carried her down</act>,
+                    <act agent="other_king" effect="benevolent" type="doing" receiver="daughter">set
+                    her on his horse</act>, and <act agent="other_king" effect="benevolent"
+                    type="doing" receiver="daughter">took her home with him</act>.</p>
+
+            <p>Their wedding was celebrated with great pomp and joy, but <act agent="daughter"
+                    type="doing" effect="ambiguous"><character marital-status="unmarried"
+                        child-status="childless" reference="daughter">the bride</character> neither
+                    spoke nor laughed</act>.</p>
+
+            <p>After they had lived a few years happily together, <character child-status="mother"
+                    marital-status="wife" reference="other_kings_mother">the king's
+                    mother</character>, who <act agent="other_kings_mother" type="being"
+                    effect="hostile">was a wicked woman</act>, <act agent="other_kings_mother"
+                    type="being" effect="hostile" receiver="daughter">began to slander <character
+                        marital-status="wife" child-status="childless" reference="daughter">the
+                        young queen</character></act>, saying to the king, <dialogue
+                    speaker="other_kings_mother" stateofbeing="negative">"You have brought home a
+                    common beggar woman for yourself. Who knows what kind of godless things she is
+                    secretly doing. Even if she is a mute and cannot speak, she could at least
+                    laugh. Anyone who does not laugh has an evil conscience."</dialogue></p>
+
+            <p>At first the king did not want to believe this, but the <character
+                    child-status="mother" marital-status="wife" reference="other_kings_mother">old
+                    woman</character> kept it up so long, <act agent="other_kings_mother"
+                    type="doing" effect="hostile" receiver="daughter">accusing her of so many wicked
+                    things</act>, that the king finally let himself be convinced, and <act
+                    agent="other_king" type="doing" effect="hostile" receiver="daughter">he
+                    sentenced her to death</act>.</p>
+
+            <p>A great fire was lit in the courtyard, where she was to be burned to death. The king
+                stood upstairs at his window, looking on with crying eyes, for <act
+                    agent="other_king" type="being" effect="ambiguous" receiver="daughter">he still
+                    loved her dearly</act>. She had already been bound to the stake, and the fire
+                was licking at her clothing with its red tongues, when the last moment of the seven
+                years passed.</p>
+
+            <p>A whirring sound was heard in the air, and twelve ravens approached, landing
+                together. As they touched the earth, <act agent="daughter" type="doing"
+                    effect="benevolent" receiver="twelvebrothers">it was her twelve brothers, whom
+                    she had redeemed</act>. They ripped the fire apart, put out the flames, and <act
+                    agent="twelvebrothers" type="doing" effect="benevolent" receiver="daughter"
+                    >freed their sister</act>, <act agent="twelvebrothers" type="doing"
+                    effect="benevolent" receiver="daughter">kissing and embracing her</act>.</p>
+
+            <p>Now that she could open her mouth and speak, <act agent="daughter" type="doing"
+                    effect="benevolent" receiver="other_king">she told the king why she had remained
+                    silent and had never laughed</act>.</p>
+
+            <p>The king rejoiced to hear that she was innocent, and they all lived happily together
+                until they died. The <act agent="other_kings_mother" type="doing" effect="ambiguous"
+                        ><character child-status="mother" marital-status="wife"
+                        reference="other_kings_mother">wicked stepmother</character> was brought
+                    before the court and placed in a barrel filled with boiling oil and poisonous
+                    snakes</act>, and <act agent="other_kings_mother" type="doing"
+                    effect="ambiguous">she died an evil death</act>.</p>
+        </story>
+    </tale>
+    <tale>
+        <metadata>
+            <title>Die Zwölf Brüder</title>
+            <year>1812</year>
+            <author>Jacob Grimm</author>
+            <author>Wilhelm Grimm</author>
+            <language>German</language>
+            <number>9</number>
+        </metadata>
+        <story>
+            <p>Es war einmal ein König, der hatte zwölf Kinder, das waren lauter Buben, er wollte
+                auch kein Mädchen haben und sagte zur Köni- gin: <dialogue speaker="king"
+                    stateofbeing="negative">„wenn das dreizehnte Kind, das du zur Welt bringst, ein
+                    Mädchen ist, so laß ich die zwölf andern tödten, ists aber auch ein Bube, dann
+                    sollen sie alle miteinander leben bleiben.“</dialogue> — Die <character
+                    child-status="mother" marital-status="wife" reference="queen"
+                    >Königin</character> gedachte es ihm auszureden. Der König wollte aber nichts
+                weiter hören: <dialogue speaker="king" stateofbeing="negative">„wenns so ist, wie
+                    ich gesagt habe, so müssen sie ster- ben, lieber hau' ich ihnen selber den Kopf
+                    ab, als daß ein Mädchen darunter wäre.“</dialogue></p>
+
+            <p>Da war die <character child-status="mother" marital-status="wife" reference="queen"
+                    >Königin</character> traurig, denn <character child-status="mother"
+                    marital-status="wife" reference="queen">sie</character> hat- te ihre Söhne von
+                Herzen lieb und wußte nicht, wie <character child-status="mother"
+                    marital-status="wife" reference="queen">sie</character> zu retten waren. Endlich
+                ging <character child-status="mother" marital-status="wife" reference="queen"
+                    >sie</character> zu dem jüngsten, den <character child-status="mother"
+                    marital-status="wife" reference="queen">sie</character> vor allen lieb hatte,
+                of- fenbarte ihm, was der König beschlossen, und sagte: <dialogue speaker="queen"
+                    stateofbeing="neutral">„allerliebstes Kind, geh du mit deinen eilf Brüdern
+                    hinaus in den Wald, da bleibt und kommt nicht nach Haus, einer von euch aber
+                    halte immer Wacht auf einem Baum und sehe nach dem Thurm hier, wenn ich ein
+                    Söhn- chen zur Welt bringe, will ich obenauf eine weiße Fahne stecken, ists aber
+                    ein Töchterchen eine rothe, und wenn ihr das seht, dann rettet euch, flieht in
+                    die weite Welt, und der liebe Gott behüt euch. Alle Nacht will ich aufste- hen
+                    und für euch beten, wenns kalt ist im Win- ter, daß ihr nicht friert und ein
+                    warmes Feuer vor euch brennt, und wenns heiß ist im Som- mer, daß ihr in einem
+                    kühlen Walde ruht und schlaft.“</dialogue></p>
+
+            <p>So gesegnete sie die Kinder und sie gingen fort in den Wald. Oft guckten sie nach dem
+                Thurm, und einer mußte beständig auf einer hohen Eiche sitzen und Acht haben. Bald
+                auch wurde eine Fahne aufgesteckt, es war aber nicht die weiße, sondern die rothe
+                Blutfahne, die ih- nen den Untergang drohte. Wie die Buben sie erblickten, wurden
+                sie alle zornig und riefen: <dialogue speaker="brothers" stateofbeing="negative"
+                    >„sollen wir eines Mädchens willen das Leben verlieren!“</dialogue> da schwuren
+                sie zusammen, mitten in dem Wald zu bleiben, und aufzupassen, wenn sich ein Mädchen
+                sehen ließ, wollten sie es ohne Gnade tödten.</p>
+
+            <p>Darauf suchten sie eine Höhle, wo der Wald am dunkelsten war, wo sie wohnten. Alle
+                Morgen zogen elf hinaus auf die Jagd, einer mußte aber zu Haus bleiben, kochen, und
+                den Haushalt führen. Jedes Mädchen aber, das den eilfen begegnete, war ohne
+                Barmherzigkeit verloren; das dauerte viele Jahre.</p>
+
+            <p>Das <character child-status="childless" marital-status="unmarried"
+                    reference="daughter">Schwesterchen</character> zu Haus aber ward groß und blieb
+                das einzige Kind. Einmal hat- te <character child-status="childless"
+                    marital-status="unmarried" reference="daughter">es</character> große Wäsche,
+                darunter waren auch zwölf Mannshemden. <dialogue speaker="daughter"
+                    stateofbeing="neutral">„Für wen sind denn diese Hemder, fragte die <character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >Prinzessin</character>, meinem Vater sind sie doch viel zu
+                    klein,“</dialogue> da erzählte <character child-status="childless"
+                    marital-status="unmarried" reference="daughter">ihr</character> die Wäscherin,
+                daß sie zwölf Brüder gehabt hätte, die wären heimlich fortgegangen, kein Mensch
+                wisse wohin, weil sie der König habe wollen tödten lassen, und diesen zwölf Brüdern
+                gehör- ten diese zwölf Hemder. Das <character child-status="childless"
+                    marital-status="unmarried" reference="daughter">Schwesterchen</character>
+                verwunderte sich, daß <character child-status="childless" marital-status="unmarried"
+                    reference="daughter">ihm</character> niemals von seinen zwölf Brüdern etwas zu
+                Ohren gekommen und wie <character child-status="childless"
+                    marital-status="unmarried" reference="daughter">es</character> Nachmittags auf
+                der Wiese saß und die Wäsche bleichte, da fielen <character child-status="childless"
+                    marital-status="unmarried" reference="daughter">ihm</character> die Worte der
+                Wäscherin wieder ein, und <character child-status="childless"
+                    marital-status="unmarried" reference="daughter">es</character> ward nachdenk-
+                sam, und endlich stieg <character child-status="childless"
+                    marital-status="unmarried" reference="daughter">es</character> auf, nahm die
+                zwölf Hemder und ging in den Wald hinein, wo sei- ne Brüder lebten.</p>
+
+            <p>Das <character child-status="childless" marital-status="unmarried"
+                    reference="daughter">Schwesterchen</character> kam gerade zu der Höhle, wo sie
+                ihre Wohnung hatten. Die eilf waren auf der Jagd und nur ein ein- ziger daheim, der
+                kochen mußte. Wie der das <character child-status="childless"
+                    marital-status="unmarried" reference="daughter">Mädchen</character> erblickte,
+                    <act type="being" effect="hostile" agent="brother" receiver="daughter">faßte er
+                        <character child-status="childless" marital-status="unmarried"
+                        reference="daughter">es</character> gleich</act>, und <act type="being"
+                    effect="hostile" agent="brother" receiver="daughter">holte sein Schwert</act>:
+                    <dialogue speaker="brother" stateofbeing="negative">„knie nieder, <character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >dein</character> ro- thes Blut muß den Augenblick fließen.“</dialogue> Das
+                    <character child-status="childless" marital-status="unmarried"
+                    reference="daughter">Mädchen</character> aber bat ihn: <dialogue
+                    speaker="daughter" stateofbeing="neutral">„lieber Herr, laßt mich leben, ich
+                    will bei euch bleiben und euch redlich dienen, ich will kochen und den Haushalt
+                    füh- ren.“</dialogue> Es war gerade der jüngste Bruder, den erbarmte die
+                Schönheit des <character child-status="childless" marital-status="unmarried"
+                    reference="daughter">Mädchens</character> und er <act type="doing"
+                    effect="benevolent" agent="brother" receiver="daughter">schenkte <character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >ihr</character> das Leben</act>. Wie die eilfe nach Haus kamen und sich
+                verwunderten, ein <character child-status="childless" marital-status="unmarried"
+                    reference="daughter">Mädchen</character> le- bendig in der Höhle zu finden,
+                sagte er zu ih- nen: <dialogue speaker="brother" stateofbeing="neutral">„liebe
+                    Brüder, dies <character child-status="childless" marital-status="unmarried"
+                        reference="daughter">Mädchen</character> ist in die Höhle gekommen, und wie
+                    ich <character child-status="childless" marital-status="unmarried"
+                        reference="daughter">es</character> niederhauen wollte, da bat <character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >es</character> so sehr um sein Leben, <character child-status="childless"
+                        marital-status="unmarried" reference="daughter">es</character> wollt uns
+                    treu dienen und den Haushalt füh- ren, daß ichs <character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >ihm</character> geschenkt habe.“</dialogue> Die an- dern gedachten, daß
+                ihnen das vortheilhaft wä- re und daß sie nun alle zwölf auf die Jagd ausgehen
+                könnten, und warens zufrieden. Da zeigte <character child-status="childless"
+                    marital-status="unmarried" reference="daughter">es</character> ihnen die zwölf
+                Hemdlein und sagte, es wär' ihre Schwester; darüber freuten sie sich alle, und waren
+                froh, daß sie <character child-status="childless" marital-status="unmarried"
+                    reference="daughter">es</character> nicht getödtet hatten.</p>
+
+            <p>Das <character child-status="childless" marital-status="unmarried"
+                    reference="daughter">Schwesterchen</character> übernahm nun den Haushalt, und
+                wenn die Brüder auf der Jagd waren, sammelte <character child-status="childless"
+                    marital-status="unmarried" reference="daughter">es</character> Holz und Kräuter,
+                stellte zu am Feuer, deckte die Bettlein hübsch weiß und rein, und thät alles
+                unverdrossen und flei- ßig. Einmal geschah <character child-status="childless"
+                    marital-status="unmarried" reference="daughter">es</character>, daß <character
+                    child-status="childless" marital-status="unmarried" reference="daughter"
+                    >es</character> fertig war mit aller Arbeit, da ging <character
+                    child-status="childless" marital-status="unmarried" reference="daughter"
+                    >es</character> in den Wald spazieren. <character child-status="childless"
+                    marital-status="unmarried" reference="daughter">Es</character> kam an einen
+                Platz, wo zwölf schöne hohe, weiße Lilien standen, und weil sie <character
+                    child-status="childless" marital-status="unmarried" reference="daughter"
+                    >ihr</character> so wohl gefielen, <act type="being" effect="ambiguous"
+                    agent="daughter">brach <character child-status="childless"
+                        marital-status="unmarried" reference="daughter">sie</character> alle
+                    miteinander ab</act>. Kaum aber war das geschehen, so stand eine alte <character
+                    child-status="childless" marital-status="unmarried" reference="old woman"
+                    >Frau</character> vor ihr: <dialogue speaker="old woman" stateofbeing="negative"
+                    >„ach meine <character child-status="childless" marital-status="unmarried"
+                        reference="daughter">Tochter</character>, sagte <character
+                        child-status="childless" marital-status="unmarried" reference="old woman"
+                        >sie</character>, warum hast <character child-status="childless"
+                        marital-status="unmarried" reference="daughter">du</character> die zwölf
+                    Studentenblumen nicht ste- hen lassen! das sind deine zwölf Brüder, die sind nun
+                    alle in Raben verwandelt worden und sind verloren auf ewig.“</dialogue> Das
+                    <character child-status="childless" marital-status="unmarried"
+                    reference="daughter">Schwesterchen</character> fing an zu weinen, <dialogue
+                    speaker="daughter" stateofbeing="negative">„ach!“</dialogue> sagte <character
+                    child-status="childless" marital-status="unmarried" reference="daughter"
+                    >es</character>, <dialogue speaker="daughter" stateofbeing="negative">„giebts
+                    denn kein Mittel sie zu erlösen?“</dialogue>
+                <dialogue speaker="old woman" stateofbeing="neutral">„Nein, es ist kein Mittel auf
+                    der Welt, als ein einziges, das ist so schwer, das <character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >du</character> sie nicht damit befreien wirst: <character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >du</character> mußt zwölf ganzer Jahr stumm seyn, sprichst <character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >du</character> ein einziges Wort, und es fehlt nur eine Stunde daran, so
+                    ist alles umsonst und deine Brüder sind in dem Augenblick todt.“</dialogue></p>
+
+            <p>Das <character child-status="childless" marital-status="unmarried"
+                    reference="daughter">Schwesterchen</character> setzte sich da auf einen hohen
+                Baum im Wald und spann und wollte zwölf Jahre stumm sitzen, um seine Brüder zu
+                erlösen. <character child-status="childless" marital-status="unmarried"
+                    reference="daughter">Es</character> geschah aber, daß der König auf einer Jagd
+                durch den Wald ritt, und als er an dem Baum vorbei kam, stand sein Hund still und
+                bellte. Der König hielt nun, sah hin- auf und war ganz verwundert über die Schön-
+                heit der <character child-status="childless" marital-status="unmarried"
+                    reference="daughter">Prinzessin</character>. Er rief <character
+                    child-status="childless" marital-status="unmarried" reference="daughter"
+                    >ihr</character> zu, ob <character child-status="childless"
+                    marital-status="unmarried" reference="daughter">sie</character> sei- ne Gemahlin
+                werden wollte. <character child-status="childless" marital-status="unmarried"
+                    reference="daughter">Sie</character> schwieg aber still und nickte nur ein wenig
+                mit <character child-status="childless" marital-status="unmarried"
+                    reference="daughter">dem</character> Kopf. Da stieg der König selber hinauf und
+                    <act type="doing" effect="benevolent" agent="king" receiver="daughter">hob
+                        <character child-status="childless" marital-status="unmarried"
+                        reference="daughter">sie</character> herunter</act>, <act type="doing"
+                    effect="benevolent" agent="king" receiver="daughter">setzte <character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >sie</character> vor sich auf sein Pferd</act> und <act type="doing"
+                    effect="benevolent" agent="king" receiver="daughter">brachte <character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >sie</character> heim in sein Schloß</act>, wo die Hochzeit prächtig
+                gehalten ward. Die <character child-status="childless" marital-status="unmarried"
+                    reference="daughter">Prin- zessin</character> sprach aber niemals ein Wort und
+                der König glaubte sie sey stumm. Doch hätten sie vergnügt mit einander gelebt, wenn
+                nicht die <character child-status="mother" marital-status="unmarried"
+                    reference="king mother">Mutter des Königs</character> gewesen wäre, die fing an
+                die <character child-status="childless" marital-status="unmarried"
+                    reference="daughter">Königin</character> bei ihrem Sohn zu verläum- den:
+                    <dialogue speaker="king mother" stateofbeing="negative">„es ist ein gemeines
+                        <character child-status="childless" marital-status="wife"
+                        reference="daughter">Bettelmädchen</character>, das du aus der Fremde
+                    mitgebracht hast, die hin- ter deinem Rücken die schändlichsten Dinge
+                    treibt.“</dialogue> Weil die <character child-status="childless"
+                    marital-status="wife" reference="daughter">Königin</character> nun sich nicht
+                ver- theidigen konnte, ließ sich der König verführen, und glaubte <character
+                    child-status="mother" marital-status="unmarried" reference="king mother"
+                    >ihr</character> endlich und verurtheilte <character child-status="childless"
+                    marital-status="wife" reference="daughter">sie</character> zum Tod. Da ward ein
+                großes Feuer angemacht im Hof, darin sollte <character child-status="childless"
+                    marital-status="wife" reference="daughter">sie</character> verbrannt werden.
+                Schon stand <character child-status="childless" marital-status="wife"
+                    reference="daughter">sie</character> in den Flammen und die spiel- ten an ihrem
+                Kleide; da war eben die letzte Minute von den zwölf Jahren verflossen, man hörte in
+                der Luft ein Geräusch, und es kamen zwölf Raben hergeflogen und ließen sich nieder.
+                Wie sie die Erde berührten, waren es zwölf schöne Prinzen, die rissen das Feuer von
+                ein- ander und <act type="doing" effect="benevolent" agent="brothers">führten ihre
+                        <character child-status="childless" marital-status="wife"
+                        reference="daughter">Schwester</character> heraus</act>. Da sprach
+                    <character child-status="childless" marital-status="unmarried"
+                    reference="daughter">sie</character> ihr erstes Wort wieder und sagte dem König
+                alles, wie es zugegangen und sie die zwölf Brüder habe erlösen müssen; und sie waren
+                alle vergnügt, daß es so wohl gewor- den war.</p>
+
+            <p>Was sollten sie mit der bösen <character child-status="mother"
+                    marital-status="unmarried" reference="king mother">Stiefmutter</character>
+                anfangen; sie <act type="doing" effect="hostile" agent="unspecified"
+                    receiver="king mother">ward in ein Faß gesteckt von sie- dendem Oehl und von
+                    giftigen Schlangen an- gefüllt</act>, und starb da eines bösen Todes.</p>
+        </story>
+    </tale>
+</tales>

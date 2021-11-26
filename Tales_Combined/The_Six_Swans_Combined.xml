@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../grimm-schema-combined.rnc" type="application/relax-ng-compact-syntax"?>
+<tales>
+<tale>
+    <metadata>
+        <title>The Six Swans</title>
+        <year>1812</year>
+        <author>Jacob and Wilhelm Grimm</author>
+        <language>English</language>
+        <number>49</number>
+    </metadata>
+    <story>
+        <p>A king was once hunting in a great forest, and he chased his prey so eagerly that none of
+            his men could follow him. As evening approached he stopped and looked around, and saw
+            that he was lost. He looked for a way out of the woods, but he could not find one. Then
+            he saw <character child-status="mother" marital-status="unmarried" reference="old_woman"
+                >an old woman</character> with a bobbing head who approached him. <act
+                agent="old_woman" effect="ambiguous" type="being">She was a witch.</act></p>
+
+        <p><dialogue speaker="king" stateofbeing="neutral">"My dear <character child-status="mother"
+                    marital-status="unmarried" reference="old_woman">woman</character>,"</dialogue>
+            he said to her, <dialogue speaker="king" stateofbeing="neutral">"can you show me the way
+                through the woods?"</dialogue></p>
+
+        <p><dialogue speaker="old_woman" stateofbeing="neutral">"Oh, yes, your majesty,"</dialogue>
+            she answered, <dialogue speaker="old_woman" stateofbeing="neutral">"I can indeed.
+                However, there is one condition, and if you do not fulfill it, you will never get
+                out of these woods, and will die here of hunger."</dialogue></p>
+
+        <p><dialogue speaker="king" stateofbeing="neutral">"What sort of condition is
+                it?"</dialogue> asked the king.</p>
+
+        <p><dialogue speaker="old_woman" stateofbeing="neutral">"I have a <character
+                    marital-status="unmarried" child-status="childless" reference="queen"
+                    >daughter</character>,"</dialogue> said the <character child-status="mother"
+                marital-status="unmarried" reference="old_woman">old woman</character>, <dialogue
+                speaker="old_woman" stateofbeing="neutral">who is as beautiful as anyone you could
+                find in all the world, and who well deserves to become your wife. If you will make
+                her your queen, I will show you the way out of the woods."</dialogue></p>
+
+        <p>The king was so frightened that he consented, and the <act agent="old_woman" type="doing"
+                effect="ambiguous"><character child-status="mother" marital-status="unmarried"
+                    reference="old_woman">old woman</character> led him to her cottage</act>, where
+            her <act agent="queen" effect="ambiguous" type="doing"><character
+                    marital-status="unmarried" child-status="childless" reference="queen"
+                    >daughter</character> was sitting by the fire</act>. <act agent="queen"
+                effect="ambiguous" type="doing" receiver="king">She received the king</act> as if
+            she had been expecting him. <act agent="king" effect="ambiguous" type="doing"
+                receiver="queen">He saw that she was very beautiful</act>, but in spite of this <act
+                agent="king" effect="ambiguous" type="doing" receiver="queen">he did not like
+                her</act>, and he could not look at her without secretly shuddering.</p>
+
+        <p>After <act agent="king" effect="ambiguous" type="doing" receiver="queen">he had lifted
+                    <character marital-status="unmarried" child-status="childless" reference="queen"
+                    >the girl</character> onto his horse</act>, <act agent="old_woman"
+                effect="ambiguous" type="doing" receiver="king">the <character child-status="mother"
+                    marital-status="unmarried" reference="old_woman">old woman</character> showed
+                him the way</act>, and the king arrived again at his royal castle, where the wedding
+            was celebrated.</p>
+
+        <p>The king had been married before, and by his <character marital-status="wife"
+                reference="first_wife" child-status="mother">first wife</character> he had seven
+            children, six boys and one <character marital-status="unmarried"
+                child-status="childless" reference="kings_daughter">girl</character>. He loved them
+            more than anything else in the world.</p>
+
+        <p>Fearing that <character marital-status="wife" child-status="stepmother" reference="queen"
+                >the stepmother</character> might not treat them well, even do them harm, he took
+            them to a secluded castle which stood in the middle of a forest. It was so well hidden,
+            and the way was so difficult to find, that he himself would not have found it, if a
+                <character marital-status="unmarried" child-status="childless"
+                reference="wise_woman">wise woman</character> had not given him a ball of magic
+            yarn. Whenever he threw it down in front of him, it would unwind itself and show him the
+            way.</p>
+
+        <p>However, the king went out to his dear children so often that <act agent="queen"
+                effect="ambiguous" type="doing" receiver="king"><character marital-status="wife"
+                    child-status="stepmother" reference="queen">the queen</character> took notice of
+                his absence</act>. <act agent="queen" effect="ambiguous" type="being">She was
+                curious</act> and <act agent="queen" effect="ambiguous" type="doing" receiver="king"
+                >wanted to know what he was doing out there all alone in the woods</act>. <act
+                agent="queen" effect="hostile" type="doing" receiver="servants">She gave a large sum
+                of money to his servants</act>, and <act agent="servants" effect="ambiguous"
+                type="doing" receiver="queen">they revealed the secret to her</act>. <act
+                agent="servants" effect="ambiguous" type="doing" receiver="queen">They also told her
+                about the ball of yarn which could point out the way all by itself</act>.</p>
+
+        <p><act agent="queen" effect="ambiguous" type="doing">She did not rest</act> until <act
+                agent="queen" effect="ambiguous" type="doing">she discovered where the king kept the
+                ball of yarn</act>. <act agent="queen" effect="ambiguous" type="doing">Then she made
+                some little shirts of white silk</act>. Having learned the art of witchcraft from
+                <character marital-status="unmarried" reference="old_woman" child-status="mother"
+                >her mother</character>, <act agent="queen" effect="hostile" type="doing">she sewed
+                a magic charm into each one of them</act>. Then one day when the king had ridden out
+            hunting, <act agent="queen" effect="ambiguous" type="doing">she took the little shirts
+                and went into the woods</act>. The ball of yarn showed her the way.</p>
+
+        <p>The children, seeing that someone was approaching from afar, thought that their dear
+            father was coming to them. Full of joy, they ran to meet him. Then <act agent="queen"
+                effect="hostile" type="doing">she threw one of the shirts over each of them</act>,
+            and when the shirts touched their bodies they were transformed into swans, and they flew
+            away over the woods.</p>
+
+        <p><act agent="queen" effect="ambiguous" type="doing"><character marital-status="wife"
+                    child-status="stepmother" reference="queen">The queen</character> went
+                home</act>
+            <act agent="queen" effect="ambiguous" type="being">very pleased</act>, <act
+                agent="queen" effect="hostile" type="being">believing that she had gotten rid of her
+                stepchildren</act>. However, <character child-status="childless"
+                marital-status="unmarried" reference="kings_daughter">the girl</character> had not
+            run out with her brothers, and <character child-status="stepmother"
+                marital-status="wife" reference="queen">the queen</character> knew nothing about
+            her.</p>
+
+        <p>The next day the king went to visit his children, but he found no one there but
+                <character child-status="childless" marital-status="unmarried"
+                reference="kings_daughter">the girl</character>.</p>
+
+        <p><dialogue speaker="king" stateofbeing="neutral">"Where are your brothers?"</dialogue>
+            asked the king.</p>
+
+        <p><dialogue speaker="kings_daughter" stateofbeing="negative">"Oh, dear father,"</dialogue>
+            she answered, <dialogue speaker="kings_daughter" stateofbeing="negative">"they have gone
+                away and left me alone."</dialogue></p>
+
+        <p>Then <act agent="kings_daughter" effect="ambiguous" type="doing" receiver="king">she told
+                him that from her window she had seen how her brothers had flown away over the woods
+                as swans</act>. <act agent="kings_daughter" effect="ambiguous" type="doing"
+                receiver="king">She showed him the feathers that they had dropped into the
+                courtyard</act>, and which <act agent="kings_daughter" effect="ambiguous"
+                type="doing" io="feathers">she had gathered up</act>.</p>
+
+        <p>The king mourned, but he did not think that <character marital-status="wife"
+                child-status="stepmother" reference="queen">the queen</character> had done this
+            wicked deed. Fearing that <character child-status="childless" marital-status="unmarried"
+                reference="kings_daughter">the girl</character> would be stolen away from him as
+            well, he wanted to take her away with him, but <act agent="kings_daughter"
+                effect="ambiguous" type="being">she was afraid of <character marital-status="wife"
+                    child-status="stepmother" reference="queen">her stepmother</character></act> and
+                <act agent="kings_daughter" effect="ambiguous" type="doing">begged the king to let
+                her stay just this one more night in the castle in the woods</act>.</p>
+
+        <p><character child-status="childless" marital-status="unmarried" reference="kings_daughter"
+                >The poor girl</character> thought, <dialogue speaker="kings_daughter"
+                stateofbeing="negative">"I can no longer stay here. I will go and look for my
+                brothers."</dialogue></p>
+
+        <p>And when night came <act agent="kings_daughter" effect="ambiguous" type="doing">she ran
+                away</act> and <act agent="kings_daughter" effect="ambiguous" type="doing">went
+                straight into the woods</act>. <act agent="kings_daughter" effect="ambiguous"
+                type="doing">She walked the whole night long without stopping, and the next day as
+                well, until she was too tired to walk any further</act>.</p>
+
+        <p>Then <act agent="kings_daughter" effect="ambiguous" type="doing">she saw a hunter's hut
+                and went inside</act>. <act agent="kings_daughter" effect="ambiguous" type="doing"
+                >She found a room with six little beds</act>, but <act agent="kings_daughter"
+                effect="ambiguous" type="being">she did not dare to get into one of them</act>.
+            Instead <act agent="kings_daughter" effect="ambiguous" type="doing">she crawled under
+                one of them</act> and <act agent="kings_daughter" effect="ambiguous" type="doing"
+                >lay down on the hard ground</act> where <act agent="kings_daughter"
+                effect="ambiguous" type="doing">she intended to spend the night</act>.</p>
+
+        <p>The sun was about to go down when <act agent="kings_daughter" effect="ambiguous"
+                type="doing">she heard a rushing sound</act> and <act agent="kings_daughter"
+                effect="ambiguous" type="doing" receiver="brothers">saw six swans fly in through the
+                window</act>. Landing on the floor, they blew on one another, and blew all their
+            feathers off. Then their swan-skins came off just like shirts. <act
+                agent="kings_daughter" effect="ambiguous" type="doing"><character
+                    marital-status="unmarried" child-status="childless" reference="kings_daughter"
+                    >The girl</character> looked at them and recognized her brothers</act>. <act
+                agent="kings_daughter" effect="benevolent" type="being">She was happy</act> and <act
+                agent="kings_daughter" effect="ambiguous" type="doing">crawled out from beneath the
+                bed</act>. The brothers were no less happy to see their little sister, but their
+            happiness did not last long.</p>
+
+        <p><dialogue speaker="brothers" stateofbeing="negative">"You cannot stay here,"</dialogue>
+            they said to her. <dialogue speaker="brothers" stateofbeing="negative">"This is a
+                robbers' den. If they come home and find you, they will murder you."</dialogue></p>
+
+        <p><dialogue speaker="kings_daughter" stateofbeing="negative">"Can't you protect
+                me?"</dialogue> asked the <character marital-status="unmarried"
+                reference="kings_daughter" child-status="childless">little sister</character>.</p>
+
+        <p><dialogue speaker="brothers" stateofbeing="negative">"No,"</dialogue> they answered.
+                <dialogue speaker="brothers" stateofbeing="negative">"We can take off our swan-skins
+                for only a quarter hour each evening. Only during that time do we have our human
+                forms. After that we are again transformed into swans."</dialogue></p>
+
+        <p><act agent="kings_daughter" effect="ambiguous" type="doing">Crying</act>, the <character
+                marital-status="unmarried" child-status="childless" reference="kings_daughter"
+                >little sister</character> said, <dialogue speaker="kings_daughter"
+                stateofbeing="negative">"Can you not be redeemed?"</dialogue></p>
+
+        <p><dialogue speaker="brothers" stateofbeing="negative">"Alas, no,"</dialogue> they
+            answered. <dialogue speaker="brothers" stateofbeing="negative"> "The conditions are too
+                difficult. You would not be allowed to speak or to laugh for six years, and in that
+                time you would have to sew together six little shirts from asters for us. And if a
+                single word were to come from your mouth, all your work would be
+            lost."</dialogue></p>
+
+        <p>After the brothers had said this, the quarter hour was over, and they flew out the window
+            again as swans.</p>
+
+        <p>Nevertheless, <act agent="kings_daughter" effect="benevolent" type="doing"><character
+                    marital-status="unmarried" child-status="childless" reference="kings_daughter"
+                    >the girl</character> firmly resolved to redeem her brothers</act>, even if it
+            should cost her her life. <act agent="kings_daughter" effect="ambiguous" type="doing"
+                >She left the hunter's hut</act>, <act agent="kings_daughter" effect="ambiguous"
+                type="doing">went to the middle of the woods</act>, <act agent="kings_daughter"
+                effect="ambiguous" type="doing">seated herself in a tree</act>, and <act
+                agent="kings_daughter" effect="ambiguous" type="doing">there spent the night</act>.
+            The next morning <act agent="kings_daughter" effect="ambiguous" type="doing">she went
+                out and gathered asters</act> and <act agent="kings_daughter" effect="ambiguous"
+                type="doing">began to sew</act>. She could not speak with anyone, and <act
+                agent="kings_daughter" effect="ambiguous" type="being">she had no desire to
+                laugh</act>. <act agent="kings_daughter" effect="ambiguous" type="doing">She sat
+                there, looking only at her work</act>.</p>
+
+        <p>After she had already spent a long time there it happened that the king of the land was
+            hunting in these woods. His huntsmen came to the tree where <character
+                marital-status="unmarried" reference="kings_daughter" child-status="childless">the
+                girl</character> was sitting.</p>
+
+        <p><act agent="huntsmen" effect="ambiguous" type="doing">They called to her</act>, saying,
+                <dialogue speaker="huntsmen" stateofbeing="neutral">"Who are you?"</dialogue> But
+                <act agent="kings_daughter" effect="ambiguous" type="doing">she did not
+            answer</act>.</p>
+
+        <p><dialogue speaker="huntsmen" stateofbeing="neutral">"Come down to us,"</dialogue> they
+            said. <dialogue speaker="huntsmen" stateofbeing="neutral">"We will not harm
+                you."</dialogue></p>
+
+        <p><act agent="kings_daughter" effect="ambiguous" type="doing">She only shook her
+            head</act>. When they pressed her further with questions, <act agent="kings_daughter"
+                effect="ambiguous" type="doing">she threw her golden necklace down to them, thinking
+                that this would satisfy them</act>. But they did not stop, so <act
+                agent="kings_daughter" effect="ambiguous" type="doing">she then threw her belt down
+                to them</act>, and when this did not help, <act agent="kings_daughter"
+                effect="ambiguous" type="doing">her garters, and then -- one thing at a time --
+                everything that she had on and could do without, until finally she had nothing left
+                but her shift</act>.</p>
+
+        <p>The huntsmen, however, not letting themselves be dissuaded, climbed the tree, <act
+                agent="huntsmen" type="doing" effect="ambiguous" receiver="kings_daughter">lifted
+                the girl down</act>, and took her to the king.</p>
+
+        <p>The king asked, <dialogue speaker="second_king" stateofbeing="neutral">"Who are you? What
+                are you doing in that tree?"</dialogue></p>
+
+        <p>But <act agent="kings_daughter" effect="ambiguous" type="doing">she did not answer</act>.
+                <act type="doing" effect="ambiguous" agent="second_king" receiver="kings_daughter"
+                >He asked her in every language that he knew</act>, but <act agent="kings_daughter"
+                effect="ambiguous" type="doing">she remained as speechless as a fish</act>. Because
+                <act agent="kings_daughter" effect="ambiguous" type="doing">she was so
+                beautiful</act>, the king's heart was touched, and <act type="doing"
+                effect="benevolent" agent="second_king" receiver="kings_daughter">he fell deeply in
+                love with her</act>. <act type="doing" effect="benevolent" agent="second_king"
+                receiver="kings_daughter">He put his cloak around her</act>, <act type="doing"
+                effect="benevolent" agent="second_king" receiver="kings_daughter">lifted her onto
+                his horse in front of himself</act>, and <act type="doing" effect="benevolent"
+                agent="second_king" receiver="kings_daughter">took her to his castle</act>. There
+                <act type="doing" effect="benevolent" agent="second_king" receiver="kings_daughter"
+                >he had her dressed in rich garments</act>, and <act agent="kings_daughter"
+                effect="benevolent" type="doing">she glistened in her beauty like bright
+                daylight</act>, but no one could get a word from her.</p>
+
+        <p>At the table <act type="doing" effect="benevolent" agent="second_king"
+                receiver="kings_daughter">he seated her by his side</act>, and <act type="being"
+                effect="benevolent" agent="second_king" receiver="kings_daughter">her modest manners
+                and courtesy pleased him so much</act> that he said, <dialogue speaker="second_king"
+                stateofbeing="positive">"My desire is to marry her, and no one else in the
+                world."</dialogue></p>
+
+        <p>A few days later they were married.</p>
+
+        <p>Now the king had a <act agent="wicked_mother" effect="hostile" type="being"><character
+                    child-status="mother" marital-status="wife" reference="wicked_mother">wicked
+                    mother</character> who was dissatisfied with this marriage</act> and <act
+                agent="wicked_mother" effect="hostile" type="doing" receiver="kings_daughter">spoke
+                ill of <character marital-status="wife" child-status="childless"
+                    reference="kings_daughter">the young queen</character></act>. <dialogue
+                speaker="wicked_mother" stateofbeing="negative">"Who knows,"</dialogue> she said,
+                <dialogue speaker="wicked_mother" stateofbeing="negative">"where <character
+                    marital-status="wife" child-status="childless" reference="kings_daughter">the
+                    girl</character> who cannot speak comes from? She is not worthy of a
+                king."</dialogue></p>
+
+        <p>A year later, after <act agent="kings_daughter" effect="benevolent" type="doing"
+                    ><character marital-status="wife" child-status="mother"
+                    reference="kings_daughter">the queen</character> had brought her first child
+                into the world</act>, <act agent="wicked_mother" effect="hostile" type="doing"
+                receiver="kings_daughter"><character marital-status="wife" child-status="mother"
+                    reference="wicked_mother">the old woman</character> took it away from her</act>
+            while <act agent="kings_daughter" type="doing" effect="ambiguous">she was asleep</act>,
+            and <act agent="wicked_mother" effect="hostile" type="doing" receiver="kings_daughter"
+                >smeared her mouth with blood</act>. Then <act agent="wicked_mother"
+                effect="hostile" type="doing" receiver="second_king">she went to the king</act> and
+                <act agent="wicked_mother" effect="hostile" type="doing" receiver="kings_daughter"
+                >accused her of being a cannibal</act>. The king could not believe this, and <act
+                agent="second_king" type="doing" effect="benevolent" receiver="kings_daughter">would
+                not allow anyone to harm her</act>. <act agent="kings_daughter" effect="ambiguous"
+                type="doing">She, however, sat the whole time sewing on the shirts</act>, and <act
+                agent="kings_daughter" effect="ambiguous" type="being">caring for nothing
+            else</act>.</p>
+
+        <p>The next time, when <act agent="kings_daughter" effect="ambiguous" type="doing">she again
+                gave birth to a beautiful boy</act>, <act agent="wicked_mother" type="doing"
+                effect="hostile">the <character marital-status="wife" child-status="mother"
+                    reference="wicked_mother">deceitful mother-in-law did the same thing
+                    again</character></act>, but the king could not bring himself to believe her
+            accusations.</p>
+
+        <p>He said, <dialogue speaker="second_king" stateofbeing="positive">"She is too pious and
+                good to do anything like that. If she were not speechless, and if she could defend
+                herself, her innocence would come to light."</dialogue></p>
+
+        <p>But when <act agent="wicked_mother" type="doing" effect="hostile"><character
+                    marital-status="wife" child-status="mother" reference="wicked_mother">the old
+                    woman</character> stole away a newly born child for the third time</act>, and
+                <act agent="wicked_mother" type="doing" effect="hostile" receiver="kings_daughter"
+                >accused the queen</act>, who <act agent="kings_daughter" type="doing"
+                effect="ambiguous">did not defend herself with a single word</act>, <act
+                agent="second_king" type="doing" effect="hostile" receiver="kings_daughter">the king
+                had no choice but to bring her to justice</act>, and she was sentenced to die by
+            fire.</p>
+
+        <p>When the day came for the sentence to be carried out, it was also the last day of the six
+            years during which she had not been permitted to speak or to laugh, and <act
+                agent="kings_daughter" effect="benevolent" type="doing" receiver="brothers">she had
+                thus delivered her dear brothers from the magic curse</act>. The six shirts were
+            finished. Only the left sleeve of the last one was missing. When she was led to the
+            stake, <act agent="kings_daughter" effect="ambiguous" type="doing">she laid the shirts
+                on her arm</act>. <act agent="kings_daughter" effect="ambiguous" type="doing"
+                >Standing there</act>, as the fire was about to be lighted, <act
+                agent="kings_daughter" effect="ambiguous" type="doing">she looked around</act>, and
+            six swans came flying through the air. Seeing that their redemption was near, <act
+                agent="kings_daughter" effect="benevolent" type="doing">her heart leapt with
+                joy</act>.</p>
+
+        <p><act agent="brothers" effect="benevolent" type="doing" receiver="kings_daughter">The
+                swans rushed towards her</act>, <act agent="brothers" effect="benevolent"
+                type="doing" receiver="kings_daughter">swooping down so that she could throw the
+                shirts over them</act>. As soon as the shirts touched them their swan-skins fell
+            off, and her brothers stood before her in their own bodies, vigorous and handsome.
+            However, the youngest was missing his left arm. In its place he had a swan's wing.</p>
+
+        <p><act agent="kings_daughter" effect="benevolent" type="doing" receiver="brothers">They
+                embraced and kissed one another</act>. Then <act agent="kings_daughter"
+                effect="benevolent" type="doing" receiver="second_king"><character
+                    marital-status="wife" child-status="mother" reference="kings_daughter">the
+                    queen</character> went to the king</act>, who was greatly moved, and <act
+                agent="kings_daughter" effect="ambiguous" type="doing">she began to speak</act>,
+            saying, <dialogue speaker="kings_daughter" stateofbeing="positive">"Dearest husband, now
+                I may speak and reveal to you that I am innocent, and falsely
+            accused."</dialogue></p>
+
+        <p>Then <act agent="kings_daughter" effect="benevolent" type="doing" receiver="second_king"
+                >she told him of the treachery of the <character child-status="mother"
+                    marital-status="wife" reference="wicked_mother">old woman</character> who had
+                taken away their three children and hidden them</act>.</p>
+
+        <p>Then to the king's great joy they were brought forth. As a punishment, the <character
+                child-status="mother" marital-status="wife" reference="wicked_mother">wicked
+                mother-in-law</character>
+            <act agent="wicked_mother" type="being" effect="hostile">was tied to the stake and
+                burned to ashes</act>. But the king and <act agent="kings_daughter"
+                effect="benevolent" type="doing"><character marital-status="wife"
+                    reference="kings_daughter" child-status="mother">the queen</character> with her
+                six brothers lived many long years in happiness and peace</act>.</p>
+    </story>
+</tale>
+<tale>
+    <metadata>
+        <title>Die sechs Schwäne</title>
+        <year>1821</year>
+        <author>Jacob Grimm</author>
+        <author>Wilhem Grimm</author>
+        <language>German</language>
+        <number>49</number>
+    </metadata>
+    <story>
+        <p>Ein König jagte in einem großen Wald, verirrte sich und konnte keinen Ausgang finden, da
+            kam er endlich zu einer <character child-status="mother" marital-status="unmarried"
+                reference="witch">Hexe</character>, <character child-status="mother"
+                    marital-status="unmarried" reference="witch">die</character> bat er, <character
+                        child-status="mother" marital-status="unmarried" reference="witch">sie</character>
+            mögte ihn wieder heraus leiten. Die <character child-status="mother"
+                marital-status="unmarried" reference="witch">Hexe</character> aber antwortete, das
+            geschähe nimmermehr, er müsse darin bleiben und sein Leben verlieren, und nur das eine
+            könne ihn erretten, daß er ihre <character child-status="childless"
+                marital-status="unmarried" reference="witch-daughter">Tochter</character> heirathe.
+            Dem König war sein Leben lieb, und in der Angst sagte er ja; die <character
+                child-status="mother" marital-status="unmarried" reference="witch">Hexe</character>
+            brachte ihm das <character child-status="childless" marital-status="unmarried"
+                reference="witch-daughter">Mädchen</character>, <character child-status="childless"
+                    marital-status="unmarried" reference="witch-daughter">es</character> war jung und
+            schön, er konnte <character child-status="childless" marital-status="unmarried"
+                reference="witch-daughter">es</character> aber nicht ohne Grau- sen und ohne eine
+            heimliche Furcht ansehen; doch wollte er, was er versprochen hatte, hal- ten. Die
+            <character child-status="mother" marital-status="unmarried" reference="witch"
+                >Alte</character> führte dann beide auf den rech- ten Weg, und daheim ward die
+            <character child-status="childless" marital-status="unmarried"
+                reference="witch-daughter">Hexentochter</character> seine Gemahlin. Der König aber
+            hatte noch sieben Kinder von seiner ersten <character child-status="mother"
+                marital-status="unmarried" reference="first-wife">Frau</character>, sechs Buben und
+            ein <character child-status="childless" marital-status="unmarried"
+                reference="king-daughter">Mädchen</character>, und weil er fürch- tete, es könne
+            ihnen von der <character child-status="stepmother" marital-status="unmarried"
+                reference="witch-daughter">Stiefmutter</character> ein Leids angethan werden,
+            brachte er sie in ein Schloß, das er mitten in einem Walde stehen hatte. Es stand so
+            verborgen, daß niemand den Weg dahin wußte, und er selber hätte ihn nicht gefunden, wenn
+            ihm nicht eine weise Frau einen Knauel von Garn gegeben, wenn er den vor sich warf,
+            wickelte er sich auf und zeigte ihm den Weg. Weil aber der König seine Kin- der gar lieb
+            hatte, ging er oft hinaus, da ward die <character child-status="stepmother"
+                marital-status="unmarried" reference="witch-daughter">Königin</character> neugierig,
+            und wollte wissen, was der König so viel allein in dem Wald zu thun habe; <character
+                child-status="stepmother" marital-status="unmarried" reference="witch-daughter"
+                >sie</character> forschte die Diener aus, und diese ver- riethen ihr das ganze
+            Geheimniß. Das erste war nun, daß <character child-status="stepmother"
+                marital-status="unmarried" reference="witch-daughter">sie</character> sich mit List
+            den Knauel ver- schaffte, dann nahm <character child-status="stepmother"
+                marital-status="unmarried" reference="witch-daughter">sie</character> sieben kleine
+            Hemdchen, und ging hinaus in den Wald. Der Knauel zeigte <character
+                child-status="stepmother" marital-status="unmarried" reference="witch-daughter"
+                >ihr</character> den Weg, und als die sechs kleinen Prinzen <character
+                    child-status="stepmother" marital-status="unmarried" reference="witch-daughter"
+                    >sie</character> von weitem kommen sahen, freuten sie sich, meinten ihr Vater käm
+            und liefen her- aus auf <character child-status="stepmother" marital-status="unmarried"
+                reference="witch-daughter">sie</character> zu. Da <act type="doing" effect="hostile"
+                    agent="witch-daughter" receiver="stepchildren">warf <character
+                        child-status="stepmother" marital-status="unmarried" reference="witch-daughter"
+                        >sie</character> über jeden ein Hemdchen</act>, und kaum hatte es ihren Leib be-
+            rührt, da waren sie in Schwäne verwandelt, hoben sich auf in die Luft und flogen davon.
+            <character child-status="stepmother" marital-status="unmarried"
+                reference="witch-daughter">Sie</character> meinte nun <character
+                    child-status="stepmother" marital-status="unmarried" reference="witch-daughter"
+                    >sie</character> hätte alle Stiefkinder weg- geschafft, und ging wieder heim, und so
+            war das <character child-status="childless" marital-status="unmarried"
+                reference="king-daughter">Mädchen</character>, <character child-status="childless"
+                    marital-status="unmarried" reference="king-daughter">das</character> in seiner
+            Kammer geblieben war, errettet. Am andern Tag kam der König in das Waldschloß, da
+            erzählte <character child-status="childless" marital-status="unmarried"
+                reference="king-daughter">es</character> ihm, was ge- schehen war, und zeigte ihm
+            noch die Schwa- nenfedern, die von ihren sechs Brüdern auf den Hof gefallen waren. Der
+            König erschrack, gedachte aber nimmermehr, daß die <character child-status="childless"
+                marital-status="unmarried" reference="witch-daughter">Königin</character> die böse
+            That vollbracht, und weil er besorgte, die <character child-status="childless"
+                marital-status="unmarried" reference="king-daughter">Prinzessin</character> möge ihm
+            auch geraubt werden, wollte er sie mit sich nach Haus nehmen. <character
+                child-status="childless" marital-status="unmarried" reference="king-daughter"
+                >Sie</character> fürchtete sich aber vor ihrer <character child-status="stepmother"
+                    marital-status="unmarried" reference="witch-daughter">Stiefmutter</character> und
+            bat ihn, er mögte <character child-status="childless" marital-status="unmarried"
+                reference="king-daughter">sie</character> nur noch die Nacht in dem Schloß lassen;
+            in der Nacht aber entfloh <character child-status="childless" marital-status="unmarried"
+                reference="king-daughter">sie</character>, und gerade zu in den Wald hinein.</p>
+        
+        <p>Als <character child-status="childless" marital-status="unmarried"
+            reference="king-daughter">sie</character> auch den ganzen Tag bis zum Abend
+            fortgegangen war, kam <character child-status="childless" marital-status="unmarried"
+                reference="king-daughter">sie</character> zu einer Wild- hütte. <character
+                    child-status="childless" marital-status="unmarried" reference="king-daughter"
+                    >Sie</character> stieg hinauf und fand eine Stube mit sechs kleinen Betten; weil
+            <character child-status="childless" marital-status="unmarried"
+                reference="king-daughter">sie</character> nun müde war, legte <character
+                    child-status="childless" marital-status="unmarried" reference="king-daughter"
+                    >sie</character> sich unter eins und wollte da die Nacht zubringen. Bei
+            Sonnenuntergang aber kamen sechs Schwäne durch das Fenster herein- geflogen, setzten
+            sich auf den Boden und bliesen einander an, und bliesen sich alle Federn ab, wie ein
+            Tuch sich abstreift, und da waren es ihre sechs Brüder. <character
+                child-status="childless" marital-status="unmarried" reference="king-daughter"
+                >Sie</character> kroch unter dem Bett hervor, und die Brüder waren beides erfreut
+            und betrübt, <character child-status="childless" marital-status="unmarried"
+                reference="king-daughter">sie</character> zu sehen: <dialogue speaker="brothers"
+                    stateofbeing="negative">„du kannst hier nicht bleiben, sagten sie, das ist eine
+                    Räuberherberg, wenn die Räuber von ihrem Zuge heimkom- men, dann wohnen sie hier.
+                    Alle Abend kön- nen wir uns aber eine Viertelstunde lang die Schwanenhaut gänzlich
+                    abblasen, und auf so lange unsere menschliche Gestalt haben, hernach aber ist es
+                    wieder vorbei. Wenn <character child-status="childless" marital-status="unmarried"
+                        reference="king-daughter">du</character> uns erlösen willst, mußt <character
+                            child-status="childless" marital-status="unmarried" reference="king-daughter"
+                            >du</character> in sechs Jahren sechs Hemd- lein aus Sternblumen zusammennähen,
+                    wäh- rend der Zeit aber darfst <character child-status="childless"
+                        marital-status="unmarried" reference="king-daughter">du</character> nicht
+                    sprechen und nicht lachen, sonst ist alle Arbeit verloren.“</dialogue> Und als die
+            Brüder das gesprochen hatten, war die Viertelstunde herum, und sie waren wieder in
+            Schwäne verwandelt.</p>
+        
+        <p>Am andern Morgen aber sammelte sich das <character child-status="childless"
+            marital-status="unmarried" reference="king-daughter">Mädchen</character>
+            Sternblumen, setzte sich dann auf einen hohen Baum und fing an zu nähen: <character
+                child-status="childless" marital-status="unmarried" reference="king-daughter"
+                >es</character> redete auch kein Wort und lachte nicht, sondern sahe nur auf seine
+            Arbeit. Auf eine Zeit jagte der König, dem das Land gehörte in dem Wald, und seine Jäger
+            kamen zu dem Baum, auf welchem <character child-status="childless"
+                marital-status="unmarried" reference="king-daughter">es</character> saß. Sie riefen
+            ihm zu, <character child-status="childless" marital-status="unmarried"
+                reference="king-daughter">es</character> sollte herabsteigen, weil <character
+                    child-status="childless" marital-status="unmarried" reference="king-daughter"
+                    >es</character> ihnen nun nicht antwor- ten durfte, wollte <character
+                        child-status="childless" marital-status="unmarried" reference="king-daughter"
+                        >es</character> sie mit Geschenken befrie- digen, und warf ihnen seine goldene
+            Halskette herab. Sie riefen aber noch immer, da warf <character child-status="childless"
+                marital-status="unmarried" reference="king-daughter">es</character> seinen Gürtel,
+            als auch dies nichts half sei- ne Strumpfbänder endlich, alles, was <character
+                child-status="childless" marital-status="unmarried" reference="king-daughter"
+                >es</character> ent- behren konnte, herunter, so daß <character
+                    child-status="childless" marital-status="unmarried" reference="king-daughter"
+                    >es</character> nichts mehr als sein Hemdlein anbehielt. Den Jägern war aber das
+            alles nicht genug, sie stiegen auf den Baum, hoben <character child-status="childless"
+                marital-status="unmarried" reference="king-daughter">es</character> herab und
+            brachten <character child-status="childless" marital-status="unmarried"
+                reference="king-daughter">es</character> mir Gewalt zum König. Der König war verwun-
+            dert über seine Schönheit, wickelte <character child-status="childless"
+                marital-status="unmarried" reference="king-daughter">es</character> in seinen
+            Mantel, setzte <character child-status="childless" marital-status="unmarried"
+                reference="king-daughter">es</character> vor sich aufs Pferd, und führte <character
+                    child-status="childless" marital-status="unmarried" reference="king-daughter"
+                    >es</character> nach Haus, und ob <character child-status="childless"
+                        marital-status="unmarried" reference="king-daughter">es</character> gleich stumm
+            war, liebte er <character child-status="childless" marital-status="unmarried"
+                reference="king-daughter">es</character> doch von Herzen, und <character
+                    child-status="childless" marital-status="unmarried" reference="king-daughter"
+                    >es</character> ward seine Gemahlin. Des Königs <character child-status="mother"
+                        marital-status="unmarried" reference="king-mother">Mutter</character> aber war böse
+            darüber, sprach schlecht von ihr: niemand wisse, woher die <character
+                child-status="childless" marital-status="unmarried" reference="king-daughter"
+                >Dirne</character> gekommen, und <character child-status="childless"
+                    marital-status="unmarried" reference="king-daughter">sie</character> sey des Königs
+            unwerth. Als <character child-status="mother" marital-status="unmarried"
+                reference="king-daughter">sie</character> nun den ersten Prinzen zur Welt brachte,
+            nahm die <character child-status="mother" marital-status="unmarried"
+                reference="king-mother">Schwiegermutter</character> ihn weg, <act type="doing"
+                    effect="hostile" agent="king-mother" receiver="king-daughter">bestrich ihr den Mund
+                    mit Blut</act> und gab dann bei dem König vor, die <character child-status="mother"
+                        marital-status="unmarried" reference="king-daughter">Königin</character> habe ihr
+            eigen Kind gefressen, und sey eine <character child-status="mother"
+                marital-status="unmarried" reference="king-daughter">Zauberin</character>. Der König
+            aber, aus großer Liebe, wollte es nicht glauben; darnach als <character
+                child-status="mother" marital-status="unmarried" reference="king-daughter"
+                >sie</character> den zweiten Prinzen gebar, übte die gottlose <character
+                    child-status="mother" marital-status="unmarried" reference="king-mother"
+                    >Schwiegermutter</character> denselben Betrug, und <act type="doing"
+                        effect="hostile" agent="king-mother" io="king-daughter">klagte <character
+                            child-status="mother" marital-status="unmarried" reference="king-daughter"
+                            >sie</character> wieder beim König an</act>, und weil <character
+                                child-status="mother" marital-status="unmarried" reference="king-daughter"
+                                >sie</character> nicht reden durfte, sondern immer stumm saß und an den sechs
+            Hemdern arbeitete, so konnte <character child-status="mother" marital-status="unmarried"
+                reference="king-daughter">sie</character> nichts mehr erretten, und <act
+                    type="doing" effect="hostile" agent="uknown" receiver="king-daughter"><character
+                        child-status="mother" marital-status="unmarried" reference="king-daughter"
+                        >sie</character> ward zum Feuer verdammt</act>. Der Tag kam heran, wo das
+            Urtheil sollte vollzogen werden, es war gerade der letzte Tag von den sechs Jahren, und
+            <character child-status="mother" marital-status="unmarried"
+                reference="king-daughter">sie</character> war mit den sechs Hemdern fertig geworden,
+            nur an einem fehlte der linke Ermel. Wie <character child-status="mother"
+                marital-status="unmarried" reference="king-daughter">sie</character> nun zum
+            Scheiterhaufen geführt wurde, nahm sie die sechs Hemder mit sich, und wie <character
+                child-status="mother" marital-status="unmarried" reference="king-daughter"
+                >sie</character> oben stand und eben das Feuer sollte angesteckt wer- den, sah
+            <character child-status="mother" marital-status="unmarried"
+                reference="king-daughter">sie</character> sechs Schwäne durch die Luft da- her
+            ziehen, und über <character child-status="mother" marital-status="unmarried"
+                reference="king-daughter">ihr</character> sich herabsenken. Da <act type="doing"
+                    effect="benevolent" agent="king-daughter" io="swans">warf <character
+                        child-status="mother" marital-status="unmarried" reference="king-daughter"
+                        >sie</character> die Hemdlein hinauf</act>, die fielen über die Schwäne hin, und
+            kaum waren sie davon berührt, so fiel ihre Schwanenhaut ab, und die sechs Brüder standen
+            leibhaftig vor ihr, nur dem sechsten fehlte der linke Arm, und er hatte dafür einen
+            Schwanenflügel auf dem Rücken. Da war <character child-status="mother"
+                marital-status="unmarried" reference="king-daughter">ihr</character> auch die
+            Sprache wiedergegeben, und <character child-status="mother" marital-status="unmarried"
+                reference="king-daughter">sie</character> erzählte, wie die <character
+                    child-status="mother" marital-status="unmarried" reference="king-mother"
+                    >Schwiegermutter</character>
+            <character child-status="mother" marital-status="unmarried" reference="king-daughter"
+                >sie</character> so boshaft verläumdet, dafür ward <act type="doing"
+                    effect="hostile" agent="unspecified" receiver="king-mother"><character
+                        child-status="mother" marital-status="unmarried" reference="king-mother"
+                        >diese</character> auf den Scheiterhaufen gebracht und verbrannt</act>, <act
+                            type="being" effect="benevolent" agent="king-daughter"><character
+                                child-status="mother" marital-status="unmarried" reference="king-daughter"
+                                >sie</character> aber lebte lange mit dem König und ihren sechs Brüdern in
+                            Freuden.</act></p>
+    </story>
+</tale>
+</tales>

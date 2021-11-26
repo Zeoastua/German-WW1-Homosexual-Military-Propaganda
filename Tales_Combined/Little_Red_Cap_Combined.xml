@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../grimm-schema-combined.rnc" type="application/relax-ng-compact-syntax"?>
+<tales>
+    <tale>
+        <metadata>
+            <title>Little Red Cap</title>
+            <year>1812</year>
+            <author>Jacob and Wilhelm Grimm</author>
+            <language>English</language>
+            <number>26</number>
+        </metadata>
+        <story>
+            <p>Once upon a time there was a <character child-status="childless"
+                    marital-status="unmarried" reference="little_red_cap">sweet little
+                    girl</character>. <act agent="everyone" effect="benevolent"
+                    receiver="litte_red_cap" type="being">Everyone who saw her liked her</act>, but
+                most of all her <character child-status="grandmother" marital-status="unmarried"
+                    reference="grandmother">grandmother</character>, who did not know what to give
+                the child next. Once <act type="doing" receiver="little_red_cap" effect="benevolent"
+                    agent="grandmother">she gave her a little cap made of red velvet</act>. Because
+                it suited her so well, and she wanted to wear it all the time, she came to be known
+                as <character reference="little_red_cap" marital-status="unmarried"
+                    child-status="childless">Little Red Cap</character>.</p>
+
+            <p>One day <character child-status="mother" marital-status="unmarried"
+                    reference="mother"/>her mother said to her, <dialogue speaker="mother"
+                    stateofbeing="neutral">"Come <character reference="little_red_cap"
+                        marital-status="unmarried" child-status="childless">Little Red
+                        Cap</character>. Here is a piece of cake and a bottle of wine. Take them to
+                    your grandmother. She is sick and weak, and they will do her well. Mind your
+                    manners and give her my greetings. Behave yourself on the way, and do not leave
+                    the path, or you might fall down and break the glass, and then there will be
+                    nothing for your <character reference="grandmother" marital-status="unmarried"
+                        child-status="grandmother">grandmother</character>. And when you enter her
+                    parlor, don't forget to say 'Good morning,' and don't peer into all the corners
+                    first."</dialogue></p>
+
+            <p><dialogue stateofbeing="positive" speaker="little_red_cap">"I'll do everything just
+                    right,"</dialogue> said <character reference="little_red_cap"
+                    marital-status="unmarried" child-status="childless">Little Red Cap</character>,
+                    <act agent="little_red_cap" effect="benevolent" receiver="mother" type="doing"
+                    >shaking her mother's hand.</act></p>
+
+            <p>The <character child-status="grandmother" marital-status="unmarried"
+                    reference="grandmother">grandmother</character>
+                <act type="doing" effect="ambiguous" agent="grandmother">lived out in the
+                    woods</act>, a half hour from the village. When <act agent="little_red_cap"
+                    effect="ambiguous" type="doing"><character reference="little_red_cap"
+                        marital-status="unmarried" child-status="childless">Little Red
+                        Cap</character> entered the woods</act>
+                <act type="doing" effect="ambiguous" agent="wolf">a wolf came up to her</act>. She
+                did not know what a wicked animal he was, <act type="being" effect="ambiguous"
+                    agent="little_red_cap">and was not afraid of him</act>.</p>
+
+            <p>
+                <dialogue speaker="wolf" stateofbeing="neutral">"Good day to you, <character
+                        reference="little_red_cap" marital-status="unmarried"
+                        child-status="childless">Little Red Cap</character>."</dialogue>
+            </p>
+
+            <p>
+                <dialogue speaker="little_red_cap" stateofbeing="neutral">"Thank you,
+                    wolf."</dialogue>
+            </p>
+
+            <p>
+                <dialogue speaker="wolf" stateofbeing="neutral">"Where are you going so early,
+                        <character reference="little_red_cap" marital-status="unmarried"
+                        child-status="childless">Little Red Cap</character>?"</dialogue>
+            </p>
+
+            <p>
+                <dialogue speaker="little_red_cap" stateofbeing="neutral">"To <character
+                        child-status="grandmother" marital-status="unmarried"
+                        reference="grandmother">grandmother's</character>."</dialogue>
+            </p>
+
+            <p>
+                <dialogue speaker="wolf" stateofbeing="neutral">"And what are you carrying under
+                    your apron?"</dialogue>
+            </p>
+
+            <p>
+                <dialogue speaker="little_red_cap" stateofbeing="neutral">"<act type="being"
+                        effect="ambiguous" agent="grandmother"><character child-status="grandmother"
+                            marital-status="unmarried" reference="grandmother"
+                            >Grandmother</character> is sick and weak</act>, and <act
+                        agent="little_red_cap" effect="benevolent" type="doing"
+                        receiver="grandmother">I am taking her some cake and wine</act>. <act
+                        agent="mother and little_red_cap" type="doing" effect="benevolent">We baked
+                        yesterday</act>, and they should be good for her and give her
+                    strength."</dialogue>
+            </p>
+
+            <p>
+                <dialogue stateofbeing="negative" speaker="wolf">"<character
+                        reference="little_red_cap" marital-status="unmarried"
+                        child-status="childless">Little Red Cap</character>, just where does your
+                        <character child-status="grandmother" marital-status="unmarried"
+                        reference="grandmother">grandmother</character> live?"</dialogue>
+            </p>
+
+            <p><dialogue speaker="little_red_cap" stateofbeing="neutral">"Her house is good quarter
+                    hour from here in the woods, under the three large oak trees. There's a hedge of
+                    hazel bushes there. You must know the place,"</dialogue> said <character
+                    reference="little_red_cap" marital-status="unmarried" child-status="childless"
+                    >Little Red Cap</character>.</p>
+
+            <p>The wolf thought to himself, "Now that <character reference="little_red_cap"
+                    marital-status="unmarried" child-status="childless">sweet young
+                    thing</character> is a tasty bite for me. She will taste even better than
+                    <character child-status="grandmother" marital-status="unmarried"
+                    reference="grandmother">the old woman</character>. You must be sly, and you can
+                catch them both."</p>
+
+            <p>He <act agent="wolf" effect="ambiguous" type="doing" receiver="little_red_cap">walked
+                    along a little while with <character reference="little_red_cap"
+                        marital-status="unmarried" child-status="childless">Little Red
+                        Cap</character></act>, then he said, <dialogue speaker="wolf"
+                    stateofbeing="negative">"<character reference="little_red_cap"
+                        marital-status="unmarried" child-status="childless">Little Red
+                        Cap</character>, just look at the beautiful flowers that are all around us.
+                    Why don't you go and take a look? And I don't believe you can hear how
+                    beautifully the birds are singing. You are walking along as though you were on
+                    your way to school. It is very beautiful in the woods."</dialogue></p>
+
+            <p><character reference="little_red_cap" marital-status="unmarried"
+                    child-status="childless">Little Red Cap</character>
+                <act agent="little_red_cap" type="doing" effect="ambiguous">opened her eyes</act>
+                and when <act agent="little_red_cap" type="doing" effect="benevolent">she saw the
+                    sunbeams dancing to and fro through the trees and how the ground was covered
+                    with beautiful flowers</act>, she thought, "If a take a fresh bouquet to
+                    <character child-status="grandmother" marital-status="unmarried"
+                    reference="grandmother">grandmother</character>, she will be very pleased.
+                Anyway, it is still early, and I'll be home on time." And <act
+                    agent="little_red_cap" effect="benevolent" type="doing">she ran off the path
+                    into the woods looking for flowers</act>. Each time <act agent="little_red_cap"
+                    type="doing" effect="benevolent">she picked one</act>
+                <act agent="little_red_cap" type="doing" effect="benevolent">she thought that she
+                    could see an even more beautiful one a little way off</act>, and <act
+                    agent="little_red_cap" type="doing" effect="benevolent">she ran after it, going
+                    further and further into the woods</act>. But the wolf ran straight to the
+                    <character child-status="grandmother" marital-status="unmarried"
+                    reference="grandmother">grandmother's</character> house and knocked on the
+                door.</p>
+
+            <p>
+                <dialogue speaker="grandmother" stateofbeing="neutral">"Who's there?"</dialogue>
+            </p>
+
+            <p>
+                <dialogue speaker="wolf" stateofbeing="negative">"<character
+                        reference="little_red_cap" marital-status="unmarried"
+                        child-status="childless">Little Red Cap</character>. I'm bringing you some
+                    cake and wine. Open the door."</dialogue>
+            </p>
+
+            <p><dialogue speaker="grandmother" stateofbeing="neutral">"Just press the
+                    latch,"</dialogue> called out the <character marital-status="unmarried"
+                    child-status="grandmother" reference="grandmother">grandmother</character>.
+                    <dialogue speaker="grandmother" stateofbeing="negative">"I'm too weak to get
+                    up."</dialogue></p>
+
+            <p>The wolf pressed the latch, and the door opened. He stepped inside, went straight to
+                the grandmother's bed, and <act agent="wolf" receiver="grandmother" effect="hostile"
+                    type="doing">ate her up</act>. Then he put on her clothes, put her cap on his
+                head, got into her bed, and pulled the curtains shut.</p>
+
+            <p><character reference="little_red_cap" marital-status="unmarried"
+                    child-status="childless">Little Red Cap</character>
+                <act type="doing" effect="benevolent" agent="little_red_cap">had run after the
+                    flowers</act>. After <act type="doing" effect="benevolent"
+                    agent="little_red_cap">she had gathered so many that she could not carry any
+                    more</act>, <act type="doing" effect="benevolent" agent="little_red_cap">she
+                    remembered her grandmother</act>, and then <act type="doing" effect="benevolent"
+                    agent="little_red_cap" receiver="grandmother">continued on her way to her
+                    house</act>. <act type="doing" effect="ambiguous" agent="little_red_cap">She
+                    found, to her surprise, that the door was open</act>. <act type="doing"
+                    effect="ambiguous" agent="little_red_cap">She walked into the parlor</act>, and
+                everything looked so strange that she thought, <dialogue stateofbeing="negative"
+                    speaker="little_red_cap">"Oh, my God, why am I so afraid? I usually like it at
+                        <character marital-status="unmarried" reference="grandmother"
+                        child-status="grandmother">grandmother's</character>."</dialogue></p>
+
+            <p>She called out, <dialogue speaker="little_red_cap" stateofbeing="positive">"Good
+                    morning!"</dialogue> but <act agent="little_red_cap" effect="ambiguous"
+                    type="doing">received no answer.</act></p>
+
+            <p>Then <act agent="little_red_cap" type="doing" effect="ambiguous">she went to the
+                    bed</act> and <act agent="little_red_cap" type="doing" effect="ambiguous">pulled
+                    back the curtains</act>. Grandmother was lying there with her cap pulled down
+                over her face and looking very strange.</p>
+
+            <p>
+                <dialogue speaker="little_red_cap" stateofbeing="negative">"Oh, grandmother, what
+                    big ears you have!"</dialogue>
+            </p>
+
+            <p>
+                <dialogue speaker="wolf" stateofbeing="positive">"All the better to hear you
+                    with."</dialogue>
+            </p>
+
+            <p>
+                <dialogue speaker="little_red_cap" stateofbeing="negative">"Oh, grandmother, what
+                    big eyes you have!"</dialogue>
+            </p>
+
+            <p>
+                <dialogue speaker="wolf" stateofbeing="positive">"All the better to see you
+                    with."</dialogue>
+            </p>
+
+            <p>
+                <dialogue speaker="little_red_cap" stateofbeing="negative">"Oh, grandmother, what
+                    big hands you have!"</dialogue>
+            </p>
+
+            <p>
+                <dialogue speaker="wolf" stateofbeing="positive">"All the better to grab you
+                    with!"</dialogue>
+            </p>
+
+            <p>
+                <dialogue speaker="little_red_cap" stateofbeing="negative">"Oh, grandmother, what a
+                    horribly big mouth you have!"</dialogue>
+            </p>
+
+            <p>
+                <dialogue speaker="wolf" stateofbeing="positive">"All the better to eat you
+                    with!"</dialogue>
+            </p>
+
+            <p>The wolf had scarcely finished speaking when he jumped from the bed with a single
+                leap and <act agent="wolf" type="doing" effect="hostile" receiver="little_red_cap"
+                    >ate up poor <character reference="little_red_cap" marital-status="unmarried"
+                        child-status="childless">Little Red Cap</character></act>. As soon as the
+                wolf had satisfied his desires, he climbed back into bed, fell asleep, and began to
+                snore very loudly.</p>
+
+            <p>A huntsman was just passing by. He thought, <dialogue speaker="huntsman"
+                    stateofbeing="neutral">"The old woman is snoring so loudly. You had better see
+                    if something is wrong with her."</dialogue></p>
+
+            <p>He stepped into the parlor, and when he approached the bed, he saw the wolf lying
+                there. <dialogue speaker="huntsman" stateofbeing="negative">"So here I find you, you
+                    old sinner,"</dialogue> he said. <dialogue speaker="huntsman"
+                    stateofbeing="negative">"I have been hunting for you a long
+                time."</dialogue></p>
+
+            <p>He was about to aim his rifle when it occurred to him that the wolf might have eaten
+                the <character marital-status="unmarried" reference="grandmother"
+                    child-status="grandmother">grandmother</character>, and that she still might be
+                rescued. So instead of shooting, he took a pair of scissors and began to cut open
+                the wolf's belly. After a few cuts he saw the red cap shining through., and after a
+                few more cuts <character marital-status="unmarried" child-status="childless"
+                    reference="little_red_cap">the girl</character>
+                <act agent="little_red_cap" effect="ambiguous" type="doing">jumped out</act>,
+                crying, <dialogue speaker="little_red_cap" stateofbeing="negative">"Oh, I was so
+                    frightened! It was so dark inside the wolf's body!"</dialogue></p>
+
+            <p>And then the <character marital-status="unmarried" reference="grandmother"
+                    child-status="grandmother">grandmother</character>came out as well, alive but
+                hardly able to breathe. Then <character reference="little_red_cap"
+                    marital-status="unmarried" child-status="childless">Little Red Cap</character>
+                fetched some large stones. She filled the wolf's body with them, and when he woke up
+                and tried to run away, the stones were so heavy that he immediately fell down
+                dead.</p>
+
+            <p>The three of them were happy. The huntsman skinned the wolf and went home with the
+                pelt. The <character marital-status="unmarried" reference="grandmother"
+                    child-status="grandmother">grandmother</character>
+                <act agent="grandmother" type="doing" effect="benevolent">ate the cake and drank the
+                    wine</act> that <character reference="little_red_cap" marital-status="unmarried"
+                    child-status="childless">Little Red Cap</character> had brought. And <character
+                    reference="little_red_cap" marital-status="unmarried" child-status="childless"
+                    >Little Red Cap</character> thought, <dialogue speaker="little_red_cap"
+                    stateofbeing="neutral">"As long as I live, I will never leave the path and run
+                    off into the woods by myself if mother tells me not to."</dialogue></p>
+
+            <p>They also tell how <character reference="little_red_cap" marital-status="unmarried"
+                    child-status="childless">Little Red Cap</character> was <act
+                    agent="little_red_cap" effect="ambiguous" type="doing" receiver="grandmother"
+                    >taking some baked things to her <character marital-status="unmarried"
+                        reference="grandmother" child-status="grandmother">grandmother</character>
+                    another time</act>, when <act agent="different_wolf" type="doing"
+                    effect="hostile" receiver="little_red_cap">another wolf spoke to her and wanted
+                    her to leave the path</act>. But <character reference="little_red_cap"
+                    marital-status="unmarried" child-status="childless">Little Red Cap</character>
+                <act agent="little_red_cap" effect="ambiguous" type="doing">took care and went
+                    straight to grandmother's</act>. <act agent="little_red_cap" effect="ambiguous"
+                    type="doing" receiver="grandmother">She told her that she had seen the wolf, and
+                    that he had wished her a good day, but had stared at her in a wicked
+                    manner</act>. <dialogue speaker="little_red_cap" stateofbeing="negative">"If we
+                    hadn't been on a public road, he would have eaten me up,"</dialogue> she
+                said.</p>
+
+            <p><dialogue speaker="grandmother" stateofbeing="neutral">"Come,"</dialogue> said the
+                    <character marital-status="unmarried" reference="grandmother"
+                    child-status="grandmother">grandmother</character>. <dialogue
+                    speaker="grandmother" stateofbeing="neutral">"Let's lock the door, so he can't
+                    get in."</dialogue></p>
+
+            <p>Soon afterward the wolf knocked on the door and called out, <dialogue speaker="wolf"
+                    stateofbeing="negative">"Open up, <character marital-status="unmarried"
+                        reference="grandmother" child-status="grandmother">grandmother</character>.
+                    It's <character reference="little_red_cap" marital-status="unmarried"
+                        child-status="childless">Little Red Cap</character>, and I'm bringing you
+                    some baked things."</dialogue></p>
+
+            <p>They remained silent, and did not open the door. Gray-Head crept around the house
+                several times, and finally jumped onto the roof. He wanted to wait until <character
+                    reference="little_red_cap" marital-status="unmarried" child-status="childless"
+                    >Little Red Cap</character> went home that evening, then follow her and eat her
+                up in the darkness. But the <act agent="grandmother" effect="ambiguous" type="doing"
+                    receiver="wolf"><character marital-status="unmarried" reference="grandmother"
+                        child-status="grandmother">grandmother</character> saw what he was up
+                    to</act>. There was a large stone trough in front of the house.</p>
+
+            <p><dialogue speaker="grandmother" stateofbeing="neutral">"Fetch a bucket, <character
+                        reference="little_red_cap" marital-status="unmarried"
+                        child-status="childless">Little Red Cap</character>,"</dialogue> she said to
+                    <character reference="little_red_cap" child-status="childless"
+                    marital-status="unmarried">the child</character>. <dialogue
+                    stateofbeing="neutral" speaker="grandmother">"Yesterday I cooked some sausage.
+                    Carry the water that I boiled them with to the trough."</dialogue>
+                <act agent="little_red_cap" type="doing" effect="ambiguous"><character
+                        reference="little_red_cap" marital-status="unmarried"
+                        child-status="childless">Little Red Cap</character> carried water until the
+                    large, large trough was clear full</act>. The smell of sausage arose into the
+                wolf's nose. He sniffed and looked down, stretching his neck so long that he could
+                no longer hold himself, and he began to slide. He slid off the roof, fell into the
+                trough, and drowned. And <act agent="little_red_cap" effect="benevolent"
+                    type="doing"><character reference="little_red_cap" marital-status="unmarried"
+                        child-status="childless">Little Red Cap</character> returned home
+                    happily</act>, and no one harmed her.</p>
+        </story>
+    </tale>
+    <tale>
+        <metadata>
+            <title>Rotkäppchen</title>
+            <year>1821</year>
+            <author>Jacob Grimm</author>
+            <author>Wilhem Grimm</author>
+            <language>German</language>
+            <number>26</number>
+        </metadata>
+        <story>
+            <p>Es war einmal eine kleine süße <character child-status="childless"
+                    marital-status="unmarried" reference="red">Dirn</character>, die hatte jedermann
+                lieb, der <character child-status="childless" marital-status="unmarried"
+                    reference="red">sie</character> nur ansah, am al- lerliebsten aber ihre
+                    <character child-status="grandmother" marital-status="unmarried"
+                    reference="grandmother">Großmutter</character>, die wußte gar nicht, was
+                    <character child-status="grandmother" marital-status="unmarried"
+                    reference="grandmother">sie</character> alles dem <character
+                    child-status="childless" marital-status="unmarried" reference="red"
+                    >Kind</character> geben sollte. Ein- mal schenkte <character
+                    child-status="grandmother" marital-status="unmarried" reference="grandmother"
+                    >sie</character>
+                <character child-status="childless" marital-status="unmarried" reference="red"
+                    >ihm</character> ein Käppchen von rothem Sammet, und weil <character
+                    child-status="childless" marital-status="unmarried" reference="red"
+                    >ihm</character> das so wohl stand, und es nichts anders mehr tragen wollte,
+                hieß <character child-status="childless" marital-status="unmarried" reference="red"
+                    >es</character> nur das Rothkäppchen; da sagte einmal seine <character
+                    child-status="mother" marital-status="unmarried" reference="mother"
+                    >Mutter</character> zu <character child-status="childless"
+                    marital-status="unmarried" reference="red">ihm</character>: <dialogue
+                    speaker="mother" stateofbeing="neutral">„komm, <character
+                        child-status="childless" marital-status="unmarried" reference="red"
+                        >Rothkäppchen</character>, da hast <character child-status="childless"
+                        marital-status="unmarried" reference="red">du</character> ein Stück Kuchen
+                    und ein Bouteille mit Wein, die bring der Großmutter hinaus, <character
+                        child-status="grandmother" marital-status="unmarried"
+                        reference="grandmother">sie</character> ist krank und schwach, da wird
+                        <character child-status="grandmother" marital-status="unmarried"
+                        reference="grandmother">sie</character> sich daran laben; sey hübsch artig
+                    und grüß <character child-status="childless" marital-status="unmarried"
+                        reference="red">sie</character> von mir, geh auch ordentlich und lauf nicht
+                    vom Weg ab, sonst fällst <character child-status="childless"
+                        marital-status="unmarried" reference="red">du</character>, und zerbrichst
+                    das Glas, dann hat die kranke <character child-status="grandmother"
+                        marital-status="unmarried" reference="grandmother">Großmutter</character>
+                    nichts.“</dialogue></p>
+
+            <p><character child-status="childless" marital-status="unmarried" reference="red"
+                    >Rothkäppchen</character> versprach der <character child-status="mother"
+                    marital-status="unmarried" reference="mother">Mutter</character> recht gehorsam
+                zu seyn. Die <character child-status="grandmother" marital-status="unmarried"
+                    reference="grandmother">Großmutter</character> aber wohn- te draußen im Wald,
+                eine halbe Stunde vom Dorf. Wie nun <character child-status="childless"
+                    marital-status="unmarried" reference="red">Rothkäppchen</character> in den Wald
+                kam, begegnete <character child-status="childless" marital-status="unmarried"
+                    reference="red">ihm</character> der Wolf, <character child-status="childless"
+                    marital-status="unmarried" reference="red">Rothkäppchen</character> aber wußte
+                nicht, was das für ein böses Thier war, und fürchtete sich nicht vor ihm. <dialogue
+                    speaker="wolf" stateofbeing="neutral">„Guten Tag, <character
+                        child-status="childless" marital-status="unmarried" reference="red"
+                        >Rothkäppchen</character>.“</dialogue>
+                <dialogue speaker="red" stateofbeing="neutral">„Schön Dank Wolf.“</dialogue>
+                <dialogue speaker="wolf" stateofbeing="neutral">„Wo willst <character
+                        child-status="childless" marital-status="unmarried" reference="red"
+                        >du</character> so früh hinaus, <character child-status="childless"
+                        marital-status="unmarried" reference="red">Rothkäpp-
+                    chen</character>,“</dialogue>
+                <dialogue speaker="red" stateofbeing="neutral">„zur <character
+                        child-status="grandmother" marital-status="unmarried"
+                        reference="grandmother">Großmutter</character>.“</dialogue>
+                <dialogue speaker="wolf" stateofbeing="neutral">„Was trägst <character
+                        child-status="childless" marital-status="unmarried" reference="red"
+                        >du</character> unter der Schürze?“</dialogue>
+                <dialogue speaker="red" stateofbeing="neutral">„die <character
+                        child-status="grandmother" marital-status="unmarried"
+                        reference="grandmother">Großmutter</character> ist krank und schwach, da
+                    bring ich <character child-status="grandmother" marital-status="unmarried"
+                        reference="grandmother">ihr</character> Kuchen und Wein, gestern haben wir
+                    gebacken, da soll <character child-status="grandmother"
+                        marital-status="unmarried" reference="grandmother">sie</character> sich
+                    stärken.“</dialogue>
+                <dialogue speaker="wolf" stateofbeing="neutral">„<character child-status="childless"
+                        marital-status="unmarried" reference="red">Rothkäppchen</character>, wo
+                    wohnt deine <character child-status="grandmother" marital-status="unmarried"
+                        reference="grandmother">Großmutter</character>?“</dialogue>
+                <dialogue speaker="red" stateofbeing="neutral">„Noch eine gute Vier- telstunde im
+                    Wald, unter den drei großen Eich- bäumen, da steht ihr Haus, unten sind die
+                    Nußhecken das wirst du ja wissen“</dialogue> sagte <character
+                    child-status="childless" marital-status="unmarried" reference="red">Roth-
+                    käppchen</character>. Der Wolf gedacht bei sich, das ist ein guter fetter Bissen
+                für mich, wie fängst dus an, daß du den kriegst: <dialogue speaker="wolf"
+                    stateofbeing="neutral">„hör <character child-status="childless"
+                        marital-status="unmarried" reference="red">Rothkäpp- chen</character>, sagte
+                    er, hast <character child-status="childless" marital-status="unmarried"
+                        reference="red">du</character> die schönen Blumen nicht gesehen, die im
+                    Walde stehen, warum guckst <character child-status="childless"
+                        marital-status="unmarried" reference="red">du</character> nicht einmal um
+                        <character child-status="childless" marital-status="unmarried"
+                        reference="red">dich</character>, ich glaube, <character
+                        child-status="childless" marital-status="unmarried" reference="red"
+                        >du</character> hörst gar nicht darauf, wie die Vöglein lieblich singen,
+                        <character child-status="childless" marital-status="unmarried"
+                        reference="red">du</character> gehst ja für <character
+                        child-status="childless" marital-status="unmarried" reference="red"
+                        >dich</character> hin als wenn <character child-status="childless"
+                        marital-status="unmarried" reference="red">du</character> im Dorf in die
+                    Schule gingst, und ist so lustig haußen in dem Wald.“</dialogue></p>
+
+            <p><character child-status="childless" marital-status="unmarried" reference="red"
+                    >Rothkäppchen</character> schlug die Augen auf, und sah wie die Sonne durch die
+                Bäume gebrochen war und alles voll schöner Blumen stand; da gedacht <character
+                    child-status="childless" marital-status="unmarried" reference="red"
+                    >es</character>: ei! wenn ich der <character child-status="grandmother"
+                    marital-status="unmarried" reference="grandmother">Großmutter</character> einen
+                Strauß mitbringe, der wird <character child-status="grandmother"
+                    marital-status="unmarried" reference="grandmother">ihr</character> auch lieb
+                seyn, es ist noch früh, ich komm doch zu rechter Zeit an, und sprang in den Wald und
+                suchte Blu- men. Und wenn <character child-status="childless"
+                    marital-status="unmarried" reference="red">es</character> eine gebrochen hatte,
+                meint <character child-status="childless" marital-status="unmarried" reference="red"
+                    >es</character>, dort stünd noch eine schönere und lief dar- nach und immer
+                weiter in den Wald hinein. Der Wolf aber ging geradeswegs nach dem Haus der
+                Großmutter und klopfte an die Thü- re. <dialogue speaker="grandmother"
+                    stateofbeing="neutral">„Wer ist draußen“</dialogue>
+                <dialogue speaker="wolf" stateofbeing="positive">„das <character
+                        child-status="childless" marital-status="unmarried" reference="red"
+                        >Rothkäppchen</character>, ich bring <character child-status="grandmother"
+                        marital-status="unmarried" reference="grandmother">dir</character> Kuchen
+                    und Wein, mach mir auf.“</dialogue>
+                <dialogue speaker="grandmother" stateofbeing="negative">„Drück nur auf die Klinke,
+                    rief die <character child-status="grandmother" marital-status="unmarried"
+                        reference="grandmother">Großmutter</character>, ich bin zu schwach und kann
+                    nicht aufstehen.“</dialogue> Der Wolf drückte an der Klinke, und die Thüre
+                sprang auf. Da ging er hin- ein, geradezu an das Bett der <character
+                    child-status="grandmother" marital-status="unmarried" reference="grandmother"
+                    >Großmutter</character> und <act type="doing" effect="hostile" agent="wolf"
+                    receiver="grandmother">verschluckte <character child-status="grandmother"
+                        marital-status="unmarried" reference="grandmother">sie</character></act>.
+                Dann nahm er ihre Kleider, that <character child-status="grandmother"
+                    marital-status="unmarried" reference="grandmother">sie</character> an, setzte
+                sich ihre Haube auf, legte sich in ihr Bett und zog die Vorhänge vor.</p>
+
+            <p><character child-status="childless" marital-status="unmarried" reference="red"
+                    >Rothkäppchen</character> aber war herum gelaufen nach Blumen, und erst als
+                    <character child-status="childless" marital-status="unmarried" reference="red"
+                    >es</character> so viel hatte, daß <character child-status="childless"
+                    marital-status="unmarried" reference="red">es</character> keine mehr tragen
+                konnte, machte <character child-status="childless" marital-status="unmarried"
+                    reference="red">es</character> sich auf den Weg zu der <character
+                    child-status="grandmother" marital-status="unmarried" reference="grandmother"
+                    >Großmutter</character>. Wie <character child-status="childless"
+                    marital-status="unmarried" reference="red">es</character> ankam stand die Thüre
+                auf, darüber verwunderte <character child-status="childless"
+                    marital-status="unmarried" reference="red">es</character> sich, und wie
+                    <character child-status="childless" marital-status="unmarried" reference="red"
+                    >es</character> in die Stube kam, sahs so seltsam darin aus, daß <character
+                    child-status="childless" marital-status="unmarried" reference="red"
+                    >es</character> dacht: ei! du mein Gott wie ängstlich wird mirs heut zu Muth,
+                und bin sonst so gern bei der <character child-status="grandmother"
+                    marital-status="unmarried" reference="grandmother">Großmutter</character>. Drauf
+                ging <character child-status="childless" marital-status="unmarried" reference="red"
+                    >es</character> zum Bett und zog die Vorhänge zurück, da lag die <character
+                    child-status="grandmother" marital-status="unmarried" reference="grandmother"
+                    >Großmutter</character> und hatte die Haube tief ins Gesicht gesetzt und sah so
+                wun- derlich aus. <dialogue speaker="red" stateofbeing="neutral">„Ei <character
+                        child-status="grandmother" marital-status="unmarried"
+                        reference="grandmother">Großmutter</character>, was hast <character
+                        child-status="grandmother" marital-status="unmarried"
+                        reference="grandmother">du</character> für große Ohren!“</dialogue>
+                <dialogue speaker="wolf" stateofbeing="positive">„daß ich <character
+                        child-status="childless" marital-status="unmarried" reference="red"
+                        >dich</character> besser hö- ren kann.“</dialogue>
+                <dialogue speaker="red" stateofbeing="neutral">„Ei <character
+                        child-status="grandmother" marital-status="unmarried"
+                        reference="grandmother">Großmutter</character>, was hast <character
+                        child-status="grandmother" marital-status="unmarried"
+                        reference="grandmother">du</character> für große Augen!“</dialogue>
+                <dialogue speaker="wolf" stateofbeing="positive">„daß ich <character
+                        child-status="childless" marital-status="unmarried" reference="red"
+                        >dich</character> besser se- hen kann.“</dialogue>
+                <dialogue speaker="red" stateofbeing="neutral">„Ei <character
+                        child-status="grandmother" marital-status="unmarried"
+                        reference="grandmother">Großmutter</character> was hast <character
+                        child-status="grandmother" marital-status="unmarried"
+                        reference="grandmother">du</character> für große Hände!“</dialogue>
+                <dialogue speaker="wolf" stateofbeing="positive">„daß ich <character
+                        child-status="childless" marital-status="unmarried" reference="red"
+                        >dich</character> besser packen kann.“</dialogue>
+                <dialogue speaker="red" stateofbeing="neutral">„Aber <character
+                        child-status="grandmother" marital-status="unmarried"
+                        reference="grandmother">Großmutter</character>, was hast <character
+                        child-status="grandmother" marital-status="unmarried"
+                        reference="grandmother">du</character> für ein entsetzlich großes
+                    Maul!“</dialogue>
+                <dialogue speaker="wolf" stateofbeing="negative">„daß ich <character
+                        child-status="childless" marital-status="unmarried" reference="red"
+                        >dich</character> besser fressen kann.“</dialogue> Damit sprang der Wolf aus
+                dem Bett, <act type="doing" effect="hostile" agent="wolf" receiver="red">sprang auf
+                    das arme <character child-status="childless" marital-status="unmarried"
+                        reference="red">Rothkäppchen</character></act>, und <act type="doing"
+                    effect="hostile" agent="wolf" receiver="red">verschlang <character
+                        child-status="childless" marital-status="unmarried" reference="red"
+                        >es</character>.</act></p>
+
+            <p>Wie der Wolf den fetten Bissen erlangt hatte, legte er sich wieder ins Bett, schlief
+                ein und fing an, überlaut zu schnarchen. Der Jä- ger ging eben vorbei und gedacht
+                wie kann die alte <character child-status="grandmother" marital-status="unmarried"
+                    reference="grandmother">Frau</character> so schnarchen, du mußt einmal nach-
+                sehen. Da trat er hinein und wie er vors Bett kam, da lag der Wolf den er lange ge-
+                sucht, der hat gewiß die <character child-status="grandmother"
+                    marital-status="unmarried" reference="grandmother">Großmutter</character>
+                gefressen vielleicht ist <character child-status="grandmother"
+                    marital-status="unmarried" reference="grandmother">sie</character> noch zu
+                retten, ich will nicht schießen, dachte der Jäger. Da nahm er die Scheere und
+                schnitt ihm den Bauch auf, und wie er ein paar Schnitte gethan, da sah er das rothe
+                    <character child-status="childless" marital-status="unmarried" reference="red"
+                    >Käppchen</character> leuchten, und wie er noch ein wenig geschnitten, da sprang
+                das <character child-status="childless" marital-status="unmarried" reference="red"
+                    >Mädchen</character> her- aus und rief: <dialogue speaker="red"
+                    stateofbeing="negative">„ach wie war ich erschrocken, was wars so dunkel in dem
+                    Wolf seinem Leib;“</dialogue> und dann kam die <character
+                    child-status="grandmother" marital-status="unmarried" reference="grandmother"
+                    >Großmutter</character> auch lebendig heraus. <character
+                    child-status="childless" marital-status="unmarried" reference="red"
+                    >Rothkäppchen</character> aber holte große schwere Steine, damit füllten sie dem
+                Wolf den Leib, und wie er aufwachte, wollte er fortspringen, aber die Steine waren
+                so schwer, daß er sich todt fiel.</p>
+
+            <p>Da waren alle drei vergnügt, der Jäger nahm den Pelz vom Wolf, die <character
+                    child-status="grandmother" marital-status="unmarried" reference="grandmother"
+                    >Großmutter</character> aßden Kuchen und trank den Wein, den <character
+                    child-status="childless" marital-status="unmarried" reference="red">Roth-
+                    käppchen</character> gebracht hatte, und <character child-status="childless"
+                    marital-status="unmarried" reference="red">Rothkäppchen</character> ge- dacht
+                bei sich: du willst dein Lebtag nicht wie- der allein vom Weg ab in den Wald laufen,
+                wenn dirs die <character child-status="mother" marital-status="unmarried"
+                    reference="mother">Mutter</character> verboten hat.</p>
+
+            <p>Es wird auch erzählt, daß einmal, als <character child-status="childless"
+                    marital-status="unmarried" reference="red">Roth- käppchen</character> der alten
+                    <character child-status="grandmother" marital-status="unmarried"
+                    reference="grandmother">Großmutter</character> wieder Gebacke- nes brachte, ein
+                anderer Wolf ihm zugesprochen und es vom Weg ableiten wollen. <character
+                    child-status="childless" marital-status="unmarried" reference="red">Rothkäpp-
+                    chen</character> aber hütete sich und ging gerad fort ihres Wegs, und sagte der
+                    <character child-status="grandmother" marital-status="unmarried"
+                    reference="grandmother">Großmutter</character> daß <character
+                    child-status="grandmother" marital-status="unmarried" reference="grandmother"
+                    >sie</character> den Wolf gesehen, daß er ihm guten Tag gewünscht aber so bös
+                aus den Augen geguckt; <dialogue speaker="red" stateofbeing="negative">„wenns nicht
+                    auf offner Straße gewesen, er hätt mich gefressen.“</dialogue>
+                <dialogue speaker="grandmother" stateofbeing="neutral">„Komm, sagte die <character
+                        child-status="grandmother" marital-status="unmarried"
+                        reference="grandmother">Großmutter</character> wir wollen die Thüre
+                    verschließen, daß er nicht herein kann.“</dialogue> Bald darnach klopfte der
+                Wolf an und rief: <dialogue speaker="wolf" stateofbeing="positive">„mach auf,
+                        <character child-status="grandmother" marital-status="unmarried"
+                        reference="grandmother">Großmutter</character>, ich bin das <character
+                        child-status="childless" marital-status="unmarried" reference="red"
+                        >Rothkäppchen</character>, ich bring <character child-status="grandmother"
+                        marital-status="unmarried" reference="grandmother">dir</character>
+                    Gebackenes.“</dialogue> Sie schwiegen aber still und machten die Thüre nicht
+                auf, da ging der Böse etlichemal um das Haus und sprang endlich aufs Dach, und
+                wollte warten bis <character child-status="childless" marital-status="unmarried"
+                    reference="red">Rothkäppchen</character> Abends nach Haus ging, dann wollt' er
+                    <character child-status="childless" marital-status="unmarried" reference="red"
+                    >ihm</character> nachschleichen und wollts in der Dunkelheit fressen. Aber die
+                    <character child-status="grandmother" marital-status="unmarried"
+                    reference="grandmother">Großmutter</character> merkte, was er im Sinn hatte; da
+                stand vor dem Haus ein großer Steintrog: <dialogue speaker="grandmother"
+                    stateofbeing="neutral">„hol' den Eimer, <character child-status="childless"
+                        marital-status="unmarried" reference="red">Rothkäppchen</character>, gestern
+                    hab ich Würste gekocht, da trag das Wasser, worin <character
+                        child-status="childless" marital-status="unmarried" reference="red"
+                        >sie</character> gekocht sind, in den Trog.“</dialogue>
+                <character child-status="childless" marital-status="unmarried" reference="red"
+                    >Rothkäppchen</character> trug so lange bis der große, große Trog ganz voll war.
+                Da stieg der Geruch von den Wür- sten dem Wolf in die Nase, er schnupperte und
+                guckte hinab, endlich machte er den Hals so lang, daß er sich nicht mehr halten
+                konnte, er fing an zu rutschen, und rutschte vom Dach herab und gerade in den großen
+                Trog hinein und ertrank. <character child-status="childless"
+                    marital-status="unmarried" reference="red">Rothkäppchen</character> aber ging
+                fröhlich und sicher nach Haus.</p>
+        </story>
+    </tale>
+</tales>

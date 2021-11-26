@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../grimm-schema-combined.rnc" type="application/relax-ng-compact-syntax"?>
+<tales>
+    <tale>
+        <metadata>
+            <title>Sweetheart Roland</title>
+            <year>1857</year>
+            <author>Jacob and Wilhelm Grimm</author>
+            <translator>D.L Ashliman</translator>
+            <language>English</language>
+            <number>56</number>
+        </metadata>
+        <story>
+            <p>Once upon a time there was a woman who was truly<character marital-status="unmarried"
+                    child-status="mother" reference="witch">a witch</character>. <act type="being"
+                    agent="witch" receiver="daughters" effect="ambiguous">She had two
+                    daughters,</act>
+                <character child-status="childless" marital-status="unmarried"
+                    reference="witch_daughter">one ugly and wicked,</character> whom <act
+                    type="doing" agent="witch" receiver="witch_daughter" effect="benevolent">she
+                    loved because she was her own daughter,</act> and <character
+                    child-status="childless" marital-status="unmarried" reference="heroine">one
+                    beautiful and good,</character> whom <act type="doing" agent="witch"
+                    receiver="heroine" effect="hostile">she hated, because she was her
+                    stepdaughter.</act>
+                <act type="doing" agent="heroine" effect="ambiguous">The <character
+                        reference="heroine" marital-status="unmarried" child-status="childless"
+                        >stepdaughter</character> had a beautiful apron,</act>
+                <act type="being" effect="hostile" agent="witch_daughter" receiver="heroine"
+                    io="apron">which the other <character child-status="childless"
+                        marital-status="unmarried" reference="witch_daughter">girl</character>
+                    wanted so much that she became envious, </act>and <act type="doing"
+                    agent="witch_daughter" receiver="witch" effect="hostile" io="apron">she told her
+                    mother that she just had to have that apron.</act>
+                <dialogue speaker="witch" stateofbeing="negative">"Be still, <character
+                        reference="witch_daughter" marital-status="unmarried"
+                        child-status="childless">my child,</character>" said the <character
+                        child-status="mother" marital-status="unmarried" reference="witch">old
+                        woman,</character> "and <act type="doing" agent="witch"
+                        receiver="witch_daughter" effect="benevolent" io="apron">you shall have
+                        it.</act> Your <act type="being" agent="heroine" effect="hostile"><character
+                            reference="heroine" child-status="childless" marital-status="unmarried"
+                            >stepsister</character> has long deserved to die,</act> and tonight when
+                        <act type="doing" agent="heroine" effect="ambiguous">she is asleep</act>
+                    <act type="doing" agent="witch" receiver="heroine" effect="hostile">I will come
+                        and chop off her head.</act> Just be sure to lie down at the far side of the
+                    bed, and <act type="doing" agent="witch_daughter" receiver="heroine"
+                        effect="hostile">push her close to the front."</act></dialogue> It would
+                have been all over with <character reference="heroine" marital-status="unmarried"
+                    child-status="childless">the poor girl,</character> but just then <act
+                    type="doing" agent="heroine" effect="ambiguous">she was standing in a corner,
+                    and she overheard everything.</act>
+                <act type="doing" agent="witch" receiver="heroine" effect="hostile">She was not
+                    allowed to go outside all day long,</act> and at bedtime <act type="doing"
+                    agent="witch_daughter" receiver="heroine" effect="hostile">her <character
+                        child-status="childless" marital-status="unmarried"
+                        reference="witch_daughter">wicked stepsister</character> had her get into
+                    bed first,</act> so she would be lying next to the wall. However, after
+                    <character reference="witch_daughter" marital-status="unmarried"
+                    child-status="childless">the witch's daughter</character> fell asleep, <act
+                    type="doing" agent="heroine" receiver="witch_daughter" effect="hostile">the
+                        <character child-status="childless" marital-status="unmarried"
+                        reference="heroine">stepdaughter</character> gently pushed her to the front
+                    side of the bed,</act> and <act type="doing" agent="heroine" effect="benevolent"
+                    >she took her place back against the wall.</act> In <act type="doing"
+                    agent="witch" effect="hostile">the night <character reference="witch"
+                        marital-status="unmarried" child-status="stepmother">the old
+                        woman</character> crept into the bedroom holding an ax</act> in her right
+                hand while <act type="doing" agent="witch" receiver="heroine" effect="hostile"
+                    >feeling with her left hand for anyone lying at the front of the bed. </act>Then
+                    <act type="doing" agent="witch" receiver="witch_daughter" effect="hostile">she
+                    grasped the axe with both hands and chopped off her own child's head.</act></p>
+            <p>After the<character reference="witch" child-status="stepmother"
+                    marital-status="unmarried"> witch</character> had gone away, <act type="doing"
+                    agent="heroine" receiver="roland" effect="ambiguous"><character
+                        child-status="childless" marital-status="unmarried" reference="heroine">the
+                        girl</character> got up and went to her sweetheart, whose name was
+                    Roland,</act> and knocked at his door. When he came out, <dialogue
+                    speaker="heroine" stateofbeing="negative">she said to him, "Listen, dearest
+                    Roland, we must flee at once. <act type="doing" agent="witch" receiver="heroine"
+                        effect="hostile">My <character reference="witch" marital-status="unmarried"
+                            child-status="childless">stepmother</character> tried to kill me,</act>
+                    but <act type="doing" agent="witch" receiver="witch_daughter" effect="hostile"
+                        >she killed her own child instead.</act> When daylight comes, and she sees
+                    what she has done, <act type="being" agent="witch" receiver="heroine_roland"
+                        effect="hostile">we'll be lost."</act></dialogue>
+                <dialogue speaker="roland" stateofbeing="negative">"You had better take her magic
+                    wand," said Roland, "or we will not be able to escape if <act type="doing"
+                        agent="witch" receiver="heroine_roland" effect="hostile">she comes after
+                        us."</act></dialogue>
+                <act type="doing" agent="heroine" receiver="witch" effect="hostile">The girl got the
+                    magic wand,</act> then <act type="doing" agent="heroine"
+                    receiver="witch_daughter" effect="ambiguous" io="blood_drops">she took the dead
+                    girl's head and dropped three drops of blood onto the floor,</act> one in front
+                of the bed, one in the kitchen, and one on the steps. Then <act type="doing"
+                    agent="heroine" effect="ambiguous">she hurried away with her
+                sweetheart.</act></p>
+            <p>The next morning when the old <character reference="witch" child-status="mother"
+                    marital-status="unmarried">witch</character> got up, <act type="doing"
+                    agent="witch" receiver="witch_daughter" effect="benevolent">she called her
+                    daughter, wanting to give her the apron.</act> But <act type="doing"
+                    agent="witch_daughter" effect="ambiguous">the daughter did not come.</act> So
+                    <dialogue speaker="witch" stateofbeing="neutral">she shouted, "Where are
+                    you?"</dialogue>
+                <dialogue speaker="first_drop_blood" stateofbeing="neutral">"Here on the steps. I'm
+                    sweeping," </dialogue>answered the first drop of blood. The <act type="doing"
+                    agent="witch" effect="ambiguous">old woman went out, but seeing no one</act> on
+                the steps, <dialogue speaker="witch" stateofbeing="neutral">she shouted again,
+                    "Where are you?"</dialogue>
+                <dialogue speaker="second_drop_blood" stateofbeing="neutral">"Here in the kitchen.
+                    I'm warming myself,"</dialogue> shouted the second drop of blood. <act
+                    type="doing" agent="witch" effect="ambiguous">She went into the kitchen, but
+                    found no one.</act> So <dialogue speaker="witch" stateofbeing="neutral">she
+                    shouted again, "Where are you?"</dialogue>
+                <dialogue speaker="third_drop_blood" stateofbeing="neutral">"Here in the bed. I'm
+                    sleeping,"</dialogue> shouted the third drop of blood. <act type="doing"
+                    agent="witch" effect="ambiguous">She went into the bedroom and approached the
+                    bed. What did she see there?</act>
+                <act type="being" agent="witch_daughter" receiver="witch" effect="hostile">Her own
+                    child swimming in blood</act> and <act type="doing" agent="witch"
+                    effect="hostile" receiver="witch_daughter">whose head she herself had cut
+                    off.</act></p>
+            <p><act type="being" agent="witch" effect="hostile">The <character reference="witch"
+                        marital-status="unmarried" child-status="stepmother">witch</character> flew
+                    into a rage,</act> jumped to the window, and as <act type="being" agent="witch"
+                    effect="hostile">she could see far into the world,</act>
+                <act type="doing" agent="witch" receiver="heroine_roland" effect="hostile">she saw
+                    her <character child-status="childless" marital-status="unmarried"
+                        reference="heroine">stepdaughter</character> hurrying away with her
+                    sweetheart Roland.</act>
+                <dialogue speaker="witch" stateofbeing="negative">"That won't help you!" shouted the
+                        <character child-status="stepmother" marital-status="unmarried"
+                        reference="witch">witch</character>.</dialogue>
+                <dialogue speaker="witch" stateofbeing="negative">"Even if you've already gone a
+                    long way, you won't escape from me!"</dialogue> She put on her many-league
+                boots, in which <act type="doing" agent="witch" effect="hostile" io="boots">she
+                    covered an hour's walk with every step,</act> and it was not long before <act
+                    type="doing" agent="witch" receiver="heroine_roland" effect="hostile">she
+                    overtook them.</act> However, <act type="doing" agent="heroine" receiver="witch"
+                    effect="ambiguous">when the girl saw the old woman</act> striding toward them,
+                    <act type="doing" agent="heroine" receiver="roland" effect="benevolent">she used
+                    the magic wand to transform her sweetheart Roland into a lake,</act> and <act
+                    type="being" agent="heroine" receiver="self" effect="benevolent">herself into a
+                        <character child-status="childless" marital-status="unmarried"
+                        reference="heroine">duck</character> swimming in the middle of the
+                    lake.</act>
+                <act type="doing" agent="witch" receiver="heroine" effect="hostile"><character
+                        reference="witch" marital-status="unmarried" child-status="stepmother">The
+                        witch</character> stood on the shore and threw in pieces of bread, trying
+                    with great effort to lure the duck to her.</act> But <act type="doing"
+                    agent="heroine" receiver="witch" effect="hostile"><character reference="heroine"
+                        marital-status="unmarried" child-status="childless">the duck</character> did
+                    not give in,</act> and <act type="doing" agent="witch" effect="hostile">the
+                        <character child-status="stepmother" marital-status="unmarried"
+                        reference="witch">old woman</character> had to return home</act> that night
+                without success. Afterward <act type="being" agent="heroine"
+                    receiver="heroine_roland" effect="benevolent"><character reference="heroine"
+                        marital-status="unmarried" child-status="childless">the girl</character> and
+                    her sweetheart Roland returned to their natural shapes,</act> and they walked on
+                through the whole night until daybreak.<act type="being" agent="heroine"
+                    receiver="self" effect="benevolent">Then <character reference="heroine"
+                        child-status="childless" marital-status="unmarried">the girl</character>
+                    transformed herself into a beautiful <character marital-status="unmarried"
+                        child-status="childless" reference="heroine">flower</character></act> in the
+                middle of a briar hedge, and<act type="doing" agent="heroine" receiver="roland"
+                    effect="benevolent">her sweetheart Roland into a fiddler.</act></p>
+            <p>It was not long before <act type="doing" agent="witch" receiver="heroine_roland"
+                    effect="hostile">the <character reference="witch" marital-status="unmarried"
+                        child-status="stepmother">witch</character> came striding up toward
+                    them.</act>
+                <dialogue stateofbeing="negative" speaker="witch">She said to the musician, "Dear
+                    musician, <act type="doing" agent="witch" receiver="heroine" effect="hostile"
+                        >may I pick that beautiful flower for myself?"</act></dialogue>
+                <dialogue speaker="roland" stateofbeing="neutral">"Oh, yes," he replied. "And <act
+                        type="doing" agent="roland" receiver="witch" effect="hostile">I will play
+                        for you</act> while you're doing it."</dialogue>
+                <act type="doing" agent="witch" effect="hostile">She crawled hastily into the
+                    hedge</act> and <act type="doing" agent="witch" receiver="heroine"
+                    effect="hostile">was just about to pick the flower, knowing perfectly well who
+                    it was,</act> when <act type="doing" agent="roland" receiver="witch"
+                    effect="hostile">he began to play.</act>
+                <act type="doing" agent="roland" receiver="witch" effect="hostile">She was forced to
+                    dance, whether she wanted to or not, for it was magic dance music.</act>
+                <act type="doing" agent="roland" receiver="witch" effect="hostile">The faster he
+                    played, the more violently she was forced to jump.</act>
+                <act type="doing" agent="roland" receiver="witch" effect="hostile">The thorns tore
+                    the clothes off her body, pricking her until she bled,</act> and <act
+                    type="doing" agent="roland" receiver="witch" effect="hostile">as he did not
+                    stop, she had to dance until she fell down dead.</act></p>
+            <p><act type="being" agent="heroine_roland" effect="benevolent">They were now
+                    free,</act> so Roland said, <dialogue speaker="roland" stateofbeing="positive"
+                    >"Now I will go to my father and <act type="doing" agent="roland"
+                        receiver="heroine" effect="benevolent">arrange for our
+                    wedding</act>."</dialogue>
+                <dialogue speaker="heroine" stateofbeing="positive">"I'll stay here and wait for
+                    you," said <character reference="heroine" child-status="childless"
+                        marital-status="unmarried">the girl.</character></dialogue>
+                <dialogue speaker="heroine" stateofbeing="positive">"And I'll <act type="doing"
+                        agent="heroine" receiver="self" effect="benevolent">transform myself into a
+                        red boundary stone, so that no one will recognize me."</act></dialogue> So
+                Roland set forth, and <act type="doing" agent="heroine" effect="benevolent"
+                        ><character marital-status="unmarried" child-status="childless"
+                        reference="heroine">the girl,</character> in the shape of a red boundary
+                    stone, stood there and waited for her sweetheart.</act> But when Roland arrived
+                home, <act type="doing" agent="other_woman" receiver="roland" effect="hostile">he
+                    was snared by another woman,</act> who <act type="doing" agent="roland"
+                    receiver="heroine" effect="hostile">caused him to forget <character
+                        reference="heroine" child-status="childless" marital-status="unmarried">the
+                        girl.</character></act>
+                <act type="being" agent="heroine" effect="hostile" receiver="self">The poor girl
+                    waited there a long time.</act> Finally, when he failed to return, <act
+                    type="being" agent="heroine" effect="hostile">she grew sad</act> and <act
+                    type="doing" agent="heroine" receiver="self" effect="hostile">transformed
+                    herself into a <character marital-status="unmarried" child-status="childless"
+                        reference="heroine">flower</character></act>, thinking, <dialogue
+                    speaker="heroine" stateofbeing="negative">"Someone will surely come this way and
+                    trample me down."</dialogue></p>
+            <p>However, it happened that <act type="doing" agent="shepherd" receiver="heroine"
+                    effect="ambiguous">a shepherd who was herding his sheep in the field saw the
+                        <character reference="heroine" child-status="childless"
+                        marital-status="unmarried">flower.</character></act> As it was so beautiful,
+                    <act type="doing" agent="shepherd" receiver="heroine" effect="benevolent">he
+                    picked it, took it home with him, and put it away in his chest.</act> From that
+                time forth, strange things happened in the shepherd's house. <act type="doing"
+                    agent="heroine" receiver="shepherd" effect="benevolent">When he arose in the
+                    morning all the work was already done.</act>
+                <act type="doing" agent="heroine" receiver="shepherd" effect="benevolent">The room
+                    was swept,</act>
+                <act type="doing" agent="heroine" receiver="shepherd" effect="benevolent">the table
+                    and benches cleaned,</act>
+                <act type="doing" agent="heroine" receiver="shepherd" effect="benevolent">the fire
+                    on the hearth was lighted,</act> and <act type="doing" agent="heroine"
+                    receiver="shepherd" effect="benevolent">the water was fetched,</act> and at
+                noon, when he came home, <act type="doing" agent="heroine" receiver="shepherd"
+                    effect="benevolent">the table was already set,</act> and <act type="doing"
+                    agent="heroine" receiver="shepherd" effect="benevolent">a good dinner
+                    served.</act> He didn't know how this happened, for <act type="doing"
+                    agent="shepherd" effect="ambiguous" io="heroine">he never saw anyone in his
+                    house,</act> and no one could have hidden himself in it. <act type="being"
+                    agent="shepherd" effect="benevolent" io="heroine">He was, of course, pleased
+                    with this good service,</act> but with time he became so afraid that <act
+                    type="doing" agent="shepherd" receiver="wise_woman" effect="ambiguous">he went
+                    to <character reference="wise_woman" marital-status="unmarried"
+                        child-status="childless">a wise woman</character> and asked for her
+                    advice.</act> The wise woman said, <dialogue speaker="wise_woman"
+                    stateofbeing="positive">"There is magic behind it. Be on the watch very early
+                    some morning, and if anything is moving in the room, if you see anything, no
+                    matter what it is, throw a white cloth over it, and then the magic will be
+                    stopped."</dialogue></p>
+            <p><act type="doing" agent="wise_woman" receiver="shepherd" effect="benevolent">The
+                    shepherd did what she told him to do,</act> and the next morning just at dawn,
+                    <act type="doing" agent="shepherd" receiver="heroine" effect="ambiguous">he saw
+                    the chest open and <character child-status="childless"
+                        marital-status="unmarried" reference="heroine">the flower</character> come
+                    out.</act>
+                <act type="doing" agent="shepherd" receiver="heroine" effect="hostile">He quickly
+                    jumped towards it and threw a white cloth over it.</act> Instantly <act
+                    type="being" agent="heroine" receiver="shepherd" effect="benevolent">the
+                    transformation came to an end, and a beautiful <character reference="heroine"
+                        marital-status="unmarried" child-status="childless">girl</character> stood
+                    before him,</act> who <act type="doing" agent="heroine" receiver="shepherd"
+                    effect="benevolent">admitted to him that she had been the flower,</act> and that
+                    <act type="doing" agent="heroine" receiver="shepherd" effect="benevolent">she
+                    had been doing his housekeeping.</act>
+                <act type="doing" agent="heroine" effect="ambiguous">She told him her story.</act>
+                <act type="doing" agent="shepherd" receiver="heroine" effect="benevolent">He liked
+                    her and asked her to marry him,</act> but <dialogue speaker="heroine"
+                    stateofbeing="negative">she answered, "No,"</dialogue> for <act type="doing"
+                    agent="heroine" receiver="roland" effect="benevolent">she wanted to remain
+                    faithful to her sweetheart Roland,</act> even though <act type="doing"
+                    agent="roland" receiver="heroine" effect="hostile">he had abandoned her.</act>
+                Nevertheless, <act type="being" agent="heroine" receiver="shepherd"
+                    effect="benevolent">she promised not to go away,</act> and to <act type="doing"
+                    agent="heroine" receiver="shepherd" effect="benevolent">continue keeping house
+                    for the shepherd.</act> The time drew near when <act type="doing" agent="roland"
+                    receiver="self" effect="ambiguous">Roland was to be married.</act> According to
+                an old custom in that country, it was announced that <act type="doing" agent="girls"
+                    receiver="roland" effect="benevolent">all the girls were to attend the
+                    wedding</act> and <act type="doing" agent="girls" receiver="roland_other_woman"
+                    effect="benevolent">sing in honor of the bridal pair.</act> When the <character
+                    child-status="childless" marital-status="unmarried" reference="heroine">faithful
+                    girl</character> heard this, <act type="being" agent="heroine" effect="hostile"
+                    >she grew so sad that she thought her heart would break,</act> and <act
+                    type="doing" agent="heroine" effect="hostile">she did not want to go.</act> But
+                    <act type="doing" agent="girls" receiver="heroine" effect="ambiguous">the other
+                    girls came and took her.</act>
+                <act type="doing" agent="heroine" receiver="roland_other_woman" effect="hostile"
+                    >When it was her turn to sing, she declined,</act> until at last <act
+                    type="doing" agent="heroine" effect="hostile">she was the only one left, and
+                    then she could not refuse.</act> But when <act type="doing" agent="heroine"
+                    receiver="roland" effect="benevolent">she began her song, and it reached
+                    Roland's ears,</act>
+                <dialogue speaker="roland" stateofbeing="positive">he jumped up and shouted, "I know
+                    that voice. That is <character reference="heroine" marital-status="unmarried"
+                        child-status="childless">the true bride.</character> I do not want anyone
+                    else."</dialogue> Everything he had forgotten, and which had vanished from his
+                mind, had suddenly come home again to his heart. Thus <act type="doing"
+                    agent="roland" receiver="heroine" effect="benevolent">the faithful girl was
+                    married to her sweetheart Roland.</act>
+                <act type="being" agent="heroine" effect="benevolent">Her grief came to an end, and
+                    her joy began.</act></p>
+        </story>
+    </tale>
+    <tale>
+        <metadata>
+            <title>Der Liebste Roland</title>
+            <year>1821</year>
+            <author>Jacob Grimm</author>
+            <author>Wilhem Grimm</author>
+            <language>German</language>
+            <number>56</number>
+        </metadata>
+        <story>
+            <p>Es war einmal eine <character child-status="mother" marital-status="unmarried"
+                    reference="mother">Mutter</character>, die hatte nur ihre rechte <character
+                    child-status="childless" marital-status="unmarried" reference="daughter"
+                    >Tochter</character> lieb und <act type="being" effect="hostile" agent="mother"
+                    io="stepdaughter">haßte ihre <character child-status="childless"
+                        marital-status="unmarried" reference="step-daughter">Stief-
+                        tochter</character></act>, <character child-status="childless"
+                    marital-status="unmarried" reference="step-daughter">die</character> doch
+                tausendmal schöner und besser war. Einmal hatte <character child-status="childless"
+                    marital-status="unmarried" reference="step-daughter">diese</character> eine
+                schöne Schürze, darüber war die <character child-status="childless"
+                    marital-status="unmarried" reference="daughter">andere</character> neidisch und
+                verlangte von der <character child-status="mother" marital-status="unmarried"
+                    reference="mother">Mutter</character>, <character child-status="mother"
+                    marital-status="unmarried" reference="mother">sie</character> solle <character
+                    child-status="childless" marital-status="unmarried" reference="daughter"
+                    >ihr</character> diese Schürze verschaffen. Die <character child-status="mother"
+                    marital-status="unmarried" reference="mother">Mutter</character> sagte:
+                    <dialogue speaker="mother" stateofbeing="negative">„sey still, mein liebes
+                        <character child-status="childless" marital-status="unmarried"
+                        reference="daughter">Kind</character>, du sollst sie haben, deine <character
+                        child-status="childless" marital-status="unmarried"
+                        reference="step-daughter">Stief- schwester</character> hat doch schon lange
+                    den Tod ver- dient, heut Nacht leg dich hinten ins Bett und <act type="doing"
+                        effect="hostile" agent="daughter" receiver="step-daughter">schieb <character
+                            child-status="childless" marital-status="unmarried"
+                            reference="step-daughter">sie</character> recht vorne hin</act>, dann
+                    will ich kom- men, wenn sie schläft, und <act type="doing" effect="hostile"
+                        agent="mother" receiver="step-daughter">will <character
+                            child-status="childless" marital-status="unmarried"
+                            reference="step-daughter">ihr</character> den Kopf
+                    abhauen.</act>“</dialogue> Die <character child-status="childless"
+                    marital-status="unmarried" reference="step-mother">Stiefschwester</character>
+                aber hatte in einer Ecke gestanden und alles mit angehört, da ließ <character
+                    child-status="childless" marital-status="unmarried" reference="step-daughter"
+                    >sie</character> die böse <character child-status="childless"
+                    marital-status="unmarried" reference="daughter">Schwester</character> erst zu
+                Bett ge- hen, daß sie hinten hin kam, wie sie aber ein- geschlafen war, <act
+                    type="doing" effect="hostile" agent="step-daughter" receiver="daughter">hub sie
+                    sie auf</act> und legte sie vorne hin, sich aber ganz hinten. Da kam die
+                    <character child-status="mother" marital-status="unmarried" reference="mother"
+                    >Mutter</character> in der Nacht geschlichen, fühlte erst ob vorne jemand lag
+                und schlief, dann faßte <character child-status="mother" marital-status="unmarried"
+                    reference="mother">sie</character> die Axt mit beiden Händen und <act
+                    type="doing" effect="hostile" agent="mother" receiver="daughter">hieb und hieb
+                    ihrem eigenen <character child-status="childless" marital-status="unmarried"
+                        reference="daughter">Kind</character> den Kopf ab</act>.</p>
+
+            <p>Wie <character child-status="mother" marital-status="unmarried" reference="mother"
+                    >sie</character> fortgegangen war, stand das <character child-status="childless"
+                    marital-status="unmarried" reference="step-daughter">Mäd- chen</character> auf
+                und ging zu seinem Liebsten Roland, klopfte an und rief: <dialogue
+                    speaker="step-daughter" stateofbeing="negative">„hör, wir müssen fort, die
+                        <character child-status="mother" marital-status="unmarried"
+                        reference="mother">Stiefmutter</character> hat <character
+                        child-status="mother" marital-status="unmarried" reference="mother"
+                        >ihr</character> eigen <character child-status="childless"
+                        marital-status="unmarried" reference="daughter">Kind</character>
+                    todtgeschlagen, und meint <character child-status="mother"
+                        marital-status="unmarried" reference="mother">sie</character> hätte mich
+                    getroffen, kommt der Tag und <character child-status="mother"
+                        marital-status="unmarried" reference="mother">sie</character> sieht, was
+                        <character child-status="mother" marital-status="unmarried"
+                        reference="mother">sie</character> gethan, so bin ich verloren; da hab ich
+                    ihren Zauberstab genom- men, damit können wir uns schon helfen.“</dialogue> Der
+                Liebste Roland stand auf, und sie nahmen erst den todten Kopf und tröpfelten drei
+                Bluts- tropfen, einen vors Bett, einen in die Küche und einen auf die Treppe; darauf
+                gingen sie fort. Am Morgen, als die <character child-status="mother"
+                    marital-status="unmarried" reference="mother">Mutter</character> aufgestan- den
+                war, rief sie ihrer <character child-status="childless" marital-status="unmarried"
+                    reference="daughter">Tochter</character>: <dialogue speaker="mother"
+                    stateofbeing="positive">„komm, <character child-status="childless"
+                        marital-status="unmarried" reference="daughter">du</character> sollst jetzt
+                    die Schürze haben,“</dialogue> die <character child-status="childless"
+                    marital-status="unmarried" reference="daughter">Tochter</character> kam aber
+                nicht. <dialogue speaker="mother" stateofbeing="neutral">„Wo bist <character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >du</character>?“</dialogue>
+                <dialogue speaker="blood-drop" stateofbeing="neutral">„Ei! hier auf der Treppe, die
+                    kehr ich,“</dialogue> sprach der eine Blutstropfen. Da ging <character
+                    child-status="mother" marital-status="unmarried" reference="mother"
+                    >sie</character> hinaus; auf der Treppe war niemand: <dialogue speaker="mother"
+                    stateofbeing="neutral">„wo bist <character child-status="childless"
+                        marital-status="unmarried" reference="daughter">du</character>
+                    denn?“</dialogue>
+                <dialogue speaker="blood-drop" stateofbeing="neutral">„Ei! hier in der Küche, beim
+                    Feuer, da wärm ich mich!“</dialogue> rief der zweite Blutstropfen; <character
+                    child-status="mother" marital-status="unmarried" reference="mother"
+                    >sie</character> ging in die Küche, aber <character child-status="mother"
+                    marital-status="unmarried" reference="mother">sie</character> sah niemand:
+                    <dialogue speaker="mother" stateofbeing="neutral">„wo bist <character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >du</character> denn aber?“</dialogue>
+                <dialogue speaker="blood-drop" stateofbeing="neutral">„Ach! hier am Bett, da schlaf
+                    ich!“</dialogue>
+                <character child-status="mother" marital-status="unmarried" reference="mother"
+                    >sie</character> lief in die Kammer ans Bett, da sah <character
+                    child-status="mother" marital-status="unmarried" reference="mother"
+                    >sie</character> ihr eigen <character child-status="childless"
+                    marital-status="unmarried" reference="daughter">Kind</character> in seinem Blu-
+                te schwimmen. Da erschrack <character child-status="mother"
+                    marital-status="unmarried" reference="mother">sie</character> und merkte, daß
+                    <character child-status="mother" marital-status="unmarried" reference="mother"
+                    >sie</character> betrogen war, und ward zornig, weil <character
+                    child-status="mother" marital-status="unmarried" reference="mother"
+                    >sie</character> aber eine <character child-status="mother"
+                    marital-status="unmarried" reference="mother">Hexe</character> war, konnte
+                    <character child-status="mother" marital-status="unmarried" reference="mother"
+                    >sie</character> weit in die Welt hineinsehen, und sah ihre <character
+                    child-status="childless" marital-status="unmarried" reference="step-daughter"
+                    >Stieftochter</character> mit ihren Liebsten forteilen, und sie waren schon weit
+                weg. Alsbald zog <character child-status="mother" marital-status="unmarried"
+                    reference="mother">sie</character> ihre Meilenstiefeln an, und ging ihnen nach,
+                hatte <character child-status="mother" marital-status="unmarried" reference="mother"
+                    >sie</character> auch bald eingeholt; das <character child-status="childless"
+                    marital-status="unmarried" reference="step-daughter">Mädchen</character> aber
+                hatte durch den Zauberstab gewußt, daß sie verfolgt würden, und sich in einen See,
+                ihren Liebsten Roland aber in eine Ente verwandelt, die schwamm darauf. Als nun die
+                    <character child-status="mother" marital-status="unmarried" reference="mother"
+                    >Stiefmutter</character> herzu kam, setzte sie sich an das Ufer und suchte die
+                Ente mit Brod zu locken, aber es war alle Mühe ver- geblich, am Abend mußte
+                    <character child-status="mother" marital-status="unmarried" reference="mother"
+                    >sie</character> unverrichteter Sa- che heimgehen. Die zwei nahmen ihre mensch-
+                liche Gestalt wieder an, und gingen weiter, wie aber der Tag anbrach wurden sie
+                wieder von der <character child-status="mother" marital-status="unmarried"
+                    reference="mother">Hexe</character> verfolgt. Da verwandelte sich das <character
+                    child-status="childless" marital-status="unmarried" reference="step-daughter"
+                    >Mädchen</character> in eine schöne Blume, die mitten in einer Dornhecke stand,
+                ihren Liebsten Roland aber in einen Geigenspieler. Wie die <character
+                    child-status="mother" marital-status="unmarried" reference="mother"
+                    >Alte</character> an- kam, fragte sie den Spielmann, ob <character
+                    child-status="mother" marital-status="unmarried" reference="mother"
+                    >sie</character> sich die Blume abbrechen dürfe, <dialogue speaker="roland"
+                    stateofbeing="neutral">„o ja, antwortete der, nur will ich dazu
+                    aufspielen.“</dialogue> Da kroch <character child-status="mother"
+                    marital-status="unmarried" reference="mother">sie</character> in die Hecke und
+                suchte zu der Blume zu reichen; wie <character child-status="mother"
+                    marital-status="unmarried" reference="mother">sie</character> aber mitten darin
+                war, fing er an zu spielen, und da mußte <character child-status="mother"
+                    marital-status="unmarried" reference="mother">sie</character> darnach <act
+                    type="doing" effect="ambiguous" agent="mother">tanzen und tanzen ohne
+                    Aufhören</act>, daß ihr die <act type="doing" effect="hostile" agent="thorns"
+                    receiver="mother">Dornen die Kleider vom Leibe rissen und sie blutig
+                    stachen</act>, so lang, bis <character child-status="mother"
+                    marital-status="unmarried" reference="mother">sie</character> todt hinfiel.</p>
+
+            <p>Da waren beide frei. Roland aber sprach zu dem <character child-status="childless"
+                    marital-status="unmarried" reference="step-daughter">Mädchen</character>:
+                    <dialogue speaker="roland" stateofbeing="positive">„nun will ich heim gehen zu
+                    meinem Vater, und die Hochzeit bestellen.“</dialogue>
+                <dialogue speaker="step-daughter" stateofbeing="positive">„Da will ich mich indessen
+                    in einen rothen Feld- stein verwandeln, und hier bleiben und warten, bis du
+                    wieder kommst.“</dialogue> Da <act type="doing" effect="ambiguous"
+                    agent="step-daughter">stand <character child-status="childless"
+                        marital-status="unmarried" reference="step-daughter">es</character> als ein
+                    rother Stein</act> und <act type="doing" effect="ambiguous"
+                    agent="step-daughter">wartete lang auf seinen Lieb- sten</act>, aber der kam
+                nicht wieder und hatte <character child-status="childless"
+                    marital-status="unmarried" reference="step-daughter">sie</character> vergessen,
+                und als er gar nicht kommen wollte, ward <character child-status="childless"
+                    marital-status="unmarried" reference="step-daughter">es</character> ganz traurig
+                und verwandelte sich in eine Blume, und dachte, es wird mich ja bald jemand
+                umtreten. Ein Schäfer aber fand die Blume, und weil sie so schön war, nahm er sie
+                mit sich, und legte sie daheim in seinen Ka- sten. Von nun an aber ging es
+                wunderlich bei dem Schäfer zu: wenn er des Morgens aufwachte, so war alles im Haus
+                gethan, ge- kehrt, geputzt, Feuer angemacht, und kam er Mittags nach Haus, war das
+                Essen gekocht, der Tisch gedeckt und aufgetragen; er konnte aber nicht begreifen,
+                wie das zuging, sah auch niemals einen Menschen in seinem Haus. Und ob es ihm gleich
+                wohl gefiel, so ward ihm doch zuletzt Angst dabei, und er fragte eine weise Frau
+                darüber, die sagte, das sey Zauberei, er solle einmal Morgens früh Acht geben, ob
+                sich etwas in der Stube bewege, und wenn er et- was sehe ein weißes Tuch darüber
+                werfen. Das that er, und am andern Morgen sah er, wie sich der Kasten aufthat und
+                die Blume her- auskam, er sprang herzu und warf ein Tuch darüber, da war die
+                Verwandlung vorbei, und das schöne <character child-status="childless"
+                    marital-status="unmarried" reference="step-daughter">Mädchen</character>, das
+                sein Liebster Roland vergessen hat, stand vor ihm. Der Schäfer wollte <character
+                    child-status="childless" marital-status="unmarried" reference="step-daughter"
+                    >es</character> heirathen, <character child-status="childless"
+                    marital-status="unmarried" reference="step-daughter">es</character>
+                <act type="doing" effect="hostile" agent="step-daughter">sagte aber nein</act>,
+                    <character child-status="childless" marital-status="unmarried"
+                    reference="step-daughter">es</character>
+                <act type="doing" effect="hostile" agent="step-daughter">wolle ihm nur dienen und
+                    haushalten</act>. Bald darauf hörte <character child-status="childless"
+                    marital-status="unmarried" reference="step-daughter">es</character>, daß Roland
+                Hochzeit halten und eine andere heirathen wolle; dabei mußte jeder im Land nach
+                einem alten Gebrauch, sin- gen. Da kam das treue <character child-status="childless"
+                    marital-status="unmarried" reference="step-daughter">Mädchen</character> auch
+                hin, und wollte immer nicht singen, bis zu allerletzt, da mußte <character
+                    child-status="childless" marital-status="unmarried" reference="step-daughter"
+                    >es</character>; wie es aber anfing, da erkannte <character
+                    child-status="childless" marital-status="unmarried" reference="step-daughter"
+                    >es</character> Roland gleich, sprang auf und sagte: <dialogue speaker="roland"
+                    stateofbeing="positive">das sey seine rechte Braut, er wolle keine andere und
+                    vermählte sich mir ihr</dialogue>; da war sein Leid zu End und seine Freude ging
+                an.</p>
+        </story>
+    </tale>
+</tales>
