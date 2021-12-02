@@ -1,0 +1,20 @@
+The Juniper Topic Modeling Analysis
+
+English
+The topic model presented two sets which spoke closely to the tale. Specifically, they were:
+
+1	0.25	gretel witch oven eat inside roof bake dropped bread equally manuscript classic ashliman hour side animal close intended put fiery
+11	0.25	woods crumbs father's night full pockets threw walked stones apron arms happy left ground burning set filled coins front pieces
+
+These two topic models strike at the core of what the tale is about: the attempts to return home from the children, and the interactions with the witch trying to eat them. Set 11 speaks to the attempts to return home, speaking to the setting of the "woods," 
+while pointing towards some of the strategies used, such as "crumbs," and, "stones" which were put into the children's "pockets." Set 1 speaks to the witch, who intended to eat the children by cooking them in an "oven," and "bake," them. It also includes Gretel, 
+who was the one that defeated the witch in the tale. 
+
+German
+The topic model presented two sets which spoke closely to the tale. Specifically, they were:
+
+0	0.25	mutter backofen gestorben setzte weit wochen beste guter ausgestreut eltern woll gekommen sterben nger wald 
+16	0.25	sagte sah freute vater frau kieselsteine sprach hexe mitten edelgestei bekam wackelte zerbr narr wart lauter 
+
+These topic models run parallel with the english translations, showing a similar investment in the tale. Specifically, there is similar investment in the witch and the oven ("hexe," "backofen") and the dynamic of trying to get home despite the efforts of their
+parents, pointing again to the strategies used, including "kieselsteine." 
