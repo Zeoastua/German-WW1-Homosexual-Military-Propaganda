@@ -31,7 +31,7 @@
                         <div class="grid-item grid-item-14">
                             <!-- textarea style -->
                             <p>
-                                <xsl:apply-templates select="//tale[2]/story[2]"></xsl:apply-templates>
+                                <xsl:apply-templates select="//tale[2]/story"></xsl:apply-templates>
                             </p>
                         </div>
                     </div>
