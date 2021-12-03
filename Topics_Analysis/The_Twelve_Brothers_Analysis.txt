@@ -1,0 +1,19 @@
+The Twelve Brothers Topic Modeling Analysis
+
+English
+The topic model presented two sets which spoke closely to the tale. Specifically, they were:
+
+10: years lived happily speak brought death passed died crying redeem secretly referred guilty identified snakes oil boiling court innocent dearly 
+11: twelve shirts child children transformed eating put giving embracing approached instant belonged sky heavy men's washday mother locked kingdom 
+
+The tale revolves around death, and the promise of it to come when their sister is born. To prevent it from happening, tweleve brothers flee their kingdom and murder any passing girls that they come across, in an attempt to remove the conditions of their death. 10 shows this 
+preoccupation with death and the ways in which suffering comes about in the tale, specifically relating to "death," "passed," and "crying." However, beyond that, the tale is about a mother that demonizes the twelve brothers' sister, whose role is to stay silent
+in a bid to save them from death after being transformed into ravens, a switch from the original victims of violence. Both 10 and 11 speak to the dynamic of this, speaking to the transformation of the brothers back into human form through their shirts and the 
+eventual happy-ever-after they get. They also speak on the punishment of the mother, who is killed by being placed in boiling oil with poisonous snakes.
+
+German
+The topic model presented one sets which spoke closely to the tale. Specifically, it was:
+13: gerade erstes umsonst sprichst hohe spazieren unverdrossen hemdlein geschenkt bruder redlich knie schwert gekommen acht gingen kinder leben  
+
+The German original of the tale also is preoccupied with the same issues as the English translation, remarkably so. The topic model set 13 shows the dynamic of transformation incredibly similarly, and the focus on the children is also present. However, none of 
+the topic models captured with the same intensity the dyanamic of the mother, who demonized the sister, pointing towards a lesser investment in that dynamic. 

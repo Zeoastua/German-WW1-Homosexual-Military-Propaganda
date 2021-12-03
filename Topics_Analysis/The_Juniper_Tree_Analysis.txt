@@ -1,0 +1,12 @@
+The Juniper Topic Modeling Analysis
+
+English
+The topic model presented three sets which spoke closely to the tale. Specifically, they were:
+
+9: boy daughter home evil son wife crash school loved grimm arnim achim source death crushed teeth brought awhile mother's chopped 
+17: woman fell fire standing peeling didn't type aarne-thompson versions world hair jumping dead cap floor flashed window lock chest die 
+18: bird sing sang beautifully roof front give shoemaker lit asked neck ashliman's nice words linden mill feathers journeyman shirtsleeves doors 
+
+The tale revolves around death, specifically the death of a mother, a son, and an evil stepmother. The topic model sets speak to this investment, invoking themes of death, such as "die," "death," "chopped," (the brother was decapitated), "crushed," (the evil 
+stepmother was crushed), and simply, "dead." Concerning topic model set 18, the set speaks to the nature of the dead brother, who becomes a bird and sings ("sing," "sang," beautifully,") the sins of his stepmother to people in the village. The set invokes 
+settings within the village as well, such as "mill," as well as people he sang to, such as "shoemaker." 
