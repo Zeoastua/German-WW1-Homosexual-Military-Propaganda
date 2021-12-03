@@ -104,7 +104,7 @@ div a:hover {
 
 .grid-story {
     display: grid;
-    grid-template-columns: repeat(2, 200px);
+    grid-template-columns: repeat(2, 400px);
     justify-content: center;
     border: 1px solid black;
     margin-bottom: 40px;
