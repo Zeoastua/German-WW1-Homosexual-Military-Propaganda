@@ -9,7 +9,9 @@
     <xsl:template match="/">
         <html>
         <head>
-            <title>cinderella - Grimms' Fairy Tales</title>
+            <title>
+                <xsl:apply-templates select="//tale[2]/metadata/title"/>
+            </title>
             <link rel="stylesheet" href="styles.css" />
         </head>
             <body>
@@ -25,14 +27,14 @@
                         <div class="grid-item grid-item-12">
                             <!-- textarea style -->
                             <p>
-                                <xsl:apply-templates select="//tale[1]/story[1]"></xsl:apply-templates>
+                                <xsl:apply-templates select="//tale[1]/story"/>
                             </p>
                         </div>
                         <div class="grid-item grid-item-14">
                             <!-- textarea style -->
-                            <p>
-                                <xsl:apply-templates select="//tale[2]/story"></xsl:apply-templates>
-                            </p>
+                           <p>
+                 <xsl:apply-templates select="//tale[2]/story"/>
+                           </p>
                         </div>
                     </div>
                 </main>
@@ -40,6 +42,8 @@
             </body>
         </html>
      </xsl:template>
-        
+    
+    
+      
     
 </xsl:stylesheet>
