@@ -47,7 +47,7 @@
                             <xsl:apply-templates select="//tale/story"/>
 
                             <xsl:apply-templates select="//tale/story/act[@effect = 'hostile']"/>
-                            <xsl:apply-templates select="//tale/story/act[@effect = 'neutral']"/>
+                            <xsl:apply-templates select="//tale/story/act[@effect = 'ambiguous']"/>
                             <xsl:apply-templates select="//tale/story/act[@effect = 'benevolent']"/>
                         </div>
                     </div>
@@ -70,8 +70,8 @@
         </span>
     </xsl:template>
 
-    <xsl:template match="act[@effect = 'neutral']">
-        <span class="neutral">
+    <xsl:template match="act[@effect = 'ambiguous']">
+        <span class="ambiguous">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
