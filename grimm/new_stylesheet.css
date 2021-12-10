@@ -1,0 +1,108 @@
+body {
+    display: block;
+    margin: 8px;
+	font-family: Garamond, serif;
+	background-image: url(Forest.jpg);
+}
+header {
+    display: block;
+	padding-top: 2px;
+}
+/* top of the page*/
+table {
+  width:100%;
+  text-align: center;
+}
+h1 {
+	font-size: 40px;
+	text-align: center;
+	-webkit-text-stroke: #947B50;
+}
+h2 {
+    text-align: center;
+}
+.image {
+    float: right;
+    height: 160px;
+    width: 80.5px;
+	border: 3px solid black;
+}
+/* navigation links */
+nav {
+    overflow: hidden;
+    background-color: #947B50;
+    margin-top: 3px;
+    text-align: center;
+}
+nav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+nav a:hover {
+  background-color: #848B7C;
+  color: black;
+}
+/* area underneath menu bar */
+main {
+    padding: 40px;
+    text-align: center;
+    color: black;
+	display: block;
+}
+/* boxed text */
+.textarea {
+	display: block;
+	border: 1px solid black;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 90%;
+    background-color: #947B50;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    justify-content: center;
+    border: 1px solid black;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 60%;
+    background-color: #947B50;
+    text-align: center;
+}
+div a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+div a:hover {
+    background-color: #848B7C;
+    color: black;
+}
+.grid-story {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    justify-content: center;
+    border: 1px solid black;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 60%;
+    background-color: #947B50;
+    text-align: center;
+    grid-auto-rows: auto;
+    grid-column-gap: 100px;
+    overflow-y: scroll;
+    height: calc(100vh - 400px);
+}
