@@ -118,7 +118,7 @@ div a:hover {
     text-align: center;
     grid-auto-rows: auto;
     grid-column-gap: 100px;
-    overflow-y: scroll;
+    overflow-y: auto;
     height: calc(100vh - 400px);
 }
 
@@ -129,4 +129,35 @@ p {
 text-align: left;
 }
 
+.benevolent {
+    color: indigo;
+}
+
+.hostile {
+    color: crimson;
+}
+
+.neutral {
+    color: forestgreen;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #9E8854;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #947b50;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #848b7c;
+ }
 
