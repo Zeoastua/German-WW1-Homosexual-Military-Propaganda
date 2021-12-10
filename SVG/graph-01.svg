@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="200%" height="200%">
+    <line x1="50" x2="600" y1="300" y2="300" stroke="black" stroke-width="2" stroke-linecap="square"/>
+    <line x1="50" x2="50" y1="300" y2="70" stroke="black" stroke-width="2" stroke-linecap="square"/>
+    <text x="60" y="320" fill="black" font-size="16">CINDERELLA</text>
+    <text x="200" y="320" fill="black" font-size="16">HANSEL</text>
+    <text x="213" y="335" fill="black" font-size="16">AND</text>
+    <text x="200" y="350" fill="black" font-size="16">GRETEL</text>
+    <text x="300" y="320" fill="black" font-size="16">RAPUNZEL</text>
+    <text x="420" y="320" fill="black" font-size="16">LITTLE</text>
+    <text x="420" y="335" fill="black" font-size="16">SNOW</text>
+    <text x="420" y="350" fill="black" font-size="16">WHITE</text>
+    <text x="550" y="320" fill="black" font-size="16">THE</text>
+    <text x="530" y="335" fill="black" font-size="16">JUNIPER</text>
+    <text x="543" y="350" fill="black" font-size="16">TREE</text>
+    <text x="35" y="300" fill="black" font-size="16">0</text>
+    <text x="35" y="275" fill="black" font-size="16">5</text>
+    <text x="30" y="250" fill="black" font-size="16">10</text>
+    <text x="30" y="225" fill="black" font-size="16">15</text>
+    <text x="30" y="200" fill="black" font-size="16">20</text>
+    <text x="30" y="175" fill="black" font-size="16">25</text>
+    <text x="30" y="150" fill="black" font-size="16">30</text>
+    <text x="30" y="125" fill="black" font-size="16">35</text>
+    <text x="30" y="100" fill="black" font-size="16">40</text>
+   
+    <text transform="rotate(270)" style="text-anchor:end;" x="-100" y="15" color="black" font-size="18"
+        ># OF INSTANCES</text>
+    <text x="100" y="35" fill="black" font-size="24" font-style="italic">ACTS PERFORMED BY STEPMOTHERS</text>
+    <text x="140" y="400" fill="black" font-size="18">TALES THAT CONTAIN STEPMOTHERS</text>
+   
+    
+    <rect x="85" y="250" width="20" height="49"
+        style="fill:#75333a" />
+    <text x="90" y="264" fill="gray" font-size="16">9</text>
+    <text x="115" y="299" fill="gray" font-size="16">0</text>
+    
+    <rect x="205" y="225" width="20" height="74"
+        style="fill:#75333a" />
+    <rect x="230" y="298" width="20" height="1"
+        style="fill:#a25c29" />
+    <text x="235" y="298" fill="gray" font-size="16">1</text>
+    <text x="205" y="240" fill="gray" font-size="16">15</text>
+    
+    <rect x="316" y="252" width="20" height="47"
+        style="fill:#75333a" />
+    <rect x="341" y="276" width="20" height="23"
+        style="fill:#a25c29" />
+    <text x="321" y="266" fill="gray" font-size="16">8</text>
+    <text x="346" y="290" fill="gray" font-size="16">4</text>
+    
+    <rect x="420" y="110" width="20" height="189"
+        style="fill:#75333a" />
+    <rect x="445" y="253" width="20" height="46"
+        style="fill:#a25c29" />
+    <text x="421" y="122" fill="gray" font-size="16">37</text>
+    <text x="450" y="265" fill="gray" font-size="16">7</text>
+    
+    <rect x="545" y="252" width="20" height="47"
+        style="fill:#75333a" />
+    <text x="550" y="265" fill="gray" font-size="16">8</text>
+    <text x="573" y="299" fill="gray" font-size="16">N/A</text>
+</svg>
