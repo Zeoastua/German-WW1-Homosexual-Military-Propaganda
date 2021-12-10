@@ -9,9 +9,10 @@
         <html>
             <head>
                 <title>
-                    <xsl:apply-templates select="//tale[2]/metadata/title"/>
+                    <xsl:apply-templates select="//tale[1]/metadata/title"/>
                 </title>
                 <link rel="stylesheet" href="styles.css"/>
+                <link rel="shortcut icon" type="image/jpg" href="red-riding-hood.png"/>
             </head>
             <body>
        
@@ -20,11 +21,11 @@
                 <main>
                  <xsl:comment>#include virtual="storynav.xhtml" </xsl:comment>
                     <h1>
-                        <xsl:apply-templates select="//tale[2]/metadata/title"/>
+                        <xsl:apply-templates select="//tale[1]/metadata/title"/>
                     </h1>
                     <div class="grid-story">
-                        <div class="grid-item grid-item-11">German Version</div>
-                        <div class="grid-item grid-item-13">English Version</div>
+                        <div class="grid-item grid-item-11">English Version</div>
+                        <div class="grid-item grid-item-13">German Version</div>
                         <div class="grid-item grid-item-12">
                             <!-- textarea style -->
                             <xsl:apply-templates select="//tale[1]/story/p"/>
