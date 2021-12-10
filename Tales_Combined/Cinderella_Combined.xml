@@ -1,1127 +1,1167 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../grimm-schema-combined.rnc" type="application/relax-ng-compact-syntax"?>
 <tales>
-<tale>
-    <metadata>
-        <title>Äschenputtel</title>
-        <year>1821</year>
-        <author>Jacob Grimm</author>
-        <author>Wilhem Grimm</author>
-        <language>German</language>
-        <number>21</number>
-    </metadata>
-    <story>
-        <p>Es war einmal ein reicher Mann, der leb- te lange Zeit vergnügt mit seiner <character
-                child-status="mother" marital-status="wife" reference="mother">Frau</character>, und
-                <character child-status="mother" marital-status="wife" reference="mother"
-                >sie</character> hatten ein einziges <character child-status="childless"
-                marital-status="unmarried" reference="cinderella">Töchterlein</character> zusammen.
-            Da ward die <character child-status="mother" marital-status="wife" reference="mother"
-                >Frau</character> krank, und als <character child-status="mother"
-                marital-status="wife" reference="mother">sie todtkrank</character> ward, rief
-                <character child-status="mother" marital-status="wife" reference="mother"
-                >sie</character> ihre <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">Tochter</character> und sagte: <dialogue speaker="mother"
-                stateofbeing="negative">„liebes <character child-status="childless"
-                    marital-status="unmarried" reference="cinderella">Kind</character>, ich muß
-                    <character child-status="childless" marital-status="unmarried"
-                    reference="cinderella">dich</character> verlassen, aber wenn ich oben im Himmel
-                bin, will ich auf <character child-status="childless" marital-status="unmarried"
-                    reference="cinderella">dich</character> herab sehen, pflanz ein Bäumlein auf
-                mein Grab, und wenn <character child-status="childless" marital-status="unmarried"
-                    reference="cinderella">du</character> etwas wünschest, schüttele dar- an, so
-                sollst <character child-status="childless" marital-status="unmarried"
-                    reference="cinderella">du</character> es haben, und wenn <character
-                    child-status="childless" marital-status="unmarried" reference="cinderella"
-                    >du</character> sonst in Noth bist, so will ich <character
-                    child-status="childless" marital-status="unmarried" reference="cinderella"
-                    >dir</character> Hülfe schicken, nur bleib fromm und gut.“</dialogue> Nachdem
-                <character child-status="mother" marital-status="wife" reference="mother"
-                >sie</character> das gesagt, that <character child-status="mother"
-                marital-status="wife" reference="mother">sie</character> die Augen zu und starb; das
-                <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">Kind</character> aber weinte und pflanzte ein Bäumlein auf
-            das Grab und brauchte kein Wasser hin zu tragen, und es zu begießen, denn es war ge- nug
-            mit seinen Thränen.</p>
-
-        <p>Der Schnee deckte ein weiß Tüchlein auf der <character child-status="mother"
-                marital-status="wife" reference="mother">Mutter</character> Grab, und als die Sonne
-            es wie- der weggezogen hatte, und das Bäumlein zum zweitenmal grün geworden war, da nahm
-            sich der Mann eine andere <character child-status="stepmother" marital-status="wife"
-                reference="stepmother">Frau</character>. Die <character child-status="stepmother"
-                marital-status="wife" reference="stepmother">Stiefmut- ter</character> aber hatte
-            schon zwei Töchter, von ihrem ersten Mann, die waren von Angesicht schön, von Herzen
-            aber stolz und hoffährtig und bös. Wie nun die Hochzeit gewesen, und alle drei in das
-            Haus gefahren kamen, da ging schlim- me Zeit für das arme <character
-                child-status="childless" marital-status="unmarried" reference="cinderella"
-                >Kind</character> an. <dialogue speaker="stepmother" stateofbeing="negative">„Was
-                macht der garstige Unnütz in den Stuben, sagte die <character
-                    child-status="stepmother" marital-status="wife" reference="stepmother"
-                    >Stiefmutter</character>, fort mit <character child-status="childless"
-                    marital-status="unmarried" reference="cinderella">ihr</character> in die Küche,
-                wenn <character child-status="childless" marital-status="unmarried"
-                    reference="cinderella">sie</character> Brod essen will, muß <character
-                    child-status="childless" marital-status="unmarried" reference="cinderella"
-                    >sies</character> erst verdient ha- ben, <character child-status="childless"
-                    marital-status="unmarried" reference="cinderella">sie</character> kann unsere
-                Magd seyn.“</dialogue> Da <act type="doing" effect="hostile" agent="stepsisters"
-                receiver="cinderella">nah- men <character child-status="childless"
-                    marital-status="unmarried" reference="cinderella">ihm</character> die
-                Stiefschwestern die Kleider weg</act>, und <act type="doing" effect="hostile"
-                agent="stepsisters" receiver="cinderella">zogen <character child-status="childless"
-                    marital-status="unmarried" reference="cinderella">ihm</character> einen alten
-                grauen Rock an</act>: <dialogue speaker="stepsisters" stateofbeing="negative">„der
-                ist gut für <character child-status="childless" marital-status="unmarried"
-                    reference="cinderella">dich</character>!“</dialogue> sagten sie, <character
-                child-status="childless" marital-status="unmarried" reference="cinderella"
-                >lachten</character> es aus und führten <character child-status="childless"
-                marital-status="unmarried" reference="cinderella">es</character> in die Küche. Da
-            mußte das arme <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">Kind</character> so schwere Arbeit thun: früh vor Tag
-            aufstehen, Wasser tragen, Feuer an- machen, kochen und waschen und die Stief- schwestern
-            thaten <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">ihm</character> noch alles gebrannte Her- zeleid an,
-            spotteten <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">es</character>, schütteten <character
-                child-status="childless" marital-status="unmarried" reference="cinderella"
-                >ihm</character> Erbsen und Linsen in die Äche, da mußte <character
-                child-status="childless" marital-status="unmarried" reference="cinderella"
-                >es</character> den gan- zen Tag sitzen und sie wieder auslesen. Wenn <character
-                child-status="childless" marital-status="unmarried" reference="cinderella"
-                >es</character> müd war Abends kam es in kein Bett, son- dern mußte sich neben dem
-            Heerd in die Äche legen. Und weil <character child-status="childless"
-                marital-status="unmarried" reference="cinderella">es</character> da immer in Äche
-            und Staub herumwühlte und schmutzig aussah, ga- ben sie <character
-                child-status="childless" marital-status="unmarried" reference="cinderella"
-                >ihm</character> den Namen <character child-status="childless"
-                marital-status="unmarried" reference="cinderella">Ächenputtel</character>.</p>
-
-        <p>Auf eine Zeit stellte der König einen Ball an, der sollte in aller Pracht drei Tage
-            dauern, und sein Sohn, der Prinz, sollte sich eine Ge- mahlin aussuchen; dazu wurden die
-            zwei stol- zen Schwestern auch eingeladen. <dialogue speaker="stepsisters"
-                stateofbeing="negative">„<character child-status="childless"
-                    marital-status="unmarried" reference="cinderella">Äschenput- tel</character>
-                riefen sie, komm herauf, kämme uns die Haare, bürst uns die Schuhe und schnalle sie
-                fest, wir gehen auf den Ball zu dem Prinzen.“</dialogue>
-            <character child-status="childless" marital-status="unmarried" reference="cinderella"
-                >Ächenputtel</character> gab sich alle Mühe und putzte <character
-                child-status="childless" marital-status="unmarried" reference="cinderella"
-                >sie</character> so gut es konnte, sie gaben <character child-status="childless"
-                marital-status="unmarried" reference="cinderella">ihm</character> aber nur
-            Scheltworte dazwischen, und als sie fertig wa- ren, fragten sie spöttisch: <dialogue
-                speaker="stepsisters" stateofbeing="neutral">„<character child-status="childless"
-                    marital-status="unmarried" reference="cinderella">Ächenputtel</character>,
-                    <character child-status="childless" marital-status="unmarried"
-                    reference="cinderella">du</character> gingst wohl gern mit auf den
-                Ball?“</dialogue>
-            <dialogue speaker="cinderella" stateofbeing="positive">„Ach ja, wie kann ich aber
-                hingehen, ich habe keine Kleider.“</dialogue>
-            <dialogue speaker="stepsisters" stateofbeing="negative">„Nein, sagte die älteste, das
-                wär mir recht, daß <character child-status="childless" marital-status="unmarried"
-                    reference="cinderella">du</character> dich dort sehen ließest, wir müßten uns
-                schämen, wenn die Leute hörten, daß <character child-status="childless"
-                    marital-status="unmarried" reference="cinderella">du</character> unsere
-                    <character child-status="childless" marital-status="unmarried"
-                    reference="cinderella">Schwester</character> wärest; <character
-                    child-status="childless" marital-status="unmarried" reference="cinderella"
-                    >du</character> gehörst in die Küche, da hast <character
-                    child-status="childless" marital-status="unmarried" reference="cinderella"
-                    >du</character> eine Schüssel voll Linsen, wann wir wieder kommen muß sie
-                gelesen seyn, und hüt <character child-status="childless" marital-status="unmarried"
-                    reference="cinderella">dich</character>, daß keine böse darunter ist, sonst hast
-                    <character child-status="childless" marital-status="unmarried"
-                    reference="cinderella">du</character> nichts Gutes zu erwarten.“</dialogue></p>
-
-        <p>Damit gingen sie fort, und <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">Ächenputtel</character> stand und sah ihnen nach, und als
-                <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">es</character> nichts mehr sehen konnte, ging <character
-                child-status="childless" marital-status="unmarried" reference="cinderella"
-                >es</character> traurig in die Kü- che, und schüttete die Linsen auf den Heerd, da
-            war <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">es</character> ein großer, großer Haufen. <dialogue
-                speaker="cinderella" stateofbeing="negative">„Ach, sagte <character
-                    child-status="childless" marital-status="unmarried" reference="cinderella"
-                    >es</character> und seufzte dabei, da muß ich dran lesen bis Mitternacht und
-                darf die Augen nicht zufallen lassen, und wenn sie mir noch so weh thun, wenn das
-                meine <character child-status="mother" marital-status="wife" reference="mother"
-                    >Mutter</character> wüßte!“</dialogue> Da kniete <character
-                child-status="childless" marital-status="unmarried" reference="cinderella"
-                >es</character> sich vor den Heerd in die Äche und wollte anfangen zu lesen, indem
-            flogen zwei weiße Tauben durchs Fenster und setzten sich neben die Linsen auf den Heerd;
-            sie nickten mit den Köpfchen und sagten: <dialogue speaker="pigeons"
-                stateofbeing="positive">„<character child-status="childless"
-                    marital-status="unmarried" reference="cinderella">Ächenputtel</character>,
-                sollen wir <character child-status="childless" marital-status="unmarried"
-                    reference="cinderella">dir</character> helfen Linsen lesen?</dialogue>
-            <dialogue speaker="cinderella" stateofbeing="positive">„Ja, ant- wortete <character
-                    child-status="childless" marital-status="unmarried" reference="cinderella"
-                    >Ächenputtel</character>: die schlechten ins Kröpfchen, die guten ins
-                Töpfchen.“</dialogue> Und pick, pick! pick, pick! <act type="doing"
-                effect="benevolent" agent="pigeons">fingen sie an und fraßen die schlechten weg und
-                ließen die guten liegen</act>. Und in einer Viertelstunde waren die Linsen so rein,
-            daß auch nicht eine falsche dar- unter war, und <character child-status="childless"
-                marital-status="unmarried" reference="cinderella">Ächenputtel</character> konnte
-                <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">sie</character> alle ins Töpfchen streichen. Darauf aber
-            sagten die Tauben: <dialogue speaker="pigeons" stateofbeing="positive">„<character
-                    child-status="childless" marital-status="unmarried" reference="cinderella"
-                    >Ächenputtel</character>, willst <character child-status="childless"
-                    marital-status="unmarried" reference="cinderella">du</character> deine Schwe-
-                stern mit dem Prinzen tanzen sehen, so steig auf den Taubenschlag.“</dialogue>
-            <character child-status="childless" marital-status="unmarried" reference="cinderella"
-                >Ächenputtel</character> ging ih- nen nach und stieg bis auf den letzten Leiter-
-            sproß, da konnte <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">es</character> in den Saal sehen, und sah seine Schwestern
-            mit dem Prinzen tanzen, und <character child-status="childless"
-                marital-status="unmarried" reference="cinderella">es</character> flimmerte und
-            glänzte von viel tausend Lichtern vor seinen Augen. Und als <character
-                child-status="childless" marital-status="unmarried" reference="cinderella"
-                >es</character> sich satt gesehen, stieg <character child-status="childless"
-                marital-status="unmarried" reference="cinderella">es</character> wieder herab, und
-            es war <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">ihm</character> schwer ums Herz, und legte sich in die Äche
-            und schlief ein.</p>
-
-        <p>Am andern Morgen kamen die zwei Schwe- stern in die Küche, und als sie sahen, daß
-                <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">Ächenputtel</character> die Linsen rein gelesen, waren sie
-            böse, denn sie wollten <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">es</character> gern schelten, und da sie das nicht konnten,
-            huben sie an von dem Ball zu erzählen und sagten: <dialogue speaker="stepsisters"
-                stateofbeing="positive">„<character child-status="childless"
-                    marital-status="unmarried" reference="cinderella">Ächenputtel</character>, das
-                ist eine Lust gewesen, bei dem Tanz, der Prinz, der allerschönste auf der Welt hat
-                uns dazu geführt, und eine von uns wird seine Ge- mahlin werden.“</dialogue>
-            <dialogue speaker="cinderella" stateofbeing="positive">„Ja, sagte <character
-                    child-status="childless" marital-status="unmarried" reference="cinderella"
-                    >Ächenputtel</character>, ich habe die Lichter flimmern sehen, das mag recht
-                prächtig gewesen seyn.“</dialogue>
-            <dialogue speaker="stepsisters" stateofbeing="negative">„Ei! wie hast <character
-                    child-status="childless" marital-status="unmarried" reference="cinderella"
-                    >du</character> das angefangen,“</dialogue> fragte die älteste. <dialogue
-                speaker="cinderella" stateofbeing="positive">„Ich hab' oben auf den Taubenstall
-                gestan- den.“</dialogue> Wie sie das hörte, trieb sie der Neid und sie befahl, daß
-            der Taubenstall gleich sollte niedergerissen werden.</p>
-
-        <p><character child-status="childless" marital-status="unmarried" reference="cinderella"
-                >Ächenputtel</character> aber mußte <character child-status="childless"
-                marital-status="unmarried" reference="cinderella">sie</character> wieder käm- men
-            und putzen; da sagte die jüngste, die noch ein wenig Mitleid im Herzen hatte: <dialogue
-                speaker="stepsister" stateofbeing="negative">„<character child-status="childless"
-                    marital-status="unmarried" reference="cinderella">Ächen- puttel</character>,
-                wenns dunkel ist, kannst <character child-status="childless"
-                    marital-status="unmarried" reference="cinderella">du</character> hinzugehen und
-                von außen durch die Fenster gucken!“</dialogue>
-            <dialogue speaker="stepsister" stateofbeing="negative">„Nein, sagte die älteste, das
-                macht <character child-status="childless" marital-status="unmarried"
-                    reference="cinderella">sie</character> nur faul, da hast <character
-                    child-status="childless" marital-status="unmarried" reference="cinderella"
-                    >du</character> einen Sack voll Wicken, <character child-status="childless"
-                    marital-status="unmarried" reference="cinderella">Ächenputtel</character>, da
-                lese die guten und bösen aus- einander und sey fleißig, und wenn <character
-                    child-status="childless" marital-status="unmarried" reference="cinderella"
-                    >du</character> sie mor- gen nicht rein hast, so schütte ich <character
-                    child-status="childless" marital-status="unmarried" reference="cinderella"
-                    >dir</character> sie in die Äche und du mußt hungern, bis <character
-                    child-status="childless" marital-status="unmarried" reference="cinderella"
-                    >du</character> sie alle herausgesucht hast.“</dialogue></p>
-
-        <p><character child-status="childless" marital-status="unmarried" reference="cinderella"
-                >Ächenputtel</character> setzte sich betrübt auf den Heerd und schüttete die Wicken
-            aus. Da flogen die Tauben wieder herein und thaten freund- lich: <dialogue
-                speaker="pigeons" stateofbeing="positive">„<character child-status="childless"
-                    marital-status="unmarried" reference="cinderella">Ächenputtel</character>,
-                sollen wir <character child-status="childless" marital-status="unmarried"
-                    reference="cinderella">dir</character> die Wicken lesen?“</dialogue>
-            <dialogue speaker="cinderella" stateofbeing="positive">„Ja, die schlechten ins
-                Kröpfchen, die guten ins Töpfchen.“</dialogue>
-            <act type="doing" effect="benevolent" agent="pigeons">Pick, pick! pick, pick! gings so
-                geschwind, als wären zwölf Hände da</act>. Und als sie fertig wa- ren, sagten die
-            Tauben: <dialogue speaker="pigeons" stateofbeing="positive">„<character
-                    child-status="childless" marital-status="unmarried" reference="cinderella"
-                    >Ächenputtel</character>, willst <character child-status="childless"
-                    marital-status="unmarried" reference="cinderella">du</character> auch auf den
-                Ball gehen und tanzen.“</dialogue>
-            <dialogue speaker="cinderella" stateofbeing="negative">„O du mein Gott, sagte <character
-                    child-status="childless" marital-status="unmarried" reference="cinderella"
-                    >es</character>, wie kann ich in meinen schmutzigen Kleidern
-                hingehen?“</dialogue>
-            <dialogue speaker="pigeons" stateofbeing="positive">„Geh zu dem Bäumlein auf deiner
-                    <character child-status="mother" marital-status="wife" reference="mother"
-                    >Mutter</character> Grab, schüttele daran und wünsche <character
-                    child-status="childless" marital-status="unmarried" reference="cinderella"
-                    >dir</character> schöne Kleider, komm aber vor Mitternacht wieder.“</dialogue>
-            da ging <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">Ächenputtel</character> hinaus, schüttelte das Bäumlein und
-            sprach: <dialogue speaker="cinderella" stateofbeing="positive">„Bäumlein rüttel und
-                schüttel dich, wirf schöne Kleider herab für mich!“</dialogue> Kaum hatte da ging
-                <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">es</character> das ausgesagt, da lag ein präch- tig silbern
-            Kleid vor da ging <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">ihm</character>, Perlen, seidene Strümpfe mit silbernen
-            Zwickeln und silberne Pantoffel und was sonst dazu gehörte. da ging <character
-                child-status="childless" marital-status="unmarried" reference="cinderella">Ächen-
-                puttel</character> trug alles nach Haus, und als da ging <character
-                child-status="childless" marital-status="unmarried" reference="cinderella"
-                >es</character> sich gewaschen und angezogen hatte, da war <character
-                child-status="childless" marital-status="unmarried" reference="cinderella"
-                >es</character> so schön wie eine Rose, die der Thau gewaschen hat. Und wie
-                <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">es</character> vor die Hausthüre kam, so stand da ein Wagen
-            mit sechs federgeschmück- ten Rappen und Bediente dabei in Blau und Silber, die hoben
-                <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">es</character> hinein, und so gings im Gallop zu dem Schloß
-            des Königs.</p>
-
-        <p>Der Prinz aber sah den Wagen vor dem Thor halten, und meinte eine fremde Prinzes- sin
-            käme angefahren. Da ging er selbst die Treppe hinab, <act type="doing"
-                effect="benevolent" agent="prince" receiver="cinderella">hob <character
-                    child-status="childless" marital-status="unmarried" reference="cinderella"
-                    >Ächenputtel</character> hinaus</act> und <act type="doing" effect="benevolent"
-                agent="prince" receiver="cinderella">führte <character child-status="childless"
-                    marital-status="unmarried" reference="cinderella">es</character> in den
-                Saal</act>. Und als da der Glanz der viel tausend Lichter auf <character
-                child-status="childless" marital-status="unmarried" reference="cinderella"
-                >es</character> fiel, da war <character child-status="childless"
-                marital-status="unmarried" reference="cinderella">es</character> so schön, daß
-            jedermann sich darüber verwun- derte, und die Schwestern standen auch da und ärgerten
-            sich, daß jemand schöner war wie sie, aber sie dachten nimmermehr, daß das <character
-                child-status="childless" marital-status="unmarried" reference="cinderella">Ächen-
-                puttel</character> wäre, das zu Haus in der Äche lag. Der Prinz aber <act
-                type="doing" effect="benevolent" agent="prince" receiver="cinderella">tanzte mit
-                    <character child-status="childless" marital-status="unmarried"
-                    reference="cinderella">Ächenputtel</character></act> und ward ihm königliche
-            Ehre angethan. Er ge- dachte auch bei sich: ich soll mir eine Braut aussuchen, da weiß
-            ich mir keine als diese. Für so lange Zeit in Äche und Traurigkeit lebte <character
-                child-status="childless" marital-status="unmarried" reference="cinderella"
-                >Ächenputtel</character> nun in Pracht und Freude; als aber Mitternacht kam, eh' es
-            zwölf geschla- gen, stand <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">es</character> auf, neigte sich und wie der Prinz bat und
-            bat, so wollte <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">es</character> nicht länger bleiben. Da führte <character
-                child-status="childless" marital-status="unmarried" reference="cinderella"
-                >es</character> der Prinz hinab, unten stand der Wagen und wartete, und so fuhr
-                <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">es</character> fort in Pracht wie <character
-                child-status="childless" marital-status="unmarried" reference="cinderella"
-                >es</character> gekommen war.</p>
-
-        <p>Als <character child-status="childless" marital-status="unmarried" reference="cinderella"
-                >Ächenputtel</character> zu Haus war, ging <character child-status="childless"
-                marital-status="unmarried" reference="cinderella">es</character> wieder zu dem
-            Bäumlein auf der <character child-status="mother" marital-status="wife"
-                reference="mother">Mutter</character> Grab: <dialogue speaker="cinderella"
-                stateofbeing="positive">„Bäumlein rüttel dich und schüttel dich! nimm die Kleider
-                wieder für dich!“</dialogue> damit ging es zurück, machte sich das Gesicht staubig
-            und legte sich in die Äsche schlafen.</p>
-
-        <p>Am Morgen darauf kamen die Schwe- stern, sahen verdrießlich aus und schwiegen still.
-                <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">Ächenputtel</character> sagte: <dialogue speaker="cinderella"
-                stateofbeing="neutral">„ihr habt wohl gestern Abend viel Freude gehabt“</dialogue>
-            <dialogue speaker="stepsisters" stateofbeing="neutral">„Nein, es war eine <character
-                    child-status="childless" marital-status="unmarried" reference="cinderella"
-                    >Prinzessin</character> da, mit der hat der Prinz fast immer getanzt, es hat
-                    <character child-status="childless" marital-status="unmarried"
-                    reference="cinderella">sie</character> aber niemand ge- kannt und niemand
-                gewußt, woher <character child-status="childless" marital-status="unmarried"
-                    reference="cinderella">sie</character> gekom- men ist.</dialogue>
-            <dialogue speaker="cinderella" stateofbeing="neutral">„Ist es vielleicht <character
-                    child-status="childless" marital-status="unmarried" reference="cinderella"
-                    >die</character> gewesen, die in den prächtigen Wagen mit den sechs Rap- pen
-                gefahren ist?“</dialogue> sagte <character child-status="childless"
-                marital-status="unmarried" reference="cinderella">Ächenputtel</character>. <dialogue
-                speaker="stepsisters" stateofbeing="neutral">„Wo- her weißt <character
-                    child-status="childless" marital-status="unmarried" reference="cinderella"
-                    >du</character> das?“</dialogue>
-            <dialogue speaker="cinderella" stateofbeing="neutral">Ich stand in der Haus- thüre, da
-                sah ich <character child-status="childless" marital-status="unmarried"
-                    reference="cinderella">sie</character> vorbeifahren.“</dialogue>
-            <dialogue speaker="stepsister" stateofbeing="negative">„In Zukunft bleib bei deiner
-                Arbeit, sagte die älte- ste und sah <character child-status="childless"
-                    marital-status="unmarried" reference="cinderella">Ächenputtel</character> böse
-                an, was brauchst <character child-status="childless" marital-status="unmarried"
-                    reference="cinderella">du</character> in der Hausthüre zu
-            stehen.“</dialogue></p>
-
-        <p><character child-status="childless" marital-status="unmarried" reference="cinderella"
-                >Ächenputtel</character> mußte zum drittenmal die zwei Schwestern putzen, und zum
-            Lohn gaben sie ihm eine Schüssel mit Erbsen, die sollte sie rein lesen; <dialogue
-                speaker="stepsister" stateofbeing="negative">„und daß <character
-                    child-status="childless" marital-status="unmarried" reference="cinderella"
-                    >du</character> dich nicht unterstehst von der Arbeit wegzugehen,</dialogue>
-            rief die älteste noch nach. <character child-status="childless"
-                marital-status="unmarried" reference="cinderella">Ächenputtel</character> gedachte:
-            wenn nur meine Tauben nicht ausbleiben, und das Herz schlug ihm ein wenig. Die Tauben
-            aber ka- wie an dem vorigen Abend und sagten: <dialogue speaker="pigeons"
-                stateofbeing="positive">„<character child-status="childless"
-                    marital-status="unmarried" reference="cinderella">Ächenputtel</character>,
-                sollen wir dir die Erbsen le- sen?“</dialogue>
-            <dialogue speaker="cinderella" stateofbeing="positive">„Ja, die schlechten ins
-                Kröpfchen, die guten ins Töpfchen.“</dialogue> Die <act type="doing"
-                effect="benevolent" agent="pigeons">Tauben pickten wieder die bösen heraus</act>,
-            und waren bald damit fertig, dann sagten sie: <dialogue speaker="pigeons"
-                stateofbeing="positive">„<character child-status="childless"
-                    marital-status="unmarried" reference="cinderella">Ächenputtel</character>,
-                schüttele das Bäumlein, das wird <character child-status="childless"
-                    marital-status="unmarried" reference="cinderella">dir</character> noch schönere
-                Kleider herunter werfen, geh auf den Ball, aber hüte <character
-                    child-status="childless" marital-status="unmarried" reference="cinderella"
-                    >dich</character>, daß <character child-status="childless"
-                    marital-status="unmarried" reference="cinderella">du</character> vor Mitternacht
-                wieder kommst.“</dialogue>
-            <character child-status="childless" marital-status="unmarried" reference="cinderella"
-                >Ächenputtel</character> ging hin: <dialogue speaker="cinderella"
-                stateofbeing="positive">„Bäumlein rüttel dich und schüttel dich, wirf schöne Kleider
-                herab für mich.“</dialogue> Da fiel ein Kleid herab noch viel herrlicher und
-            prächtiger als das vorige, ganz von Gold und Edelgesteinen, dabei goldgezwickelte
-            Strümpfe und goldene Pantoffel; und als <character child-status="childless"
-                marital-status="unmarried" reference="cinderella">Ächenputtel</character> damit
-            angekleidet war, da glänzte <character child-status="childless"
-                marital-status="unmarried" reference="cinderella">es</character> recht, wie die
-            Sonne am Mittag. Vor der Thüre hielt ein Wagen mit sechs Schimmeln, die hatten hohe
-            weiße Federbüsche auf dem Kopf, und die Bedienten waren in Roth und Gold gekleidet. Als
-                <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">Ächenputtel</character> ankam, stand schon der Prinz auf der
-            Treppe und <act type="doing" effect="benevolent" agent="prince" receiver="cinderella"
-                >führte <character child-status="childless" marital-status="unmarried"
-                    reference="cinderella">sie</character> in den Saal</act>. Und waren gestern alle
-            über ihre Schönheit er- staunt, so erstaunten <character child-status="childless"
-                marital-status="unmarried" reference="cinderella">sie</character> heute noch mehr
-            und die Schwestern standen in der Ecke und waren blaß vor Neid, und hätten sie gewußt,
-            daß das <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">Ächenputtel</character> war, das zu Haus in der Äsche lag,
-            sie wären gestorben vor Neid.</p>
-
-        <p>Der Prinz aber wollte wissen, wer die fremde <character child-status="childless"
-                marital-status="unmarried" reference="cinderella">Prinzessin</character> sey, woher
-                <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">sie</character> gekommen und wohin <character
-                child-status="childless" marital-status="unmarried" reference="cinderella"
-                >sie</character> fahre, und hatte Leute auf die Stra- ße gestellt, die sollten Acht
-            darauf haben, und damit <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">sie</character> nicht so schnell fortlaufen könne, hat- te er
-            die Treppe ganz mit Pech bestreichen las- sen. <character child-status="childless"
-                marital-status="unmarried" reference="cinderella">Ächenputtel</character> tanzte und
-            tanzte mit dem Prinzen, war in Freuden und gedachte nicht an Mitternacht. Auf einmal,
-            wie <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">es</character> mitten im Tanzen war, hörte <character
-                child-status="childless" marital-status="unmarried" reference="cinderella"
-                >es</character> den Glockenschlag, da fiel <character child-status="childless"
-                marital-status="unmarried" reference="cinderella">ihm</character> ein, wie die
-            Tauben <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">es</character> gewarnt, erschrack und eilte zur Thüre hinaus
-            und flog recht die Treppe hinunter. Weil die aber mit Pech bestrichen war, blieb einer
-            von den golde- nen Pantoffeln festhängen, und in der Angst dacht <character
-                child-status="childless" marital-status="unmarried" reference="cinderella"
-                >es</character> nicht daran, <character child-status="childless"
-                marital-status="unmarried" reference="cinderella">ihn</character> mitzunehmen. Und
-            wie <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">es</character> den letzten Schritt von der Treppe that, da
-            hatt' es zwölf ausgeschlagen, da war Wa- gen und Pferde verschwunden und <character
-                child-status="childless" marital-status="unmarried" reference="cinderella">Ächenput-
-                tel</character> stand in seinen Äschenkleidern auf der dun- keln Straße. Der Prinz
-            war <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">ihm</character> nachgeeilt, auf der Treppe fand er den
-            goldenen Pantof- fel, riß ihn los und hob ihn auf, wie er aber unten hinkam, war alles
-            verschwunden; die Leute auch, die zur Wache ausgestellt wa- ren, kamen und sagten, daß
-            sie nichts gesehen hätten.</p>
-
-        <p><character child-status="childless" marital-status="unmarried" reference="cinderella"
-                >Ächenputtel</character> war froh, daß es nicht schlim- mer gekommen war, und ging
-            nach Haus, da steckte <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">es</character> sein trübes Oel-Lämpchen an, hängte <character
-                child-status="childless" marital-status="unmarried" reference="cinderella"
-                >es</character> in den Schornstein und legte sich in die Äsche. Es währte nicht
-            lange, so kamen die beiden Schwestern auch und riefen: <dialogue speaker="stepsisters"
-                stateofbeing="neutral">„<character child-status="childless"
-                    marital-status="unmarried" reference="cinderella">Ächen- puttel</character>,
-                steh auf und leucht uns.“</dialogue>
-            <character child-status="childless" marital-status="unmarried" reference="cinderella"
-                >Ächenput- tel</character> gähnte und that als wacht <character
-                child-status="childless" marital-status="unmarried" reference="cinderella"
-                >es</character> aus dem Schlaf. Bei dem Leuchten aber hörte <character
-                child-status="childless" marital-status="unmarried" reference="cinderella"
-                >es</character>, wie die eine sagte: <dialogue speaker="stepsister"
-                stateofbeing="negative">„Gott weiß, wer die verwünsch- te <character
-                    child-status="childless" marital-status="unmarried" reference="cinderella"
-                    >Prinzessin</character> ist, daß <character child-status="childless"
-                    marital-status="unmarried" reference="cinderella">sie</character> in der Erde
-                begraben läg! der Prinz hat nur mit <character child-status="childless"
-                    marital-status="unmarried" reference="cinderella">ihr</character> getanzt und
-                als <character child-status="childless" marital-status="unmarried"
-                    reference="cinderella">sie</character> weg war, hat er gar nicht mehr blei- ben
-                wollen und das ganze Fest hat ein Ende gehabt.“</dialogue>
-            <dialogue speaker="stepsister" stateofbeing="negative">„Es war recht, als wären alle
-                Lichter auf einmal ausgeblasen worden,“</dialogue> sagte die andere. <character
-                child-status="childless" marital-status="unmarried" reference="cinderella"
-                >Ächenputtel</character> wußte wohl wer die fremde <character
-                child-status="childless" marital-status="unmarried" reference="cinderella"
-                >Prinzessin</character> war, aber <character child-status="childless"
-                marital-status="unmarried" reference="cinderella">es</character> sagte kein
-            Wörtchen.</p>
-
-        <p>Der Prinz aber gedachte, ist dir alles an- dere fehlgeschlagen, so wird dir der Pantoffel
-            die <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">Braut</character> finden helfen, und ließ bekannt ma- chen,
-            welcher der goldene Pantoffel passe, die solle seine Gemahlin werden. Aber allen war er
-            viel zu klein, ja manche hätten ihren Fuß nicht hineingebracht, und wären die zwei Pan-
-            toffel ein einziger gewesen. Endlich kam die Reihe auch an die beiden Schwestern, die
-            Pro- be zu machen; sie waren froh, denn sie hatten kleine schöne Füße und glaubten, uns
-            kann es nicht fehlschlagen, wär der Prinz nur gleich zu uns gekommen. <dialogue
-                speaker="stepmother" stateofbeing="neutral">„Hört, sagte die <character
-                    child-status="stepmother" marital-status="widow" reference="stepmother"
-                    >Mutter</character> heim- lich, da habt ihr ein Messer, und wenn euch der
-                Pantoffel doch noch zu eng ist, so schnei- det euch ein Stück vom Fuß ab, es thut
-                ein bischen weh, was schadet das aber, es vergeht bald und eine von euch wird
-                Königin.“</dialogue> Da ging die älteste in ihre Kammer und probirte den Pantoffel
-            an, die Fußspitze kam hinein, aber die Ferse war zu groß, da nahm sie das Messer und
-            schnitt sich ein Stück von der Fer- se, bis sie den Fuß in den Pantoffel hinein-
-            zwängte. So ging sie heraus zu dem Prin- zen, und wie der sah, daß sie den Pantoffel
-            anhatte, sagte er, das sey die Braut, führte sie zum Wagen und wollte mit ihr
-            fortfahren. Wie er aber ans Thor kam, saßen oben die Tauben und riefen: <dialogue
-                speaker="pigeons" stateofbeing="negative">„Rucke di guck, rucke di guck! Blut ist im
-                Schuck: (Schuh) Der Schuck ist zu klein, Die rechte Braut sitzt noch
-                daheim!“</dialogue> Der Prinz bückte sich und sah auf den Pan- toffel, da quoll das
-            Blut heraus, und da merk- te er, daß er betrogen war, und führte die fal- sche Braut
-            zurück. Die <character child-status="stepmother" marital-status="widow"
-                reference="stepmother">Mutter</character> aber sagte zur zweiten Tochter: <dialogue
-                speaker="stepmother" stateofbeing="neutral">„nimm du den Pantoffel, und wenn er dir
-                zu kurz ist, so schneide lieber vor- ne an den Zehen ab.</dialogue> Da nahm sie den
-            Pan- toffel in ihre Kammer, und als der Fuß zu groß war, da biß sie die Zähne zusammen
-            und schnitt ein groß Stück von den Zehen ab, und drückte den Pantoffel geschwind an. Wie
-            sie damit hervortrat, meinte er, das wäre die rech- te und wollte mit ihr fortfahren.
-            Als er aber in das Thor kam, riefen die Tauben wieder: <dialogue speaker="pigeons"
-                stateofbeing="negative">„Rucke di guck, rucke di guck! Blut ist im Schuck: Der
-                Schuck ist zu klein, Die rechte Braut sitzt noch daheim!“</dialogue> Der Prinz sah
-            nieder, da waren die weißen Strümpfe der Braut roth gefärbt und das Blut war hoch herauf
-            gedrungen. Da brachte sie der Prinz der Mutter wieder und sagte: <dialogue
-                speaker="prince" stateofbeing="negative">„das ist auch nicht die rechte Braut; aber
-                ist nicht noch eine Tochter im Haus.“</dialogue>
-            <dialogue speaker="stepmother" stateofbeing="negative">„Nein, sagte die <character
-                    child-status="stepmother" marital-status="widow" reference="stepmother"
-                    >Mutter</character>, nur ein garstiges <character child-status="childless"
-                    marital-status="unmarried" reference="cinderella">Ächenput- tel</character> ist
-                noch da, das sitzt unten in der Äsche, dem kann der Pantoffel nicht
-                passen.</dialogue> Sie wollte <character child-status="childless"
-                marital-status="unmarried" reference="cinderella">es</character> auch nicht rufen
-            lassen, bis es der Prinz durchaus verlangte. Da ward <character child-status="childless"
-                marital-status="unmarried" reference="cinderella">Ächen- puttel</character> gerufen
-            und wie <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">es</character> hörte, daß der Prinz da sey, wusch <character
-                child-status="childless" marital-status="unmarried" reference="cinderella"
-                >es</character> sich geschwind Gesicht und Hände frisch und rein; und wie <character
-                child-status="childless" marital-status="unmarried" reference="cinderella"
-                >es</character> in die Stube trat, neigte <character child-status="childless"
-                marital-status="unmarried" reference="cinderella">es</character> sich, der Prinz
-            aber reichte ihr den goldenen Pantoffel und sagte: <dialogue speaker="prince"
-                stateofbeing="positive">„probier ihn an! und wenn er <character
-                    child-status="childless" marital-status="unmarried" reference="cinderella"
-                    >dir</character> paßt, wirst <character child-status="childless"
-                    marital-status="unmarried" reference="cinderella">du</character> meine
-                Gemahlin.“</dialogue> Da streift <character child-status="childless"
-                marital-status="unmarried" reference="cinderella">es</character> den schwe- ren
-            Schuh von dem linken Fuß ab, setzt <character child-status="childless"
-                marital-status="unmarried" reference="cinderella">ihn</character> auf den goldenen
-            Pantoffel und drückte ein klein wenig, da stand <character child-status="childless"
-                marital-status="unmarried" reference="cinderella">es</character> darin, als wär er
-                <character child-status="childless" marital-status="unmarried"
-                reference="cinderella">ihm</character> an- gegossen. Und als <character
-                child-status="childless" marital-status="unmarried" reference="cinderella"
-                >es</character> sich aufbückte, sah <character child-status="childless"
-                marital-status="unmarried" reference="cinderella">ihm</character> der Prinz ins
-            Gesicht, da erkannte er die schö- ne <character child-status="childless"
-                marital-status="unmarried" reference="cinderella">Prinzessin</character> wieder und
-            rief: <dialogue speaker="prince" stateofbeing="positive">„das ist die rechte
-                Braut.“</dialogue> Die <character child-status="stepmother" marital-status="wife"
-                reference="stepmother">Stiefmutter</character> und die zwei stolzen Schwestern
-            erschracken und wurden bleich, aber der <act type="doing" effect="benevolent"
-                agent="prince" receiver="cinderella">Prinz führte <character
-                    child-status="childless" marital-status="unmarried" reference="cinderella"
-                    >Ächenputtel</character> fort</act> und <act type="doing" effect="benevolent"
-                agent="prince" receiver="cinderella">hob es in den Wagen</act>, und als sie durchs
-            Thor fuhren, da riefen die Tauben:</p>
-
-        <p><dialogue speaker="pigeons" stateofbeing="positive">„Rucke di guck, rucke di guck! Kein
-                Blut im Schuck: Der Schuck ist nicht zu klein, Die rechte <character
-                    child-status="childless" marital-status="wife" reference="cinderella"
-                    >Braut</character>, die führt er heim!“</dialogue></p>
-    </story>
-</tale>
-<tale>
-    <metadata>
-        <title>Cinderella</title>
-        <year>1812</year>
-        <author>Jacob and Wilhelm Grimm</author>
-        <editor>Göttingen: Verlag der Dieterichschen Buchhandlung</editor>
-        <translator>D. L. Ashliman</translator>
-        <language>English</language>
-        <number>21</number>
-    </metadata>
-    <story>
-        <p><act type="being" effect="hostile" agent="orignal wife" io="rich man">A rich man's
+    <tale>
+        <metadata>
+            <title>Cinderella</title>
+            <year>1812</year>
+            <author>Jacob and Wilhelm Grimm</author>
+            <editor>Göttingen: Verlag der Dieterichschen Buchhandlung</editor>
+            <translator>D. L. Ashliman</translator>
+            <language>English</language>
+            <number>21</number>
+        </metadata>
+        <story>
+            <p><act type="being" effect="hostile" agent="orignal wife" io="rich man">A rich man's
+                        <character child-status="mother" marital-status="wife"
+                        reference="original wife">wife</character> became sick,</act>
+                <act type="doing" effect="hostile" agent="original wife" receiver="daughter">and
+                    when <character reference="original wife" marital-status="wife"
+                        child-status="mother">she</character> felt that <character
+                        reference="original wife" marital-status="wife" child-status="mother"
+                        >her</character> end was drawing near, <character reference="original wife"
+                        marital-status="wife" child-status="mother">she</character> called
+                        <character reference="original wife" marital-status="wife"
+                        child-status="mother">her</character> only <character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >daughter</character> to <character reference="original wife"
+                        marital-status="wife" child-status="mother">her</character> bedside and
+                    said,</act>
+                <dialogue speaker="original wife" stateofbeing="positive">"Dear <character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >child</character>, remain pious and good, and then our dear God will always
+                    protect you, and I will look down on you from heaven and be near
+                    you."</dialogue>
+                <act type="doing" effect="hostile" agent="original wife">With this <character
+                        child-status="mother" marital-status="wife" reference="original wife"
+                        >she</character> closed her eyes and died.</act></p>
+            <p><act type="doing" effect="hostile" agent="daughter">The <character
+                        reference="daughter" marital-status="unmarried" child-status="childless"
+                        >girl</character> went out to her <character child-status="mother"
+                        marital-status="wife" reference="original wife">mother's</character> grave
+                    every day and wept,</act>
+                <act type="being" effect="benevolent" agent="daughter">and <character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >she</character> remained pious and good.</act>
+                <act type="doing" effect="ambiguous" agent="winter">When winter came the snow spread
+                    a white cloth over the grave,</act>
+                <act type="doing" effect="ambiguous" agent="Spring">and when the spring sun had
+                    removed it again,</act>
+                <act type="doing" effect="ambiguous" agent="rich man" io="new wife">the man took
+                    himself another <character child-status="stepmother" marital-status="wife"
+                        reference="new wife">wife.</character></act></p>
+            <p><act type="doing" effect="ambiguous" agent="new wife">This <character
+                        child-status="stepmother" marital-status="wife" reference="new wife"
+                        >wife</character> brought <character child-status="childless"
+                        marital-status="unmarried" reference="new sister(s)">two
+                        daughters</character> into the house with her.</act>
+                <act type="being" effect="hostile" agent="new sisters"><character
+                        child-status="childless" marital-status="unmarried" reference="new sisters"
+                        >They</character> were beautiful, with fair faces, but evil and dark
+                    hearts.</act>
+                <act type="being" effect="hostile" agent="daughter">Times soon grew very bad for the
+                    poor <character reference="daughter" child-status="childless"
+                        marital-status="unmarried">stepchild.</character></act></p>
+            <p><dialogue speaker="new sisters" stateofbeing="negative">"Why should that <character
+                        marital-status="unmarried" child-status="childless" reference="daughter"
+                        >stupid goose</character> sit in the parlor with <character
+                        reference="new sisters" child-status="childless" marital-status="unmarried"
+                        >us?" they</character> said. "If <character marital-status="unmarried"
+                        child-status="childless" reference="daughter">she</character> wants to eat
+                    bread, then <character child-status="childless" marital-status="unmarried"
+                        reference="daughter">she</character> will have to earn it. Out with this
+                    kitchen <character reference="daughter" marital-status="unmarried"
+                        child-status="childless">maid</character>!"</dialogue></p>
+            <p><act type="doing" effect="hostile" agent="new sisters"><character
+                        child-status="childless" marital-status="unmarried" reference="new sisters"
+                        >They</character> took <character reference="daughter"
+                        marital-status="unmarried" child-status="childless">her</character>
+                    beautiful clothes away from <character child-status="childless"
+                        marital-status="unmarried" reference="daughter">her</character>, dressed
+                        <character reference="daughter" marital-status="unmarried"
+                        child-status="childless">her</character> in an old gray smock, and gave
+                        <character child-status="childless" marital-status="unmarried"
+                        reference="daughter">her</character> wooden shoes.</act>
+                <dialogue speaker="new sisters" stateofbeing="negative">"Just look at the proud
+                        <character child-status="childless" marital-status="unmarried"
+                        reference="daughter">princess</character>! How decked out <character
+                        reference="daughter" marital-status="unmarried" child-status="childless"
+                        >she</character> is!"</dialogue>
+                <act type="doing" effect="hostile" agent="new sisters"><character
+                        child-status="childless" marital-status="unmarried" reference="new sisters"
+                        >they</character> shouted and laughed as <character child-status="childless"
+                        marital-status="unmarried" reference="new sisters">they</character> led
+                        <character child-status="childless" marital-status="unmarried"
+                        reference="daughter">her</character> into the kitchen.</act>
+            </p>
+            <p><act type="doing" effect="hostile" agent="daughter">There <character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >she</character> had to do hard work from morning until evening, get up
+                    before daybreak, carry water, make the fires, cook, and wash.</act>
+                <act type="doing" effect="hostile" agent="new sisters">Besides this, the <character
+                        reference="new sisters" marital-status="unmarried" child-status="childless"
+                        >sisters</character> did everything imaginable to hurt <character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >her</character>.</act>
+                <act type="doing" effect="hostile" agent="new sisters"><character
+                        child-status="childless" marital-status="unmarried" reference="new sisters"
+                        >They</character> made fun of <character reference="daughter"
+                        marital-status="unmarried" child-status="childless">her</character>,
+                    scattered peas and lentils into the ashes for <character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >her</character>, so that <character child-status="childless"
+                        marital-status="unmarried" reference="daughter">she</character> had to sit
+                    and pick them out again.</act>
+                <act type="doing" effect="hostile" agent="daughter">In the evening when <character
+                        reference="daughter" child-status="childless" marital-status="unmarried"
+                        >she</character> had worked <character child-status="childless"
+                        marital-status="unmarried" reference="daughter">herself</character> weary,
+                    there was no bed for <character marital-status="unmarried"
+                        child-status="childless" reference="daughter">her</character>.</act>
+                <act type="doing" effect="hostile" agent="daughter">Instead <character
+                        reference="daughter" child-status="childless" marital-status="unmarried"
+                        >she</character> had to sleep by the hearth in the ashes.</act>
+                <act type="being" effect="hostile" agent="daughter">And because <character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >she</character> always looked dusty and dirty, <character
+                        marital-status="unmarried" child-status="childless" reference="new sisters"
+                        >they</character> called <character child-status="childless"
+                        marital-status="unmarried" reference="daughter">her
+                    Cinderella</character>.</act></p>
+            <p><act type="doing" effect="ambiguous" agent="rich man">One day it happened that the
+                    father was going to the fair, and he asked his two <character
+                        child-status="childless" marital-status="unmarried" reference="new sisters"
+                        >stepdaughters</character> what he should bring back for <character
+                        reference="new sisters" child-status="childless" marital-status="unmarried"
+                        >them</character>.</act></p>
+            <p><dialogue speaker="one of the new sisters" stateofbeing="neutral">"Beautiful
+                    dresses,"</dialogue>
+                <act type="doing" effect="ambiguous" agent="a new sister">said the <character
+                        marital-status="unmarried" child-status="childless" reference="a new sister"
+                        >one</character>.</act></p>
+            <p><dialogue speaker="one of the new sisters" stateofbeing="neutral">"Pearls and
+                    jewels,"</dialogue>
+                <act type="doing" effect="ambiguous" agent="a new sister">said the <character
+                        reference="a new sister" child-status="childless" marital-status="unmarried"
+                        >other</character>.</act></p>
+            <p><dialogue speaker="rich man" stateofbeing="neutral">"And <character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >you, Cinderella</character>,"</dialogue>
+                <act type="doing" effect="ambiguous" agent="rich man">he said</act>, <dialogue
+                    speaker="rich man" stateofbeing="neutral">"what do <character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >you</character> want?"</dialogue></p>
+            <p><dialogue speaker="daughter" stateofbeing="neutral">"Father, break off for <character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >me</character> the first twig that brushes against your hat on your way
+                    home."</dialogue></p>
+            <p><act type="doing" effect="ambiguous" agent="rich man" receiver="new sisters">So he
+                    bought beautiful dresses, pearls, and jewels for his two <character
+                        marital-status="unmarried" child-status="childless" reference="new sisters"
+                        >stepdaughters</character>.</act>
+                <act type="doing" effect="ambiguous" agent="rich man">On his way home, as he was
+                    riding through a green thicket, a hazel twig brushed against him and knocked off
+                    his hat. Then he broke off the twig and took it with him.</act><act type="doing"
+                    effect="ambiguous" agent="rich man" receiver="news sisters and daughter"
+                    >Arriving home, he gave his <character reference="new sisters"
+                        child-status="childless" marital-status="unmarried"
+                        >stepdaughters</character> the things that <character
+                        marital-status="unmarried" child-status="childless" reference="new sisters"
+                        >they</character> had asked for, and he gave <character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >Cinderella</character> the twig from the hazel bush.</act>
+            </p>
+            <p><act type="doing" effect="ambiguous" agent="daughter"><character reference="daughter"
+                        child-status="childless" marital-status="unmarried">Cinderella</character>
+                    thanked him,</act>
+                <act type="doing" effect="ambiguous" agent="daughter">went to <character
+                        reference="daughter" marital-status="unmarried" child-status="childless"
+                        >her</character>
                     <character child-status="mother" marital-status="wife" reference="original wife"
-                    >wife</character> became sick,</act>
-            <act type="doing" effect="hostile" agent="original wife" receiver="daughter">and when
-                    <character reference="original wife" marital-status="wife" child-status="mother"
-                    >she</character> felt that <character reference="original wife"
-                    marital-status="wife" child-status="mother">her</character> end was drawing
-                near, <character reference="original wife" marital-status="wife"
-                    child-status="mother">she</character> called <character
-                    reference="original wife" marital-status="wife" child-status="mother"
-                    >her</character> only <character child-status="childless"
-                    marital-status="unmarried" reference="daughter">daughter</character> to
-                    <character reference="original wife" marital-status="wife" child-status="mother"
-                    >her</character> bedside and said,</act>
-            <dialogue speaker="original wife" stateofbeing="positive">"Dear <character
-                    child-status="childless" marital-status="unmarried" reference="daughter"
-                    >child</character>, remain pious and good, and then our dear God will always
-                protect you, and I will look down on you from heaven and be near you."</dialogue>
-            <act type="doing" effect="hostile" agent="original wife">With this <character
-                    child-status="mother" marital-status="wife" reference="original wife"
-                    >she</character> closed her eyes and died.</act></p>
-        <p><act type="doing" effect="hostile" agent="daughter">The <character reference="daughter"
-                    marital-status="unmarried" child-status="childless">girl</character> went out to
-                her <character child-status="mother" marital-status="wife" reference="original wife"
-                    >mother's</character> grave every day and wept,</act>
-            <act type="being" effect="benevolent" agent="daughter">and <character
-                    child-status="childless" marital-status="unmarried" reference="daughter"
-                    >she</character> remained pious and good.</act>
-            <act type="doing" effect="ambiguous" agent="winter">When winter came the snow spread a
-                white cloth over the grave,</act>
-            <act type="doing" effect="ambiguous" agent="Spring">and when the spring sun had removed
-                it again,</act>
-            <act type="doing" effect="ambiguous" agent="rich man" io="new wife">the man took himself
-                another <character child-status="stepmother" marital-status="wife"
-                    reference="new wife">wife.</character></act></p>
-        <p><act type="doing" effect="ambiguous" agent="new wife">This <character
+                        >mother's</character> grave,</act>
+                <act type="doing" effect="ambiguous" agent="daughter">and planted the branch on
+                    it</act>, <act type="doing" effect="hostile" agent="daughter">and <character
+                        reference="daughter" marital-status="unmarried" child-status="childless"
+                        >she</character> wept so much that <character child-status="childless"
+                        marital-status="unmarried" reference="daughter">her</character> tears fell
+                    upon it and watered it.</act>
+                <act type="doing" effect="benevolent" agent="tree" io="daughter">It grew and became
+                    a beautiful tree.</act></p>
+            <p><act type="doing" effect="ambiguous" agent="daughter"><character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >Cinderella</character> went to this tree three times every day,</act>
+                <act type="doing" effect="hostile" agent="daughter">and beneath it <character
+                        reference="daughter" marital-status="unmarried" child-status="childless"
+                        >she</character> wept and prayed.</act>
+                <act type="doing" effect="benevolent" agent="bird" receiver="daughter">A white bird
+                    came to the tree every time, and whenever <character child-status="childless"
+                        marital-status="unmarried" reference="daughter">she</character> expressed a
+                    wish, the bird would throw down to <character reference="daughter"
+                        marital-status="unmarried" child-status="childless">her</character> what
+                        <character child-status="childless" marital-status="unmarried"
+                        reference="daughter">she</character> had wished for.</act></p>
+            <p><act type="doing" effect="ambiguous" agent="king">Now it happened that the king
+                    proclaimed a festival that was to last three days.</act>
+                <act type="being" effect="ambiguous" agent="girls" receiver="prince"> All the
+                    beautiful <character child-status="childless" marital-status="unmarried"
+                        reference="all girls">young girls</character> in the land were invited, so
+                    that his son could select a bride for himself.</act>
+                <act type="being" effect="benevolent" agent="new sisters">When the two <character
+                        reference="new sisters" marital-status="unmarried" child-status="childless"
+                        >stepsisters</character> heard that <character child-status="childless"
+                        marital-status="unmarried" reference="new sisters">they</character> too had
+                    been invited, <character reference="new sisters" marital-status="unmarried"
+                        child-status="childless">they</character> were in high spirits.</act></p>
+            <p><act type="doing" effect="ambiguous" agent="new sisters"><character
+                        child-status="childless" marital-status="unmarried" reference="new sisters"
+                        >They</character> called <character reference="daughter"
+                        marital-status="unmarried" child-status="childless">Cinderella</character>,
+                    saying,</act>
+                <dialogue speaker="new sisters" stateofbeing="negative">"Comb our hair for
+                        <character child-status="childless" marital-status="unmarried"
+                        reference="new sisters">us</character>. Brush our shoes and fasten our
+                    buckles. <character child-status="childless" marital-status="unmarried"
+                        reference="new sisters">We</character> are going to the festival at the
+                    king's castle."</dialogue></p>
+            <p><act type="doing" effect="hostile" agent="daughter"><character
+                        marital-status="unmarried" reference="daughter" child-status="childless"
+                        >Cinderella</character> obeyed, but wept, because <character
+                        child-status="childless" reference="daughter" marital-status="unmarried"
+                        >she</character> too would have liked to go to the dance with <character
+                        marital-status="unmarried" reference="new sisters" child-status="childless"
+                        >them</character>.</act>
+                <act type="doing" effect="hostile" agent="daughter"><character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >She</character> begged her <character child-status="stepmother"
+                        reference="new wife" marital-status="wife">stepmother</character> to allow
+                        <character child-status="childless" marital-status="unmarried"
+                        reference="daughter">her</character> to go.</act></p>
+            <p><dialogue speaker="new wife" stateofbeing="negative">"<character
+                        marital-status="unmarried" reference="daughter" child-status="childless"
+                        >You, Cinderella</character>?" <character child-status="stepmother"
+                        marital-status="wife" reference="new wife">she</character> said. "You, all
+                    covered with dust and dirt, and you want to go to the festival?. You have
+                    neither clothes nor shoes, and yet you want to dance!"</dialogue></p>
+            <p><act type="doing" effect="hostile" agent="new wife">However, because <character
+                        child-status="childless" reference="daughter" marital-status="unmarried"
+                        >Cinderella</character> kept asking, the <character
+                        marital-status="unmarried" reference="new wife" child-status="stepmother"
+                        >stepmother</character> finally said,</act>
+                <dialogue speaker="new wife" stateofbeing="negative">"I have scattered a bowl of
+                    lentils into the ashes for you. If you can pick them out again in two hours,
+                    then you may go with us."</dialogue></p>
+            <p><act type="doing" effect="ambiguous" agent="daughter">The <character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >girl</character> went through the back door into the garden, and called
+                    out</act>, <dialogue speaker="daughter" stateofbeing="positive">"You tame
+                    pigeons, you turtledoves, and all you birds beneath the sky, come and help me to
+                    gather:</dialogue></p>
+            <p><dialogue speaker="daughter" stateofbeing="neutral">The good ones go into the pot,
+                    The bad ones go into your crop."</dialogue></p>
+            <p><act type="doing" effect="benevolent" agent="birds" receiver="daughter">Two white
+                    pigeons came in through the kitchen window, and then the turtledoves, and
+                    finally all the birds beneath the sky came whirring and swarming in, and lit
+                    around the ashes. The pigeons nodded their heads and began to pick, pick, pick,
+                    pick. And the others also began to pick, pick, pick, pick. They gathered all the
+                    good grains into the bowl. Hardly one hour had passed before they were finished,
+                    and they all flew out again.</act></p>
+            <p><act type="doing" effect="ambiguous" agent="daughter">The <character
+                        child-status="childless" reference="daughter" marital-status="unmarried"
+                        >girl</character> took the bowl to her <character child-status="stepmother"
+                        marital-status="wife" reference="new wife">stepmother</character></act>,
+                    <act type="being" effect="benevolent" agent="daughter">and was happy, thinking
+                    that now <character marital-status="unmarried" reference="daughter"
+                        child-status="childless">she</character> would be allowed to go to the
+                    festival with <character child-status="childless" reference="new sisters"
+                        marital-status="unmarried">them</character>.</act></p>
+            <p><act type="doing" effect="hostile" agent="new wife">But the stepmother
+                    said,</act><dialogue speaker="new wife" stateofbeing="negative">"No, <character
+                        marital-status="unmarried" reference="daughter" child-status="childless"
+                        >Cinderella</character>, you have no clothes, and you don't know how to
+                    dance. Everyone would only laugh at you."</dialogue>
+            </p>
+            <p><act type="doing" effect="hostile" agent="daughter">Cinderella began to cry, and then
+                    the stepmother said,</act>
+                <dialogue speaker="new wife" stateofbeing="negative">"You may go if you are able to
+                    pick two bowls of lentils out of the ashes for me in one hour," thinking to
+                    herself, "She will never be able to do that."</dialogue></p>
+            <p><act type="doing" effect="benevolent" agent="daughter">The girl went through the back
+                    door into the garden, and called out,</act>
+                <dialogue speaker="daughter" stateofbeing="neutral">"You tame pigeons, you
+                    turtledoves, and all you birds beneath the sky, come and help me to
+                    gather:</dialogue></p>
+            <p><dialogue speaker="daughter" stateofbeing="neutral">The good ones go into the pot,
+                    The bad ones go into your crop."</dialogue></p>
+            <p><act type="doing" effect="benevolent" agent="birds" receiver="daughter">Two white
+                    pigeons came in through the kitchen window, and then the turtledoves, and
+                    finally all the birds beneath the sky came whirring and swarming in, and lit
+                    around the ashes. The pigeons nodded their heads and began to pick, pick, pick,
+                    pick. And the others also began to pick, pick, pick, pick. They gathered all the
+                    good grains into the bowls. Before a half hour had passed they were finished,
+                    and they all flew out again.</act></p>
+            <p>
+                <act type="being" effect="benevolent" agent="daughter">The <character
+                        child-status="childless" reference="daughter" marital-status="unmarried"
+                        >girl</character> took the bowls to her <character marital-status="wife"
+                        reference="new wife" child-status="stepmother">stepmother</character>, and
+                    was happy, thinking that now <character child-status="childless"
+                        reference="daughter" marital-status="unmarried">she</character> would be
+                    allowed to go to the festival with <character marital-status="unmarried"
+                        reference="new sisters" child-status="childless">them</character>.</act></p>
+            <p><act type="doing" effect="hostile" agent="new wife">But the <character
+                        child-status="stepmother" reference="new wife" marital-status="wife"
+                        >stepmother</character> said,</act><dialogue speaker="new wife"
+                    stateofbeing="negative">"It's no use. You are not coming with us, for you have
+                    no clothes, and you don't know how to dance. We would be ashamed of
+                    you."</dialogue> With this she turned her back on <character
+                    marital-status="unmarried" reference="daughter" child-status="childless"
+                    >Cinderella</character>, and hurried away with <character
                     child-status="stepmother" marital-status="wife" reference="new wife"
-                    >wife</character> brought <character child-status="childless"
-                    marital-status="unmarried" reference="new sister(s)">two daughters</character>
-                into the house with her.</act>
-            <act type="being" effect="hostile" agent="new sisters"><character
-                    child-status="childless" marital-status="unmarried" reference="new sisters"
-                    >They</character> were beautiful, with fair faces, but evil and dark
-                hearts.</act>
-            <act type="being" effect="hostile" agent="daughter">Times soon grew very bad for the
-                poor <character reference="daughter" child-status="childless"
-                    marital-status="unmarried">stepchild.</character></act></p>
-        <p><dialogue speaker="new sisters" stateofbeing="negative">"Why should that <character
-                    marital-status="unmarried" child-status="childless" reference="daughter">stupid
-                    goose</character> sit in the parlor with <character reference="new sisters"
-                    child-status="childless" marital-status="unmarried">us?" they</character> said.
-                "If <character marital-status="unmarried" child-status="childless"
-                    reference="daughter">she</character> wants to eat bread, then <character
-                    child-status="childless" marital-status="unmarried" reference="daughter"
-                    >she</character> will have to earn it. Out with this kitchen <character
-                    reference="daughter" marital-status="unmarried" child-status="childless"
-                    >maid</character>!"</dialogue></p>
-        <p><act type="doing" effect="hostile" agent="new sisters"><character
-                    child-status="childless" marital-status="unmarried" reference="new sisters"
-                    >They</character> took <character reference="daughter"
-                    marital-status="unmarried" child-status="childless">her</character> beautiful
-                clothes away from <character child-status="childless" marital-status="unmarried"
-                    reference="daughter">her</character>, dressed <character reference="daughter"
-                    marital-status="unmarried" child-status="childless">her</character> in an old
-                gray smock, and gave <character child-status="childless" marital-status="unmarried"
-                    reference="daughter">her</character> wooden shoes.</act>
-            <dialogue speaker="new sisters" stateofbeing="negative">"Just look at the proud
+                    >her</character> two proud <character child-status="childless"
+                    reference="new sisters" marital-status="unmarried">daughters</character>.</p>
+            <p><act type="doing" effect="hostile" agent="daughter">Now that no one else was at home,
+                        <character marital-status="unmarried" reference="daughter"
+                        child-status="childless">Cinderella</character> went to <character
+                        child-status="childless" reference="daughter" marital-status="unmarried"
+                        >her</character>
+                    <character marital-status="wife" reference="original wife" child-status="mother"
+                        >mother's grave</character> beneath the hazel tree, and cried out:</act></p>
+            <p><dialogue speaker="daughter" stateofbeing="positive">Shake and quiver, little tree,
+                    Throw gold and silver down to <character child-status="childless"
+                        reference="daughter" marital-status="unmarried"
+                >me</character>.</dialogue></p>
+            <p><act type="doing" effect="benevolent" agent="bird" receiver="daughter">Then the bird
+                    threw a gold and silver dress down to <character marital-status="unmarried"
+                        reference="daughter" child-status="childless">her</character>, and slippers
+                    embroidered with silk and silver. <character child-status="childless"
+                        reference="daughter" marital-status="unmarried">She</character> quickly put
+                    on the dress and went to the festival.</act></p>
+            <p><act type="doing" effect="ambiguous" agent="new sisters and new wife"><character
+                        marital-status="unmarried" reference="daughter" child-status="childless"
+                        >Her</character>
                     <character child-status="childless" marital-status="unmarried"
-                    reference="daughter">princess</character>! How decked out <character
-                    reference="daughter" marital-status="unmarried" child-status="childless"
-                    >she</character> is!"</dialogue>
-            <act type="doing" effect="hostile" agent="new sisters"><character
-                    child-status="childless" marital-status="unmarried" reference="new sisters"
-                    >they</character> shouted and laughed as <character child-status="childless"
-                    marital-status="unmarried" reference="new sisters">they</character> led
-                    <character child-status="childless" marital-status="unmarried"
-                    reference="daughter">her</character> into the kitchen.</act>
-        </p>
-        <p><act type="doing" effect="hostile" agent="daughter">There <character
-                    child-status="childless" marital-status="unmarried" reference="daughter"
-                    >she</character> had to do hard work from morning until evening, get up before
-                daybreak, carry water, make the fires, cook, and wash.</act>
-            <act type="doing" effect="hostile" agent="new sisters">Besides this, the <character
-                    reference="new sisters" marital-status="unmarried" child-status="childless"
-                    >sisters</character> did everything imaginable to hurt <character
-                    child-status="childless" marital-status="unmarried" reference="daughter"
-                    >her</character>.</act>
-            <act type="doing" effect="hostile" agent="new sisters"><character
-                    child-status="childless" marital-status="unmarried" reference="new sisters"
-                    >They</character> made fun of <character reference="daughter"
-                    marital-status="unmarried" child-status="childless">her</character>, scattered
-                peas and lentils into the ashes for <character child-status="childless"
-                    marital-status="unmarried" reference="daughter">her</character>, so that
-                    <character child-status="childless" marital-status="unmarried"
-                    reference="daughter">she</character> had to sit and pick them out again.</act>
-            <act type="doing" effect="hostile" agent="daughter">In the evening when <character
-                    reference="daughter" child-status="childless" marital-status="unmarried"
-                    >she</character> had worked <character child-status="childless"
-                    marital-status="unmarried" reference="daughter">herself</character> weary, there
-                was no bed for <character marital-status="unmarried" child-status="childless"
-                    reference="daughter">her</character>.</act>
-            <act type="doing" effect="hostile" agent="daughter">Instead <character
-                    reference="daughter" child-status="childless" marital-status="unmarried"
-                    >she</character> had to sleep by the hearth in the ashes.</act>
-            <act type="being" effect="hostile" agent="daughter">And because <character
-                    child-status="childless" marital-status="unmarried" reference="daughter"
-                    >she</character> always looked dusty and dirty, <character
-                    marital-status="unmarried" child-status="childless" reference="new sisters"
-                    >they</character> called <character child-status="childless"
-                    marital-status="unmarried" reference="daughter">her
-                Cinderella</character>.</act></p>
-        <p><act type="doing" effect="ambiguous" agent="rich man">One day it happened that the father
-                was going to the fair, and he asked his two <character child-status="childless"
-                    marital-status="unmarried" reference="new sisters">stepdaughters</character>
-                what he should bring back for <character reference="new sisters"
-                    child-status="childless" marital-status="unmarried">them</character>.</act></p>
-        <p><dialogue speaker="one of the new sisters" stateofbeing="neutral">"Beautiful
-                dresses,"</dialogue>
-            <act type="doing" effect="ambiguous" agent="a new sister">said the <character
-                    marital-status="unmarried" child-status="childless" reference="a new sister"
-                    >one</character>.</act></p>
-        <p><dialogue speaker="one of the new sisters" stateofbeing="neutral">"Pearls and
-                jewels,"</dialogue>
-            <act type="doing" effect="ambiguous" agent="a new sister">said the <character
-                    reference="a new sister" child-status="childless" marital-status="unmarried"
-                    >other</character>.</act></p>
-        <p><dialogue speaker="rich man" stateofbeing="neutral">"And <character
-                    child-status="childless" marital-status="unmarried" reference="daughter">you,
-                    Cinderella</character>,"</dialogue>
-            <act type="doing" effect="ambiguous" agent="rich man">he said</act>, <dialogue
-                speaker="rich man" stateofbeing="neutral">"what do <character
-                    child-status="childless" marital-status="unmarried" reference="daughter"
-                    >you</character> want?"</dialogue></p>
-        <p><dialogue speaker="daughter" stateofbeing="neutral">"Father, break off for <character
-                    child-status="childless" marital-status="unmarried" reference="daughter"
-                    >me</character> the first twig that brushes against your hat on your way
-                home."</dialogue></p>
-        <p><act type="doing" effect="ambiguous" agent="rich man" receiver="new sisters">So he bought
-                beautiful dresses, pearls, and jewels for his two <character
-                    marital-status="unmarried" child-status="childless" reference="new sisters"
-                    >stepdaughters</character>.</act>
-            <act type="doing" effect="ambiguous" agent="rich man">On his way home, as he was riding
-                through a green thicket, a hazel twig brushed against him and knocked off his hat.
-                Then he broke off the twig and took it with him.</act><act type="doing"
-                effect="ambiguous" agent="rich man" receiver="news sisters and daughter">Arriving
-                home, he gave his <character reference="new sisters" child-status="childless"
-                    marital-status="unmarried">stepdaughters</character> the things that <character
-                    marital-status="unmarried" child-status="childless" reference="new sisters"
-                    >they</character> had asked for, and he gave <character child-status="childless"
-                    marital-status="unmarried" reference="daughter">Cinderella</character> the twig
-                from the hazel bush.</act>
-        </p>
-        <p><act type="doing" effect="ambiguous" agent="daughter"><character reference="daughter"
-                    child-status="childless" marital-status="unmarried">Cinderella</character>
-                thanked him,</act>
-            <act type="doing" effect="ambiguous" agent="daughter">went to <character
-                    reference="daughter" marital-status="unmarried" child-status="childless"
-                    >her</character>
-                <character child-status="mother" marital-status="wife" reference="original wife"
-                    >mother's</character> grave,</act>
-            <act type="doing" effect="ambiguous" agent="daughter">and planted the branch on
-            it</act>, <act type="doing" effect="hostile" agent="daughter">and <character
-                    reference="daughter" marital-status="unmarried" child-status="childless"
-                    >she</character> wept so much that <character child-status="childless"
-                    marital-status="unmarried" reference="daughter">her</character> tears fell upon
-                it and watered it.</act>
-            <act type="doing" effect="benevolent" agent="tree" io="daughter">It grew and became a
-                beautiful tree.</act></p>
-        <p><act type="doing" effect="ambiguous" agent="daughter"><character child-status="childless"
-                    marital-status="unmarried" reference="daughter">Cinderella</character> went to
-                this tree three times every day,</act>
-            <act type="doing" effect="hostile" agent="daughter">and beneath it <character
-                    reference="daughter" marital-status="unmarried" child-status="childless"
-                    >she</character> wept and prayed.</act>
-            <act type="doing" effect="benevolent" agent="bird" receiver="daughter">A white bird came
-                to the tree every time, and whenever <character child-status="childless"
-                    marital-status="unmarried" reference="daughter">she</character> expressed a
-                wish, the bird would throw down to <character reference="daughter"
-                    marital-status="unmarried" child-status="childless">her</character> what
-                    <character child-status="childless" marital-status="unmarried"
-                    reference="daughter">she</character> had wished for.</act></p>
-        <p><act type="doing" effect="ambiguous" agent="king">Now it happened that the king
-                proclaimed a festival that was to last three days.</act>
-            <act type="being" effect="ambiguous" agent="girls" receiver="prince"> All the beautiful
-                    <character child-status="childless" marital-status="unmarried"
-                    reference="all girls">young girls</character> in the land were invited, so that
-                his son could select a bride for himself.</act>
-            <act type="being" effect="benevolent" agent="new sisters">When the two <character
-                    reference="new sisters" marital-status="unmarried" child-status="childless"
-                    >stepsisters</character> heard that <character child-status="childless"
-                    marital-status="unmarried" reference="new sisters">they</character> too had been
-                invited, <character reference="new sisters" marital-status="unmarried"
-                    child-status="childless">they</character> were in high spirits.</act></p>
-        <p><act type="doing" effect="ambiguous" agent="new sisters"><character
-                    child-status="childless" marital-status="unmarried" reference="new sisters"
-                    >They</character> called <character reference="daughter"
-                    marital-status="unmarried" child-status="childless">Cinderella</character>,
-                saying,</act>
-            <dialogue speaker="new sisters" stateofbeing="negative">"Comb our hair for <character
-                    child-status="childless" marital-status="unmarried" reference="new sisters"
-                    >us</character>. Brush our shoes and fasten our buckles. <character
-                    child-status="childless" marital-status="unmarried" reference="new sisters"
-                    >We</character> are going to the festival at the king's castle."</dialogue></p>
-        <p><act type="doing" effect="hostile" agent="daughter"><character marital-status="unmarried"
-                    reference="daughter" child-status="childless">Cinderella</character> obeyed, but
-                wept, because <character child-status="childless" reference="daughter"
-                    marital-status="unmarried">she</character> too would have liked to go to the
-                dance with <character marital-status="unmarried" reference="new sisters"
-                    child-status="childless">them</character>.</act>
-            <act type="doing" effect="hostile" agent="daughter"><character child-status="childless"
-                    marital-status="unmarried" reference="daughter">She</character> begged her
-                    <character child-status="stepmother" reference="new wife" marital-status="wife"
-                    >stepmother</character> to allow <character child-status="childless"
-                    marital-status="unmarried" reference="daughter">her</character> to go.</act></p>
-        <p><dialogue speaker="new wife" stateofbeing="negative">"<character
-                    marital-status="unmarried" reference="daughter" child-status="childless">You,
-                    Cinderella</character>?" <character child-status="stepmother"
-                    marital-status="wife" reference="new wife">she</character> said. "You, all
-                covered with dust and dirt, and you want to go to the festival?. You have neither
-                clothes nor shoes, and yet you want to dance!"</dialogue></p>
-        <p><act type="doing" effect="hostile" agent="new wife">However, because <character
-                    child-status="childless" reference="daughter" marital-status="unmarried"
-                    >Cinderella</character> kept asking, the <character marital-status="unmarried"
-                    reference="new wife" child-status="stepmother">stepmother</character> finally
-                said,</act>
-            <dialogue speaker="new wife" stateofbeing="negative">"I have scattered a bowl of lentils
-                into the ashes for you. If you can pick them out again in two hours, then you may go
-                with us."</dialogue></p>
-        <p><act type="doing" effect="ambiguous" agent="daughter">The <character
-                    child-status="childless" marital-status="unmarried" reference="daughter"
-                    >girl</character> went through the back door into the garden, and called
-                out</act>, <dialogue speaker="daughter" stateofbeing="positive">"You tame pigeons,
-                you turtledoves, and all you birds beneath the sky, come and help me to
-                gather:</dialogue></p>
-        <p><dialogue speaker="daughter" stateofbeing="neutral">The good ones go into the pot, The
-                bad ones go into your crop."</dialogue></p>
-        <p><act type="doing" effect="benevolent" agent="birds" receiver="daughter">Two white pigeons
-                came in through the kitchen window, and then the turtledoves, and finally all the
-                birds beneath the sky came whirring and swarming in, and lit around the ashes. The
-                pigeons nodded their heads and began to pick, pick, pick, pick. And the others also
-                began to pick, pick, pick, pick. They gathered all the good grains into the bowl.
-                Hardly one hour had passed before they were finished, and they all flew out
-                again.</act></p>
-        <p><act type="doing" effect="ambiguous" agent="daughter">The <character
-                    child-status="childless" reference="daughter" marital-status="unmarried"
-                    >girl</character> took the bowl to her <character child-status="stepmother"
-                    marital-status="wife" reference="new wife">stepmother</character></act>, <act
-                type="being" effect="benevolent" agent="daughter">and was happy, thinking that now
-                    <character marital-status="unmarried" reference="daughter"
-                    child-status="childless">she</character> would be allowed to go to the festival
-                with <character child-status="childless" reference="new sisters"
-                    marital-status="unmarried">them</character>.</act></p>
-        <p><act type="doing" effect="hostile" agent="new wife">But the stepmother
-                said,</act><dialogue speaker="new wife" stateofbeing="negative">"No, <character
-                    marital-status="unmarried" reference="daughter" child-status="childless"
-                    >Cinderella</character>, you have no clothes, and you don't know how to dance.
-                Everyone would only laugh at you."</dialogue>
-        </p>
-        <p><act type="doing" effect="hostile" agent="daughter">Cinderella began to cry, and then the
-                stepmother said,</act>
-            <dialogue speaker="new wife" stateofbeing="negative">"You may go if you are able to pick
-                two bowls of lentils out of the ashes for me in one hour," thinking to herself, "She
-                will never be able to do that."</dialogue></p>
-        <p><act type="doing" effect="benevolent" agent="daughter">The girl went through the back
-                door into the garden, and called out,</act>
-            <dialogue speaker="daughter" stateofbeing="neutral">"You tame pigeons, you turtledoves,
-                and all you birds beneath the sky, come and help me to gather:</dialogue></p>
-        <p><dialogue speaker="daughter" stateofbeing="neutral">The good ones go into the pot, The
-                bad ones go into your crop."</dialogue></p>
-        <p><act type="doing" effect="benevolent" agent="birds" receiver="daughter">Two white pigeons
-                came in through the kitchen window, and then the turtledoves, and finally all the
-                birds beneath the sky came whirring and swarming in, and lit around the ashes. The
-                pigeons nodded their heads and began to pick, pick, pick, pick. And the others also
-                began to pick, pick, pick, pick. They gathered all the good grains into the bowls.
-                Before a half hour had passed they were finished, and they all flew out
-            again.</act></p>
-        <p>
-            <act type="being" effect="benevolent" agent="daughter">The <character
-                    child-status="childless" reference="daughter" marital-status="unmarried"
-                    >girl</character> took the bowls to her <character marital-status="wife"
-                    reference="new wife" child-status="stepmother">stepmother</character>, and was
-                happy, thinking that now <character child-status="childless" reference="daughter"
-                    marital-status="unmarried">she</character> would be allowed to go to the
-                festival with <character marital-status="unmarried" reference="new sisters"
-                    child-status="childless">them</character>.</act></p>
-        <p><act type="doing" effect="hostile" agent="new wife">But the <character
-                    child-status="stepmother" reference="new wife" marital-status="wife"
-                    >stepmother</character> said,</act><dialogue speaker="new wife"
-                stateofbeing="negative">"It's no use. You are not coming with us, for you have no
-                clothes, and you don't know how to dance. We would be ashamed of you."</dialogue>
-            With this she turned her back on <character marital-status="unmarried"
-                reference="daughter" child-status="childless">Cinderella</character>, and hurried
-            away with <character child-status="stepmother" marital-status="wife"
-                reference="new wife">her</character> two proud <character child-status="childless"
-                reference="new sisters" marital-status="unmarried">daughters</character>.</p>
-        <p><act type="doing" effect="hostile" agent="daughter">Now that no one else was at home,
-                    <character marital-status="unmarried" reference="daughter"
-                    child-status="childless">Cinderella</character> went to <character
-                    child-status="childless" reference="daughter" marital-status="unmarried"
-                    >her</character>
-                <character marital-status="wife" reference="original wife" child-status="mother"
-                    >mother's grave</character> beneath the hazel tree, and cried out:</act></p>
-        <p><dialogue speaker="daughter" stateofbeing="positive">Shake and quiver, little tree, Throw
-                gold and silver down to <character child-status="childless" reference="daughter"
-                    marital-status="unmarried">me</character>.</dialogue></p>
-        <p><act type="doing" effect="benevolent" agent="bird" receiver="daughter">Then the bird
-                threw a gold and silver dress down to <character marital-status="unmarried"
-                    reference="daughter" child-status="childless">her</character>, and slippers
-                embroidered with silk and silver. <character child-status="childless"
-                    reference="daughter" marital-status="unmarried">She</character> quickly put on
-                the dress and went to the festival.</act></p>
-        <p><act type="doing" effect="ambiguous" agent="new sisters and new wife"><character
-                    marital-status="unmarried" reference="daughter" child-status="childless"
-                    >Her</character>
-                <character child-status="childless" marital-status="unmarried"
-                    reference="new sisters">stepsisters</character> and her <character
-                    child-status="stepmother" reference="new wife" marital-status="wife"
-                    >stepmother</character> did not recognize <character marital-status="unmarried"
-                    reference="daughter" child-status="childless">her</character>. They thought
-                    <character child-status="childless" reference="daughter"
-                    marital-status="unmarried">she</character> must be a foreign princess, for
-                    <character marital-status="unmarried" reference="daughter"
-                    child-status="childless">she</character> looked so beautiful in the golden
-                dress.</act>
-            <act type="doing" effect="hostile" agent="new wife and new sisters">They never once
-                thought it was <character child-status="childless" marital-status="unmarried"
-                    reference="daughter">Cinderella</character>, for they thought that <character
-                    child-status="childless" marital-status="unmarried" reference="daughter"
-                    >she</character> was sitting at home in the dirt, looking for lentils in the
-                ashes.</act></p>
-        <p><act type="doing" agent="prince" effect="benevolent">The prince approached <character
-                    child-status="childless" marital-status="unmarried" reference="daughter"
-                    >her</character>, took <character child-status="childless" reference="daughter"
-                    marital-status="unmarried">her</character> by the hand, and danced with
-                    <character child-status="childless" marital-status="unmarried"
-                    reference="daughter">her</character>. Furthermore, he would dance with no one
-                else. He never let go of her hand, and whenever anyone else came and asked her to
-                dance, he would say,</act>
-            <dialogue speaker="prince" stateofbeing="positive">"She is my dance
-            partner."</dialogue></p>
-        <p><act effect="benevolent" type="doing" agent="daughter"><character
-                    marital-status="unmarried" reference="daughter" child-status="childless"
-                    >She</character> danced until evening, and then <character
-                    child-status="childless" reference="daughter" marital-status="unmarried"
-                    >she</character> wanted to go home.</act>
-            <act effect="benevolent" type="doing" agent="prince">But the prince said,</act>
-            <dialogue speaker="prince" stateofbeing="positive">"I will go along and escort
-                you,"</dialogue>
-            <act effect="benevolent" type="doing" agent="prince" receiver="daughter">for he wanted
-                to see to whom the beautiful <character child-status="childless"
-                    marital-status="unmarried" reference="daughter">girl</character> belonged.
-                However, <character marital-status="unmarried" reference="daughter"
-                    child-status="childless">she</character> eluded him and jumped into the pigeon
-                coop. The prince waited until <character child-status="childless"
-                    reference="daughter" marital-status="unmarried">her</character> father came, and
-                then he told him that the unknown <character marital-status="unmarried"
-                    reference="daughter" child-status="childless">girl</character> had jumped into
-                the pigeon coop.</act></p>
-        <p>
-            <act type="doing" effect="ambiguous" agent="rich man">The old man thought,</act>
-            <dialogue speaker="rich man" stateofbeing="neutral"> "Could it be <character
-                    child-status="childless" reference="daughter" marital-status="unmarried"
-                    >Cinderella</character>?"</dialogue></p>
-        <p><act type="doing" effect="hostile" agent="rich man">He had them bring him an ax and a
-                pick so that he could break the pigeon coop apart, but no one was inside.</act><act
-                type="doing" effect="ambiguous" agent="daughter">When they got home <character
-                    marital-status="unmarried" reference="daughter" child-status="childless"
-                    >Cinderella</character> was lying in the ashes, dressed in <character
-                    child-status="childless" marital-status="unmarried" reference="daughter"
-                    >her</character> dirty clothes. A dim little oil-lamp was burning in the
-                fireplace. <character child-status="childless" marital-status="unmarried"
-                    reference="daughter">Cinderella</character> had quickly jumped down from the
-                back of the pigeon coop and had run to the hazel tree. There <character
-                    child-status="childless" marital-status="unmarried" reference="daughter"
-                    >she</character> had taken off <character child-status="childless"
-                    reference="daughter" marital-status="unmarried">her</character> beautiful
-                clothes and laid them on the grave, and the bird had taken them away again. Then,
-                dressed in <character marital-status="unmarried" reference="daughter"
-                    child-status="childless">her</character> gray smock, <character
-                    child-status="childless" reference="daughter" marital-status="unmarried"
-                    >she</character> had returned to the ashes in the kitchen.</act>
-        </p>
-        <p><act type="doing" effect="ambiguous" agent="parents and new sisters">The next day when
-                the festival began anew, and <character child-status="childless"
-                    marital-status="unmarried" reference="daughter">her</character> parents and her
-                    <character marital-status="unmarried" reference="new sisters"
-                    child-status="childless">stepsisters</character> had gone again,</act>
-            <act type="doing" effect="ambiguous" agent="daughter"><character
-                    child-status="childless" marital-status="unmarried" reference="daughter"
-                    >Cinderella</character> went to the hazel tree and said:</act></p>
-        <p><dialogue speaker="daughter" stateofbeing="positive">Shake and quiver, little tree, Throw
-                gold and silver down to me.</dialogue></p>
-        <p><act type="doing" effect="ambiguous" agent="birds" receiver="daughter">Then the bird
-                threw down an even more magnificent dress than on the preceding day.</act>
-            <act type="doing" effect="benevolent" agent="daughter">When <character
-                    child-status="childless" reference="daughter" marital-status="unmarried"
-                    >Cinderella</character> appeared at the festival in this dress, everyone was
-                astonished at her beauty.</act>
-            <act type="doing" effect="benevolent" agent="prince" receiver="daughter">The prince had
-                waited until she came, then immediately took her by the hand, and danced only with
-                her. When others came and asked her to dance with them, he said,</act>
-            <dialogue speaker="prince" stateofbeing="positive">"She is my dance
-            partner."</dialogue></p>
-        <p><act type="doing" effect="ambiguous" agent="daughter" io="prince">When evening came she
-                wanted to leave, and the prince followed her, wanting to see into which house she
-                went. But she ran away from him and into the garden behind the house.</act> A
-            beautiful tall tree stood there, on which hung the most magnificent pears. <act
-                type="doing" effect="ambiguous" agent="daughter">She climbed as nimbly as a squirrel
-                into the branches, and the prince did not know where she had gone.</act>
-            <act type="doing" effect="ambiguous" agent="prince">He waited until her father came,
-                then said to him,</act>
-            <dialogue speaker="prince" stateofbeing="neutral"> "The unknown girl has eluded me, and
-                I believe she has climbed up the pear tree.</dialogue></p>
-        <p><act type="doing" effect="ambiguous" agent="rich man">The father thought,</act><dialogue
-                speaker="rich man" stateofbeing="neutral">"Could it be Cinderella?"</dialogue><act
-                type="doing" effect="ambiguous" agent="rich man"> He had an ax brought to him and
-                cut down the tree, but no one was in it. When they came to the kitchen, Cinderella
-                was lying there in the ashes as usual, for she had jumped down from the other side
-                of the tree, had taken the beautiful dress back to the bird in the hazel tree, and
-                had put on her gray smock.</act></p>
-        <p><act type="doing" effect="ambiguous" agent="they">On the third day, when <character
-                    marital-status="unmarried" reference="daughter" child-status="childless"
-                    >her</character> parents and sisters had gone away, <character
-                    child-status="childless" reference="daughter" marital-status="unmarried"
-                    >Cinderella</character> went again to <character marital-status="unmarried"
-                    reference="daughter" child-status="childless">her</character>
-                <character child-status="mother" marital-status="wife" reference="original wife"
-                    >mother's grave</character> and said to the tree:</act></p>
-        <p><dialogue speaker="daughter" stateofbeing="positive">Shake and quiver, little tree, Throw
-                gold and silver down to me.</dialogue></p>
-        <p><act type="doing" effect="benevolent" agent="bird" receiver="daughter">This time the bird
-                threw down to her a dress that was more splendid and magnificent than any she had
-                yet had, and the slippers were of pure gold.</act>
-            <act type="doing" effect="benevolent" agent="daughter">When she arrived at the festival
-                in this dress, everyone was so astonished that they did not know what to say.</act>
-            <act type="doing" effect="benevolent" agent="prince">The prince danced only with her,
-                and whenever anyone else asked her to dance, he would say,</act>
-            <dialogue speaker="prince" stateofbeing="positive">"<character child-status="childless"
-                    reference="daughter" marital-status="unmarried">She</character> is my dance
-                partner."</dialogue></p>
-        <p><act type="doing" effect="ambiguous" agent="daughter">When evening came Cinderella wanted
-                to leave, and the prince tried to escort her, but she ran away from him so quickly
-                that he could not follow her.</act>
-            <act type="doing" effect="ambiguous" agent="prince">The prince, however, had set a trap.
-                He had had the entire stairway smeared with pitch.</act>
-            <act type="doing" effect="ambiguous" agent="daughter">When <character
-                    child-status="childless" marital-status="unmarried" reference="daughter"
-                    >she</character> ran down the stairs, <character child-status="childless"
-                    marital-status="unmarried" reference="daughter">her</character> left slipper
-                stuck in the pitch. The prince picked it up. It was small and dainty, and of pure
-                gold.</act></p>
-        <p><act type="doing" effect="ambiguous" agent="prince" io="rich man">The next morning, he
-                went with it to the man,</act>
-            <act agent="prince" type="doing" effect="ambiguous" receiver="rich man">and said to
-                him,</act>
-            <dialogue speaker="prince" stateofbeing="positive">No one shall be my wife except for
-                the one whose foot fits this golden shoe."</dialogue></p>
-        <p><act type="being" effect="benevolent" agent="new sisters">The two sisters were happy to
-                hear this,</act> for they had pretty feet. With her mother standing by, <act
-                type="doing" effect="ambiguous" agent="new sisters">the older one took the shoe into
-                her bedroom to try it on.</act>
-            <act type="doing" effect="ambiguous" agent="a new sister">She could not get her big toe
-                into it,</act>
-            <act type="being" effect="ambiguous" agent="a new sister">for the shoe was too small for
-                her.</act>
-            <act type="doing" effect="hostile" agent="new wife">Then her mother gave her a knife and
-                said,</act>
-            <dialogue speaker="new wife" stateofbeing="negative">"Cut off your toe. When you are
-                queen you will no longer have to go on foot."</dialogue></p>
-        <p><act type="doing" effect="hostile" agent="a new sister">The girl cut off her toe</act>,
+                        reference="new sisters">stepsisters</character> and her <character
+                        child-status="stepmother" reference="new wife" marital-status="wife"
+                        >stepmother</character> did not recognize <character
+                        marital-status="unmarried" reference="daughter" child-status="childless"
+                        >her</character>. They thought <character child-status="childless"
+                        reference="daughter" marital-status="unmarried">she</character> must be a
+                    foreign princess, for <character marital-status="unmarried" reference="daughter"
+                        child-status="childless">she</character> looked so beautiful in the golden
+                    dress.</act>
+                <act type="doing" effect="hostile" agent="new wife and new sisters">They never once
+                    thought it was <character child-status="childless" marital-status="unmarried"
+                        reference="daughter">Cinderella</character>, for they thought that
+                        <character child-status="childless" marital-status="unmarried"
+                        reference="daughter">she</character> was sitting at home in the dirt,
+                    looking for lentils in the ashes.</act></p>
+            <p><act type="doing" agent="prince" effect="benevolent">The prince approached <character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >her</character>, took <character child-status="childless"
+                        reference="daughter" marital-status="unmarried">her</character> by the hand,
+                    and danced with <character child-status="childless" marital-status="unmarried"
+                        reference="daughter">her</character>. Furthermore, he would dance with no
+                    one else. He never let go of her hand, and whenever anyone else came and asked
+                    her to dance, he would say,</act>
+                <dialogue speaker="prince" stateofbeing="positive">"She is my dance
+                    partner."</dialogue></p>
+            <p><act effect="benevolent" type="doing" agent="daughter"><character
+                        marital-status="unmarried" reference="daughter" child-status="childless"
+                        >She</character> danced until evening, and then <character
+                        child-status="childless" reference="daughter" marital-status="unmarried"
+                        >she</character> wanted to go home.</act>
+                <act effect="benevolent" type="doing" agent="prince">But the prince said,</act>
+                <dialogue speaker="prince" stateofbeing="positive">"I will go along and escort
+                    you,"</dialogue>
+                <act effect="benevolent" type="doing" agent="prince" receiver="daughter">for he
+                    wanted to see to whom the beautiful <character child-status="childless"
+                        marital-status="unmarried" reference="daughter">girl</character> belonged.
+                    However, <character marital-status="unmarried" reference="daughter"
+                        child-status="childless">she</character> eluded him and jumped into the
+                    pigeon coop. The prince waited until <character child-status="childless"
+                        reference="daughter" marital-status="unmarried">her</character> father came,
+                    and then he told him that the unknown <character marital-status="unmarried"
+                        reference="daughter" child-status="childless">girl</character> had jumped
+                    into the pigeon coop.</act></p>
+            <p>
+                <act type="doing" effect="ambiguous" agent="rich man">The old man thought,</act>
+                <dialogue speaker="rich man" stateofbeing="neutral"> "Could it be <character
+                        child-status="childless" reference="daughter" marital-status="unmarried"
+                        >Cinderella</character>?"</dialogue></p>
+            <p><act type="doing" effect="hostile" agent="rich man">He had them bring him an ax and a
+                    pick so that he could break the pigeon coop apart, but no one was
+                    inside.</act><act type="doing" effect="ambiguous" agent="daughter">When they got
+                    home <character marital-status="unmarried" reference="daughter"
+                        child-status="childless">Cinderella</character> was lying in the ashes,
+                    dressed in <character child-status="childless" marital-status="unmarried"
+                        reference="daughter">her</character> dirty clothes. A dim little oil-lamp
+                    was burning in the fireplace. <character child-status="childless"
+                        marital-status="unmarried" reference="daughter">Cinderella</character> had
+                    quickly jumped down from the back of the pigeon coop and had run to the hazel
+                    tree. There <character child-status="childless" marital-status="unmarried"
+                        reference="daughter">she</character> had taken off <character
+                        child-status="childless" reference="daughter" marital-status="unmarried"
+                        >her</character> beautiful clothes and laid them on the grave, and the bird
+                    had taken them away again. Then, dressed in <character
+                        marital-status="unmarried" reference="daughter" child-status="childless"
+                        >her</character> gray smock, <character child-status="childless"
+                        reference="daughter" marital-status="unmarried">she</character> had returned
+                    to the ashes in the kitchen.</act>
+            </p>
+            <p><act type="doing" effect="ambiguous" agent="parents and new sisters">The next day
+                    when the festival began anew, and <character child-status="childless"
+                        marital-status="unmarried" reference="daughter">her</character> parents and
+                    her <character marital-status="unmarried" reference="new sisters"
+                        child-status="childless">stepsisters</character> had gone again,</act>
+                <act type="doing" effect="ambiguous" agent="daughter"><character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >Cinderella</character> went to the hazel tree and said:</act></p>
+            <p><dialogue speaker="daughter" stateofbeing="positive">Shake and quiver, little tree,
+                    Throw gold and silver down to me.</dialogue></p>
+            <p><act type="doing" effect="ambiguous" agent="birds" receiver="daughter">Then the bird
+                    threw down an even more magnificent dress than on the preceding day.</act>
+                <act type="doing" effect="benevolent" agent="daughter">When <character
+                        child-status="childless" reference="daughter" marital-status="unmarried"
+                        >Cinderella</character> appeared at the festival in this dress, everyone was
+                    astonished at her beauty.</act>
+                <act type="doing" effect="benevolent" agent="prince" receiver="daughter">The prince
+                    had waited until she came, then immediately took her by the hand, and danced
+                    only with her. When others came and asked her to dance with them, he said,</act>
+                <dialogue speaker="prince" stateofbeing="positive">"She is my dance
+                    partner."</dialogue></p>
+            <p><act type="doing" effect="ambiguous" agent="daughter" io="prince">When evening came
+                    she wanted to leave, and the prince followed her, wanting to see into which
+                    house she went. But she ran away from him and into the garden behind the
+                    house.</act> A beautiful tall tree stood there, on which hung the most
+                magnificent pears. <act type="doing" effect="ambiguous" agent="daughter">She climbed
+                    as nimbly as a squirrel into the branches, and the prince did not know where she
+                    had gone.</act>
+                <act type="doing" effect="ambiguous" agent="prince">He waited until her father came,
+                    then said to him,</act>
+                <dialogue speaker="prince" stateofbeing="neutral"> "The unknown girl has eluded me,
+                    and I believe she has climbed up the pear tree.</dialogue></p>
+            <p><act type="doing" effect="ambiguous" agent="rich man">The father
+                    thought,</act><dialogue speaker="rich man" stateofbeing="neutral">"Could it be
+                    Cinderella?"</dialogue><act type="doing" effect="ambiguous" agent="rich man"> He
+                    had an ax brought to him and cut down the tree, but no one was in it. When they
+                    came to the kitchen, Cinderella was lying there in the ashes as usual, for she
+                    had jumped down from the other side of the tree, had taken the beautiful dress
+                    back to the bird in the hazel tree, and had put on her gray smock.</act></p>
+            <p><act type="doing" effect="ambiguous" agent="they">On the third day, when <character
+                        marital-status="unmarried" reference="daughter" child-status="childless"
+                        >her</character> parents and sisters had gone away, <character
+                        child-status="childless" reference="daughter" marital-status="unmarried"
+                        >Cinderella</character> went again to <character marital-status="unmarried"
+                        reference="daughter" child-status="childless">her</character>
+                    <character child-status="mother" marital-status="wife" reference="original wife"
+                        >mother's grave</character> and said to the tree:</act></p>
+            <p><dialogue speaker="daughter" stateofbeing="positive">Shake and quiver, little tree,
+                    Throw gold and silver down to me.</dialogue></p>
+            <p><act type="doing" effect="benevolent" agent="bird" receiver="daughter">This time the
+                    bird threw down to her a dress that was more splendid and magnificent than any
+                    she had yet had, and the slippers were of pure gold.</act>
+                <act type="doing" effect="benevolent" agent="daughter">When she arrived at the
+                    festival in this dress, everyone was so astonished that they did not know what
+                    to say.</act>
+                <act type="doing" effect="benevolent" agent="prince">The prince danced only with
+                    her, and whenever anyone else asked her to dance, he would say,</act>
+                <dialogue speaker="prince" stateofbeing="positive">"<character
+                        child-status="childless" reference="daughter" marital-status="unmarried"
+                        >She</character> is my dance partner."</dialogue></p>
+            <p><act type="doing" effect="ambiguous" agent="daughter">When evening came Cinderella
+                    wanted to leave, and the prince tried to escort her, but she ran away from him
+                    so quickly that he could not follow her.</act>
+                <act type="doing" effect="ambiguous" agent="prince">The prince, however, had set a
+                    trap. He had had the entire stairway smeared with pitch.</act>
+                <act type="doing" effect="ambiguous" agent="daughter">When <character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >she</character> ran down the stairs, <character child-status="childless"
+                        marital-status="unmarried" reference="daughter">her</character> left slipper
+                    stuck in the pitch. The prince picked it up. It was small and dainty, and of
+                    pure gold.</act></p>
+            <p><act type="doing" effect="ambiguous" agent="prince" io="rich man">The next morning,
+                    he went with it to the man,</act>
+                <act agent="prince" type="doing" effect="ambiguous" receiver="rich man">and said to
+                    him,</act>
+                <dialogue speaker="prince" stateofbeing="positive">No one shall be my wife except
+                    for the one whose foot fits this golden shoe."</dialogue></p>
+            <p><act type="being" effect="benevolent" agent="new sisters">The two sisters were happy
+                    to hear this,</act> for they had pretty feet. With her mother standing by, <act
+                    type="doing" effect="ambiguous" agent="new sisters">the older one took the shoe
+                    into her bedroom to try it on.</act>
+                <act type="doing" effect="ambiguous" agent="a new sister">She could not get her big
+                    toe into it,</act>
+                <act type="being" effect="ambiguous" agent="a new sister">for the shoe was too small
+                    for her.</act>
+                <act type="doing" effect="hostile" agent="new wife">Then her mother gave her a knife
+                    and said,</act>
+                <dialogue speaker="new wife" stateofbeing="negative">"Cut off your toe. When you are
+                    queen you will no longer have to go on foot."</dialogue></p>
+            <p><act type="doing" effect="hostile" agent="a new sister">The girl cut off her
+                    toe</act>, <act type="doing" effect="hostile" agent="a new sister">forced her
+                    foot into the shoe,</act>
+                <act type="doing" effect="hostile" agent="a new sister">swallowed the pain,</act>
+                <act type="doing" effect="ambiguous" agent="a new sister">and went out to the
+                    prince.</act>
+                <act type="doing" effect="benevolent" agent="prince" receiver="a new sister">He took
+                    her on his horse as his bride and rode away with her</act>. <act type="doing"
+                    effect="ambiguous" agent="prince and a new sister">However, they had to ride
+                    past the grave, and there, on the hazel tree, sat the two pigeons, crying
+                    out:</act></p>
+            <p><dialogue speaker="pigeons" stateofbeing="negative">Rook di goo, rook di goo! There's
+                    blood in the shoe. The shoe is too tight, This bride is not
+                right!</dialogue></p>
+            <p><act type="doing" effect="hostile" agent="prince" receiver="a new sister">Then he
+                    looked at her foot and saw how the blood was running from it.</act>
+                <act type="doing" effect="ambiguous" agent="prince">He turned his horse around and
+                    took the false bride home again, saying that she was not the right one, and that
+                    the other sister should try on the shoe.</act>
+                <act type="doing" effect="hostile" agent="a new sister">She went into her bedroom,
+                    and got her toes into the shoe all right, but her heel was too large.</act></p>
+            <p><act type="doing" effect="hostile" agent="new wife">Then her mother gave her a knife,
+                    and said,</act>
+                <dialogue speaker="new wife" stateofbeing="negative">"Cut a piece off your heel.
+                    When you are queen you will no longer have to go on foot."</dialogue></p>
+            <p><act type="doing" effect="hostile" agent="a new sister">The girl cut a piece off her
+                    heel,</act>
                 <act type="doing" effect="hostile" agent="a new sister">forced her foot into the
-                shoe,</act>
-            <act type="doing" effect="hostile" agent="a new sister">swallowed the pain,</act>
-            <act type="doing" effect="ambiguous" agent="a new sister">and went out to the
-                prince.</act>
-            <act type="doing" effect="benevolent" agent="prince" receiver="a new sister">He took her
-                on his horse as his bride and rode away with her</act>. <act type="doing"
-                effect="ambiguous" agent="prince and a new sister">However, they had to ride past
-                the grave, and there, on the hazel tree, sat the two pigeons, crying out:</act></p>
-        <p><dialogue speaker="pigeons" stateofbeing="negative">Rook di goo, rook di goo! There's
-                blood in the shoe. The shoe is too tight, This bride is not right!</dialogue></p>
-        <p><act type="doing" effect="hostile" agent="prince" receiver="a new sister">Then he looked
-                at her foot and saw how the blood was running from it.</act>
-            <act type="doing" effect="ambiguous" agent="prince">He turned his horse around and took
-                the false bride home again, saying that she was not the right one, and that the
-                other sister should try on the shoe.</act>
-            <act type="doing" effect="hostile" agent="a new sister">She went into her bedroom, and
-                got her toes into the shoe all right, but her heel was too large.</act></p>
-        <p><act type="doing" effect="hostile" agent="new wife">Then her mother gave her a knife, and
-                said,</act>
-            <dialogue speaker="new wife" stateofbeing="negative">"Cut a piece off your heel. When
-                you are queen you will no longer have to go on foot."</dialogue></p>
-        <p><act type="doing" effect="hostile" agent="a new sister">The girl cut a piece off her
-                heel,</act>
-            <act type="doing" effect="hostile" agent="a new sister">forced her foot into the
-                shoe,</act>
-            <act type="doing" effect="hostile" agent="a new sister">swallowed the pain,</act>
-            <act type="doing" effect="ambiguous" agent="a new sister" io="prince">and went out to
-                the prince.</act>
-            <act type="doing" effect="ambiguous" agent="prince" receiver="a new sister">He took her
-                on his horse as his bride and rode away with her.</act> When they passed the hazel
-            tree, the two pigeons were sitting in it, and they cried out:</p>
-        <p><dialogue speaker="pigeon" stateofbeing="negative">Rook di goo, rook di goo! There's
-                blood in the shoe. The shoe is too tight, This bride is not right!</dialogue></p>
-        <p><act type="doing" effect="ambiguous" agent="prince" io="a new sister">He looked down at
-                her foot and saw how the blood was running out of her shoe,</act> and how it had
-            stained <character child-status="childless" marital-status="unmarried"
-                reference="a new sister">her</character> white stocking all red. Then he turned his
-            horse around and took the false bride home again.</p>
-        <p>
-            <dialogue speaker="prince" stateofbeing="negative">This is not the right one, either,"
-                he said.</dialogue> "Don't you have another daughter?"</p>
-        <p><dialogue speaker="rich man" stateofbeing="negative"> "No," said the man. "There is only
-                a deformed little <character child-status="childless" marital-status="unmarried"
-                    reference="daughter">Cinderella</character> from my first wife, but she cannot
-                possibly be the bride." </dialogue></p>
-        <p><act type="doing" effect="ambiguous" agent="prince" receiver="rich man">The prince told
-                him to send her to him, but the <character reference="new wife"
-                    marital-status="unmarried" child-status="stepmother">mother</character>
-                answered,</act>
-            <dialogue speaker="new wife" stateofbeing="negative">"Oh, no, <character
-                    child-status="childless" marital-status="unmarried" reference="daughter"
-                    >she</character> is much too dirty. <character reference="daughter"
-                    marital-status="unmarried" child-status="childless">She</character> cannot be
-                seen."</dialogue></p>
-        <p><act type="doing" effect="ambiguous" agent="prince" receiver="they,all" io="Cinderella"
-                >But the prince insisted on it, and they had to call Cinderella.</act>
-            <act type="doing" effect="ambiguous" agent="daughter"><character
-                    child-status="childless" marital-status="unmarried" reference="daughter"
-                    >She</character> first washed her hands and face clean, and then went and bowed
-                down before the prince, who gave her the golden shoe.</act> She sat down on a stool,
-            pulled her foot out of the heavy wooden shoe, and put it into the slipper, and it fitted
-            her perfectly.</p>
-        <p><act type="doing" effect="benevolent" agent="daughter" io="prince">When she stood up the
-                prince looked into her face, and he recognized the beautiful girl who had danced
-                with him.</act> He cried out, <dialogue speaker="prince" stateofbeing="positive"
-                >"She is my true bride."</dialogue></p>
-        <p><act type="doing" effect="hostile" agent="new wife and new sisters">The stepmother and
-                the two sisters were horrified and turned pale with anger.</act>
-            <act type="doing" effect="benevolent" agent="prince" receiver="daughter">The prince,
-                however, took Cinderella onto his horse and rode away with her.</act> As they passed
-            by the hazel tree, the two white pigeons cried out:</p>
-        <p><dialogue speaker="pigeon" stateofbeing="positive">Rook di goo, rook di goo! No blood's
-                in the shoe. The shoe's not too tight, This bride is right!</dialogue></p>
-        <p><act type="doing" effect="benevolent" agent="pigeon" receiver="daughter">After they had
-                cried this out, they both flew down and lit on Cinderella's shoulders, one on the
-                right, the other on the left, and remained sitting there.</act></p>
-        <p><act type="doing" effect="benevolent" agent="new sisters">When the wedding with the
-                prince was to be held, the two false sisters came, wanting to gain favor with
-                Cinderella and to share her good fortune.</act>
-            <act type="doing" effect="benevolent" agent="prince and daughter">When the bridal couple
-                walked into the church,</act>
-            <act type="doing" effect="hostile" agent="new sisters">the older sister walked on their
-                right side and the younger on their left side, and the pigeons pecked out one eye
-                from each of them.</act>
-            <act type="doing" effect="hostile" agent="new sisters">Afterwards, as they came out of
-                the church, the older one was on the left side, and the younger one on the right
-                side, and then the pigeons pecked out the other eye from each of them.</act>
-            <act type="being" effect="hostile" agent="new sisters">And thus, for their wickedness
-                and falsehood,</act>
-            <act type="doing" effect="hostile" agent="new sisters">they were punished with blindness
-                as long as they lived.</act></p>
-    </story>
-</tale>
+                    shoe,</act>
+                <act type="doing" effect="hostile" agent="a new sister">swallowed the pain,</act>
+                <act type="doing" effect="ambiguous" agent="a new sister" io="prince">and went out
+                    to the prince.</act>
+                <act type="doing" effect="ambiguous" agent="prince" receiver="a new sister">He took
+                    her on his horse as his bride and rode away with her.</act> When they passed the
+                hazel tree, the two pigeons were sitting in it, and they cried out:</p>
+            <p><dialogue speaker="pigeon" stateofbeing="negative">Rook di goo, rook di goo! There's
+                    blood in the shoe. The shoe is too tight, This bride is not
+                right!</dialogue></p>
+            <p><act type="doing" effect="ambiguous" agent="prince" io="a new sister">He looked down
+                    at her foot and saw how the blood was running out of her shoe,</act> and how it
+                had stained <character child-status="childless" marital-status="unmarried"
+                    reference="a new sister">her</character> white stocking all red. Then he turned
+                his horse around and took the false bride home again.</p>
+            <p>
+                <dialogue speaker="prince" stateofbeing="negative">This is not the right one,
+                    either," he said.</dialogue> "Don't you have another daughter?"</p>
+            <p><dialogue speaker="rich man" stateofbeing="negative"> "No," said the man. "There is
+                    only a deformed little <character child-status="childless"
+                        marital-status="unmarried" reference="daughter">Cinderella</character> from
+                    my first wife, but she cannot possibly be the bride." </dialogue></p>
+            <p><act type="doing" effect="ambiguous" agent="prince" receiver="rich man">The prince
+                    told him to send her to him, but the <character reference="new wife"
+                        marital-status="unmarried" child-status="stepmother">mother</character>
+                    answered,</act>
+                <dialogue speaker="new wife" stateofbeing="negative">"Oh, no, <character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >she</character> is much too dirty. <character reference="daughter"
+                        marital-status="unmarried" child-status="childless">She</character> cannot
+                    be seen."</dialogue></p>
+            <p><act type="doing" effect="ambiguous" agent="prince" receiver="they,all"
+                    io="Cinderella">But the prince insisted on it, and they had to call
+                    Cinderella.</act>
+                <act type="doing" effect="ambiguous" agent="daughter"><character
+                        child-status="childless" marital-status="unmarried" reference="daughter"
+                        >She</character> first washed her hands and face clean, and then went and
+                    bowed down before the prince, who gave her the golden shoe.</act> She sat down
+                on a stool, pulled her foot out of the heavy wooden shoe, and put it into the
+                slipper, and it fitted her perfectly.</p>
+            <p><act type="doing" effect="benevolent" agent="daughter" io="prince">When she stood up
+                    the prince looked into her face, and he recognized the beautiful girl who had
+                    danced with him.</act> He cried out, <dialogue speaker="prince"
+                    stateofbeing="positive">"She is my true bride."</dialogue></p>
+            <p><act type="doing" effect="hostile" agent="new wife and new sisters">The stepmother
+                    and the two sisters were horrified and turned pale with anger.</act>
+                <act type="doing" effect="benevolent" agent="prince" receiver="daughter">The prince,
+                    however, took Cinderella onto his horse and rode away with her.</act> As they
+                passed by the hazel tree, the two white pigeons cried out:</p>
+            <p><dialogue speaker="pigeon" stateofbeing="positive">Rook di goo, rook di goo! No
+                    blood's in the shoe. The shoe's not too tight, This bride is
+                right!</dialogue></p>
+            <p><act type="doing" effect="benevolent" agent="pigeon" receiver="daughter">After they
+                    had cried this out, they both flew down and lit on Cinderella's shoulders, one
+                    on the right, the other on the left, and remained sitting there.</act></p>
+            <p><act type="doing" effect="benevolent" agent="new sisters">When the wedding with the
+                    prince was to be held, the two false sisters came, wanting to gain favor with
+                    Cinderella and to share her good fortune.</act>
+                <act type="doing" effect="benevolent" agent="prince and daughter">When the bridal
+                    couple walked into the church,</act>
+                <act type="doing" effect="hostile" agent="new sisters">the older sister walked on
+                    their right side and the younger on their left side, and the pigeons pecked out
+                    one eye from each of them.</act>
+                <act type="doing" effect="hostile" agent="new sisters">Afterwards, as they came out
+                    of the church, the older one was on the left side, and the younger one on the
+                    right side, and then the pigeons pecked out the other eye from each of
+                    them.</act>
+                <act type="being" effect="hostile" agent="new sisters">And thus, for their
+                    wickedness and falsehood,</act>
+                <act type="doing" effect="hostile" agent="new sisters">they were punished with
+                    blindness as long as they lived.</act></p>
+        </story>
+    </tale>
+    <tale>
+        <metadata>
+            <title>Äschenputtel</title>
+            <year>1821</year>
+            <author>Jacob Grimm</author>
+            <author>Wilhem Grimm</author>
+            <language>German</language>
+            <number>21</number>
+        </metadata>
+        <story>
+            <p>Es war einmal ein reicher Mann, der leb- te lange Zeit vergnügt mit seiner <character
+                    child-status="mother" marital-status="wife" reference="mother">Frau</character>,
+                und <character child-status="mother" marital-status="wife" reference="mother"
+                    >sie</character> hatten ein einziges <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">Töchterlein</character>
+                zusammen. Da ward die <character child-status="mother" marital-status="wife"
+                    reference="mother">Frau</character> krank, und als <character
+                    child-status="mother" marital-status="wife" reference="mother">sie
+                    todtkrank</character> ward, rief <character child-status="mother"
+                    marital-status="wife" reference="mother">sie</character> ihre <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >Tochter</character> und sagte: <dialogue speaker="mother"
+                    stateofbeing="negative">„liebes <character child-status="childless"
+                        marital-status="unmarried" reference="cinderella">Kind</character>, ich muß
+                        <character child-status="childless" marital-status="unmarried"
+                        reference="cinderella">dich</character> verlassen, aber wenn ich oben im
+                    Himmel bin, will ich auf <character child-status="childless"
+                        marital-status="unmarried" reference="cinderella">dich</character> herab
+                    sehen, pflanz ein Bäumlein auf mein Grab, und wenn <character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >du</character> etwas wünschest, schüttele dar- an, so sollst <character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >du</character> es haben, und wenn <character child-status="childless"
+                        marital-status="unmarried" reference="cinderella">du</character> sonst in
+                    Noth bist, so will ich <character child-status="childless"
+                        marital-status="unmarried" reference="cinderella">dir</character> Hülfe
+                    schicken, nur bleib fromm und gut.“</dialogue> Nachdem <character
+                    child-status="mother" marital-status="wife" reference="mother">sie</character>
+                das gesagt, that <character child-status="mother" marital-status="wife"
+                    reference="mother">sie</character> die Augen zu und starb; das <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >Kind</character> aber weinte und pflanzte ein Bäumlein auf das Grab und
+                brauchte kein Wasser hin zu tragen, und es zu begießen, denn es war ge- nug mit
+                seinen Thränen.</p>
+
+            <p>Der Schnee deckte ein weiß Tüchlein auf der <character child-status="mother"
+                    marital-status="wife" reference="mother">Mutter</character> Grab, und als die
+                Sonne es wie- der weggezogen hatte, und das Bäumlein zum zweitenmal grün geworden
+                war, da nahm sich der Mann eine andere <character child-status="stepmother"
+                    marital-status="wife" reference="stepmother">Frau</character>. Die <character
+                    child-status="stepmother" marital-status="wife" reference="stepmother">Stiefmut-
+                    ter</character> aber hatte schon zwei Töchter, von ihrem ersten Mann, die waren
+                von Angesicht schön, von Herzen aber stolz und hoffährtig und bös. Wie nun die
+                Hochzeit gewesen, und alle drei in das Haus gefahren kamen, da ging schlim- me Zeit
+                für das arme <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">Kind</character> an. <dialogue speaker="stepmother"
+                    stateofbeing="negative">„Was macht der garstige Unnütz in den Stuben, sagte die
+                        <character child-status="stepmother" marital-status="wife"
+                        reference="stepmother">Stiefmutter</character>, fort mit <character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >ihr</character> in die Küche, wenn <character child-status="childless"
+                        marital-status="unmarried" reference="cinderella">sie</character> Brod essen
+                    will, muß <character child-status="childless" marital-status="unmarried"
+                        reference="cinderella">sies</character> erst verdient ha- ben, <character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >sie</character> kann unsere Magd seyn.“</dialogue> Da <act type="doing"
+                    effect="hostile" agent="stepsisters" receiver="cinderella">nah- men <character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >ihm</character> die Stiefschwestern die Kleider weg</act>, und <act
+                    type="doing" effect="hostile" agent="stepsisters" receiver="cinderella">zogen
+                        <character child-status="childless" marital-status="unmarried"
+                        reference="cinderella">ihm</character> einen alten grauen Rock an</act>:
+                    <dialogue speaker="stepsisters" stateofbeing="negative">„der ist gut für
+                        <character child-status="childless" marital-status="unmarried"
+                        reference="cinderella">dich</character>!“</dialogue> sagten sie, <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >lachten</character> es aus und führten <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">es</character> in die Küche.
+                Da mußte das arme <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">Kind</character> so schwere Arbeit thun: früh vor Tag
+                aufstehen, Wasser tragen, Feuer an- machen, kochen und waschen und die Stief-
+                schwestern thaten <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">ihm</character> noch alles gebrannte Her- zeleid an,
+                spotteten <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">es</character>, schütteten <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >ihm</character> Erbsen und Linsen in die Äche, da mußte <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >es</character> den gan- zen Tag sitzen und sie wieder auslesen. Wenn <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >es</character> müd war Abends kam es in kein Bett, son- dern mußte sich neben
+                dem Heerd in die Äche legen. Und weil <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">es</character> da immer in
+                Äche und Staub herumwühlte und schmutzig aussah, ga- ben sie <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >ihm</character> den Namen <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">Ächenputtel</character>.</p>
+
+            <p>Auf eine Zeit stellte der König einen Ball an, der sollte in aller Pracht drei Tage
+                dauern, und sein Sohn, der Prinz, sollte sich eine Ge- mahlin aussuchen; dazu wurden
+                die zwei stol- zen Schwestern auch eingeladen. <dialogue speaker="stepsisters"
+                    stateofbeing="negative">„<character child-status="childless"
+                        marital-status="unmarried" reference="cinderella">Äschenput- tel</character>
+                    riefen sie, komm herauf, kämme uns die Haare, bürst uns die Schuhe und schnalle
+                    sie fest, wir gehen auf den Ball zu dem Prinzen.“</dialogue>
+                <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">Ächenputtel</character> gab sich alle Mühe und putzte
+                    <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">sie</character> so gut es konnte, sie gaben <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >ihm</character> aber nur Scheltworte dazwischen, und als sie fertig wa- ren,
+                fragten sie spöttisch: <dialogue speaker="stepsisters" stateofbeing="neutral"
+                        >„<character child-status="childless" marital-status="unmarried"
+                        reference="cinderella">Ächenputtel</character>, <character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >du</character> gingst wohl gern mit auf den Ball?“</dialogue>
+                <dialogue speaker="cinderella" stateofbeing="positive">„Ach ja, wie kann ich aber
+                    hingehen, ich habe keine Kleider.“</dialogue>
+                <dialogue speaker="stepsisters" stateofbeing="negative">„Nein, sagte die älteste,
+                    das wär mir recht, daß <character child-status="childless"
+                        marital-status="unmarried" reference="cinderella">du</character> dich dort
+                    sehen ließest, wir müßten uns schämen, wenn die Leute hörten, daß <character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >du</character> unsere <character child-status="childless"
+                        marital-status="unmarried" reference="cinderella">Schwester</character>
+                    wärest; <character child-status="childless" marital-status="unmarried"
+                        reference="cinderella">du</character> gehörst in die Küche, da hast
+                        <character child-status="childless" marital-status="unmarried"
+                        reference="cinderella">du</character> eine Schüssel voll Linsen, wann wir
+                    wieder kommen muß sie gelesen seyn, und hüt <character child-status="childless"
+                        marital-status="unmarried" reference="cinderella">dich</character>, daß
+                    keine böse darunter ist, sonst hast <character child-status="childless"
+                        marital-status="unmarried" reference="cinderella">du</character> nichts
+                    Gutes zu erwarten.“</dialogue></p>
+
+            <p>Damit gingen sie fort, und <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">Ächenputtel</character> stand
+                und sah ihnen nach, und als <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">es</character> nichts mehr
+                sehen konnte, ging <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">es</character> traurig in die Kü- che, und schüttete die
+                Linsen auf den Heerd, da war <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">es</character> ein großer,
+                großer Haufen. <dialogue speaker="cinderella" stateofbeing="negative">„Ach, sagte
+                        <character child-status="childless" marital-status="unmarried"
+                        reference="cinderella">es</character> und seufzte dabei, da muß ich dran
+                    lesen bis Mitternacht und darf die Augen nicht zufallen lassen, und wenn sie mir
+                    noch so weh thun, wenn das meine <character child-status="mother"
+                        marital-status="wife" reference="mother">Mutter</character>
+                    wüßte!“</dialogue> Da kniete <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">es</character> sich vor den
+                Heerd in die Äche und wollte anfangen zu lesen, indem flogen zwei weiße Tauben
+                durchs Fenster und setzten sich neben die Linsen auf den Heerd; sie nickten mit den
+                Köpfchen und sagten: <dialogue speaker="pigeons" stateofbeing="positive">„<character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >Ächenputtel</character>, sollen wir <character child-status="childless"
+                        marital-status="unmarried" reference="cinderella">dir</character> helfen
+                    Linsen lesen?</dialogue>
+                <dialogue speaker="cinderella" stateofbeing="positive">„Ja, ant- wortete <character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >Ächenputtel</character>: die schlechten ins Kröpfchen, die guten ins
+                    Töpfchen.“</dialogue> Und pick, pick! pick, pick! <act type="doing"
+                    effect="benevolent" agent="pigeons">fingen sie an und fraßen die schlechten weg
+                    und ließen die guten liegen</act>. Und in einer Viertelstunde waren die Linsen
+                so rein, daß auch nicht eine falsche dar- unter war, und <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >Ächenputtel</character> konnte <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">sie</character> alle ins
+                Töpfchen streichen. Darauf aber sagten die Tauben: <dialogue speaker="pigeons"
+                    stateofbeing="positive">„<character child-status="childless"
+                        marital-status="unmarried" reference="cinderella">Ächenputtel</character>,
+                    willst <character child-status="childless" marital-status="unmarried"
+                        reference="cinderella">du</character> deine Schwe- stern mit dem Prinzen
+                    tanzen sehen, so steig auf den Taubenschlag.“</dialogue>
+                <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">Ächenputtel</character> ging ih- nen nach und stieg bis
+                auf den letzten Leiter- sproß, da konnte <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">es</character> in den Saal
+                sehen, und sah seine Schwestern mit dem Prinzen tanzen, und <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >es</character> flimmerte und glänzte von viel tausend Lichtern vor seinen
+                Augen. Und als <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">es</character> sich satt gesehen, stieg <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >es</character> wieder herab, und es war <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">ihm</character> schwer ums
+                Herz, und legte sich in die Äche und schlief ein.</p>
+
+            <p>Am andern Morgen kamen die zwei Schwe- stern in die Küche, und als sie sahen, daß
+                    <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">Ächenputtel</character> die Linsen rein gelesen, waren
+                sie böse, denn sie wollten <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">es</character> gern schelten,
+                und da sie das nicht konnten, huben sie an von dem Ball zu erzählen und sagten:
+                    <dialogue speaker="stepsisters" stateofbeing="positive">„<character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >Ächenputtel</character>, das ist eine Lust gewesen, bei dem Tanz, der
+                    Prinz, der allerschönste auf der Welt hat uns dazu geführt, und eine von uns
+                    wird seine Ge- mahlin werden.“</dialogue>
+                <dialogue speaker="cinderella" stateofbeing="positive">„Ja, sagte <character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >Ächenputtel</character>, ich habe die Lichter flimmern sehen, das mag recht
+                    prächtig gewesen seyn.“</dialogue>
+                <dialogue speaker="stepsisters" stateofbeing="negative">„Ei! wie hast <character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >du</character> das angefangen,“</dialogue> fragte die älteste. <dialogue
+                    speaker="cinderella" stateofbeing="positive">„Ich hab' oben auf den Taubenstall
+                    gestan- den.“</dialogue> Wie sie das hörte, trieb sie der Neid und sie befahl,
+                daß der Taubenstall gleich sollte niedergerissen werden.</p>
+
+            <p><character child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >Ächenputtel</character> aber mußte <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">sie</character> wieder käm-
+                men und putzen; da sagte die jüngste, die noch ein wenig Mitleid im Herzen hatte:
+                    <dialogue speaker="stepsister" stateofbeing="negative">„<character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >Ächen- puttel</character>, wenns dunkel ist, kannst <character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >du</character> hinzugehen und von außen durch die Fenster
+                    gucken!“</dialogue>
+                <dialogue speaker="stepsister" stateofbeing="negative">„Nein, sagte die älteste, das
+                    macht <character child-status="childless" marital-status="unmarried"
+                        reference="cinderella">sie</character> nur faul, da hast <character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >du</character> einen Sack voll Wicken, <character child-status="childless"
+                        marital-status="unmarried" reference="cinderella">Ächenputtel</character>,
+                    da lese die guten und bösen aus- einander und sey fleißig, und wenn <character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >du</character> sie mor- gen nicht rein hast, so schütte ich <character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >dir</character> sie in die Äche und du mußt hungern, bis <character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >du</character> sie alle herausgesucht hast.“</dialogue></p>
+
+            <p><character child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >Ächenputtel</character> setzte sich betrübt auf den Heerd und schüttete die
+                Wicken aus. Da flogen die Tauben wieder herein und thaten freund- lich: <dialogue
+                    speaker="pigeons" stateofbeing="positive">„<character child-status="childless"
+                        marital-status="unmarried" reference="cinderella">Ächenputtel</character>,
+                    sollen wir <character child-status="childless" marital-status="unmarried"
+                        reference="cinderella">dir</character> die Wicken lesen?“</dialogue>
+                <dialogue speaker="cinderella" stateofbeing="positive">„Ja, die schlechten ins
+                    Kröpfchen, die guten ins Töpfchen.“</dialogue>
+                <act type="doing" effect="benevolent" agent="pigeons">Pick, pick! pick, pick! gings
+                    so geschwind, als wären zwölf Hände da</act>. Und als sie fertig wa- ren, sagten
+                die Tauben: <dialogue speaker="pigeons" stateofbeing="positive">„<character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >Ächenputtel</character>, willst <character child-status="childless"
+                        marital-status="unmarried" reference="cinderella">du</character> auch auf
+                    den Ball gehen und tanzen.“</dialogue>
+                <dialogue speaker="cinderella" stateofbeing="negative">„O du mein Gott, sagte
+                        <character child-status="childless" marital-status="unmarried"
+                        reference="cinderella">es</character>, wie kann ich in meinen schmutzigen
+                    Kleidern hingehen?“</dialogue>
+                <dialogue speaker="pigeons" stateofbeing="positive">„Geh zu dem Bäumlein auf deiner
+                        <character child-status="mother" marital-status="wife" reference="mother"
+                        >Mutter</character> Grab, schüttele daran und wünsche <character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >dir</character> schöne Kleider, komm aber vor Mitternacht
+                    wieder.“</dialogue> da ging <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">Ächenputtel</character>
+                hinaus, schüttelte das Bäumlein und sprach: <dialogue speaker="cinderella"
+                    stateofbeing="positive">„Bäumlein rüttel und schüttel dich, wirf schöne Kleider
+                    herab für mich!“</dialogue> Kaum hatte da ging <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >es</character> das ausgesagt, da lag ein präch- tig silbern Kleid vor da ging
+                    <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">ihm</character>, Perlen, seidene Strümpfe mit silbernen
+                Zwickeln und silberne Pantoffel und was sonst dazu gehörte. da ging <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >Ächen- puttel</character> trug alles nach Haus, und als da ging <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >es</character> sich gewaschen und angezogen hatte, da war <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >es</character> so schön wie eine Rose, die der Thau gewaschen hat. Und wie
+                    <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">es</character> vor die Hausthüre kam, so stand da ein
+                Wagen mit sechs federgeschmück- ten Rappen und Bediente dabei in Blau und Silber,
+                die hoben <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">es</character> hinein, und so gings im Gallop zu dem
+                Schloß des Königs.</p>
+
+            <p>Der Prinz aber sah den Wagen vor dem Thor halten, und meinte eine fremde Prinzes- sin
+                käme angefahren. Da ging er selbst die Treppe hinab, <act type="doing"
+                    effect="benevolent" agent="prince" receiver="cinderella">hob <character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >Ächenputtel</character> hinaus</act> und <act type="doing"
+                    effect="benevolent" agent="prince" receiver="cinderella">führte <character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >es</character> in den Saal</act>. Und als da der Glanz der viel tausend
+                Lichter auf <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">es</character> fiel, da war <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >es</character> so schön, daß jedermann sich darüber verwun- derte, und die
+                Schwestern standen auch da und ärgerten sich, daß jemand schöner war wie sie, aber
+                sie dachten nimmermehr, daß das <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">Ächen- puttel</character>
+                wäre, das zu Haus in der Äche lag. Der Prinz aber <act type="doing"
+                    effect="benevolent" agent="prince" receiver="cinderella">tanzte mit <character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >Ächenputtel</character></act> und ward ihm königliche Ehre angethan. Er ge-
+                dachte auch bei sich: ich soll mir eine Braut aussuchen, da weiß ich mir keine als
+                diese. Für so lange Zeit in Äche und Traurigkeit lebte <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >Ächenputtel</character> nun in Pracht und Freude; als aber Mitternacht kam, eh'
+                es zwölf geschla- gen, stand <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">es</character> auf, neigte
+                sich und wie der Prinz bat und bat, so wollte <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">es</character> nicht länger
+                bleiben. Da führte <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">es</character> der Prinz hinab, unten stand der Wagen und
+                wartete, und so fuhr <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">es</character> fort in Pracht wie <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >es</character> gekommen war.</p>
+
+            <p>Als <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">Ächenputtel</character> zu Haus war, ging <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >es</character> wieder zu dem Bäumlein auf der <character child-status="mother"
+                    marital-status="wife" reference="mother">Mutter</character> Grab: <dialogue
+                    speaker="cinderella" stateofbeing="positive">„Bäumlein rüttel dich und schüttel
+                    dich! nimm die Kleider wieder für dich!“</dialogue> damit ging es zurück, machte
+                sich das Gesicht staubig und legte sich in die Äsche schlafen.</p>
+
+            <p>Am Morgen darauf kamen die Schwe- stern, sahen verdrießlich aus und schwiegen still.
+                    <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">Ächenputtel</character> sagte: <dialogue
+                    speaker="cinderella" stateofbeing="neutral">„ihr habt wohl gestern Abend viel
+                    Freude gehabt“</dialogue>
+                <dialogue speaker="stepsisters" stateofbeing="neutral">„Nein, es war eine <character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >Prinzessin</character> da, mit der hat der Prinz fast immer getanzt, es hat
+                        <character child-status="childless" marital-status="unmarried"
+                        reference="cinderella">sie</character> aber niemand ge- kannt und niemand
+                    gewußt, woher <character child-status="childless" marital-status="unmarried"
+                        reference="cinderella">sie</character> gekom- men ist.</dialogue>
+                <dialogue speaker="cinderella" stateofbeing="neutral">„Ist es vielleicht <character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >die</character> gewesen, die in den prächtigen Wagen mit den sechs Rap- pen
+                    gefahren ist?“</dialogue> sagte <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">Ächenputtel</character>.
+                    <dialogue speaker="stepsisters" stateofbeing="neutral">„Wo- her weißt <character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >du</character> das?“</dialogue>
+                <dialogue speaker="cinderella" stateofbeing="neutral">Ich stand in der Haus- thüre,
+                    da sah ich <character child-status="childless" marital-status="unmarried"
+                        reference="cinderella">sie</character> vorbeifahren.“</dialogue>
+                <dialogue speaker="stepsister" stateofbeing="negative">„In Zukunft bleib bei deiner
+                    Arbeit, sagte die älte- ste und sah <character child-status="childless"
+                        marital-status="unmarried" reference="cinderella">Ächenputtel</character>
+                    böse an, was brauchst <character child-status="childless"
+                        marital-status="unmarried" reference="cinderella">du</character> in der
+                    Hausthüre zu stehen.“</dialogue></p>
+
+            <p><character child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >Ächenputtel</character> mußte zum drittenmal die zwei Schwestern putzen, und
+                zum Lohn gaben sie ihm eine Schüssel mit Erbsen, die sollte sie rein lesen;
+                    <dialogue speaker="stepsister" stateofbeing="negative">„und daß <character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >du</character> dich nicht unterstehst von der Arbeit wegzugehen,</dialogue>
+                rief die älteste noch nach. <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">Ächenputtel</character>
+                gedachte: wenn nur meine Tauben nicht ausbleiben, und das Herz schlug ihm ein wenig.
+                Die Tauben aber ka- wie an dem vorigen Abend und sagten: <dialogue speaker="pigeons"
+                    stateofbeing="positive">„<character child-status="childless"
+                        marital-status="unmarried" reference="cinderella">Ächenputtel</character>,
+                    sollen wir dir die Erbsen le- sen?“</dialogue>
+                <dialogue speaker="cinderella" stateofbeing="positive">„Ja, die schlechten ins
+                    Kröpfchen, die guten ins Töpfchen.“</dialogue> Die <act type="doing"
+                    effect="benevolent" agent="pigeons">Tauben pickten wieder die bösen
+                heraus</act>, und waren bald damit fertig, dann sagten sie: <dialogue
+                    speaker="pigeons" stateofbeing="positive">„<character child-status="childless"
+                        marital-status="unmarried" reference="cinderella">Ächenputtel</character>,
+                    schüttele das Bäumlein, das wird <character child-status="childless"
+                        marital-status="unmarried" reference="cinderella">dir</character> noch
+                    schönere Kleider herunter werfen, geh auf den Ball, aber hüte <character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >dich</character>, daß <character child-status="childless"
+                        marital-status="unmarried" reference="cinderella">du</character> vor
+                    Mitternacht wieder kommst.“</dialogue>
+                <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">Ächenputtel</character> ging hin: <dialogue
+                    speaker="cinderella" stateofbeing="positive">„Bäumlein rüttel dich und schüttel
+                    dich, wirf schöne Kleider herab für mich.“</dialogue> Da fiel ein Kleid herab
+                noch viel herrlicher und prächtiger als das vorige, ganz von Gold und Edelgesteinen,
+                dabei goldgezwickelte Strümpfe und goldene Pantoffel; und als <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >Ächenputtel</character> damit angekleidet war, da glänzte <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >es</character> recht, wie die Sonne am Mittag. Vor der Thüre hielt ein Wagen
+                mit sechs Schimmeln, die hatten hohe weiße Federbüsche auf dem Kopf, und die
+                Bedienten waren in Roth und Gold gekleidet. Als <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">Ächenputtel</character> ankam,
+                stand schon der Prinz auf der Treppe und <act type="doing" effect="benevolent"
+                    agent="prince" receiver="cinderella">führte <character child-status="childless"
+                        marital-status="unmarried" reference="cinderella">sie</character> in den
+                    Saal</act>. Und waren gestern alle über ihre Schönheit er- staunt, so erstaunten
+                    <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">sie</character> heute noch mehr und die Schwestern
+                standen in der Ecke und waren blaß vor Neid, und hätten sie gewußt, daß das
+                    <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">Ächenputtel</character> war, das zu Haus in der Äsche
+                lag, sie wären gestorben vor Neid.</p>
+
+            <p>Der Prinz aber wollte wissen, wer die fremde <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">Prinzessin</character> sey,
+                woher <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">sie</character> gekommen und wohin <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >sie</character> fahre, und hatte Leute auf die Stra- ße gestellt, die sollten
+                Acht darauf haben, und damit <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">sie</character> nicht so
+                schnell fortlaufen könne, hat- te er die Treppe ganz mit Pech bestreichen las- sen.
+                    <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">Ächenputtel</character> tanzte und tanzte mit dem
+                Prinzen, war in Freuden und gedachte nicht an Mitternacht. Auf einmal, wie
+                    <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">es</character> mitten im Tanzen war, hörte <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >es</character> den Glockenschlag, da fiel <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">ihm</character> ein, wie die
+                Tauben <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">es</character> gewarnt, erschrack und eilte zur Thüre
+                hinaus und flog recht die Treppe hinunter. Weil die aber mit Pech bestrichen war,
+                blieb einer von den golde- nen Pantoffeln festhängen, und in der Angst dacht
+                    <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">es</character> nicht daran, <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >ihn</character> mitzunehmen. Und wie <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">es</character> den letzten
+                Schritt von der Treppe that, da hatt' es zwölf ausgeschlagen, da war Wa- gen und
+                Pferde verschwunden und <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">Ächenput- tel</character>
+                stand in seinen Äschenkleidern auf der dun- keln Straße. Der Prinz war <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >ihm</character> nachgeeilt, auf der Treppe fand er den goldenen Pantof- fel,
+                riß ihn los und hob ihn auf, wie er aber unten hinkam, war alles verschwunden; die
+                Leute auch, die zur Wache ausgestellt wa- ren, kamen und sagten, daß sie nichts
+                gesehen hätten.</p>
+
+            <p><character child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >Ächenputtel</character> war froh, daß es nicht schlim- mer gekommen war, und
+                ging nach Haus, da steckte <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">es</character> sein trübes
+                Oel-Lämpchen an, hängte <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">es</character> in den
+                Schornstein und legte sich in die Äsche. Es währte nicht lange, so kamen die beiden
+                Schwestern auch und riefen: <dialogue speaker="stepsisters" stateofbeing="neutral"
+                        >„<character child-status="childless" marital-status="unmarried"
+                        reference="cinderella">Ächen- puttel</character>, steh auf und leucht
+                    uns.“</dialogue>
+                <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">Ächenput- tel</character> gähnte und that als wacht
+                    <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">es</character> aus dem Schlaf. Bei dem Leuchten aber
+                hörte <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">es</character>, wie die eine sagte: <dialogue
+                    speaker="stepsister" stateofbeing="negative">„Gott weiß, wer die verwünsch- te
+                        <character child-status="childless" marital-status="unmarried"
+                        reference="cinderella">Prinzessin</character> ist, daß <character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >sie</character> in der Erde begraben läg! der Prinz hat nur mit <character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >ihr</character> getanzt und als <character child-status="childless"
+                        marital-status="unmarried" reference="cinderella">sie</character> weg war,
+                    hat er gar nicht mehr blei- ben wollen und das ganze Fest hat ein Ende
+                    gehabt.“</dialogue>
+                <dialogue speaker="stepsister" stateofbeing="negative">„Es war recht, als wären alle
+                    Lichter auf einmal ausgeblasen worden,“</dialogue> sagte die andere. <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >Ächenputtel</character> wußte wohl wer die fremde <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >Prinzessin</character> war, aber <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">es</character> sagte kein
+                Wörtchen.</p>
+
+            <p>Der Prinz aber gedachte, ist dir alles an- dere fehlgeschlagen, so wird dir der
+                Pantoffel die <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">Braut</character> finden helfen, und ließ bekannt ma-
+                chen, welcher der goldene Pantoffel passe, die solle seine Gemahlin werden. Aber
+                allen war er viel zu klein, ja manche hätten ihren Fuß nicht hineingebracht, und
+                wären die zwei Pan- toffel ein einziger gewesen. Endlich kam die Reihe auch an die
+                beiden Schwestern, die Pro- be zu machen; sie waren froh, denn sie hatten kleine
+                schöne Füße und glaubten, uns kann es nicht fehlschlagen, wär der Prinz nur gleich
+                zu uns gekommen. <dialogue speaker="stepmother" stateofbeing="neutral">„Hört, sagte
+                    die <character child-status="stepmother" marital-status="widow"
+                        reference="stepmother">Mutter</character> heim- lich, da habt ihr ein
+                    Messer, und wenn euch der Pantoffel doch noch zu eng ist, so schnei- det euch
+                    ein Stück vom Fuß ab, es thut ein bischen weh, was schadet das aber, es vergeht
+                    bald und eine von euch wird Königin.“</dialogue> Da ging die älteste in ihre
+                Kammer und probirte den Pantoffel an, die Fußspitze kam hinein, aber die Ferse war
+                zu groß, da nahm sie das Messer und schnitt sich ein Stück von der Fer- se, bis sie
+                den Fuß in den Pantoffel hinein- zwängte. So ging sie heraus zu dem Prin- zen, und
+                wie der sah, daß sie den Pantoffel anhatte, sagte er, das sey die Braut, führte sie
+                zum Wagen und wollte mit ihr fortfahren. Wie er aber ans Thor kam, saßen oben die
+                Tauben und riefen: <dialogue speaker="pigeons" stateofbeing="negative">„Rucke di
+                    guck, rucke di guck! Blut ist im Schuck: (Schuh) Der Schuck ist zu klein, Die
+                    rechte Braut sitzt noch daheim!“</dialogue> Der Prinz bückte sich und sah auf
+                den Pan- toffel, da quoll das Blut heraus, und da merk- te er, daß er betrogen war,
+                und führte die fal- sche Braut zurück. Die <character child-status="stepmother"
+                    marital-status="widow" reference="stepmother">Mutter</character> aber sagte zur
+                zweiten Tochter: <dialogue speaker="stepmother" stateofbeing="neutral">„nimm du den
+                    Pantoffel, und wenn er dir zu kurz ist, so schneide lieber vor- ne an den Zehen
+                    ab.</dialogue> Da nahm sie den Pan- toffel in ihre Kammer, und als der Fuß zu
+                groß war, da biß sie die Zähne zusammen und schnitt ein groß Stück von den Zehen ab,
+                und drückte den Pantoffel geschwind an. Wie sie damit hervortrat, meinte er, das
+                wäre die rech- te und wollte mit ihr fortfahren. Als er aber in das Thor kam, riefen
+                die Tauben wieder: <dialogue speaker="pigeons" stateofbeing="negative">„Rucke di
+                    guck, rucke di guck! Blut ist im Schuck: Der Schuck ist zu klein, Die rechte
+                    Braut sitzt noch daheim!“</dialogue> Der Prinz sah nieder, da waren die weißen
+                Strümpfe der Braut roth gefärbt und das Blut war hoch herauf gedrungen. Da brachte
+                sie der Prinz der Mutter wieder und sagte: <dialogue speaker="prince"
+                    stateofbeing="negative">„das ist auch nicht die rechte Braut; aber ist nicht
+                    noch eine Tochter im Haus.“</dialogue>
+                <dialogue speaker="stepmother" stateofbeing="negative">„Nein, sagte die <character
+                        child-status="stepmother" marital-status="widow" reference="stepmother"
+                        >Mutter</character>, nur ein garstiges <character child-status="childless"
+                        marital-status="unmarried" reference="cinderella">Ächenput- tel</character>
+                    ist noch da, das sitzt unten in der Äsche, dem kann der Pantoffel nicht
+                    passen.</dialogue> Sie wollte <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">es</character> auch nicht
+                rufen lassen, bis es der Prinz durchaus verlangte. Da ward <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >Ächen- puttel</character> gerufen und wie <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">es</character> hörte, daß der
+                Prinz da sey, wusch <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">es</character> sich geschwind Gesicht und Hände frisch
+                und rein; und wie <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">es</character> in die Stube trat, neigte <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >es</character> sich, der Prinz aber reichte ihr den goldenen Pantoffel und
+                sagte: <dialogue speaker="prince" stateofbeing="positive">„probier ihn an! und wenn
+                    er <character child-status="childless" marital-status="unmarried"
+                        reference="cinderella">dir</character> paßt, wirst <character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >du</character> meine Gemahlin.“</dialogue> Da streift <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >es</character> den schwe- ren Schuh von dem linken Fuß ab, setzt <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >ihn</character> auf den goldenen Pantoffel und drückte ein klein wenig, da
+                stand <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">es</character> darin, als wär er <character
+                    child-status="childless" marital-status="unmarried" reference="cinderella"
+                    >ihm</character> an- gegossen. Und als <character child-status="childless"
+                    marital-status="unmarried" reference="cinderella">es</character> sich aufbückte,
+                sah <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">ihm</character> der Prinz ins Gesicht, da erkannte er die
+                schö- ne <character child-status="childless" marital-status="unmarried"
+                    reference="cinderella">Prinzessin</character> wieder und rief: <dialogue
+                    speaker="prince" stateofbeing="positive">„das ist die rechte Braut.“</dialogue>
+                Die <character child-status="stepmother" marital-status="wife"
+                    reference="stepmother">Stiefmutter</character> und die zwei stolzen Schwestern
+                erschracken und wurden bleich, aber der <act type="doing" effect="benevolent"
+                    agent="prince" receiver="cinderella">Prinz führte <character
+                        child-status="childless" marital-status="unmarried" reference="cinderella"
+                        >Ächenputtel</character> fort</act> und <act type="doing"
+                    effect="benevolent" agent="prince" receiver="cinderella">hob es in den
+                    Wagen</act>, und als sie durchs Thor fuhren, da riefen die Tauben:</p>
+
+            <p><dialogue speaker="pigeons" stateofbeing="positive">„Rucke di guck, rucke di guck!
+                    Kein Blut im Schuck: Der Schuck ist nicht zu klein, Die rechte <character
+                        child-status="childless" marital-status="wife" reference="cinderella"
+                        >Braut</character>, die führt er heim!“</dialogue></p>
+        </story>
+    </tale>
 </tales>
