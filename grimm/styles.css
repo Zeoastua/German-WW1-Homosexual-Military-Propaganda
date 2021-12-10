@@ -121,4 +121,11 @@ div a:hover {
     height: calc(100vh - 400px);
 }
 
+code{
+    background-color: #9E8854;
+}
+p {
+text-align: left;
+}
+
 
