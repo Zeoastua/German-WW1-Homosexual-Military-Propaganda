@@ -31,7 +31,7 @@
                             <xsl:apply-templates select="//tale[1]/story/p"/>
                             
                                 <xsl:apply-templates select="//tale/story/act[@effect='hostile']"/>
-                            <xsl:apply-templates select="//tale/story/act[@effect='neutral']"/>
+                            <xsl:apply-templates select="//tale/story/act[@effect='ambiguous']"/>
                                 <xsl:apply-templates select="//tale/story/act[@effect='benevolent']"/>
                         </div>
                         <div class="grid-item grid-item-14">
