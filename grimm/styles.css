@@ -76,6 +76,7 @@ main {
     padding: 20px;
     width: 90%;
     background-color: #947b50;
+    list-style-position:inside;
 }
 
 .grid-container {
