@@ -19,12 +19,12 @@ table {
 h1 {
 	font-size: 40px;
 	text-align: center;
+	-webkit-text-stroke: #947b50;
 }
 
 h2 {
     text-align: center;
 }
-
 .image {
     float: right;    
     height: 160px;
@@ -116,4 +116,8 @@ div a:hover {
     text-align: center;
     grid-auto-rows: auto;
     grid-column-gap: 100px;
+    overflow-y: scroll;
+    height: calc(100vh - 400px);
 }
+
+
