@@ -19,7 +19,7 @@ table {
 h1 {
 	font-size: 40px;
 	text-align: center;
-	-webkit-text-stroke: #947b50;
+	-webkit-text-stroke: 1px #947b50;
 }
 
 h2 {
