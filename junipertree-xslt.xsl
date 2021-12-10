@@ -28,10 +28,11 @@
                         <div class="grid-item grid-item-13">English Version</div>
                         <div class="grid-item grid-item-12">
                             <!-- textarea style -->
+                            <p>
                             <xsl:text>
                                 While beginning to mark-up The Juniper Tree from the 
                                 original source for the German text, the team discovered 
-                                that it was in Dutch instead of German.
+                                that it was in Low German instead of Standard German.
 					            Efforts to find a usable German version that we felt 
 					            confident in from other sources proved unsuccessful. 
 					            We have decided to include only the English version of
@@ -39,10 +40,11 @@
 					            as to our main research question of the Grimms' 
 					            portrayal of women characters.
                             </xsl:text>
+                            </p>
                         </div>
                         <div class="grid-item grid-item-14">
                             <!-- textarea style -->
-                            <xsl:apply-templates select="//tale/story/p"/>
+                            <xsl:apply-templates select="//tale/story"/>
 
                             <xsl:apply-templates select="//tale/story/act[@effect = 'hostile']"/>
                             <xsl:apply-templates select="//tale/story/act[@effect = 'neutral']"/>
