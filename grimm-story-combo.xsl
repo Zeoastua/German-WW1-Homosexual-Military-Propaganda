@@ -48,6 +48,7 @@
         <p>
             <xsl:apply-templates/>
             
+            
         </p>
         
     </xsl:template>
@@ -58,8 +59,8 @@
        </span>
     </xsl:template>
     
-    <xsl:template match="act[@effect='neutral']">
-        <span class="neutral">
+    <xsl:template match="act[@effect='ambiguous']">
+        <span class="ambiguous">
             <xsl:apply-templates/> 
         </span>
     </xsl:template> 
