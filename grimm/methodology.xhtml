@@ -1,80 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <!-- set title -->
-    <title>methodology - Grimms' Fairy Tales</title>
-    <link rel="stylesheet" href="styles.css" /> 
-	<link rel="shortcut icon" type="image/jpg" href="red-riding-hood.png"/>
-</head>
-<body>
-	<!--#include virtual="menu.xhtml" -->
-        <main> 
+	<head>
+		<!-- set title -->
+		<title>methodology - Grimms' Fairy Tales</title>
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="shortcut icon" type="image/jpg" href="red-riding-hood.png" />
+	</head>
+	<body>
+		<!--#include virtual="menu.xhtml" -->
+		<main>
 			<h1>methodology</h1>
-			<div class="textarea"> <!-- textarea style -->
+			<div class="textarea">
+				<!-- textarea style -->
 				<h3>how we did it</h3>
-				<p>In order to analyze our text, we created a Relax NG schema to define the elements and attributes of our XML. These elements and attributes were created to have the ability to markup the Ashliman translations and 
-					the original German Tales. Our focus is to tag the women in these tales. By doing this, we are able to achieve a more comprehensive understanding of how the women are characterized, such as “good“ vs. “evil“, in the simpliest terms.<br/>
-					
-					The Tales that we analyzed are as follows:<br/>
-					English:<br/>
-					Cinderella<br/>
-					Frau Holle<br/>
-					Hansel and Gretel<br/>
-					Little Red Cap<br/>
-					Little Snow White<br/>
-					Rapunzel<br/>
-					Sweetheart Roland<br/>
-					The Juniper Tree<br/>
-					The Six Swans<br/>
-					The Twelve Brothers<br/>
-					
-					German:<br/>
-					Cinderella<br/>
-					Frau Holle<br/>
-					Hansel and Gretel <br/>
-					Little Red Cap<br/>
-					Rapunzel<br/>
-					Sneewittchen<br/>
-					Sweetheart Roland<br/>
-					The Six Swans <br/>
-					The Twelve Brothers<br/>
-					
-					In order to come to any conclusions about the characterizations of women in these tales, we, first, needed to tag the metadata of each tale, including:<br/>
-					<code>&lt;metadata&gt;&lt;/metadata&gt;</code><br/>
-					<code>&lt;title&gt;&lt;/title&gt;</code><br/>
-					<code>&lt;year&gt;&lt;/year&gt;</code><br/>
-					<code>&lt;author&gt;&lt;/author&gt;</code><br/>
-					<code>&lt;editor&gt;&lt;/editor&gt;</code><br/>
-					<code>&lt;translator&gt;&lt;/translator&gt;</code><br/>
-					<code>&lt;language&gt;&lt;/language&gt;</code><br/>
-					<code>&lt;number&gt;&lt;/number&gt;</code><br/>
-					The story and the tale itself is tagged using story and paragraph tags.<br/>
-					A character tag was used to tag only women, but every time a woman is referenced in the text. This is done using an element called “<code>&lt;character&gt;&lt;/character&gt;</code>“,<br/>
-					with the attributes:<br/>
-					@child-status -- in order to display if that character is a: “mother“ | “stepmother“ | “grandmother“ | “godmother“ | “adopted“ | “childless“<br/>
-					@martial-staus -- in order to display if that character is a: “wife“ | “widow“ | “fiancee“ | “divorcee“ | “unmarried“<br/>
-					@reference -- in order to individually refer to a character with a specific but original name, for each developer to remember the character by<br/>
-					
-					All dialogue is tagged with the element, “<code>&lt;dialogue&gt;&lt;/dialogue&gt;</code>“ and includes:<br/>
-					@speaker -- to name who is active in this dialogue<br/>
-					@state-of-being -- in order to indicate the feeling behind the dialogue: “positive“ | “negative“ | “neutral“<br/>
-					*The elements “<code>&lt;character&gt;&lt;/character&gt;</code>“ and “<code>&lt;act&gt;&lt;/act&gt;</code>“ can be present within the dialogue.<br/>
-					
-					All acts are tagged to emphasis interactions by the women characters, to the women characters, or because of the women characters with the “<code>&lt;act&gt;&lt;/act&gt;</code>“ element, including:<br/>
-					@type -- in order to determine what kind of action: “being or “doing“<br/>
-					@effect -- in order to describe how the interaction is perecived: “hostile“ | “benevolent“ | “ambiguous“<br/>
-					@agent -- to indicate who is displaying the act<br/>
-					*The attributes:<br/>
-					@io -- the indirect object of the act<br/>
-					@receiver -- the character who is being acted on<br/>
-					
-					This markup allows the project‘s developers to collect data to indicate the quantity and what kinds of women are included in each of the tales.
-					Since this data is collected, the comparison between the original German and the translated English tales is possible.
-					Differences and similarities are displayed between each tale‘s characterization of women.
-				</p>
+				<p>In order to analyze our text, we created a Relax NG schema to define the elements
+					and attributes of our XML. These elements and attributes were created to have
+					the ability to markup the Ashliman translations and the original German Tales.
+					Our focus is to tag the women in these tales. By doing this, we are able to
+					achieve a more comprehensive understanding of how the women are characterized,
+					such as “good&#8221; vs. “evil&#8221;, in the simpliest terms.<br /> The Tales
+					that we analyzed are as follows:<br /> English:<br /> Cinderella<br /> Frau
+					Holle<br /> Hansel and Gretel<br /> Little Red Cap<br /> Little Snow White<br />
+					Rapunzel<br /> Sweetheart Roland<br /> The Juniper Tree<br /> The Six
+					Swans<br /> The Twelve Brothers<br /> German:<br /> Cinderella<br /> Frau
+					Holle<br /> Hansel and Gretel <br /> Little Red Cap<br /> Rapunzel<br />
+					Sneewittchen<br /> Sweetheart Roland<br /> The Six Swans <br /> The Twelve
+					Brothers<br /> In order to come to any conclusions about the characterizations
+					of women in these tales we, first, needed to tag the metadata of each tale, including:<br />
+					<code>&lt;metadata&gt;&lt;/metadata&gt;</code><br />
+					<code>&lt;title&gt;&lt;/title&gt;</code><br />
+					<code>&lt;year&gt;&lt;/year&gt;</code><br />
+					<code>&lt;author&gt;&lt;/author&gt;</code><br />
+					<code>&lt;editor&gt;&lt;/editor&gt;</code><br />
+					<code>&lt;translator&gt;&lt;/translator&gt;</code><br />
+					<code>&lt;language&gt;&lt;/language&gt;</code><br />
+					<code>&lt;number&gt;&lt;/number&gt;</code><br /> The story and the tale itself
+					is tagged using story and paragraph tags.<br /> A character tag was used to tag
+					only women, but every time a woman is referenced in the text. This is done using
+					an element called “<code>&lt;character&gt;&lt;/character&gt;</code>&#8221;,<br /> with
+					the attributes:<br /> @child-status -- in order to display if that character is
+					a: “mother&#8221; | “stepmother&#8221; | “grandmother&#8221; | “godmother&#8221; | “adopted&#8221; |
+					“childless&#8221;<br /> @martial-staus -- in order to display if that character is a:
+					“wife&#8221; | “widow&#8221; | “fiancee&#8221; | “divorcee&#8221; | “unmarried&#8221;<br /> @reference -- in
+					order to individually refer to a character with a specific but original name,
+					for each developer to remember the character by<br /> All dialogue is tagged
+					with the element, “<code>&lt;dialogue&gt;&lt;/dialogue&gt;</code>&#8221; and
+					includes:<br /> @speaker -- to name who is active in this dialogue<br />
+					@state-of-being -- in order to indicate the feeling behind the dialogue:
+					“positive&#8221; | “negative&#8221; | “neutral&#8221;<br /> *The elements
+					“<code>&lt;character&gt;&lt;/character&gt;</code>&#8221; and
+					“<code>&lt;act&gt;&lt;/act&gt;</code>&#8221; can be present within the
+					dialogue.<br /> All acts are tagged to emphasis interactions by the women
+					characters, to the women characters, or because of the women characters with the
+					“<code>&lt;act&gt;&lt;/act&gt;</code>&#8221; element, including:<br /> @type -- in
+					order to determine what kind of action: “being&#8221; or “doing&#8221;<br /> @effect -- in
+					order to describe how the interaction is perecived: “hostile&#8221; | “benevolent&#8221; |
+					“ambiguous&#8221;<br /> @agent -- to indicate who is displaying the act<br /> *The
+					attributes:<br /> @io -- the indirect object of the act<br /> @receiver -- the
+					character who is being acted on<br /> This markup allows the project‘s
+					developers to collect data to indicate the quantity and what kinds of women are
+					included in each of the tales. Since this data is collected, the comparison
+					between the original German and the translated English tales is possible.
+					Differences and similarities are displayed between each tale‘s characterization
+					of women. </p>
 			</div>
-        </main>
-	<!--#include virtual="footer.xhtml" -->
-</body>
+		</main>
+		<!--#include virtual="footer.xhtml" -->
+	</body>
 </html>
