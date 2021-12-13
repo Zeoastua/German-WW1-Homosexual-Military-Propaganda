@@ -4,43 +4,36 @@ body {
 	font-family: Garamond, serif;
 	background-image: url(Forest.jpg);
 }
-
 header {
     display: block;
 	padding-top: 2px;
 }
-
 /* top of the page*/
 table {
   width:100%;
   text-align: center;
 }
-
 h1 {
 	font-size: 40px;
 	text-align: center;
-	-webkit-text-stroke: .5px #947b50;
+	-webkit-text-stroke: #947B50;
 }
-
 h2 {
     text-align: center;
-    -webkit-text-stroke: .2px #947b50;
 }
 .image {
-    float: right;    
+    float: right;
     height: 160px;
     width: 80.5px;
 	border: 3px solid black;
 }
-
 /* navigation links */
 nav {
     overflow: hidden;
-    background-color: #947b50;
+    background-color: #947B50;
     margin-top: 3px;
     text-align: center;
 }
-
 nav a {
     display: inline-block;
     color: black;
@@ -51,21 +44,17 @@ nav a {
     margin-left: 40px;
     margin-right: 40px;
 }
-
 nav a:hover {
-  background-color: #848b7c;
+  background-color: #848B7C;
   color: black;
 }
-
-
 /* area underneath menu bar */
 main {
     padding: 40px;
-    text-align: center;    
+    text-align: center;
     color: black;
 	display: block;
 }
-
 /* boxed text */
 .textarea {
 	display: block;
@@ -75,10 +64,8 @@ main {
     margin-right: auto;
     padding: 20px;
     width: 90%;
-    background-color: #947b50;
-    list-style-position:inside;
+    background-color: #947B50;
 }
-
 .grid-container {
     display: grid;
     grid-template-columns: repeat(5, 200px);
@@ -89,7 +76,7 @@ main {
     margin-right: auto;
     padding: 20px;
     width: 60%;
-    background-color: #947b50;
+    background-color: #947B50;
     text-align: center;
 }
 div a {
@@ -98,12 +85,10 @@ div a {
     color: black;
     font-size: 25px;
 }
-
 div a:hover {
-    background-color: #848b7c;
+    background-color: #848B7C;
     color: black;
 }
-
 .grid-story {
     display: grid;
     grid-template-columns: repeat(2, 400px);
@@ -114,50 +99,10 @@ div a:hover {
     margin-right: auto;
     padding: 20px;
     width: 60%;
-    background-color: #947b50;
+    background-color: #947B50;
     text-align: center;
     grid-auto-rows: auto;
     grid-column-gap: 100px;
-    overflow-y: auto;
+    overflow-y: scroll;
     height: calc(100vh - 400px);
 }
-
-code{
-    background-color: #9E8854;
-}
-p {
-text-align: left;
-}
-
-.benevolent {
-    color: indigo;
-}
-
-.hostile {
-    color: crimson;
-}
-
-.neutral {
-    color: forestgreen;
-}
-
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #9E8854;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #947b50;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #848b7c;
- }
-

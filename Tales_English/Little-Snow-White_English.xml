@@ -8,7 +8,7 @@
         <translator>D.L. Ashliman</translator>
         <language>English</language>
         <number>53</number>
-    </metadata>
+        </metadata>
 
 
     <story>
@@ -38,7 +38,8 @@
             <act type="being" agent="second_queen" receiver="self" effect="ambiguous"> She was a
                 beautiful woman,</act>but<act type="being" agent="second_queen" receiver="self"
                 effect="hostile">she was proud and arrogant,</act>and<act type="being"
-                agent="second_queen" receiver="self" effect="hostile">she could not stand it if
+                agent="second_queen" receiver="self" 
+                effect="hostile">she could not stand it if
                 anyone might surpass her in beauty.</act>
             <act type="doing" agent="second_queen" receiver="mirror" effect="ambiguous">She had
                     a<character marital-status="unmarried" child-status="childless"
