@@ -1,14 +1,14 @@
-The Juniper Topic Modeling Analysis
+Hansel and Gretel Topic Modeling Analysis
 
 English
 The topic model presented two sets which spoke closely to the tale. Specifically, they were:
+2	0.25	oven began pockets witch day afterward filled coins front jacket throwing familiar pancakes called built thousands you'll silver glistening brightly
+18	0.25	stones apron run precious happy cage room fear kissed joy other's dough bake withered scornfully wickedly smell kill friendly decked
 
-1	0.25	gretel witch oven eat inside roof bake dropped bread equally manuscript classic ashliman hour side animal close intended put fiery
-11	0.25	woods crumbs father's night full pockets threw walked stones apron arms happy left ground burning set filled coins front pieces
-
-These two topic models strike at the core of what the tale is about: the attempts to return home from the children, and the interactions with the witch trying to eat them. Set 11 speaks to the attempts to return home, speaking to the setting of the "woods," 
-while pointing towards some of the strategies used, such as "crumbs," and, "stones" which were put into the children's "pockets." Set 1 speaks to the witch, who intended to eat the children by cooking them in an "oven," and "bake," them. It also includes Gretel, 
-who was the one that defeated the witch in the tale. 
+These two sets detail the tale's investment in the strategies used by Hansel to get him and
+his sister back to their parents' house, which ultimately fails. They also clue into the 
+tale's dynammic with the witch, who intends to cook the children in an oven and keeps 
+Hansel in a cage. 
 
 German
 The topic model presented two sets which spoke closely to the tale. Specifically, they were:
