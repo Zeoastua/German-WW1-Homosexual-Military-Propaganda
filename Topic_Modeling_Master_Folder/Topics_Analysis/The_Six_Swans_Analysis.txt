@@ -1,0 +1,19 @@
+The Six Swans Topic Modeling Analysis
+
+English
+The topic model presented two sets which spoke closely to the tale. Specifically, they were:
+2	0.25	speak accused years laugh bring mouth single sew peace tied greatly delivered caring marry manners side golden word allowed told 
+3	0.25	woods hunting defend speechless touched choice stole ill marriage days table garments dressed heart fish life resolved asters long walked 
+
+These sets detail the tale's investment in the the transformation of the brothers and the 
+role of speaking and language in the tale, specifically the oath of silence and the 
+slanderous accusations the sister of the brothers of the tales faces. 
+
+German
+The topic model presented two sets which spoke closely to the tale. Specifically, it was:
+3	0.25	ber linke jahren hlte freuden schwanenfl fielen hrt blut schlecht dar hemdlein viertelstunde uberherberg tuch freuten 
+19	0.25	arbeit sprache durfte reden gemahlin verloren zeit vollbracht stiefkinder lieb weise mitten leiten 
+
+These data sets run in parallel with the English tale sets, specifically concerning the 
+the role of the shirts, which are intimately connected to the transformation of the 
+brothers, as well the importance of language in the tale.

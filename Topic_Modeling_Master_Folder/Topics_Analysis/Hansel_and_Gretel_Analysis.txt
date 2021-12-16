@@ -1,0 +1,20 @@
+Hansel and Gretel Topic Modeling Analysis
+
+English
+The topic model presented two sets which spoke closely to the tale. Specifically, they were:
+2	0.25	oven began pockets witch day afterward filled coins front jacket throwing familiar pancakes called built thousands you'll silver glistening brightly
+18	0.25	stones apron run precious happy cage room fear kissed joy other's dough bake withered scornfully wickedly smell kill friendly decked
+
+These two sets detail the tale's investment in the strategies used by Hansel to get him and
+his sister back to their parents' house, which ultimately fails. They also clue into the 
+tale's dynammic with the witch, who intends to cook the children in an oven and keeps 
+Hansel in a cage. 
+
+German
+The topic model presented two sets which spoke closely to the tale. Specifically, they were:
+
+0	0.25	mutter backofen gestorben setzte weit wochen beste guter ausgestreut eltern woll gekommen sterben nger wald 
+16	0.25	sagte sah freute vater frau kieselsteine sprach hexe mitten edelgestei bekam wackelte zerbr narr wart lauter 
+
+These topic models run parallel with the english translations, showing a similar investment in the tale. Specifically, there is similar investment in the witch and the oven ("hexe," "backofen") and the dynamic of trying to get home despite the efforts of their
+parents, pointing again to the strategies used, including "kieselsteine." 

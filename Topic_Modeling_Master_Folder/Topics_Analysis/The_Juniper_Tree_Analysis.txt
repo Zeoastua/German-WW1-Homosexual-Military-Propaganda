@@ -1,0 +1,9 @@
+The Juniper Topic Modeling Analysis
+
+English
+The topic model presented one set which spoke closely to the tale. Specifically, they were:
+7	0.25	flew sang clickety-clack mill claw sat chip-chop left seated working chiseling stone twenty floor wings spread hole listened cutting apprentices
+
+This set details the tale's invest in the justice for the murdered brother, whose story
+is spread around the village to multiple people. It also clues into the figure of the bird
+which spreads the story of the murdered brother through its song.

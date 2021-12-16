@@ -1,0 +1,18 @@
+Rapunzel Topic Modeling Analysis
+
+English
+The topic model presented two sets which spoke closely to the tale. Specifically, they were:
+13	0.25	found overcome peered snap snip scissors moment pull difficult friendly approached son king's climbed rapunzel 
+18	0.25	rapunzel prince day sorceress heard wall sorceress's voice wanted possessed fulfill 
+
+These sets detail the tale's investment in the dynamic between Rapunzel and the sorceress,
+specifcally the role of voice. In order to come up, the sorceress, and eventually the 
+prince called up to Rapunzel to let down her hair. Furthermore, it details the way in 
+which Rapunzel's hair is cut. 
+
+German
+The topic model presented one set which spoke closely to the tale. Specifically, it was:
+8	0.25	frau fand scheere linke hunger salat darnach 
+
+This set runs in parallel wirh the English translation, specifically cluing into the use of
+scissors, which is central to the tale.
