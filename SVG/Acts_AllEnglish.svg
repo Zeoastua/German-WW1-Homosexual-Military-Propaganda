@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="400" width="700">
+   <g transform="translate(30,330)">
+      <text x="-10" y="0" fill="black" font-size="12">0%</text>
+      <text x="-10" y="-50" fill="black" font-size="12">25%</text>
+      <text x="-10" y="-100" fill="black" font-size="12">50%</text>
+      <text x="-10" y="-150" fill="black" font-size="12">75%</text>
+      <text x="-15" y="-200" fill="black" font-size="12">100%</text>
+      <line x1="20"
+            x2="610"
+            y1="-50"
+            y2="-50"
+            stroke="black"
+            opacity="0.5"
+            stroke-dasharray="2"
+            stroke-width="0.5"/>
+      <line x1="20"
+            x2="610"
+            y1="-100"
+            y2="-100"
+            stroke="black"
+            opacity="0.5"
+            stroke-dasharray="2"
+            stroke-width="0.5"/>
+      <line x1="20"
+            x2="610"
+            y1="-150"
+            y2="-150"
+            stroke="black"
+            opacity="0.5"
+            stroke-dasharray="2"
+            stroke-width="0.5"/>
+      <line x1="20"
+            x2="610"
+            y1="-200"
+            y2="-200"
+            stroke="black"
+            opacity="0.5"
+            stroke-dasharray="2"
+            stroke-width="0.5"/>
+      <rect x="30"
+            y="-45.21739130434783"
+            height="45.21739130434783"
+            width="20"
+            fill="#75333a"/>
+      <rect x="30"
+            y="-130.43478260869566"
+            height="85.21739130434783"
+            width="20"
+            fill="#a25c29"/>
+      <rect x="30"
+            y="-200"
+            height="69.56521739130434"
+            width="20"
+            fill="#446460"/>
+      <text x="0" y="20" fill="black" font-size="11">CINDERELLA</text>
+      <rect x="90"
+            y="-16.3265306122449"
+            height="16.3265306122449"
+            width="20"
+            fill="#75333a"/>
+      <rect x="90"
+            y="-126.53061224489795"
+            height="110.20408163265306"
+            width="20"
+            fill="#a25c29"/>
+      <rect x="90"
+            y="-200"
+            height="73.46938775510205"
+            width="20"
+            fill="#446460"/>
+      <text x="85" y="20" fill="black" font-size="11">FRAU</text>
+      <text x="80" y="30" fill="black" font-size="11">HOLLE</text>
+      <rect x="150"
+            y="-45.25547445255474"
+            height="45.25547445255474"
+            width="20"
+            fill="#75333a"/>
+      <rect x="150"
+            y="-122.62773722627738"
+            height="77.37226277372262"
+            width="20"
+            fill="#a25c29"/>
+      <rect x="150"
+            y="-200"
+            height="77.37226277372262"
+            width="20"
+            fill="#446460"/>
+      <text x="140" y="20" fill="black" font-size="11">HANSEL</text>
+      <text x="148" y="30" fill="black" font-size="11">AND</text>
+      <text x="140" y="40" fill="black" font-size="11">GRETEL</text>
+      <rect x="210"
+            y="-86.48648648648648"
+            height="86.48648648648648"
+            width="20"
+            fill="#75333a"/>
+      <rect x="210"
+            y="-183.78378378378378"
+            height="97.29729729729729"
+            width="20"
+            fill="#a25c29"/>
+      <rect x="210"
+            y="-200"
+            height="16.216216216216218"
+            width="20"
+            fill="#446460"/>
+      <text x="200" y="20" fill="black" font-size="11">LITTLE</text>
+      <text x="205" y="30" fill="black" font-size="11">RED</text>
+      <text x="205" y="40" fill="black" font-size="11">CAP</text>
+      <rect x="270"
+            y="-63.1578947368421"
+            height="63.1578947368421"
+            width="20"
+            fill="#75333a"/>
+      <rect x="270"
+            y="-113.6842105263158"
+            height="50.526315789473685"
+            width="20"
+            fill="#a25c29"/>
+      <rect x="270"
+            y="-200"
+            height="86.3157894736842"
+            width="20"
+            fill="#446460"/>
+      <text x="260" y="20" fill="black" font-size="11">LITTLE</text>
+      <text x="261" y="30" fill="black" font-size="11">SNOW</text>
+      <text x="260" y="40" fill="black" font-size="11">WHITE</text>
+      <rect x="330"
+            y="-30.76923076923077"
+            height="30.76923076923077"
+            width="20"
+            fill="#75333a"/>
+      <rect x="330"
+            y="-142.30769230769232"
+            height="111.53846153846153"
+            width="20"
+            fill="#a25c29"/>
+      <rect x="330"
+            y="-200"
+            height="57.69230769230769"
+            width="20"
+            fill="#446460"/>
+      <text x="315" y="20" fill="black" font-size="11">RAPUNZEL</text>
+      <rect x="390"
+            y="-68.62745098039215"
+            height="68.62745098039215"
+            width="20"
+            fill="#75333a"/>
+      <rect x="390"
+            y="-105.88235294117646"
+            height="37.254901960784316"
+            width="20"
+            fill="#a25c29"/>
+      <rect x="390"
+            y="-200"
+            height="94.11764705882354"
+            width="20"
+            fill="#446460"/>
+      <text x="380" y="20" fill="black" font-size="11">SWEET-</text>
+      <text x="382" y="30" fill="black" font-size="11">HEART</text>
+      <text x="377" y="40" fill="black" font-size="11">ROLAND</text>
+      <rect x="450" y="-66" height="66" width="20" fill="#75333a"/>
+      <rect x="450" y="-96" height="30" width="20" fill="#a25c29"/>
+      <rect x="450" y="-200" height="104" width="20" fill="#446460"/>
+      <text x="449" y="20" fill="black" font-size="11">THE</text>
+      <text x="439" y="30" fill="black" font-size="11">JUNIPER</text>
+      <text x="447" y="40" fill="black" font-size="11">TREE</text>
+      <rect x="510"
+            y="-39.603960396039604"
+            height="39.603960396039604"
+            width="20"
+            fill="#75333a"/>
+      <rect x="510"
+            y="-170.2970297029703"
+            height="130.69306930693068"
+            width="20"
+            fill="#a25c29"/>
+      <rect x="510"
+            y="-200"
+            height="29.702970297029704"
+            width="20"
+            fill="#446460"/>
+      <text x="509" y="20" fill="black" font-size="11">THE</text>
+      <text x="511" y="30" fill="black" font-size="11">SIX</text>
+      <text x="503" y="40" fill="black" font-size="11">SWANS</text>
+      <rect x="570"
+            y="-53.521126760563384"
+            height="53.521126760563384"
+            width="20"
+            fill="#75333a"/>
+      <rect x="570"
+            y="-185.91549295774647"
+            height="132.3943661971831"
+            width="20"
+            fill="#a25c29"/>
+      <rect x="570"
+            y="-200"
+            height="14.084507042253522"
+            width="20"
+            fill="#446460"/>
+      <text x="569" y="20" fill="black" font-size="11">THE</text>
+      <text x="560" y="30" fill="black" font-size="11">TWELVE</text>
+      <text x="555" y="40" fill="black" font-size="11">BROTHERS</text>
+      <rect x="175" y="-230" height="10" width="10" fill="#75333a"/>
+      <text x="190" y="-220" fill="black" font-size="12">BENEVOLENT</text>
+      <rect x="280" y="-230" height="10" width="10" fill="#a25c29"/>
+      <text x="295" y="-220" fill="black" font-size="12">AMBIGUOUS</text>
+      <rect x="375" y="-230" height="10" width="10" fill="#446460"/>
+      <text x="390" y="-220" fill="black" font-size="12">HOSTILE</text>
+      <text transform="rotate(270)"
+            style="text-anchor:end;"
+            x="180"
+            y="-15"
+            color="black"
+            font-size="12">% OF TYPES OF ACTS</text>
+      <text x="200" y="-270" fill="black" font-size="14">ENGLISH TALES: TYPES OF ACTS
+          </text>
+      <line x1="20"
+            x2="20"
+            y1="0"
+            y2="-200"
+            stroke="black"
+            stroke-width="1"/>
+      <line x1="20"
+            x2="610"
+            y1="0"
+            y2="0"
+            stroke="black"
+            stroke-width="1"/>
+   </g>
+</svg>
