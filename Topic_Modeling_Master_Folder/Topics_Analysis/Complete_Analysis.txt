@@ -1,0 +1,61 @@
+English Topics
+0	0.25	hansel gretel bread eat father witch pebbles moon evening duckling oven fat stall crumbs deeper full midday pockets awoke wind 
+1	0.25	mother give sat ate head sister daughter red put killed room crying table stay brother neck gathered green picked stood 
+2	0.25	beautiful time day thought child looked long asked called fell heart eyes evening found finally dear eat ran frightened happened 
+3	0.25	home house good white answered back inside leave brought entire knocked sleep died wild climbed put bed true jumped poor 
+4	0.25	man hand began wanted left threw stood house singing longer cried gave stopped door sun finished song husband high made 
+5	0.25	heard window standing die world years joy great loved birth peace lived bring life top desire son fear answered began 
+6	0.25	twelve brothers benjamin tree eleven coffins redeem dear forehead star youngest speaking wood fire happily ravens clothing bewitched flag shavings 
+7	0.25	woods children night find large made run ground spoke beds small carried harm shook comforted remained feathers rid great stake 
+8	0.25	red cap grandmother wolf wine big open grandmother's cake flowers don't trough wolf's path loudly stepped i'm live baked taking 
+9	0.25	father beautiful wife flew cried happy golden sitting don't shoes blood passed death hear pot evil snow finished lit birds 
+10	0.25	snow-white mirror dwarfs queen woman fairest poisoned wall land mountains coffin snow-white's huntsman dead comb snow apple sale fairer black 
+11	0.25	bird marlene tree juniper tweet beneath sing apple scarf bones laid tied chain fell silken sang feel boy clickety-clack month 
+12	0.25	rapunzel sorceress hair tower prince climbed garden wife woman voice climb miserably sorceress's wall wandered beloved wilderness happening gothel frau 
+13	0.25	cinderella pick prince shoe dance bride hazel festival dress clothes grave goo rook horse danced sky sisters waited coop turned 
+14	0.25	king queen shirts brothers speak swans castle hunting laugh word lifted show yarn ball single mouth touched accused swan-skins boys 
+15	0.25	roland magic sweetheart bed witch flower long married stepdaughter middle faithful wise shepherd steps wand i'm hedge duck happened shouted 
+16	0.25	door morning lying piece asleep water wood i'll afterward apron back poor opened early pulled stuck arrived jumped half kill 
+17	0.25	girl wicked told blood shouted walked side hour god wedding thinking face work forced crawled straight bedroom beauty days scattered 
+18	0.25	tree pigeons stepmother ashes bird foot kitchen pigeon silver cut gold beneath gave began turtledoves throw lentils dressed man wept 
+19	0.25	woman fire roof front cry shining set stone answer ears father's flames open corner mind dropped walking good-bye seated shoemaker 
+
+German Topics
+0	0.25	gretel nsel brod weg vater cklein essen sagte fett freute mond wasser uschen sagen sprach uslein paar all seh tasche 
+1	0.25	wollte ward stand tag konnte ber haus nen sprach kind ten endlich nacht fing bleiben ger lieb darnach tochter hen 
+2	0.25	gro kamen geh gewesen gekommen sagten gedachte fiel dern arbeit prinzessin hrte einander herz thun ging ter backen holte gemahlin 
+3	0.25	prinz che braut treppe umlein kleider rechte tanzen guten sche ttel herab puttel lteste ren gesicht unten mitternacht schnitt chenput 
+4	0.25	sechs nig weg brachte prinzen stumm schw warf hrt zeigte nne schwiegermutter jahren knauel verwandelt linke wickelte daf zweiten lebte 
+5	0.25	blut sen bat gerade wenns neid fertig giftigen haushalt nheit setzten stellte geworden hervor bettlein gaben aussah hrten fahne verl 
+6	0.25	rapunzel fee mann frau haare thurm herunter haar rapunzeln tages erschrack leiter thr nigssohn mmerlich stenei abge ritsch rapunzels worte 
+7	0.25	dchen nig leben welt schwesterchen ohne baum nigin jagd verloren hinauf hohen wort fielen hemder erl hle hemdlein luft buben 
+8	0.25	lie ren rte riefen lassen angst fest stiefmutter daheim freuden federn nieder solle finden tausend rothen menschen bekam nnen hne 
+9	0.25	sagte haus rief wei chen recht fort ganz heim ner roth kopf tausendmal gen schlief guckte trat halten macht wolle 
+10	0.25	frau gut sch holle ach ging flei thor bett aepfel alte raus zieh wiese wasser lebtag bedeckt ngst faule ckte 
+11	0.25	wald seyn sehen gingen kochen rothe gefressen liebe hren walde kleine zufrieden standen schwer dchens glaubte gute bsch verwunderte guckst 
+12	0.25	feuer kinder morgen alte hexe mitten tte abend setzte lein morgens holz tod frau fortgegangen verbrannt genug bettlein kin gedeckt 
+13	0.25	machte wollen abends augen tage dach fenster hand voll sonne gott kindern los hinab garten hals guter kieselsteine fen gewaltig 
+14	0.25	mutter sagte zwei still stand guck herzen that rein acht geschwind ach gehen ans schornstein stra welt satt letzten tel 
+15	0.25	sneewittchen nigin sieben frau nste spieglein spiegel land sarg schn wand seyd kamm sneewitt zwerge liegen schnee gegessen alte essen 
+16	0.25	bett sprang roland blume lief liebsten lang sten weit gekocht gethan dchen dar eigen vorne suchte traurig gingen stief weise 
+17	0.25	gro mutter ppchen rothk wolf bring wein gedacht kuchen blumen weg trog steine leib schwach schnarchen fressen nge haube klinke 
+18	0.25	sch ging sah sey hinaus todt lange men zeit fragte komm her ben dar stube legte hlte drei sehen lebendig 
+19	0.25	chenputtel pantoffel tauben schwestern wagen pick pfchen linsen schuck rucke hrte lesen heerd grab schwe ball ckte toffel pan goldenen 
+
+When utilizing topic modeling for this project, the team envisioned that the results would point to what the tales are about, getting at themes of positivty or negativity, values and morals, and other things that may not be immediately visible to analysis. 
+With this hope in mind, we ran topic modeling, and instead of receiving data that touched on broad themes, the exact opposite happened. The topics that were produced were strikingly similar to individual tales, so much so that they don't speak to the corpus we
+analyzed as a whole. For example, topic 0 of the English topics is a condensed version of Hansel and Gretel, and topic 3 of the German topics is a condensed version of Aschenputtel(Cinderella). Because of this, the topics that were created, but do not seem to be
+productive in furthering analysis on our research question. However, it does provide some insights as to what the tales are invested in, and how they may differ.
+
+What was made clear through the topic modeling is that the tales are heavily invested in the characters themselves, and it is the named characters and individuals found within them that make up a bulk of the differences one can find. This is striking, though
+understandable, as the tales themselves often speak to similar themes and work in similar ways. Part and parcel of these tales is that young people are put into precarious situations, often due to some break in kinship (such as the evil mother/stepmother figure)
+and come out of the situations matured and with some degree of autonomy. The difference between the tales depends on the individual characters and the particularities of their actions and behaviors. Therefore, seeing the topics hone in on those individual 
+characters makes clear sense.
+
+However, if this project was not created and executed within the timeframe of a semester, there are avenues of change that could make topic modeling possibly more productive. For example, it could be productive to standardize all proper nouns in the tales,
+stripping the named individuals of that particular difference so that topic modeling software doesn't find that "Hansel" or "Gretel" is useful data. Another method could be to work with kinship terms and characters that function as kin. For example, in the tales
+in our selected corpus, individuals named as stepmother, queen, and sorceress all function as the archetypal evil stepmother. By collapsing all of these characters into one term, topic modeling could more easily dive deeper into the texts and provide models
+that do not give surface-level analyses of difference. 
+
+While the team hoped for more with topic modeling, we are happy to see work done with this technology and the potential it provides. We are also glad use the data we do have to draw some conclusions, mainly that the tales do not differ strongly; they seem to 
+follow similar themes and narratives due to the topics' investment in named characters instead of other difference. Because of this insight, the team has chosen to include our findings.
